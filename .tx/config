@@ -779,3 +779,4 @@ type = PO
 file_filter = locale/<lang>/LC_MESSAGES/overview/re3gistry_overview.po
 source_file = locale/pot/overview/re3gistry_overview.pot
 source_lang = en
+
