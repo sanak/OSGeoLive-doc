@@ -42,4 +42,4 @@ deploy:
   local_dir:  build/doc/_build/html/
   verbose: true
   on:
-    branch: master # switch to master when ok
+    branch: ja_all_po_files # switch to master when ok
