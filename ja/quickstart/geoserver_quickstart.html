@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>GeoServer Quickstart &#8212; OSGeoLive 14.0 Documentation</title>
+    <title>ジオサーバー クイック スタート &#8212; OSGeoLive 14.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -72,22 +72,22 @@
   <a class="reference external image-reference" href="http://geoserver.org/"><img alt="../../_images/logo_geoserver.png" class="align-right" src="../../_images/logo_geoserver.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="geoserver-quickstart">
-<h1>GeoServer Quickstart<a class="headerlink" href="#geoserver-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>GeoServer is a java application for serving maps (and data) for other clients (such as web browsers) to draw. GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end.</p>
-<p>This Quick Start describes how to:</p>
+<h1>ジオサーバー クイック スタート<a class="headerlink" href="#geoserver-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>GeoServerは、他のクライアント（Webブラウザーなど）が描画するマップ（およびデータ）を提供するJavaアプリケーションです。 GeoServerにはブラウザベースの管理インターフェースが付属しており、バックエンドで複数のデータソースに接続します。</p>
+<p>このクイックスタートでは、次の方法について説明します。</p>
 <blockquote>
 <div><ul class="simple">
-<li>add a vector and raster data source to GeoServer</li>
-<li>apply color to map features using styling</li>
-<li>test the layers in a simple web map</li>
+<li>GeoServerにベクターとラスターデータソースを追加する</li>
+<li>スタイルを使用してマップフィーチャーに色を適用する</li>
+<li>シンプルなWebマップでレイヤーをテストする</li>
 <li>learn about clients that can display your maps</li>
-<li>add a layer from a NetCDF file</li>
+<li>NetCDFファイルからレイヤーを追加する</li>
 </ul>
 </div></blockquote>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-geoserver" id="id1">Start Geoserver</a></li>
+<li><a class="reference internal" href="#start-geoserver" id="id1">Geoserverを起動する</a></li>
 <li><a class="reference internal" href="#loading-data" id="id2">Loading data</a></li>
 <li><a class="reference internal" href="#styling-data" id="id3">Styling data</a><ul>
 <li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id4">Using uDig to create simple styles</a></li>
@@ -101,13 +101,13 @@
 <li><a class="reference internal" href="#preview-the-netcdf-layer" id="id10">Preview the NetCDF layer</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#what-next" id="id11">What next?</a></li>
+<li><a class="reference internal" href="#what-next" id="id11">次のステップ</a></li>
 </ul>
 </div>
 <div class="section" id="start-geoserver">
-<h2><a class="toc-backref" href="#id1">Start Geoserver</a><a class="headerlink" href="#start-geoserver" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Geoserverを起動する</a><a class="headerlink" href="#start-geoserver" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">From the Start menu, select <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>. The application will take a few moments to start up and will open a web page at <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a></p>
+<li><p class="first">スタートメニューから、<a href="#id1"><span class="problematic" id="id2">|</span></a>osgeolive-appmenupath-geoserver|を選択します。 アプリケーションの起動には少し時間がかかり、<a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a> でWebページが開きます。</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-login.png"><img alt="../../_images/geoserver-login.png" src="../../_images/geoserver-login.png" style="width: 562.0999999999999px; height: 289.79999999999995px;" /></a>
 </li>
 <li><p class="first">Log in using the username <strong>admin</strong> and password <strong>geoserver</strong>. You will now see the <em>admin page</em>.</p>
@@ -119,7 +119,7 @@
 <li><p class="first">Scroll to the bottom of the page and click on the <strong>OpenLayers</strong> link in the <strong>tiger-ny</strong> row. This will open a new window with a preview of some of the sample data.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-preview.png"><img alt="../../_images/geoserver-preview.png" src="../../_images/geoserver-preview.png" style="width: 260.4px; height: 398.29999999999995px;" /></a>
 </li>
-<li><p class="first">You can zoom in to the map in three ways:</p>
+<li><p class="first">マップを拡大するには、次の 3 つの方法があります。</p>
 <blockquote>
 <div><ul class="simple">
 <li>by clicking on the zoom bar on the left, the higher you click on it the more zoomed in you will see.</li>
@@ -160,7 +160,7 @@ that is included on OSGeoLive (<code class="file docutils literal"><span class="
 <a class="reference internal image-reference" href="../../_images/geoserver-publish.png"><img alt="The layer publishing page" class="align-center" src="../../_images/geoserver-publish.png" style="width: 532.6999999999999px; height: 1051.3999999999999px;" /></a>
 <p>As you scroll down the page you will see that GeoServer has filled in many of the fields for you. When you reach <span class="guilabel">Coordinate Reference System</span> you will notice that under <em>Native SRS</em> it says UNKNOWN you will need to fill in the next box (<em>declared SRS</em>) to make sure GeoServer knows where the data is.</p>
 </li>
-<li><p class="first">You can type epsg:4326 in the box, or go to <a class="reference external" href="http://prj2epsg.org/search">http://prj2epsg.org/search</a> and paste in the string you see if you click on the link next to 「UNKNOWN」.</p>
+<li><p class="first">ボックスにepsg:4326と入力するか、 <a class="reference external" href="http://prj2epsg.org/search">http://prj2epsg.org/search</a> に移動して、次のリンクをクリックすると表示される文字列を貼り付けます 「不明」に。</p>
 </li>
 <li><p class="first">Click on <span class="guilabel">Compute from data</span> and <span class="guilabel">Compute from native bounds</span> to fill in the Bounding Boxes.</p>
 </li>
@@ -290,13 +290,13 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id11">What next?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>This is only the first step on the road to using GeoServer. There is a lot more functionality you can try.</p>
 <ul class="simple">
-<li>GeoServer Project home - <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></li>
-<li>GeoServer User Manual - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/">https://docs.geoserver.org/latest/en/user/</a></li>
-<li>GeoServer Tutorials - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/tutorials/index.html">https://docs.geoserver.org/latest/en/user/tutorials/index.html</a></li>
-<li>GeoServer Styling Workshop - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/styling/workshop/index.html">https://docs.geoserver.org/latest/en/user/styling/workshop/index.html</a></li>
+<li>ジオサーバー プロジェクト ホーム - <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></li>
+<li>ジオサーバーユーザーマニュアル -  <a class="reference external" href="https://docs.geoserver.org/latest/en/user/">https://docs.geoserver.org/latest/en/user/</a></li>
+<li>ジオサーバーのチュートリアル - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/tutorials/index.html">https://docs.geoserver.org/latest/en/user/tutorials/index.html</a></li>
+<li>ジオサーバースタイリングワークショップ - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/styling/workshop/index.html">https://docs.geoserver.org/latest/en/user/styling/workshop/index.html</a></li>
 </ul>
 </div>
 </div>
