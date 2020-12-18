@@ -81,8 +81,7 @@ msgid "Metric functions (e.g., Cartesian 2D distance, Hausdorff distance)"
 msgstr "距離計測機能 (例: デカルト2D距離, ハウスドルフ距離)"
 
 #: ../../build/doc/overview/jts_overview.rst:42
-msgid ""
-"Spatial algorithms (e.g. buffer creation, line offsets, line simplification)"
+msgid "Spatial algorithms (e.g. buffer creation, line offsets, line simplification)"
 msgstr "空間アルゴリズム (例: バッファ作成、ラインオフセット、ライン簡素化)"
 
 #: ../../build/doc/overview/jts_overview.rst:43
@@ -148,3 +147,4 @@ msgstr "**API インターフェイス:** Java"
 #: ../../build/doc/overview/jts_overview.rst:71
 msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
 msgstr "**サポート:** https://sourceforge.net/projects/jts-topo-suite/"
+

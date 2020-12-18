@@ -75,8 +75,7 @@ msgstr ""
 " Oracle GeoRaster, NetCDF"
 
 #: ../../build/doc/overview/geoserver_overview.rst:48
-msgid ""
-"**Data is served as safe and quick images using WMS and WMTS protocols:**"
+msgid "**Data is served as safe and quick images using WMS and WMTS protocols:**"
 msgstr "**WMS 及び WMTS プロトコルを利用した、安全かつ迅速なデータ配信:**"
 
 #: ../../build/doc/overview/geoserver_overview.rst:47
@@ -88,8 +87,7 @@ msgid ""
 "with OGC Filters scale dependent styling can be implemented allowing more "
 "detail to be added as a user zooms in. Label collision management, grouping "
 "and priorities are also implemented."
-msgstr ""
-"データはイメージとして提供されるため、データは完全に安全で保護されています。彼らがあなたのデータを再デジタル化しない限り、あなたのデータを盗む方法はありません。各マップ画層の外観は、フィーチャの色付けとラベル付けを可能にするSLD標準を使用してコントロールできます。これらのルールをOGCと組み合わせることで、スケールに依存するスタイル設定を実装できるため、ユーザがズームインしたときに詳細を追加できます。ラベル衝突管理、グループ化、優先順位も実装されています。"
+msgstr "データはイメージとして提供されるため、データは完全に安全で保護されています。彼らがあなたのデータを再デジタル化しない限り、あなたのデータを盗む方法はありません。各マップ画層の外観は、フィーチャの色付けとラベル付けを可能にするSLD標準を使用してコントロールできます。これらのルールをOGCと組み合わせることで、スケールに依存するスタイル設定を実装できるため、ユーザがズームインしたときに詳細を追加できます。ラベル衝突管理、グループ化、優先順位も実装されています。"
 
 #: ../../build/doc/overview/geoserver_overview.rst:52
 msgid "**Full vector data can be sent to a client using the WFS protocol:**"
@@ -243,3 +241,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geoserver_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geoserver_quickstart>`"
+

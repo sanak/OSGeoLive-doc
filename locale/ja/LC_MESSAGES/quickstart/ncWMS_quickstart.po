@@ -183,8 +183,7 @@ msgid "Creating animations"
 msgstr ""
 
 #: ../../build/doc/quickstart/ncWMS_quickstart.rst:90
-msgid ""
-"Click the animation wizard button below the lower left corner of the map."
+msgid "Click the animation wizard button below the lower left corner of the map."
 msgstr ""
 
 #: ../../build/doc/quickstart/ncWMS_quickstart.rst:91
@@ -280,8 +279,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/ncWMS_quickstart.rst:129
-msgid ""
-"Left-click on the permalink to bring up a new window with an identical view."
+msgid "Left-click on the permalink to bring up a new window with an identical view."
 msgstr ""
 
 #: ../../build/doc/quickstart/ncWMS_quickstart.rst:131
@@ -308,3 +306,4 @@ msgstr ""
 #: ../../build/doc/quickstart/ncWMS_quickstart.rst:140
 msgid "Support: https://github.com/Reading-eScience-Centre/ncwms/issues"
 msgstr ""
+

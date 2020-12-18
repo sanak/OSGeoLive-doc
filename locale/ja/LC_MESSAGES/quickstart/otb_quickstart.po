@@ -50,8 +50,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:31
-msgid ""
-"Perform supervised classification based on Support Vector Machine algorithm"
+msgid "Perform supervised classification based on Support Vector Machine algorithm"
 msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:33
@@ -312,3 +311,4 @@ msgstr ""
 #: ../../build/doc/quickstart/otb_quickstart.rst:199
 msgid "Follow the courses_ to learn more about OTB (see section Tutorials)."
 msgstr ""
+

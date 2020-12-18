@@ -145,3 +145,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geomajas_overview.rst:71
 msgid ":doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geomajas_quickstart>`"
+

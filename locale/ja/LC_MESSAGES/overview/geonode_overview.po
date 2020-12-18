@@ -44,8 +44,7 @@ msgstr ""
 "は地理空間データのためのコンテンツ管理システムであり、地理空間データの作成、共有、および共同使用の仕組みを提供します。データセットはさまざまな形式でアップロードでき、マップはブラウザベースのツールを使用して編集、スタイル設定、集計を行うことができ、マップとメタデータを公開して検索することができ、レビュー、評価、コメントをユーザーから取得することができます。"
 
 #: ../../build/doc/overview/geonode_overview.rst:24
-msgid ""
-"GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt."
+msgid "GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt."
 msgstr "GeoNodeは、GeoServer、GeoExplorer、pycsw、Django、およびGeoExtに基づいて構築されています。"
 
 #: ../../build/doc/overview/geonode_overview.rst:33
@@ -203,3 +202,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geonode_overview.rst:97
 msgid ":doc:`Quickstart documentation <../quickstart/geonode_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geonode_quickstart>`"
+

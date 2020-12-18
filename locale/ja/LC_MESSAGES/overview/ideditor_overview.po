@@ -47,7 +47,7 @@ msgid ""
 "require the advanced features of the more advanced :doc:`JOSM "
 "<josm_overview>` editor."
 msgstr ""
-"iDエディタは、より高度な :doc:`JOSM<josm_overview>` "
+"iDエディタは、より高度な  :doc:`JOSM <josm_overview>` "
 "エディタの高機能を必要としない、小さくて簡単な変更を編集するときに、優れた方法です。"
 
 #: ../../build/doc/overview/ideditor_overview.rst:30
@@ -111,3 +111,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/ideditor_overview.rst:61
 msgid ":doc:`Quickstart documentation <../quickstart/ideditor_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/ideditor_quickstart>`"
+

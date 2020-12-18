@@ -32,8 +32,7 @@ msgid ""
 "browser without any plugins. It uses WebGL for hardware-accelerated "
 "graphics, and is cross-platform, cross-browser, and tuned for time-dynamic "
 "data visualization."
-msgstr ""
-"Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。OSGeoLiveは、ハードウェアアクセラレーションによるグラフィックス処理にWebGLを使用し、クロスプラットフォーム、クロスブラウザ対応で、時間動的なデータ視覚化に合わせて調整されています。"
+msgstr "Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。OSGeoLiveは、ハードウェアアクセラレーションによるグラフィックス処理にWebGLを使用し、クロスプラットフォーム、クロスブラウザ対応で、時間動的なデータ視覚化に合わせて調整されています。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:22
 msgid ""
@@ -46,9 +45,7 @@ msgid "Start Cesium"
 msgstr "Cesiumの開始"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:30
-msgid ""
-"Open the browser and point it to "
-"http://localhost/cesium/Apps/HelloWorld.html"
+msgid "Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html"
 msgstr "ブラウザを開き、http://localhost/cesium/Apps/HelloWorld.htmlを開く"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:33
@@ -96,12 +93,12 @@ msgid ""
 "Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-"
 "_Tlm4STvXKFEdfUWylPemo-9V>`_."
 msgstr ""
-"`ビデオチュートリアル <https://www.youtube.com/playlist?list=PLBk_Dtk-"
+"`video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-"
 "_Tlm4STvXKFEdfUWylPemo-9V>`_ をご覧ください。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:68
 msgid "Read our written `tutorials <https://cesium.com/docs>`_."
-msgstr "`チュートリアル <https://cesium.com/docs>`_ をお読みください。"
+msgstr " `tutorials <https://cesium.com/docs>`_ をお読みください。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:70
 msgid ""
@@ -110,7 +107,7 @@ msgid ""
 " the best ways to learn about Cesium, and all the code examples are useful "
 "for this purpose."
 msgstr ""
-"`Sandcastle Webサイト <https://sandcastle.cesium.com/index.html>`_ "
+" `Sandcastle website <https://sandcastle.cesium.com/index.html>`_ "
 "を使用して、いくつかのクイックアプリケーションを開発できます。Sandcastleは一般的にCesiumについて学ぶ最良の方法の1つであり、すべてのコード例がこの目的に役立ちます。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
@@ -126,5 +123,5 @@ msgstr ""
 msgid ""
 "In-depth documentation is available `locally <http://localhost/cesium/>`_ on"
 " the OSGeoLive package."
-msgstr ""
-"詳細なドキュメントは、OSGeoLiveパッケージの`locally <http://localhost/cesium/>`_で入手できます。"
+msgstr "詳細なドキュメントは、OSGeoLiveパッケージの`locally<http://localhost/cesium/>`_で入手できます。"
+

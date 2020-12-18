@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:28
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/ncWMS_overview.rst:30
 msgid "Fast extraction of data"
@@ -55,8 +55,7 @@ msgid "Ability to plot data along a transect"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:36
-msgid ""
-"Automatic recognition of vector-components and generation of vector arrows"
+msgid "Automatic recognition of vector-components and generation of vector arrows"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:38
@@ -136,3 +135,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/ncWMS_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
 msgstr ""
+

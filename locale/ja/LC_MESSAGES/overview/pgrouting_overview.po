@@ -167,3 +167,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/pgrouting_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/pgrouting_quickstart>`"
+

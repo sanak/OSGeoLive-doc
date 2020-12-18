@@ -50,16 +50,13 @@ msgid ""
 "to be as useful as we do. The OSGeo Foundation does not recommend or "
 "guarantee any associated software, projects, or companies found within."
 msgstr ""
-"このLive "
-"GISディスクと仮想マシンは、それぞれが推奨する自由でオープンソース(FOSS)な地理空間ソフトウェアを紹介するために、OSGeoコミュニティの成員によってまとめられたものです。この中には、GISにフォーカスしたものとそれ以外にも非OSGeoソフトウェア・パッケージの幾つかも含まれていますが、我々はあなたに、我々と同様に有用であることを発見してほしいと願っています。OSGeo財団は、この中でいかなる関連するソフトウェア、プロジェクト、または企業を推奨または保証するものではありません。"
 
 #: ../../build/doc/contact.rst:16
 msgid ""
 "`These programs are distributed in the hope that they will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.`"
-msgstr ""
-"`これらのプログラムは、有用であることを願って配布されますが、いかなる場合でも無保証ですー特定の目的に対する商品性または適合性も保証するものではありません。`"
+msgstr "`これらのプログラムは、有用であることを願って配布されますが、いかなる場合でも無保証ですー特定の目的に対する商品性または適合性も保証するものではありません。`"
 
 #: ../../build/doc/contact.rst:20
 msgid ""
@@ -92,9 +89,7 @@ msgstr ""
 msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
 "real-time assistance. You also can meet us at Slack, Matrix or Glitter."
-msgstr ""
-"IRC ユーザーは、 Freenode.net の #osgeolive または #osgeo チャンネル でのリアルタイムによる支援をお試しください。"
-" Slack、Matrix、もしくは Glitter でも私たちと会うことができます。"
+msgstr "IRCユーザーは、Freenode.netの#osgeoliveまたは#osgeoチャネルを使ってリアルタイムによる支援を試してみてください。Slack、Matrix、Glitterでも私達に会うことができます。"
 
 #: ../../build/doc/contact.rst:35
 msgid ""
@@ -123,8 +118,8 @@ msgid ""
 "offerings for them. Refer to specific application descriptions linked from "
 "the :doc:`Contents <./overview/overview>` for details."
 msgstr ""
-"同梱されているほとんどのアプリケーションは、コミュニティと商用サポートの両方を提供しています。その詳細については、 :doc:`Contents "
-"<./overview/overview>` からリンクされている個々のアプリケーションの説明を参照してください。"
+"ほとんどのパッケージ・アプリケーションには、コミュニティ・サポートと商用サポートの両方が用意されています。詳細については、 :doc:`Contents"
+" <./overview/overview>`  からリンクされている特定のアプリケーションの説明を参照してください。"
 
 #: ../../build/doc/contact.rst:46
 msgid ""
@@ -132,5 +127,6 @@ msgid ""
 "provide support for OSGeo member projects. See https://www.osgeo.org"
 "/service-providers/ for one that meets your needs."
 msgstr ""
-"加えて、世界的にコンサルタント企業が多数あり、 OSGeo メンバーのプロジェクトに対して支援を提供しています。あなたのニーズを満たすために、 "
-"https://www.osgeo.org/service-providers/  をご覧ください。 "
+"また、OSGeoメンバーのプロジェクトをサポートするコンサルタント会社も世界中に多数存在します。あなたのニーズを満たすために、 "
+"https://www.osgeo.org/service-providers/  をご覧ください。"
+

@@ -41,6 +41,14 @@ msgid ""
 "third present how to interract with OTB applications runninng as WPS "
 "services."
 msgstr ""
+"ZOO-Project provides a developer friendly Web Processing Service (WPS) "
+"framework for creating and chaining Web Processing Services. "
+"WPSは空間アルゴリズムを実行する関数へのWebアクセスを提供します。ZOO-Project supports many programming "
+"languages and comes with three demo applications. The first uses the simple "
+"spatialtools services based on the :doc:`GEOS <geos_overview>` and :doc:`OGR"
+" <gdal_overview>` libraries, the second showcase Voronoi and Delaunay "
+"triangulation (from the CGAL library) and the third present how to interract"
+" with OTB applications runninng as WPS services."
 
 #: ../../build/doc/overview/zoo-project_overview.rst:26
 msgid ""
@@ -92,7 +100,7 @@ msgstr ""
 
 #: ../../build/doc/overview/zoo-project_overview.rst:61
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:63
 msgid "Multi language WPS server"
@@ -177,3 +185,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/zoo-project_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`"
 msgstr ""
+

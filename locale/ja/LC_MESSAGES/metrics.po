@@ -79,3 +79,4 @@ msgstr "データ"
 #: ../../build/doc/metrics.rst:133
 msgid "Geospatial Libraries"
 msgstr "地理空間ライブラリ"
+

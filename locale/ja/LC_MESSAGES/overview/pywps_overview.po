@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:37
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/pywps_overview.rst:39
 msgid "small and lightweight"
@@ -123,7 +123,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/pywps_overview.rst:69
 msgid "**API Interfaces:** Python"
-msgstr ""
+msgstr "**API インターフェイス:** Python"
 
 #: ../../build/doc/overview/pywps_overview.rst:71
 msgid "**Support:** https://pywps.org/community/#professional-support"
@@ -136,3 +136,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/pywps_overview.rst:78
 msgid ":doc:`Quickstart documentation <../quickstart/pywps_quickstart>`"
 msgstr ""
+

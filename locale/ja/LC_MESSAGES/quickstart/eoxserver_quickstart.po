@@ -38,15 +38,14 @@ msgid ""
 "<../overview/postgis_overview>` database."
 msgstr ""
 "EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープンスタンダードで提供するサーバです。これは、Python、:doc:`MapServer"
-" <../overview/mapserver_overview>`、Django/GeoDjango、:doc:`GDAL "
-"<../overview/gdal_overview>`、PROJ.4および "
-":doc:`Spatialite<../overview/spatialite_overview>` または "
-":doc:`PostGIS<../overview/postgis_overview>` "
-"データベースを含むソフトウェアのオープンソーススタック上に構築されています。"
+" <../overview/mapserver_overview>`、  Django/GeoDjango、  :doc:`GDAL "
+"<../overview/gdal_overview>`、PROJ.4 と  :doc:`SpatiaLite "
+"<../overview/spatialite_overview>`  または  :doc:`PostGIS "
+"<../overview/postgis_overview>`  データベースを含むソフトウェアのオープンソーススタック上に構築されています。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
 msgid "This Quick Start describes how to:"
-msgstr "このクイックスタートでは、次の方法について説明します。"
+msgstr "このクイックスタートでは、次の方法について説明します:"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:32
 msgid "Use the Web Client to view, filter, subset, and download EO data"
@@ -66,8 +65,8 @@ msgid ""
 "launches a browser showing the demonstration instance available at "
 "http://localhost/eoxserver/"
 msgstr ""
-"メニューから :menuselection:`Geospatial-->Web Services-->EOxServer` "
-"を選択します。これによりブラウザが起動し、http://localhost/eoxserver/ で利用可能なデモインスタンスが表示されます"
+"メニューから :menuselection:`Geospatial --> Web Services --> EOxServer` "
+"を選択します。これによりブラウザが起動し、 http://localhost/eoxserver/ で利用可能なデモインスタンスが表示されます"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:48
 msgid "Work with the Web Client"
@@ -81,8 +80,7 @@ msgstr "**Web Client** リンクをクリックして、統合されたEOxServer
 msgid ""
 "Within this client you can explore the contents of the EOxServer instance. "
 "The demonstration instance is filled with ENVISAT MERIS scenes."
-msgstr ""
-"このクライアントでは、EOxServerインスタンスの内容を表示できます。デモインスタンスはENVISAT MERISのシーンで構成されています。"
+msgstr "このクライアントでは、EOxServerインスタンスの内容を表示できます。デモインスタンスはENVISAT MERISのシーンで構成されています。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:59
 msgid ""
@@ -91,8 +89,7 @@ msgid ""
 " widget of the client with a set of datasets already displayed. On the "
 "bottom, you'll find the timeslider widget, that allows you to explore the "
 "contents in the temporal dimension."
-msgstr ""
-"クライアントは一連の操作を提供します。上部には、レイヤ選択とツールウィジェットを表示するメニューバーが表示されます。主な領域は、クライアントのマップウィジェットで、一連のデータセットがすでに表示されています。下部にはタイムスライダウィジェットが表示され、時間次元のコンテンツを表示できます。"
+msgstr "クライアントは一連の操作を提供します。上部には、レイヤ選択とツールウィジェットを表示するメニューバーが表示されます。主な領域は、クライアントのマップウィジェットで、一連のデータセットがすでに表示されています。下部にはタイムスライダウィジェットが表示され、時間次元のコンテンツを表示できます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:69
 msgid ""
@@ -114,8 +111,7 @@ msgid ""
 "interest and select a time of interest by drawing on the area containing the"
 " red dots. You can also hover on a dot to see the dataset ID. By clicking on"
 " the dot, the map automatically zooms to the extent of the dataset."
-msgstr ""
-"マップと同様に、現在表示されている注視点をズームおよびパンしたり、赤い点を含む領域を描画して注視点を選択したりできます。点の上にカーソルを置くと、データセットIDを表示することもできます。点をクリックすると、マップは自動的にデータセットの範囲にズームします。"
+msgstr "マップと同様に、現在表示されている注視点をズームおよびパンしたり、赤い点を含む領域を描画して注視点を選択したりできます。点の上にカーソルを置くと、データセットIDを表示することもできます。点をクリックすると、マップは自動的にデータセットの範囲にズームします。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:90
 msgid ""
@@ -129,8 +125,7 @@ msgid ""
 " include s the selected time of interest and bounding box. The results are "
 "shown in the Download widget, where you can select the format, projection "
 "and datasets to download."
-msgstr ""
-"ダウンロードツールが有効になると、サーバーへのクエリーが送信されます。このクエリには、選択された対象の時刻と境界ボックスが含まれています。結果はダウンロードウィジェットに表示され、ダウンロードするフォーマット、投影、データセットを選択できます。"
+msgstr "ダウンロードツールが有効になると、サーバーへのクエリーが送信されます。このクエリには、選択された対象の時刻と境界ボックスが含まれています。結果はダウンロードウィジェットに表示され、ダウンロードするフォーマット、投影、データセットを選択できます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:102
 msgid ""
@@ -139,7 +134,7 @@ msgid ""
 "<https://docs.eoxserver.org/en/latest/users/webclient.html>`_ for more "
 "information on this topic."
 msgstr ""
-"これは、EOxServer Web Clientの簡単な説明です。このトピックの詳細については、`オンライン文書 "
+"これは、EOxServer Web Clientの簡単な説明です。このトピックの詳細については、 `オンライン文書 "
 "<https://docs.eoxserver.org/en/latest/users/webclient.html>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:108
@@ -151,8 +146,8 @@ msgid ""
 "From the EOxServer main page, click the **Admin Client** link and login with"
 " user `admin` and password `admin`."
 msgstr ""
-"EOxServerのメインページで **Admin Client** "
-"リンクをクリックし、ユーザー「admin」とパスワード「admin」でログインします。"
+"EOxServerのメインページで[**Admin "
+"Client**]リンクをクリックし、ユーザー「admin」とパスワード「admin」でログインします。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:116
 msgid ""
@@ -161,24 +156,22 @@ msgid ""
 "can be found in the `operators' guide "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 msgstr ""
-"`Admin Client "
-"`はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。詳細については、`運用者ガイド "
-"<https://docs.eoxserver.org/en/latest/users/operators.html>`_ を参照してください。"
+" `Admin Client` はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。詳細については、 "
+"`運用者ガイド <https://docs.eoxserver.org/en/latest/users/operators.html>`_ "
+"を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:125
 msgid ""
 "For example, you can inspect the dataset series that is loaded by default by"
 " clicking the \"Dataset Series\" link and then the "
 "\"MER_FRS_1P_RGB_reduced\" link."
-msgstr ""
-"たとえば、既定でロードされているデータセットシリーズを検査するには、[データセットシリーズ]リンクをクリックし、[MER_FRS_1P_RGB_reduced]リンクをクリックします。"
+msgstr "たとえば、既定でロードされているデータセットシリーズを検査するには、[データセットシリーズ]リンクをクリックし、[MER_FRS_1P_RGB_reduced]リンクをクリックします。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
 msgid ""
 "Here you can also see the included datasets. You can exclude single datasets"
 " using the \"delete\" checkbox on the right and click on \"Save\"."
-msgstr ""
-"ここでは、含まれているデータセットも確認できます。単一のデータセットを除外するには、右側の[削除]チェックボックスをオンにして[保存]をクリックします。"
+msgstr "ここでは、含まれているデータセットも確認できます。単一のデータセットを除外するには、右側の[削除]チェックボックスをオンにして[保存]をクリックします。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:139
 msgid "What Next?"
@@ -189,22 +182,22 @@ msgid ""
 "This is a simple demonstration, but you can do much more with EOxServer. The"
 " project website contains a lot of resources to help you get started. Here’s"
 " a few resources to check out next:"
-msgstr ""
-"これは簡単なデモですが、EOxServerでできることはたくさんあります。プロジェクトのWebサイトには、はじめての人に役立つ資材がたくさん用意されています。次に、いくつかのをいくつか紹介しましょう。"
+msgstr "これは簡単なデモですが、EOxServerでできることはたくさんあります。プロジェクトのWebサイトには、はじめての人に役立つ資材がたくさん用意されています。次に、いくつかのをいくつか紹介しましょう。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:145
 msgid ""
 "See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more "
 "information."
 msgstr ""
-"詳細については、:doc:`EOxServerの概要 <../overview/eoxserver_overview>` を参照してください。"
+"詳細については、 :doc:`EOxServer Overview <../overview/eoxserver_overview>` "
+"を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid ""
 "Read the `EOxServer Operators' Guide "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 msgstr ""
-"`EOxServer 運用者ガイド "
+" `EOxServer Operators' Guide "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_ を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:147
@@ -214,8 +207,9 @@ msgid ""
 "`EOxServer Basics "
 "<https://docs.eoxserver.org/en/latest/users/basics.html>`_."
 msgstr ""
-"`EOxServerの基本事項 <https://docs.eoxserver.org/en/latest/users/basics.html>`_ "
-"から始まる完全な `EOxServer ユーザーズドキュメント "
+" `EOxServer Basics "
+"<https://docs.eoxserver.org/en/latest/users/basics.html>`_ から始まる完全な "
+"`EOxServer Users' documentation "
 "<https://docs.eoxserver.org/en/latest/users/index.html>`_ を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:149
@@ -224,7 +218,7 @@ msgid ""
 "`EOxServer Users' local documentation <https://localhost/eoxserver-"
 "docs/EOxServer_documentation.pdf>`_"
 msgstr ""
-"すでにOSGeoLive環境にいる場合は、メディアにはいっている`EOxServer Users'ローカルドキュメント "
+"すでにOSGeoLive環境にいる場合は、メディアにはいっている `EOxServer Users' local documentation "
 "<https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_ をお読みください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:151
@@ -233,6 +227,7 @@ msgid ""
 "<https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ to "
 "exchange ideas, discuss potential software improvements, and ask questions."
 msgstr ""
-"EOxServerを使用する準備はできていますか?次に、`メーリングリスト "
+"EOxServerを使用する準備はできていますか?次に、 `メーリングリスト "
 "<https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ "
 "のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"
+

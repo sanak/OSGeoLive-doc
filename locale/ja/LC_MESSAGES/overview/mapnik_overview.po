@@ -46,8 +46,7 @@ msgid ""
 "their maps over the internet although scaling improvements have meant that "
 "Mapnik has recently been getting used to create high resolution paper maps "
 "too."
-msgstr ""
-"Mapnikは通常、インターネット経由でマップを配信するPythonアプリケーションに組み込まれていますが、スケーリングの改善により、最近では高解像度の紙のマップの作成にも使われるようになりました。"
+msgstr "Mapnikは通常、インターネット経由でマップを配信するPythonアプリケーションに組み込まれていますが、スケーリングの改善により、最近では高解像度の紙のマップの作成にも使われるようになりました。"
 
 #: ../../build/doc/overview/mapnik_overview.rst:31
 msgid "Core Features"
@@ -69,8 +68,7 @@ msgstr ""
 msgid ""
 "High-level Python bindings (boost.python) facilitate rapid application "
 "development,  targeting zope3, django etc."
-msgstr ""
-"高レベルのPythonバインディング(boost.python)は、zope3やdjangoなどをターゲットにして、迅速なアプリケーション開発を促進します。"
+msgstr "高レベルのPythonバインディング(boost.python)は、zope3やdjangoなどをターゲットにして、迅速なアプリケーション開発を促進します。"
 
 #: ../../build/doc/overview/mapnik_overview.rst:42
 msgid ""
@@ -111,3 +109,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/mapnik_overview.rst:63
 msgid ":doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/mapnik_quickstart>`"
+

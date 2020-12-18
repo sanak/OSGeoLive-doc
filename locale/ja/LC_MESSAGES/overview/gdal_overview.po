@@ -70,9 +70,7 @@ msgid ""
 msgstr "データ変換、画像変形、切り出し、その他一般的な操作を行うコマンドラインユーティリティ。"
 
 #: ../../build/doc/overview/gdal_overview.rst:46
-msgid ""
-"Highly efficient raster data access, taking advantage of tiling and "
-"overviews"
+msgid "Highly efficient raster data access, taking advantage of tiling and overviews"
 msgstr "ラスタデータの高度な操作。タイリング、サムネイル作成"
 
 #: ../../build/doc/overview/gdal_overview.rst:47
@@ -172,3 +170,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/gdal_overview.rst:86
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/gdal_quickstart>`"
+

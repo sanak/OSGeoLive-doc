@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:28
 msgid "This Quick Start describes how to:"
-msgstr "このクイックスタートでは、次の方法について説明します。"
+msgstr "このクイックスタートでは、次の方法について説明します:"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:30
 msgid "start Mapbender"
@@ -71,6 +71,9 @@ msgid ""
 "the start menu or visit http://localhost/mapbender/app.php. The application "
 "will take a few moments to start up"
 msgstr ""
+"Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` from "
+"the start menu or visit http://localhost/mapbender/app.php. "
+"アプリケーションの起動にはしばらくかかります"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:50
 msgid ""
@@ -226,9 +229,7 @@ msgid "Now you can add layer to the layerset"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:120
-msgid ""
-"Click on the :menuselection:`+-button` at your new layerset to add a "
-"Service."
+msgid "Click on the :menuselection:`+-button` at your new layerset to add a Service."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:126
@@ -365,8 +366,7 @@ msgid "Try to create an individual application."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:185
-msgid ""
-"Create users and groups, and assign an application to the new users/groups."
+msgid "Create users and groups, and assign an application to the new users/groups."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:189
@@ -378,6 +378,8 @@ msgid ""
 "This is only the first step on the road to using Mapbender. There is a lot "
 "more functionality you can try."
 msgstr ""
+"This is only the first step on the road to using Mapbender. "
+"他にも多くの機能を試すことができます。"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:193
 msgid "Mapbender Website https://mapbender.org/"
@@ -396,3 +398,4 @@ msgstr ""
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:199
 msgid "Get involved in the project https://mapbender.org/community/"
 msgstr ""
+

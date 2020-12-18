@@ -150,3 +150,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/postgis_overview.rst:128
 msgid ":doc:`Quickstart documentation <../quickstart/postgis_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/postgis_quickstart>`"
+

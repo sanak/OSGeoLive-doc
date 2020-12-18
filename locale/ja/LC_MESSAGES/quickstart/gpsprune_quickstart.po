@@ -19,14 +19,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:17
 msgid "GpsPrune Quickstart"
-msgstr ""
+msgstr "GpsPruneクイックスタート"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:19
 msgid ""
 "GpsPrune is a java application for viewing and editing coordinate data.  It "
 "can be used for preparing data for GPS devices and for analyzing the data "
 "recorded by them."
-msgstr ""
+msgstr "GpsPruneは、座標データを表示および編集するためのJavaアプリケーションです。GPS機器のデータの準備や、記録されたデータの分析に使用できます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:21
 msgid ""
@@ -34,17 +34,19 @@ msgid ""
 " image, and access some online information to supplement it.  It will be "
 "useful therefore if you have some kind of internet connection for this "
 "demonstration."
-msgstr ""
+msgstr "このクイックスタートでは、このライブイメージに含まれるデータファイルをロードして表示し、オンライン情報を使って追加情報を確認します。したがってこのデモでは、インターネット接続が必須です。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:26
 msgid "Start GpsPrune"
-msgstr ""
+msgstr "GpsPruneの開始"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:28
 msgid ""
 "From the Start menu, choose :menuselection:`Geospatial --> Navigation and "
 "Maps --> GpsPrune`.  This will then give you the empty window shown below."
 msgstr ""
+"From the Start menu, choose :menuselection:`Geospatial --> Navigation and "
+"Maps --> GpsPrune`.  これにより、次のような空のウィンドウが表示されます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:33
 msgid ""
@@ -54,6 +56,11 @@ msgid ""
 "  A suitable GPX file containing a couple of tracks can be found on the disc"
 " at :file:`~/data/vector/gpx/test_trk2.gpx` so we will load this one."
 msgstr ""
+"次に、メニューコマンド :menuselection:`File --> Open file` を使用して、読みこむファイルを選択します。This "
+"can be a GPX file, a KML or KMZ file, or even a comma-separated or tab-"
+"separated file if you have one.  A suitable GPX file containing a couple of "
+"tracks can be found on the disc at :file:`~/data/vector/gpx/test_trk2.gpx` "
+"so we will load this one."
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:37
 msgid ""
@@ -178,8 +185,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:88
-msgid ""
-"Select :menuselection:`Range --> Set range end` to finish the selection."
+msgid "Select :menuselection:`Range --> Set range end` to finish the selection."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:89
@@ -205,8 +211,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:98
-msgid ""
-"Export an image of your track with :menuselection:`File --> Export image`"
+msgid "Export an image of your track with :menuselection:`File --> Export image`"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:99
@@ -262,8 +267,7 @@ msgid "GpsPrune home page: https://activityworkshop.net/software/gpsprune/"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:114
-msgid ""
-"Screenshots: https://activityworkshop.net/software/gpsprune/screenshots.html"
+msgid "Screenshots: https://activityworkshop.net/software/gpsprune/screenshots.html"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:115
@@ -271,3 +275,4 @@ msgid ""
 "How-tos and instructions: https://activityworkshop.net/software/gpsprune"
 "/how-tos.html"
 msgstr ""
+

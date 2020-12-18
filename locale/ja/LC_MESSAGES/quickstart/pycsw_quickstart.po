@@ -191,8 +191,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:107
-msgid ""
-"**table**: the table name for metadata records (default is ``records``)"
+msgid "**table**: the table name for metadata records (default is ``records``)"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:109
@@ -279,3 +278,4 @@ msgid ""
 "For more information on pycsw, please consult the `documentation`_ on the "
 "pycsw website."
 msgstr ""
+

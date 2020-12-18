@@ -99,6 +99,7 @@ msgid "The WCPS query to access the full coverage is as follows:"
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:72
+#, python-format
 msgid ""
 "Click on `coverage request "
 "<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29>`_"
@@ -114,6 +115,7 @@ msgid "The WCPS query to access a subset of the coverage is as follows:"
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:84
+#, python-format
 msgid ""
 "Click on the `subsetting request "
 "<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),"
@@ -133,6 +135,7 @@ msgid "The WCPS query to access the red band of the coverage is as follows:"
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:101
+#, python-format
 msgid ""
 "Click on `band extraction "
 "<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29>`_"
@@ -192,3 +195,4 @@ msgid ""
 "forward to the `OGC standards showcase site "
 "<https://standards.rasdaman.com>`_ ."
 msgstr ""
+

@@ -101,8 +101,7 @@ msgid "STR spatial index"
 msgstr "STR 空間インデックス"
 
 #: ../../build/doc/overview/geos_overview.rst:50
-msgid ""
-"OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and decoders."
+msgid "OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and decoders."
 msgstr "OGC の Well-Known テキスト (WKT) と Well-Known バイナリ (WKB) のエンコーダとデコーダ"
 
 #: ../../build/doc/overview/geos_overview.rst:51
@@ -144,3 +143,4 @@ msgid ""
 msgstr ""
 "**サポート:** https://lists.osgeo.org/mailman/listinfo/geos-devel, "
 "https://www.osgeo.org/service-providers"
+

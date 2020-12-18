@@ -98,4 +98,5 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/t-rex_overview.rst:57
 msgid ":doc:`Quickstart documentation <../quickstart/t-rex_quickstart>`"
-msgstr ":doc:`クイックスタートドキュメント <../quickstart/t-rex_quickstart>`"
+msgstr ":doc:`クイックスタートドキュメント<./quickstart/t-rex_quickstart>`"
+

@@ -50,8 +50,7 @@ msgid ""
 "This provides means for administration and configuration of the service "
 "instance, as well as sending test requests for SOS operations; appropriate "
 "sample requests are included."
-msgstr ""
-"**ブラウザクライアント**:SOSはブラウザベースのアプリケーションで提供されます。これにより、サービス・インスタンスの管理と構成、およびSOS操作のテスト要求の送信のための手段が提供されます。適切なサンプル要求が含まれます。"
+msgstr "**ブラウザクライアント**:SOSはブラウザベースのアプリケーションで提供されます。これにより、サービス・インスタンスの管理と構成、およびSOS操作のテスト要求の送信のための手段が提供されます。適切なサンプル要求が含まれます。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:41
 msgid ""
@@ -59,8 +58,7 @@ msgid ""
 "exploration, analysis and visualization of Sensor Web data in various fields"
 " of use, e.g. hydrology, meteorology, environmental monitoring, traffic "
 "management."
-msgstr ""
-"**Helgoland**:SOSには、水文、気象、環境モニタリング、交通管理など、さまざまな使用分野におけるセンサーWebデータの調査、分析、視覚化のためのHelgolandアプリケーションが含まれています。"
+msgstr "**Helgoland**:SOSには、水文、気象、環境モニタリング、交通管理など、さまざまな使用分野におけるセンサーWebデータの調査、分析、視覚化のためのHelgolandアプリケーションが含まれています。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:44
 msgid ""
@@ -69,7 +67,7 @@ msgid ""
 "operations). Implemented operations for each standard version are listed "
 "below."
 msgstr ""
-"**仕様**: 52°North "
+"**仕様**:  52°North "
 "SOSは、現在の仕様バージョン2.0.0および以前のバージョン1.0.0を実装します(ここではトランザクション操作はありません)。各標準バージョンに実装されている操作を以下に示します。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:47
@@ -82,8 +80,8 @@ msgid ""
 "<https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
 " ."
 msgstr ""
-"**INSPIRE ダウンロードサービス拡張**: "
-"バージョン4.2.0以降では、SOSをINSPIREダウンロードサービスとして使用できるように拡張されています。背景情報は、`ブログポスト "
+"**INSPIRE ダウンロードサービス拡張**:  "
+"バージョン4.2.0以降では、SOSをINSPIREダウンロードサービスとして使用できるように拡張されています。背景情報は、 `ブログポスト "
 "<https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-"
 "an-inspire-download-service-based-on-sos/>`_  および  `Wiki "
 "<https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
@@ -98,7 +96,7 @@ msgid ""
 "<https://wiki.52north.org/SensorWeb/AqdEReporting#Installation>`_ is "
 "documented in the 52°North Wiki."
 msgstr ""
-"**Air Quality データ eレポート拡張**: バージョン4.3.0以降では、Air Quality Data Flows "
+"**Air Quality データ eレポート拡張**:  バージョン4.3.0以降では、Air Quality Data Flows "
 "E1a、E1b、およびE2a準拠データを提供する拡張機能が使用可能です(OSGeoLiveのインスタンスは適切に設定されていません)。`インストールと設定"
 " <https://wiki.52north.org/SensorWeb/AqdEReporting#Installation>`_ は "
 "52°North Wiki 内に記載されています。"
@@ -200,8 +198,7 @@ msgid "GetObservationById / GetObservation: for requesting observations."
 msgstr "GetObservationById / GetObservation: 観測データを要求します。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:95
-msgid ""
-"GetResult (from specification version 2.0): for requesting sensor data."
+msgid "GetResult (from specification version 2.0): for requesting sensor data."
 msgstr "GetResult (仕様バージョン2.0以降): センサーデータを要求します。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:96
@@ -209,8 +206,7 @@ msgid ""
 "GetResultTemplate (from specification version 2.0): for requesting a "
 "template of the result structure that will be returned by a GetResult "
 "request."
-msgstr ""
-"GetResultTemplate (仕様バージョン2.0以降): GetResult 要求で返される結果データのテンプレートを要求します。"
+msgstr "GetResultTemplate (仕様バージョン2.0以降): GetResult 要求で返される結果データのテンプレートを要求します。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:98
 msgid ""
@@ -350,20 +346,15 @@ msgid "**Commercial Support:** https://52north.org/services/"
 msgstr "**商用サポート:** https://52north.org/services/"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:151
-msgid ""
-"**Community Support:** https://list.52north.org/mailman/listinfo/sensorweb"
+msgid "**Community Support:** https://list.52north.org/mailman/listinfo/sensorweb"
 msgstr "**コミュニティサポート:** https://list.52north.org/mailman/listinfo/sensorweb"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:153
-msgid ""
-"**Community Website:** https://52north.org/research/research-labs/sensor-"
-"web/"
-msgstr ""
-"**コミュニティWebサイト:** https://52north.org/research/research-labs/sensor-web/"
+msgid "**Community Website:** https://52north.org/research/research-labs/sensor-web/"
+msgstr "**コミュニティWebサイト:** https://52north.org/research/research-labs/sensor-web/"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:155
-msgid ""
-"**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
+msgid "**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
 msgstr "**OSGeoLiveでの他の 52°North プロジェクト:** :doc:`WPS <./52nWPS_overview>`"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:162
@@ -373,3 +364,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/52nSOS_overview.rst:164
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/52nSOS_quickstart>`"
+

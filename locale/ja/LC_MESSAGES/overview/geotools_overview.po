@@ -62,7 +62,7 @@ msgid ""
 "Integrated Geometry support provided by `JTS Topology Suite (JTS) "
 "<https://sourceforge.net/projects/jts-topo-suite/>`_"
 msgstr ""
-"統合されたジオメトリのサポートは、`JTS Topology Suite(JTS) <https://sourceforge.net/projects"
+"統合されたジオメトリのサポートは、`JTS Topology Suite (JTS) <https://sourceforge.net/projects"
 "/jts-topo-suite/>`_ によって提供されます。"
 
 #: ../../build/doc/overview/geotools_overview.rst:36
@@ -140,8 +140,7 @@ msgid ""
 "Extensions provide graph and networking support (for finding the shortest "
 "path), validation, a web map server client, bindings for xml parsing and "
 "encoding and color brewer."
-msgstr ""
-"拡張機能は、(最短パスを見つけるための)グラフとネットワーキングのサポート、検証、Webマップサーバクライアント、XML構文解析とエンコーディングのバインディング、そしてカラーbrewerを提供します。"
+msgstr "拡張機能は、(最短パスを見つけるための)グラフとネットワーキングのサポート、検証、Webマップサーバクライアント、XML構文解析とエンコーディングのバインディング、そしてカラーbrewerを提供します。"
 
 #: ../../build/doc/overview/geotools_overview.rst:66
 msgid "GeoTools Unsupported"
@@ -151,16 +150,14 @@ msgstr "サポートされていないGeoTools"
 msgid ""
 "GeoTools also operates as part of a wider community with a staging area used"
 " to foster new talent and promote experimentation."
-msgstr ""
-"GeoToolsはまた、新しい人材を育成し、実験を促進するために使用されるステージング領域を持つ、より広いコミュニティの一部として動作します。"
+msgstr "GeoToolsはまた、新しい人材を育成し、実験を促進するために使用されるステージング領域を持つ、より広いコミュニティの一部として動作します。"
 
 #: ../../build/doc/overview/geotools_overview.rst:70
 msgid ""
 "Some highlights are swing support (used in geotools tutorials), swt, local "
 "and web process support, additional symbology, additional data formats, "
 "generation of grids and a couple of implementations of ISO Geometry."
-msgstr ""
-"注目すべき点は、スイングサポート(geotoolsチュートリアルで使用)、swt、ローカルおよびWebプロセスサポート、追加の記号、追加のデータフォーマット、グリッドの生成、およびISOジオメトリのいくつかの実装です。"
+msgstr "注目すべき点は、スイングサポート(geotoolsチュートリアルで使用)、swt、ローカルおよびWebプロセスサポート、シンボロジーの追加、データフォーマットの追加、グリッドの生成、およびISOジオメトリのいくつかの実装です。"
 
 #: ../../build/doc/overview/geotools_overview.rst:73
 msgid "Supported Formats"
@@ -229,7 +226,7 @@ msgstr "多数のオープン地理空間コンソーシアム(OGC)標準のサ�
 msgid ""
 "OGC Style Layer Descriptor / Symbology Encoding data structures and "
 "rendering engine"
-msgstr "OGC Style Layer Descriptor/記号データ構造のエンコードとレンダリングエンジン"
+msgstr "OGC Style Layer Descriptor/データ構造とレンダリングエンジンのシンボロジーのエンコード"
 
 #: ../../build/doc/overview/geotools_overview.rst:100
 msgid "OGC General Feature Model including Simple Feature support"
@@ -280,7 +277,7 @@ msgid ""
 "**Support:** `Communication and Support "
 "<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
 msgstr ""
-"**サポート:** `Communication and Support  "
+"**サポート:** `Communication and Support "
 "<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
 
 #: ../../build/doc/overview/geotools_overview.rst:120
@@ -294,3 +291,4 @@ msgid ""
 msgstr ""
 "`クイックスタート文書 "
 "<http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"
+

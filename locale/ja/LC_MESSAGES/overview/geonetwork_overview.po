@@ -35,8 +35,7 @@ msgid ""
 "referenced resources. It provides powerful metadata editing and search "
 "functions, an embedded interactive web map viewer, and is based upon Open "
 "Standards."
-msgstr ""
-"GeoNetworkは、空間的に参照されているリソースを管理するためのカタログアプリケーションです。強力なメタデータ編集と検索機能、およびインタラクティブなWebマップビューアを提供します。"
+msgstr "GeoNetworkは、空間的に参照されているリソースを管理するためのカタログアプリケーションです。強力なメタデータ編集と検索機能、およびインタラクティブなWebマップビューアを提供します。"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:32
 msgid "Core Features"
@@ -59,8 +58,7 @@ msgid ""
 msgstr "世界中の分散しているサーバからのWebマップサービスを結合するインタラクティブなWebマップビューア"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:36
-msgid ""
-"Recently updated entries are accessible as RSS news feeds and as GeoRSS."
+msgid "Recently updated entries are accessible as RSS news feeds and as GeoRSS."
 msgstr "最近更新されたエントリは、RSSニュースフィードおよびGeoRSSとしてのアクセスできるようになりました。"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:37
@@ -71,8 +69,7 @@ msgstr "強力なテンプレートシステムによるメタデータのオン
 msgid ""
 "Native support for ISO19115/ISO19119/ISO19139/ISO19110 and Dublin Core "
 "formatted metadata"
-msgstr ""
-"ISO19115/ISO19119/ISO19139/ISO19110およびDublin Coreフォーマットのメタデータのネイティブサポート"
+msgstr "ISO19115/ISO19119/ISO19139/ISO19110およびDublin Coreフォーマットのメタデータのネイティブサポート"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:39
 msgid ""
@@ -162,3 +159,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geonetwork_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geonetwork_quickstart>`"
+

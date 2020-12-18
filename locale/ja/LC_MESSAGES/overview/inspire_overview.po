@@ -130,3 +130,4 @@ msgstr "詳細"
 #: ../../build/doc/overview/inspire_overview.rst:50
 msgid "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
 msgstr ""
+

@@ -48,8 +48,7 @@ msgid "out of the box modern OGC API server"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:35
-msgid ""
-"certified OGC Compliant and Reference Implementation for OGC API - Features"
+msgid "certified OGC Compliant and Reference Implementation for OGC API - Features"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:36
@@ -95,8 +94,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:45
-msgid ""
-"supports any Python web framework (included are Flask [default], Starlette)"
+msgid "supports any Python web framework (included are Flask [default], Starlette)"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:49
@@ -118,8 +116,7 @@ msgid "Compliant: conforms to OGC compliance requirements (great)"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:55
-msgid ""
-"Reference Implementation: provides a reference for the standard (awesome!)"
+msgid "Reference Implementation: provides a reference for the standard (awesome!)"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
@@ -142,9 +139,6 @@ msgstr ""
 msgid "`OGC API - Coverages`_"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:1
-#: ../../build/doc/overview/pygeoapi_overview.rst:1
-#: ../../build/doc/overview/pygeoapi_overview.rst:1
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "Implementing"
 msgstr ""
@@ -183,7 +177,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:79
 msgid "**API Interfaces:** Python"
-msgstr ""
+msgstr "**API インターフェイス:** Python"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:81
 msgid "**Support:** |SUPPORT|"
@@ -196,3 +190,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/pygeoapi_overview.rst:98
 msgid ":doc:`Quickstart documentation <../quickstart/pygeoapi_quickstart>`"
 msgstr ""
+

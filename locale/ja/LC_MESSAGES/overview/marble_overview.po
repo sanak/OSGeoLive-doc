@@ -38,8 +38,8 @@ msgid ""
 "`OpenStreetMaps <https://www.openstreetmap.org>`_), you are encouraged to "
 "include a KDE Marble widget in your application."
 msgstr ""
-"Marbleは「NASA World Wind<https://worldwind.arc.nasa.gov/java/>」やGoogle "
-"Earthに似たオープンソースのKDE Education Projectプログラムです。地球儀に表示する(`OpenStreetMaps "
+"Marbleは`NASA World Wind <https://worldwind.arc.nasa.gov/java/>`_ やGoogle "
+"Earthに似たオープンソースのKDE Education Projectプログラムです。地球儀に表示する( `OpenStreetMaps "
 "<https://www.openstreetmap.org>`_ を含む)マップをいろいろ選択するだけでなく、アプリケーションにKDE "
 "Marbleウィジェットを含めることをお勧めします。"
 
@@ -50,8 +50,7 @@ msgid ""
 "querying various search backends and presents their results in a unified "
 "view. Calculate pedestrian, bike and motorcar routes with ease - online and "
 "offline, with an arbitrary number of via points."
-msgstr ""
-"Marbleの都市および街路レベルマップの豊富なセットを使用して、周辺を探索します。住所と名所を検索します。Marbleはさまざまな検索バックエンドをクエリーし、その結果を統一されたビューで表示します。任意の数の経由ポイントを使用して、オンラインとオフラインで、歩行者、自転車、自動車のルートを簡単に計算できます。"
+msgstr "Marbleの都市および街路レベルマップの豊富なセットを使用して、周辺を探索します。住所と名所を検索します。Marbleはさまざまな検索バックエンドをクエリーし、その結果を統一されたビューで表示します。任意の数の経由ポイントを使用して、オンラインとオフラインで、歩行者、自転車、自動車のルートを簡単に計算できます。"
 
 #: ../../build/doc/overview/marble_overview.rst:35
 msgid ""
@@ -60,8 +59,7 @@ msgid ""
 "back in time and learn about historic views of our planet using maps from "
 "past centuries. Earth is not enough? Marble also offers maps of the moon and"
 " other planets."
-msgstr ""
-"世界を探検しよう。雲や太陽の影を表示したり、衛星や宇宙ステーションを追跡したり、それらの軌道を表示したりします。これらはすべてリアルタイムで更新されます。昔に戻り、過去数世紀の地図を使って、私たちの惑星の歴史的な眺めについて学びましょう。地球だけでは十分じゃない?Marbleは月や他の惑星の地図も提供しています。"
+msgstr "世界を探検しよう。雲や太陽の影を表示したり、衛星や宇宙ステーションを追跡したり、それらの軌道を表示したりします。これらはすべてリアルタイムで更新されます。昔に戻り、過去数世紀の地図を使って、私たちの惑星の歴史的な眺めについて学びましょう。地球だけでは十分じゃない?Marbleは月や他の惑星の地図も提供しています。"
 
 #: ../../build/doc/overview/marble_overview.rst:48
 msgid "Core Features"
@@ -104,8 +102,7 @@ msgid "Search (Online address search, Online POI search)"
 msgstr "検索(オンライン住所検索、オンラインPOI検索)"
 
 #: ../../build/doc/overview/marble_overview.rst:58
-msgid ""
-"Positioning & Tracking (GPS and WLAN localization, Track export in KML)"
+msgid "Positioning & Tracking (GPS and WLAN localization, Track export in KML)"
 msgstr "Positioning&Tracking(GPSとWLANのローカリゼーション、KMLでのトラックエクスポート)"
 
 #: ../../build/doc/overview/marble_overview.rst:59
@@ -113,8 +110,7 @@ msgid ""
 "Routing & Navigation (Voice navigation, Online motorcar routing, Online bike"
 " routing, Online pedestrian routing, Offline routing optional download, "
 "Turn-by-turn navigation)"
-msgstr ""
-"ルーティングとナビゲーション(音声ナビゲーション、オンラインでの自動車のルーティング、オンラインでの自転車のルーティング、オンラインでの歩行者のルーティング、オフラインでのルーティング(オプション)のダウンロード、曲がり角ごとのナビゲーション)"
+msgstr "ルーティングとナビゲーション(音声ナビゲーション、オンラインでの自動車のルーティング、オンラインでの自転車のルーティング、オンラインでの歩行者のルーティング、オフラインでのルーティング(オプション)のダウンロード、曲がり角ごとのナビゲーション)"
 
 #: ../../build/doc/overview/marble_overview.rst:60
 msgid "Interactive KML tours (Creating, editing, viewing)"
@@ -177,3 +173,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/marble_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/marble_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/marble_quickstart>`"
+

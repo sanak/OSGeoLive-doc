@@ -315,3 +315,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/mapserver_overview.rst:137
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/mapserver_quickstart>`"
+

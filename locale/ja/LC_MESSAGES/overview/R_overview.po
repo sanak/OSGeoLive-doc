@@ -81,7 +81,8 @@ msgid ""
 "without major code modifications."
 msgstr ""
 "R は S 言語の実装でもあり、R と過去の S、S-Plus コード、\n"
-"最近の商用バージョンの S、TIBCO Spotfire S+ には高い互換性があります。この互換性により、異なるバージョンの S のコードを大きく変更することなく R で実行できるよう変換可能です。"
+"最近の商用バージョンの S、TIBCO Spotfire S+ には高い互換性があります。この互換性により、異なるバージョンの S "
+"のコードを大きく変更することなく R で実行できるよう変換可能です。"
 
 #: ../../build/doc/overview/R_overview.rst:57
 msgid "Core Features"
@@ -100,8 +101,7 @@ msgid ""
 msgstr "現在 (2017/08/11)、CRAN パッケージリポジトリで 11239 のパッケージが利用可能"
 
 #: ../../build/doc/overview/R_overview.rst:61
-msgid ""
-"Hundreds of community contributed add-on packages for spatial statistics"
+msgid "Hundreds of community contributed add-on packages for spatial statistics"
 msgstr "数百のコミュニティが作成した空間統計計算用のアドオンパッケージ"
 
 #: ../../build/doc/overview/R_overview.rst:62
@@ -165,8 +165,7 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr "**対応プラットフォーム:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/R_overview.rst:84
-msgid ""
-"**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
+msgid "**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr "**コミュニティサポート:**  https://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
@@ -184,3 +183,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/R_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/R_quickstart>`"
+

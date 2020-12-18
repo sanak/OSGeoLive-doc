@@ -79,6 +79,7 @@ msgid ""
 "and Open Source Software for Geospatial*, as well as many regional and local"
 " `events <https://www.osgeo.org/events>`_."
 msgstr ""
-"`FOSS4G <https://foss4g.org>`_: *地理空間のためのフリーでオープンなソフトウェア* "
+"`FOSS4G <https://foss4g.org>`_: *地理空間のためのフリーでオープンソースなソフトウェア* "
 "のために毎年開催される国際カンファレンスで、多くの地域でも同様の `イベント <https://www.osgeo.org/events>`_. "
 "が開催されています。"
+

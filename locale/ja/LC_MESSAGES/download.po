@@ -29,15 +29,12 @@ msgid "Download"
 msgstr "ダウンロード"
 
 #: ../../build/doc/download.rst:9
-msgid ""
-"The latest stable release is |osgeolive-version| and can be downloaded from:"
+msgid "The latest stable release is |osgeolive-version| and can be downloaded from:"
 msgstr "最新の安定版リリースは  |osgeolive-version| でこちらからダウンロード可能です:"
 
 #: ../../build/doc/download.rst:11
-msgid ""
-"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
-msgstr ""
-"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
+msgid "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
+msgstr "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
 
 #: ../../build/doc/download.rst:14
 msgid "Picking the right image for you:"
@@ -66,8 +63,9 @@ msgid ""
 " use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
 "has been compressed using `7-Zip <https://www.7-zip.org/>`_."
 msgstr ""
-"VirtualBox、VMWare、KVM などの仮想マシンに適した、OSGeoLiveに基づいて事前作成された仮想マシン(.vmdk)です。 "
-"`7-Zip <https://www.7-zip.org/>`_ で圧縮されています。"
+"VirtualBox、VMWare、KVM "
+"などの仮想マシンに適した、OSGeoLiveに基づいて事前作成された仮想マシン(.vmdk)です。`7-Zip "
+"<https://www.7-zip.org/>`_ で圧縮されています。"
 
 #: ../../build/doc/download.rst:24
 msgid "**amd64 or i386 architecture**"
@@ -84,8 +82,7 @@ msgid "**md5 checksum**"
 msgstr "**md5 チェックサム**"
 
 #: ../../build/doc/download.rst:30
-msgid ""
-"You can use the md5 checksum to verify the image downloaded successfully."
+msgid "You can use the md5 checksum to verify the image downloaded successfully."
 msgstr "イメージのダウンロードが成功したかを確認するために、 md5 チェックサムを利用することが可能です。"
 
 #: ../../build/doc/download.rst:32
@@ -100,3 +97,4 @@ msgid ""
 msgstr ""
 "`最低限の動作環境は: メモリ 1GB (Java ベースのアプリケーションを使用する場合 2 GB あるとよいでしょう)、1GHz 以上の i386 "
 "か amd64 互換の CPU。ハードディスクは必要な場合のみ。Mac ユーザーには 3ボタン USB マウスの利用をお勧めします。`"
+

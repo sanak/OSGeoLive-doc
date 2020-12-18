@@ -27,13 +27,12 @@ msgid "R Quickstart"
 msgstr "R クイック スタート"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:20
-msgid ""
-"R is a free software environment for statistical computing and graphics."
+msgid "R is a free software environment for statistical computing and graphics."
 msgstr "Rは、統計計算とグラフィックスのためのフリーソフトウェア環境です。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:22
 msgid "This Quick Start describes how to:"
-msgstr "このクイックスタートでは、次の方法について説明します。"
+msgstr "このクイックスタートでは、次の方法について説明します:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:24
 msgid "use R for simple arithmetic"
@@ -60,24 +59,26 @@ msgid ""
 "R is essentially a command-line program, although graphical user interfaces "
 "are available. You type a line of code at the prompt, press return, and the "
 "R interpreter evaluates it and prints the result."
-msgstr ""
+msgstr "Rは基本的にコマンドラインプログラムですが、GUIも利用できます。プロンプトで1行のコードを入力し、returnキーを押すと、Rインタプリタがそれを評価して結果を出力します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:40
 msgid ""
 "Don't fear the command line - it is a source of great power. Using the up "
 "and down arrows to recall commands so you can edit mistakes. Hit CTRL-C if "
 "get stuck and you should get the prompt back."
-msgstr ""
+msgstr "コマンドラインを恐れる必要はありません。大きな力の源です。上下の矢印を使用してコマンドを呼び出し、間違いを編集できるようにします。スタックした場合は、CTRL-Cを押します。プロンプトが再度表示されます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:43
 msgid ""
 "Choose :menuselection:`Geospatial --> Spatial Tools --> R Statistics`. A "
 "terminal window opens running R."
 msgstr ""
+" :menuselection:`Geospatial --> Spatial Tools --> R Statistics` "
+"を選択します。ターミナルウィンドウが開き、Rが実行されます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:45
 msgid "You can start with simple arithmetic."
-msgstr ""
+msgstr "簡単な算術演算から始めることができます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:62
 msgid ""
@@ -94,6 +95,8 @@ msgid ""
 "``+``, which appears if R expects more input to make a valid expression. "
 "You'll see this if you forget a closing bracket or parenthesis."
 msgstr ""
+"Rのメインプロンプトは  ``>`` ですが、継続プロンプト ``+`` "
+"もあります。これは、Rが有効な式を作るためにさらに多くの入力を期待する場合に表示されます。閉じ括弧や閉じ括弧を忘れた場合に表示されます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:79
 msgid "Building data"
@@ -106,17 +109,17 @@ msgid ""
 "store things in one-dimensional vectors, two-dimensional matrices, and "
 "multi-dimensional arrays. There are many functions that can generate these "
 "things. Here's a simple sequence:"
-msgstr ""
+msgstr "出力の中で、角括弧に囲まれた謎の'one'が何をしているのか、不思議に思っているかもしれません。これは、結果が1つの数値であることを示しています。Rは、1次元のベクタ、2次元の行列、多次元の配列ます。これらを生成する関数はたくさんあります。以下に簡単なシーケンスを示します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:93
 msgid ""
 "Now you can see that the ``[9]`` is telling us that 4.555 is the ninth value"
 " in the vector."
-msgstr ""
+msgstr "これで、 ``[9]`` によって、4.555が9番目の値であることがわかります。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:96
 msgid "If you construct a matrix you get row and column labels:"
-msgstr ""
+msgstr "行列を作成すると、行と列のラベルが作成されます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:107
 msgid ""
@@ -124,7 +127,7 @@ msgid ""
 "column indices separated by commas. Leave an index blank to get a whole row "
 "as a vector. Use a vector index to get multiple rows or columns as a smaller"
 " matrix:"
-msgstr ""
+msgstr "行列の要素は、カンマで区切られた行と列のインデックスを持つ角括弧を使用して抽出できます。ベクタとして行全体を取得するには、インデックスを空白のままにします。ベクタインデックスを使用して、複数の行や列を小さな行列として取得します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:125
 msgid ""
@@ -132,13 +135,13 @@ msgid ""
 "an RDBMS such as Postgres or MySQL. Each row can be thought of as a record, "
 "with columns being like fields in a database. As in a database, each field "
 "must be of the same type for each record."
-msgstr ""
+msgstr "データフレームは、PostgresやMySQLなどのRDBMSにあるような構造を反映したデータ構造です。各行はレコードとみなすことができ、カラムはデータベースのフィールドのようなものです。データベースと同様に、各フィールドは各レコードで同じ型でなければなりません。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:130
 msgid ""
 "In many ways they work like matrices, but you can also get and set the "
 "columns by name using $-notation:"
-msgstr ""
+msgstr "これらは多くの点で行列のように機能しますが、$-表記法を使用して名前でカラムを取得・設定することもできます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:174
 msgid "Loading map data"
@@ -148,7 +151,7 @@ msgstr "マップ データの読み込み"
 msgid ""
 "There are many packages for spatial data manipulation and statistics. Some "
 "are included here, and some can be downloaded from CRAN."
-msgstr ""
+msgstr "空間データ操作と統計のための多くのパッケージがあります。ここに含まれているものもあれば、CRANからダウンロードできるものもあります。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:179
 msgid ""
@@ -156,6 +159,8 @@ msgid ""
 "places from the Natural Earth data. We use two add-on packages to get the "
 "spatial functionality:"
 msgstr ""
+"ここでは、2つのシェープファイル、つまりNatural "
+"Earthデータから国の境界と居住地を読み込みます。空間機能を利用するために、2つのアドオンパッケージを使用します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:192
 msgid "This gives us a simple map of the world:"
@@ -167,13 +172,15 @@ msgid ""
 "behaves in many ways like a data frame. We can use the ``admin`` field to "
 "subset the world data and just get the UK:"
 msgstr ""
+"このデータセットでOGRウェイがRに読み込まれると、データフレームのように多くの方法で動作するオブジェクトが返されます。``admin`` "
+"フィールドを使用して、世界のデータをサブセット化し、英国を取得することができます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:207
 msgid ""
 "This looks a bit squashed to anyone who lives here, since we are more "
 "familiar with a coordinate system centred at our latitude. Currently the "
 "object doesn't have a coordinate system assigned to it."
-msgstr ""
+msgstr "緯度を中心とした座標系に慣れているので、ここに住んでいる人には少々押しつぶされたように見えます。現在、オブジェクトには座標系が割り当てられていません。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:211
 msgid ""
@@ -181,6 +188,8 @@ msgid ""
 "sf::st_transform function from the sf package. We transform to EPSG:27700 "
 "which is the Ordnance Survey of Great Britain grid system:"
 msgstr ""
+"sfパッケージからsf::st_transform関数を使用してオブジェクトを変換する前に、CRSを割り当てる必要があります。英国Ordnance "
+"SurveyのグリッドシステムであるEPSG:27700に変換します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:222
 msgid ""
@@ -188,6 +197,8 @@ msgid ""
 "points from the populated place data set. Again we subset the points we want"
 " and transform them to Ordnance Survey Grid Reference coordinates:"
 msgstr ""
+"これは、変換されたデータのベースマップをプロットします。次に、設定された場所のデータセットからいくつかの点を追加します。ここでも、目的の点をサブセット化し、Ordnance"
+" Surveyグリッド・リファレンス座標に変換します:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:232
 msgid ""
@@ -195,8 +206,7 @@ msgid ""
 "root of the population (because that makes a symbol with area proportional "
 "to population), set the colour to red and the plotting character to a solid "
 "blob:"
-msgstr ""
-"これらのポイントをベースマップに追加し、人口のスケーリングされた平方根でサイズをスケーリングします（これにより、シンボルが人口に比例するようになるため）、色を赤に設定し、プロット文字を塗りつぶしたblobに設定します。"
+msgstr "これらの点をベースマップに追加し、（人口に比例する大きさになるように）人口の平方根の比率でシンボルをサイズ変更します、色を赤に設定し、プロットする文字を塗りつぶした丸印に設定します:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:252
 msgid "and our final image appears:"
@@ -208,6 +218,9 @@ msgid ""
 "your workspace as an R data image file. When you start R again from a "
 "directory with a ``.RData`` file it will restore all its data from there."
 msgstr ""
+"To quit R, type ``q()`` and hit return. "
+"作業フォルダをRデータの画像ファイルとして保存するかどうかを尋ねるメッセージが表示されます。``.RData`` "
+"ファイルがあるディレクトリから再度Rを起動すると、そこからすべてのデータを復元します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:260
 msgid "Vignettes"
@@ -222,6 +235,10 @@ msgid ""
 "vignettes on your system. Try ``vignette(\"sf1\")`` for a slightly technical"
 " introduction to the R spatial package."
 msgstr ""
+"以前は、Rパッケージのドキュメントは、関数ごとに簡潔に書かれたヘルプページになる傾向がありました。これで、パッケージ作成者は、パッケージをわかりやすく紹介するために、'vignette'を書くことをお勧めします。If"
+" you run the ``vignette()`` function with no arguments you will get the list"
+" of those vignettes on your system. Try ``vignette(\"sf1\")`` for a slightly"
+" technical introduction to the R spatial package."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:269
 msgid "What next?"
@@ -233,9 +250,9 @@ msgid ""
 "<https://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the "
 "documentation from the main `R Project <https://www.r-project.org/>`_ page."
 msgstr ""
-"Rに関する一般的な情報については、公式の `Introduction to R "
-"<https://cran.r-project.org/doc/manuals/R-intro.html>`_ またはメインの `R Project "
-"<https://www.r-project.org/>`_ ページ。 "
+"いまは、Rに関する一般的な情報については、公式の`Introduction to R "
+"<https://cran.r-project.org/doc/manuals/R-intro.html>`_  またはメインの `R Project "
+"<https://www.r-project.org/>`_ ページにあたるとよいでしょう。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:273
 msgid ""
@@ -243,11 +260,12 @@ msgid ""
 "probably the `R Spatial Task View "
 "<https://cran.r-project.org/web/views/Spatial.html>`_"
 msgstr ""
-"Rの空間的側面の詳細については、おそらく「R Spatial Task View "
-"<https://cran.r-project.org/web/views/Spatial.html> `_から始めるのが最適です。"
+"Rの空間的側面の詳細については、おそらく`R Spatial Task View "
+"<https://cran.r-project.org/web/views/Spatial.html>`_ から始めるのが最適です。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:275
 msgid ""
 "You might also want to check out the `R-Spatial <https://www.rspatial.org>`_"
 " page."
-msgstr " `R-Spatial <https://www.rspatial.org>`_ ページもチェックしてみてください。"
+msgstr "`R-Spatial <https://www.rspatial.org>`_  ページもチェックしてみてください。"
+

@@ -36,6 +36,8 @@ msgid ""
 "development) and terrain analysis. The functionality can be accessed through"
 " a GUI, the command line or by using the C++ API."
 msgstr ""
+"SAGA(System for Automated Geoscientific "
+"Analyses)は,空間データの編集と解析に使用されるオープンソースの地理情報システム(GIS)である。これはベクトル(点,線,多角形),表,格子,画像データの解析のための多数のモジュールを含みます。このパッケージには、地球統計学、画像分類、投影、動的プロセスのシミュレーション(水文学、景観開発)、地形解析などのモジュールが含まれています。この機能には、GUI、コマンドライン、またはC++APIを使用してアクセスできます。"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:35
 msgid "Running"
@@ -414,3 +416,4 @@ msgid ""
 "gis.org/en/about/references.html * https://sourceforge.net/p/saga-"
 "gis/wiki/Documentation/"
 msgstr ""
+

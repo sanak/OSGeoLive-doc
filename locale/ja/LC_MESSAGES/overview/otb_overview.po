@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../build/doc/overview/otb_overview.rst:46
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/otb_overview.rst:49
 msgid ""
@@ -67,8 +67,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/otb_overview.rst:51
-msgid ""
-"orthorectification using DEM, map reprojection and sensor model refinement"
+msgid "orthorectification using DEM, map reprojection and sensor model refinement"
 msgstr ""
 
 #: ../../build/doc/overview/otb_overview.rst:52
@@ -169,3 +168,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/otb_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
 msgstr ""
+

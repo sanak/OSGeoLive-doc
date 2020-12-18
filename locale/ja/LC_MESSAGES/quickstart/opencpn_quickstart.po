@@ -50,6 +50,8 @@ msgid ""
 "From the Start menu, select :menuselection:`Geospatial --> Navigation and "
 "Maps --> OpenCPN`."
 msgstr ""
+"From the Start menu, select :menuselection:`Geospatial --> ナビゲーションと地図 --> "
+"OpenCPN`."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:36
 msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
@@ -160,3 +162,4 @@ msgstr ""
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:96
 msgid "Support: https://www.cruisersforum.com/forums/f134"
 msgstr ""
+

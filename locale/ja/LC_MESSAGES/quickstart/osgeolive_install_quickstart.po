@@ -36,8 +36,7 @@ msgstr "OSGeoLive は Ubuntu をインストールするのと同様にハード
 msgid ""
 "This process can also be run inside a Virtual Machine to create a permanent "
 "OSGeoLive Virtual Machine from a DVD or ISO image."
-msgstr ""
-"OSGeoLive の DVD や ISO イメージから、永続的な仮想マシンを作成するために、仮想マシン内でインストールすることもできます。"
+msgstr "OSGeoLive の DVD や ISO イメージから、永続的な仮想マシンを作成するために、仮想マシン内でインストールすることもできます。"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:17
 msgid "System Requirements"
@@ -137,3 +136,4 @@ msgstr ":doc:`virtualization_quickstart`"
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:84
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
+

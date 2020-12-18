@@ -36,10 +36,9 @@ msgid ""
 "without installing anything. It is composed entirely of free software, "
 "allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
-"`OSGeoLive <https://live.osgeo.org>`_ は仮想マシン `Lubuntu "
-"<https://lubuntu.net>`_ "
-"をベースとした起動可能なブータブルDVD／USBメディアで、幅広く多様なオープンソースの地理空間ソフトウェアを、インストール無しに試すことができます。OSGeoLive"
-" は全てフリーソフトで構成されており、自由に複製、配布することができます。"
+"`OSGeoLive <https://live.osgeo.org>`_ は、 Lubuntu をベースとしたブータブルDVD, "
+"USBスティックドライブまたは仮想マシン で、様々なオープンソースの地理空間ソフトウェアをインストール無しに試すことができます。OSGeoLive "
+"は全てフリーソフトで構成されており、自由に複製、配布することができます。"
 
 #: ../../build/doc/index.rst:17
 msgid ""
@@ -60,7 +59,7 @@ msgstr "DVDまたはUSBドライブをコンピュータもしくは仮想マシ
 
 #: ../../build/doc/index.rst:24
 msgid "Reboot computer. (verify boot device order if necessary)"
-msgstr "コンピューターを再起動 (必要に応じてデバイスの起動順序を確認してください)"
+msgstr "コンピュータを再起動。 (必要に応じてデバイスの起動順序を確認してください)"
 
 #: ../../build/doc/index.rst:25
 msgid "Press \"Enter\" to startup & login."
@@ -97,3 +96,4 @@ msgid ""
 msgstr ""
 "全ての OSGeoLive アプリケーションを取り上げた30分間の `プレゼンテーション <presentation.html>`_ がスライドや原稿、"
 " `アブストラクト <presentation/abstract.txt>`_ とともに、利用可能です。"
+

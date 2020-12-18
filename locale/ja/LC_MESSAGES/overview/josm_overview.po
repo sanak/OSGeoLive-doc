@@ -34,9 +34,7 @@ msgstr "OpenStreetMap データのためのデスクトップ・エディタ"
 msgid ""
 "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
 " (OSM) data, written in Java."
-msgstr ""
-"JOSM は、 Java で記述された OpenStreetMap (OSM) "
-"データ用の、機能豊富で、拡張可能な、オフラインのデスクトップエディタです。"
+msgstr "JOSM は、 Java で記述された OpenStreetMap (OSM) データ用の、機能豊富で、拡張可能な、オフラインのデスクトップエディタです。"
 
 #: ../../build/doc/overview/josm_overview.rst:22
 msgid ""
@@ -68,7 +66,7 @@ msgstr "共通的なGISデスクトップインタフェースツール:"
 msgid ""
 "Toolbar customization, View control (zoom, pan. etc), styles, icons and "
 "layers management."
-msgstr ""
+msgstr "Toolbar customization, View control (zoom, pan. など）、スタイル、アイコンとレイヤ管理。"
 
 #: ../../build/doc/overview/josm_overview.rst:40
 msgid "Download and upload OSM vector data."
@@ -184,3 +182,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/josm_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/josm_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/josm_quickstart>`"
+

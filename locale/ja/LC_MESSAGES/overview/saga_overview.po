@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:14
 msgid "SAGA"
-msgstr ""
+msgstr "SAGA"
 
 #: ../../build/doc/overview/saga_overview.rst:17
 msgid "Desktop GIS"
@@ -40,35 +40,37 @@ msgid ""
 "development) and terrain analysis. The functionality can be accessed through"
 " a GUI, the command line or by using the C++ API."
 msgstr ""
+"SAGA(System for Automated Geoscientific "
+"Analyses)は,空間データの編集と解析に使用されるオープンソースの地理情報システム(GIS)である。これはベクトル(点,線,多角形),表,格子,画像データの解析のための多数のモジュールを含みます。このパッケージには、地球統計学、画像分類、投影、動的プロセスのシミュレーション(水文学、景観開発)、地形解析などのモジュールが含まれています。この機能には、GUI、コマンドライン、またはC++APIを使用してアクセスできます。"
 
 #: ../../build/doc/overview/saga_overview.rst:28
 msgid ""
 "SAGA has been in development since 2001, and the centre of SAGA development "
 "is located in the Institute of Geography at the University of Hamburg, with "
 "contributions from the growing world wide community."
-msgstr ""
+msgstr "SAGAは2001年から開発を行われており、SAGAの開発の中心はハンブルク大学の地理学研究所にあり、世界中のコミュニティからの貢献を受けています。"
 
 #: ../../build/doc/overview/saga_overview.rst:39
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/saga_overview.rst:41
 msgid ""
 "Access to a large number of scientific modules via the Graphical User "
 "Interface or the command line"
-msgstr ""
+msgstr "グラフィカル・ユーザー・インタフェース(GUI)またはコマンドライン(CLI)を使用し多数の科学モジュールへのアクセス"
 
 #: ../../build/doc/overview/saga_overview.rst:43
 msgid "Import/Export to different file formats"
-msgstr ""
+msgstr "異なるファイル形式への読み込み/書き出し"
 
 #: ../../build/doc/overview/saga_overview.rst:44
 msgid "Reprojection/Resampling of data"
-msgstr ""
+msgstr "データの再投影/再サンプリング"
 
 #: ../../build/doc/overview/saga_overview.rst:45
 msgid "Manipulation of vector data (merging/intersection/attributes)"
-msgstr ""
+msgstr "ベクタデータの操作(マージ/交差/属性)"
 
 #: ../../build/doc/overview/saga_overview.rst:46
 msgid "Manipulation of point clouds from lidar data"
@@ -79,8 +81,7 @@ msgid "Raster data: interpolation, cost analysis, ..."
 msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:48
-msgid ""
-"Image analysis: filters, edge detection, cluster analysis, segmentation"
+msgid "Image analysis: filters, edge detection, cluster analysis, segmentation"
 msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:49
@@ -110,9 +111,7 @@ msgid "Scripting through command line, bindings for Python"
 msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:58
-msgid ""
-"SAGA can be accessed from the R statistical language through the RSAGA "
-"module"
+msgid "SAGA can be accessed from the R statistical language through the RSAGA module"
 msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:61
@@ -150,3 +149,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/saga_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
 msgstr ""
+

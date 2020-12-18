@@ -136,8 +136,7 @@ msgid "Implements WMS standards 1.1.1 and 1.3.0"
 msgstr "WMS標準1.1.1および1.3.0を実装"
 
 #: ../../build/doc/overview/deegree_overview.rst:61
-msgid ""
-"Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0"
+msgid "Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0"
 msgstr "スタイル言語SLD/SEバージョン1.0.0および1.1.0の広範なサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:63
@@ -282,19 +281,19 @@ msgstr "最小限のメモリ使用量で大量のデータを処理"
 
 #: ../../build/doc/overview/deegree_overview.rst:103
 msgid "Supports storing of response documents/output parameters"
-msgstr ""
+msgstr "レスポンス文書/出力パラメータの保存をサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:104
 msgid "Supports input parameters given inline and by reference"
-msgstr ""
+msgstr "インラインと参照で指定されたパラメータをサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:105
 msgid "Supports RawDataOutput/ResponseDocument responses"
-msgstr ""
+msgstr "RawDataOutput/ResponseDocument 応答のサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:106
 msgid "Supports asynchronous execution (with polling of process status)"
-msgstr ""
+msgstr "非同期実行をサポート(プロセスステータスをポーリング)"
 
 #: ../../build/doc/overview/deegree_overview.rst:109
 msgid "Implemented Standards"
@@ -359,3 +358,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/deegree_overview.rst:139
 msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/deegree_quickstart>`"
+

@@ -37,8 +37,7 @@ msgid ""
 "originated).  It extends the functionality of MapServer and OpenLayers to "
 "provide built in services, like drill-down identify operations for viewing "
 "and organising many layers, selection operations and dataset searches."
-msgstr ""
-"GeoMooseは、分散型地図データを表示するためのブラウザベースのマッピングフレームワークです。これは、郡、市、市のオフィス(GeoMooseの起源)内の空間データと非空間データの管理に特に便利です。MapServerとOpenLayersの機能を拡張して、多くのレイヤを表示および整理するためのドリルダウン識別操作、選択操作、データセット検索などの組み込みサービスを提供します。"
+msgstr "GeoMooseは、分散型地図データを表示するためのブラウザベースのマッピングフレームワークです。これは、郡、市、市のオフィス(GeoMooseの起源)内の空間データと非空間データの管理に特に便利です。MapServerとOpenLayersの機能を拡張して、多くのレイヤを表示および整理するためのドリルダウン識別操作、選択操作、データセット検索などの組み込みサービスを提供します。"
 
 #: ../../build/doc/overview/geomoose_overview.rst:26
 msgid ""
@@ -47,8 +46,7 @@ msgid ""
 "tools and on different schedules as each map layer has its own set of "
 "configuration files for publishing, symbols, templates as well as source "
 "data."
-msgstr ""
-"GeoMooseは高速で、一度に何百ものレイヤやサービスを処理することができます。複数の管理人からのデータは、異なるツールと異なるスケジュールで維持することができます。各マップレイヤは、ソースデータだけでなく、パブリッシング、シンボル、テンプレートのための独自の設定ファイルのセットを持っているためです。"
+msgstr "GeoMooseは高速で、一度に何百ものレイヤやサービスを処理することができます。複数の管理人からのデータは、異なるツールと異なるスケジュールで維持することができます。各マップレイヤは、ソースデータだけでなく、パブリッシング、シンボル、テンプレートのための独自の設定ファイルのセットを持っているためです。"
 
 #: ../../build/doc/overview/geomoose_overview.rst:28
 msgid ""
@@ -133,10 +131,8 @@ msgid "**Website:** https://www.geomoose.org"
 msgstr "**Webサイト:** https://www.geomoose.org"
 
 #: ../../build/doc/overview/geomoose_overview.rst:61
-msgid ""
-"**Licence:** MIT based license. https://www.geomoose.org/info/license.html"
-msgstr ""
-"**ライセンス:** MIT based license. https://www.geomoose.org/info/license.html"
+msgid "**Licence:** MIT based license. https://www.geomoose.org/info/license.html"
+msgstr "**ライセンス:** MIT based license. https://www.geomoose.org/info/license.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:63
 msgid "**Software Version:** |version-geomoose|"
@@ -147,14 +143,11 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geomoose_overview.rst:67
-msgid ""
-"**Commercial Support:** "
-"https://www.geomoose.org/info/commercial_support.html"
+msgid "**Commercial Support:** https://www.geomoose.org/info/commercial_support.html"
 msgstr "**商用サポート:** https://www.geomoose.org/info/commercial_support.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:69
-msgid ""
-"**Community Support:** https://www.geomoose.org/info/mailing_lists.html"
+msgid "**Community Support:** https://www.geomoose.org/info/mailing_lists.html"
 msgstr "**コミュニティサポート:** https://www.geomoose.org/info/mailing_lists.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:75
@@ -164,3 +157,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geomoose_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geomoose_quickstart>`"
+

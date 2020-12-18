@@ -219,8 +219,7 @@ msgid "No external dependencies"
 msgstr "外部依存性がない"
 
 #: ../../build/doc/overview/leaflet_overview.rst:93
-msgid ""
-"Keeps your JS environment clean — no global or native prototypes pollution"
+msgid "Keeps your JS environment clean — no global or native prototypes pollution"
 msgstr "開発者の JS 環境をクリーンに保つ — グローバルもしくはネイティブの prototype を汚染しない"
 
 #: ../../build/doc/overview/leaflet_overview.rst:97
@@ -258,3 +257,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/leaflet_overview.rst:116
 msgid ":doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/leaflet_quickstart>`"
+

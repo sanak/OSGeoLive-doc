@@ -84,8 +84,7 @@ msgid ""
 "selection by many selection types, data tables with statistics, ordering, "
 "table relations, table linking, layout manager, geoprocessing tools, CAD, "
 "raster processing, etc."
-msgstr ""
-"データ読み込み、マップナビゲーション、英数字情報などのクエリーマップ情報、距離計測、主題地図学、一般的な凡例タイプを使用した凡例編集、ラベル付け、多くの選択タイプによるフィーチャ選択、統計情報を含むデータテーブル、順序付け、テーブルリレーション、テーブルリンク、レイアウトマネージャ、地理処理ツール、CAD、ラスター処理などの一般的なGISツールを提供します。"
+msgstr "データ読み込み、マップナビゲーション、英数字情報などのクエリーマップ情報、距離計測、主題地図学、一般的な凡例タイプを使用した凡例編集、ラベル付け、多くの選択タイプによるフィーチャ選択、統計情報を含むデータテーブル、順序付け、テーブルリレーション、テーブルリンク、レイアウトマネージャ、地理処理ツール、CAD、ラスター処理などの一般的なGISツールを提供します。"
 
 #: ../../build/doc/overview/gvsig_overview.rst:44
 msgid "Interoperable: able to work with most known data formats:"
@@ -142,8 +141,7 @@ msgid "tools like help, grid, command stack, complex element selections"
 msgstr "ヘルプ、グリッド、コマンドスタック、複雑な要素選択などのツール"
 
 #: ../../build/doc/overview/gvsig_overview.rst:63
-msgid ""
-"tools for inserting elements like points, polygons, lines, ellipses, etc..."
+msgid "tools for inserting elements like points, polygons, lines, ellipses, etc..."
 msgstr "ポイント、ポリゴン、ライン、楕円などの要素を挿入するツール"
 
 #: ../../build/doc/overview/gvsig_overview.rst:64
@@ -281,8 +279,7 @@ msgstr ""
 "http://www.gvsig.com/en/community/mailing-lists"
 
 #: ../../build/doc/overview/gvsig_overview.rst:116
-msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/overview/gvsig_overview.rst:119
@@ -292,3 +289,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/gvsig_overview.rst:121
 msgid ":doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/gvsig_quickstart>`"
+

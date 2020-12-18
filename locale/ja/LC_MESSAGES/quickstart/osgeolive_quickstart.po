@@ -133,3 +133,4 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:60
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
+

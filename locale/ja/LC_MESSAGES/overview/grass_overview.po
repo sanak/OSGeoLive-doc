@@ -88,15 +88,14 @@ msgid ""
 "You name it, there's a `tool for it "
 "<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
 msgstr ""
-"名前から逆引するための `ツールがあります  "
+"名前から逆引するための`ツールがあります "
 "<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
 "Explore the `screenshot collection "
 "<https://grass.osgeo.org/learn/gallery/>`_."
-msgstr ""
-" `screenshot collection <https://grass.osgeo.org/learn/gallery/>`_ をご覧ください。"
+msgstr "`screenshot collection <https://grass.osgeo.org/learn/gallery/>`_ をご覧ください。"
 
 #: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
@@ -133,3 +132,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/grass_overview.rst:89
 msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/grass_quickstart>`"
+

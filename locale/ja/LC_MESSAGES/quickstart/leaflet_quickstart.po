@@ -82,8 +82,7 @@ msgid "Include Leaflet JavaScript file:"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:53
-msgid ""
-"put a **div** element with a certain **id** where you want your map to be:"
+msgid "put a **div** element with a certain **id** where you want your map to be:"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:59
@@ -233,3 +232,4 @@ msgid ""
 "away! Don't forget to take a look at the detailed documentation_ or other "
 "examples_."
 msgstr ""
+

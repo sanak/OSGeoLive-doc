@@ -44,8 +44,7 @@ msgid "The OpenJUMP user interface has four (4) basic components."
 msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:35
-msgid ""
-"[1] The first is a top-level menu bar for accessing most functionality."
+msgid "[1] The first is a top-level menu bar for accessing most functionality."
 msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:36
@@ -202,3 +201,4 @@ msgid ""
 "The latest OpenJUMP version can be found here: "
 "https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
 msgstr ""
+

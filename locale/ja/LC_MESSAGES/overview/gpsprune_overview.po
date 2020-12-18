@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:18
 msgid "GPS Track-Editing"
-msgstr ""
+msgstr "GPSトラック編集"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:20
 msgid ""
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:42
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:44
 msgid ""
@@ -102,8 +102,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:51
-msgid ""
-"Creation of charts such as altitude against distance, speed against time"
+msgid "Creation of charts such as altitude against distance, speed against time"
 msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:52
@@ -122,7 +121,7 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:58
 msgid "**Website:** https://activityworkshop.net/software/gpsprune"
-msgstr ""
+msgstr "**Webサイト:** https://activityworkshop.net/software/gpsprune"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:60
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -143,3 +142,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/gpsprune_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
 msgstr ""
+

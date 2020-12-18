@@ -39,27 +39,27 @@ msgid ""
 "patterns, and 24-bit color."
 msgstr ""
 "GMTは、(x,y)および(x,y,z)のデータセット(フィルタリング、トレンドフィッティング、グリッド、投影など)を操作して、Encapsulated"
-" PostScript File(EPS)イラストレーションを生成するためのツール群です。EPSイラストレーションには、単純なx-"
-"yプロットから等高線マップ、人工的に照らされたサーフェス、白黒、グレートーン、アッシャパターン、24ビットカラーの3Dパースビューまでがあります。"
+" PostScript "
+"File(EPS)イラストレーションを生成するためのツール群です。EPSイラストレーションには、単純なx-yプロットから等高線マップ、人工的に照らされたサーフェス、白黒、グレートーン、アッシャパターン、24ビットカラーの3Dパースビューまでがあります。"
 
 #: ../../build/doc/overview/gmt_overview.rst:27
 msgid ""
 "GMT supports many common map projections plus linear, log, and power "
 "scaling, and comes with support data such as coastlines, rivers, and "
 "political boundaries."
-msgstr ""
+msgstr "GMTは、多くの一般的な投影法に加えて、線形、対数、および冪乗スケールをサポートし、海岸線、河川、および政治的境界などのサポートデータを備えています。"
 
 #: ../../build/doc/overview/gmt_overview.rst:38
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/gmt_overview.rst:40
 msgid "Journal quality cartography."
-msgstr ""
+msgstr "学会誌品質のカートグラフィー。"
 
 #: ../../build/doc/overview/gmt_overview.rst:41
 msgid "Gridding and contouring functions."
-msgstr ""
+msgstr "グリッド機能とコンタリング機能。"
 
 #: ../../build/doc/overview/gmt_overview.rst:44
 msgid "Details"
@@ -67,7 +67,7 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/gmt_overview.rst:46
 msgid "**Website:** https://gmt.soest.hawaii.edu"
-msgstr ""
+msgstr "**Webサイト:** https://gmt.soest.hawaii.edu"
 
 #: ../../build/doc/overview/gmt_overview.rst:48
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -75,7 +75,7 @@ msgstr "**ライセンス:** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/gmt_overview.rst:50
 msgid "**Software Version:** |version-gmt|"
-msgstr ""
+msgstr "**ソフトウェアバージョン:** |version-gmt|"
 
 #: ../../build/doc/overview/gmt_overview.rst:52
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
@@ -83,11 +83,11 @@ msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/gmt_overview.rst:54
 msgid "**API Interfaces:** Command line"
-msgstr ""
+msgstr "**API インターフェイス:** Command line"
 
 #: ../../build/doc/overview/gmt_overview.rst:56
 msgid "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
-msgstr ""
+msgstr "**サポート:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
 
 #: ../../build/doc/overview/gmt_overview.rst:62
 msgid "Quickstart"
@@ -95,4 +95,5 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/gmt_overview.rst:64
 msgid ":doc:`Quickstart documentation <../quickstart/gmt_quickstart>`"
-msgstr ""
+msgstr ":doc:`クイックスタート文書 <../quickstart/gmt_quickstart>`"
+

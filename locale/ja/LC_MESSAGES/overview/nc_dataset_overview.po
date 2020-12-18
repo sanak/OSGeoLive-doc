@@ -56,13 +56,12 @@ msgid "South-west Wake County with raster data at resolutions 30m-10m; and"
 msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:31
-msgid ""
-"a small watershed in rural area with data resolutions of 1m-3m (see image)."
+msgid "a small watershed in rural area with data resolutions of 1m-3m (see image)."
 msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:40
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:42
 msgid ""
@@ -80,11 +79,11 @@ msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:48
 msgid "Data Sets"
-msgstr ""
+msgstr "データセット"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:51
 msgid "Cultural Vector Data Themes:"
-msgstr ""
+msgstr "Culturalベクタデータのテーマ:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:51
 msgid ""
@@ -94,7 +93,7 @@ msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:54
 msgid "Physical Vector Data Themes:"
-msgstr ""
+msgstr "物理ベクタデータのテーマ:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:54
 msgid ""
@@ -104,7 +103,7 @@ msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:58
 msgid "Raster Data Themes:"
-msgstr ""
+msgstr "ラスターデータのテーマ:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:57
 msgid ""
@@ -141,3 +140,4 @@ msgstr ""
 #: ../../build/doc/overview/nc_dataset_overview.rst:73
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
 msgstr ""
+

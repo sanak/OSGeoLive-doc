@@ -206,3 +206,4 @@ msgid ""
 "Select the ``countries`` collection and click ‘Add’ to add the layer in the "
 "QGIS map."
 msgstr ""
+

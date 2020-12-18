@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:39
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/pycsw_overview.rst:41
 msgid ""
@@ -261,7 +261,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/pycsw_overview.rst:103
 msgid "**API Interfaces:** Python"
-msgstr ""
+msgstr "**API インターフェイス:** Python"
 
 #: ../../build/doc/overview/pycsw_overview.rst:105
 msgid "**Support:** |SUPPORT|"
@@ -274,3 +274,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/pycsw_overview.rst:117
 msgid ":doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`"
 msgstr ""
+

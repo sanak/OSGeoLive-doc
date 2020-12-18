@@ -35,8 +35,8 @@ msgid ""
 "widget in your application."
 msgstr ""
 "MarbleはオープンソースのKDE 教育プロジェクト プログラムで、NASA World WindやGoogle "
-"Earthに似ています。地球儀に表示する(OpenStreetMapを含む)マップをいろいろ選択するだけでなく、アプリケーションにKDE "
-"Marbleウィジェットを含めることをお勧めします。"
+"Earthに似ています。地球儀に表示する(`OpenStreet Maps<https://www.openstreetmap.org>`_ "
+"を含む)マップをいろいろ選択するだけでなく、アプリケーションにKDE Marbleウィジェットを含めることをお勧めします。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:30
 msgid "Start Marble"
@@ -46,8 +46,7 @@ msgstr "Marbleの開始"
 msgid ""
 "On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You "
 "will see a window like this:"
-msgstr ""
-"デスクトップから :menuselection:`ナビゲーションと地図 --> Marble` を選択します。次のようなウィンドウが表示されます:"
+msgstr "デスクトップから :menuselection:`ナビゲーションと地図 --> Marble` を選択します。次のようなウィンドウが表示されます:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:39
 msgid "Change the display"
@@ -165,7 +164,7 @@ msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
 msgstr ""
-"ルーティング機能を使用してみます。ヘルプについて、`Marble documentation "
+"ルーティング機能を使用してみます。ヘルプについて、 `Marble documentation "
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104
@@ -173,6 +172,6 @@ msgid "What next?"
 msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:106
-msgid ""
-"See the `Marble homepage <https://marble.kde.org/>`_ for more information."
+msgid "See the `Marble homepage <https://marble.kde.org/>`_ for more information."
 msgstr "詳細については、 `Marble ホームページ <https://marble.kde.org/>`_ を参照してください。"
+

@@ -40,9 +40,9 @@ msgid ""
 "username and password, you will be able to add your first points to the map,"
 " learn how to do street surveys and work with aerial imagery."
 msgstr ""
-"OpenStreetMapは、世界のストリートレベルのフリーマップで、増え続けるマッパーのコミュニティによって作成されています。OpenStreetMapは誰でも編集できます。`Learn"
-" OSM サイト <https://learnosm.org>`_  "
-"は、OpenStreetMapへの貢献、OpenStreetMapの使用、およびOpenStreetMapデータの使用を開始するための、理解しやすいステップバイステップのガイドを提供します。上記のリンクにある『Learn"
+"OpenStreetMapは、世界のストリートレベルのフリーマップで、増え続けるマッパーのコミュニティによって作成されています。OpenStreetMapは誰でも編集できます。「Learn"
+" OSM "
+"Webサイト<https://learnosm.org>」は、OpenStreetMapへの貢献、OpenStreetMapの使用、およびOpenStreetMapデータの使用を開始するための、理解しやすいステップバイステップのガイドを提供します。上記のリンクにある『Learn"
 " "
 "OSM』ガイドでは、OpenStreetMapのWebサイトの操作方法、マップの表示と印刷方法、ユーザアカウントへのサインアップ方法を順を追って説明しています。独自のユーザー名とパスワードを入力すると、地図に最初のポイントを追加したり、街路調査の方法を学習したり、航空画像を操作したりできるようになります。"
 
@@ -54,7 +54,7 @@ msgstr "このガイドの残りの部分では、OSMデータの編集とレン
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:41
 msgid "Programs that work with OSM data"
-msgstr "OS Mデータを扱うプログラム"
+msgstr "OSMデータを扱うプログラム"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:44
 msgid "iD"
@@ -71,11 +71,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:50
 msgid "Start page: https://www.openstreetmap.org/edit"
-msgstr "スタートページ： https://www.openstreetmap.org/edit"
+msgstr "スタートページ: https://www.openstreetmap.org/edit"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:51
 msgid "Documentation: https://wiki.openstreetmap.org/wiki/ID"
-msgstr "ドキュメンテーション： https://wiki.openstreetmap.org/wiki/ID"
+msgstr "ドキュメンテーション: https://wiki.openstreetmap.org/wiki/ID"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:52
 msgid "Tutorial: https://learnosm.org/en/beginner/id-editor/"
@@ -109,7 +109,7 @@ msgstr "チュートリアル: https://learnosm.org/en/josm/start-josm/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:67
 msgid "JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins"
-msgstr "JOSMプラグインコレクション： https://josm.openstreetmap.de/wiki/Plugins"
+msgstr "JOSMプラグインコレクション: https://josm.openstreetmap.de/wiki/Plugins"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:71
 msgid "Merkaartor"
@@ -128,10 +128,8 @@ msgid "Homepage: http://merkaartor.be"
 msgstr "ホームページ: http://merkaartor.be"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:77
-msgid ""
-"Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
-msgstr ""
-"オンラインヘルプ： https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+msgid "Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+msgstr "オンラインヘルプ: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:81
 msgid "QGIS"
@@ -142,7 +140,7 @@ msgid ""
 "OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
 "functionality or through plugins like QuickOSM."
 msgstr ""
-"OpenStreetMapデータは、ベクトルレイヤとして、コア機能として、またはQuickOSMのようなプラグインを通じて、**QGIS** "
+"OpenStreetMapデータは、ベクトルレイヤとして、コア機能として、またはQuickOSMのようなプラグインを通じて、 **QGIS** "
 "にロードすることができます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:86
@@ -154,7 +152,7 @@ msgid ""
 "Online help: "
 "https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
 msgstr ""
-"オンラインヘルプ： "
+"オンラインヘルプ: "
 "https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:88
@@ -198,7 +196,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:109
 msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
-msgstr "ホームページ：https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+msgstr "ホームページ: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:110
 msgid "Tutorial: https://learnosm.org/en/osm-data/osm2pgsql/"
@@ -215,3 +213,4 @@ msgstr "OSMの詳細については、次のWebサイトをご覧ください: h
 #: ../../build/doc/quickstart/osm_quickstart.rst:117
 msgid "Get support: https://www.openstreetmap.org/help"
 msgstr "支持を得ます: https://www.openstreetmap.org/help"
+

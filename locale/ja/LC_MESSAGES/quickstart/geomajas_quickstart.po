@@ -51,22 +51,20 @@ msgid ""
 "From the Desktop, select :menuselection:`Browser Clients --> Start "
 "Geomajas`. Wait for Geomajas to open in a browser window."
 msgstr ""
-"デスクトップから :menuselection:`Browser Clients-->Start Geomajas` "
+"デスクトップから :menuselection:`Browser Clients --> Start Geomajas` "
 "を選択します。Geomajasがブラウザウィンドウで開くまで待ちます。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:41
 msgid ""
 "Alternatively, you can then access the application using the following URL: "
 "`<http://localhost:8080/geomajas/>`_."
-msgstr ""
-"あるいは、次のURLを使用してアプリケーションにアクセスすることもできます。`<http://localhost:8080/geomajas/>`_。"
+msgstr "あるいは、次のURLを使用してアプリケーションにアクセスすることもできます。`<http://localhost:8080/geomajas/>`_。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:47
 msgid ""
 "When you’re finished using the application, select :menuselection:`Browser "
 "Clients --> Stop Geomajas`."
-msgstr ""
-"アプリケーションの使用が終了したら、:menuselection:`Browser Clients-->Stop Geomajas` を選択します。"
+msgstr "アプリケーションの使用が終了したら、 :menuselection:`Browser Clients-->Stop Geomajas` を選択します。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:50
 msgid "Navigating the map"
@@ -100,8 +98,7 @@ msgid ""
 "you an overview of all the layers currently loaded into the application, "
 "with the option to turn them on or off. This also shows more detailed "
 "information about each layer regarding icons and colouring."
-msgstr ""
-"右上に、切り替え可能な凡例ボックスが表示されます。この凡例は、アプリケーションにロードされているすべてのレイヤの概要を、オン/オフのオプション付きで示します。これにより、アイコンと色に関する各レイヤの詳細情報も表示されます。"
+msgstr "右上に、切り替え可能な凡例ボックスが表示されます。この凡例は、アプリケーションにロードされているすべてのレイヤの概要を、オン/オフのオプション付きで示します。これにより、アイコンと色に関する各レイヤの詳細情報も表示されます。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:71
 msgid "Gathering information"
@@ -113,8 +110,7 @@ msgid ""
 "within the layers. Clicking on the map will display the related information "
 "if available. Click the info icon in the upper left to toggle between basic "
 "or more detailed information."
-msgstr ""
-"Geomajasアプリケーションには、レイヤー内のさまざまな情報を表示する機能があります。地図をクリックすると、関連情報が表示されます(利用可能な場合)。左上の情報アイコンをクリックして、基本情報と詳細情報を切り替えます。"
+msgstr "Geomajasアプリケーションには、レイヤー内のさまざまな情報を表示する機能があります。地図をクリックすると、関連情報が表示されます(利用可能な場合)。左上の情報アイコンをクリックして、基本情報と詳細情報を切り替えます。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:78
 msgid "Things to try"
@@ -127,8 +123,8 @@ msgid ""
 "download page always features the latest and greatest sample applications, "
 "documentation, tips and tricks to roll-your-own."
 msgstr ""
-"このサンプルアプリケーションを使用して独自のWeb "
-"GISソリューションを構築およびカスタマイズする場合は、`<http://www.geomajas.org/client-gwt>`_ "
+"このサンプルアプリケーションを使用して独自のWeb GISソリューションを構築およびカスタマイズする場合は、 "
+"`<http://www.geomajas.org/client-gwt>`_ "
 "を参照してください。ダウンロードページには、常に最新で最高のサンプルアプリケーション、ドキュメント、独自のロールアップのためのヒントやトリックが掲載されています。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:84
@@ -136,17 +132,16 @@ msgid "What next?"
 msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:86
-msgid ""
-"To continue using the web demo, visit `<http://www.geomajas.org/demo>`_."
-msgstr "ウェブデモを継続するには、`<http://www.geomajas.org/demo>`_ をご覧ください。"
+msgid "To continue using the web demo, visit `<http://www.geomajas.org/demo>`_."
+msgstr "ウェブデモを継続するには、 `<http://www.geomajas.org/demo>`_ をご覧ください。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:87
 msgid ""
 "To continue using the stand-alone application, visit "
 "`<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_."
 msgstr ""
-"スタンドアロンアプリケーションの使用を継続するには、`<http://files.geomajas.org/downloads/2.3.0"
-"/geomajas-standalone-gwt2.zip>`_ を参照してください。"
+"スタンドアロンアプリケーションの使用を継続するには、 `<http://files.geomajas.org/downloads/2.3.0"
+"/geomajas-standalone-gwt2. zip>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:90
 msgid ""
@@ -173,3 +168,4 @@ msgstr "**OSGeo:** :doc:`../overview/geomajas_overview`"
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:95
 msgid "**Wiki:** `<https://wiki.osgeo.org/wiki/Geomajas>`_"
 msgstr "**Wiki:** `<https://wiki.osgeo.org/wiki/Geomajas>`_"
+

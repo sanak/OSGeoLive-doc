@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../build/doc/overview/mapcache_overview.rst:34
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/mapcache_overview.rst:36
 msgid "Allows tile caches to be stored in"
@@ -187,3 +187,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/mapcache_overview.rst:95
 msgid ":doc:`Quickstart documentation <../quickstart/mapcache_quickstart>`"
 msgstr ""
+

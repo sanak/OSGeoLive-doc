@@ -32,6 +32,10 @@ msgid ""
 "Also\" section below. Hyper-V is available on both Windows Server, and "
 "Windows 10 Professional - it is not part of Windows 10 Home."
 msgstr ""
+"This Quick Start describes how to run OSGeoLive using Hyper-V, Microsoft's "
+"virtualisation software. 他の方法については、以下の \"参照\" の章のリンクにしたがってください。Hyper-V is "
+"available on both Windows Server, and Windows 10 Professional - it is not "
+"part of Windows 10 Home."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:13
 msgid ""
@@ -223,8 +227,7 @@ msgstr "OSGeo Wiki ページ:"
 msgid ""
 "`Other ways to create a Virtual Machine "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
-msgstr ""
-"`仮想マシンを作成するその他の方法<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+msgstr "`仮想マシンを作成するその他の方法 <https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:124
 msgid ":doc:`osgeolive_quickstart`"
@@ -237,3 +240,4 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:126
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
+

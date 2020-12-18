@@ -142,3 +142,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/istsos_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/istsos_quickstart>`"
+

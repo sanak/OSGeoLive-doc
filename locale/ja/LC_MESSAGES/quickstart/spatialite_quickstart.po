@@ -44,8 +44,7 @@ msgstr ""
 msgid ""
 "This Quick Start describes how to open a spatialite database from both GUI "
 "applications and the command line. Some sample SQL queries are shown."
-msgstr ""
-"このクイックスタートでは、GUIアプリケーションとコマンドラインの両方からspatialiteデータベースを開く方法について説明します。いくつかのサンプルSQLクエリも示します。"
+msgstr "このクイックスタートでは、GUIアプリケーションとコマンドラインの両方からspatialiteデータベースを開く方法について説明します。いくつかのサンプルSQLクエリも示します。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:39
 msgid "Start Spatialite and load a database"
@@ -78,7 +77,7 @@ msgid ""
 "Browse to the :file:`/home/user/data/spatialite` directory and choose "
 ":file:`trento.sqlite`."
 msgstr ""
-":file:`/home/user/data/spatialite` ディレクトリにブラウズし、:file:`trento.sqlite` "
+":file:`/home/user/data/spatialite` ディレクトリにブラウズし、 :file:`trento.sqlite` "
 "を選択します。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:58
@@ -94,8 +93,7 @@ msgid ""
 "The left panel displays the database hierarchy, such as a list of tables, "
 "and columns within the table. Right click on elements of the left panel to "
 "select from a list of common database actions."
-msgstr ""
-"左側のパネルには、テーブルのリストやテーブル内のカラムなど、データベースの階層が表示されます。左側のパネルの要素を右クリックして、一般的なデータベースアクションのリストから選択します。"
+msgstr "左側のパネルには、テーブルのリストやテーブル内のカラムなど、データベースの階層が表示されます。左側のパネルの要素を右クリックして、一般的なデータベースアクションのリストから選択します。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:67
 msgid ""
@@ -125,8 +123,7 @@ msgid ""
 "Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for "
 "only the NOME_PROV fields include \"BRESCIA\", this time using the "
 "MunicipalHallsView.  In the upper right SQL pane type::"
-msgstr ""
-"次に、このSQL文を調整して、NOME_PROVフィールドだけのNOMEと(Lat,Long)を取得してみましょう。NOME_PROVフィールドには\"BRESCIA\"が含まれます。今度はMunicipalHallsViewを使用します。右上のSQLペインで、次のように入力します::"
+msgstr "次に、このSQL文を調整して、NOME_PROVフィールドだけのNOMEと(Lat,Long)を取得してみましょう。NOME_PROVフィールドには\"BRESCIA\"が含まれます。今度はMunicipalHallsViewを使用します。右上のSQLペインで、次のように入力します::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:93
 msgid ""
@@ -156,7 +153,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:106
 msgid "In the terminal open a sample database with **spatialite** by typing::"
-msgstr "ターミナルで、次のように入力して**spatialite**でサンプルデータベースを開きます::"
+msgstr "ターミナルで、次のように入力して **spatialite** でサンプルデータベースを開きます::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:111
 msgid "Helpful commands from the command line::"
@@ -170,8 +167,7 @@ msgstr "新しいspatialiteデータベースを作成し、シェープファ�
 msgid ""
 "Let's create a new, empty spatialite database, and load two shapefiles from "
 "the north_carolina dataset::"
-msgstr ""
-"新しい空のspatialiteデータベースを作成し、north_carolinaデータセットから2つのシェープファイルをロードしてみましょう::"
+msgstr "新しい空のspatialiteデータベースを作成し、north_carolinaデータセットから2つのシェープファイルをロードしてみましょう::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:144
 msgid ""
@@ -218,8 +214,9 @@ msgstr "次のステップ"
 msgid ""
 "To learn more about SpatiaLite, a starting point is the `SpatiaLite project "
 "page`_."
-msgstr "Spatialiteの詳細については、`Spatialite project page`_ を参照してください。"
+msgstr "Spatialiteの詳細については、 `Spatialite project page`_ を参照してください。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:184
 msgid "Be sure to visit the tutorial `Spatialite cookbook`_"
 msgstr "チュートリアル `Spatialite cookbook`_ を必ず参照してください。"
+

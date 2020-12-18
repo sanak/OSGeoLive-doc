@@ -64,6 +64,9 @@ msgid ""
 "you can save the file, using System Tools > QTerminal and then running run "
 "the command below:"
 msgstr ""
+"First let's open the MapCache configuration file in FeatherPad - a text "
+"editor. "
+"管理者特権でコマンドラインからFeatherPadを開き、[システムツール]>[QTerminal]を使用してファイルを保存し、次のコマンドを実行して実行できるようにします。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:45
 msgid ""
@@ -231,8 +234,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:201
-msgid ""
-"If you want to remove a cache folder you can run the following command:"
+msgid "If you want to remove a cache folder you can run the following command:"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:208
@@ -251,3 +253,4 @@ msgid ""
 "`Mailing Lists <https://www.mapserver.org/community/lists.html>`_ to "
 "exchange ideas, discuss potential software improvements and ask questions."
 msgstr ""
+

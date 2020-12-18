@@ -64,8 +64,7 @@ msgid "C/C++/Python APIs for reading, writing, and manipulating LAS data"
 msgstr "LAS データの読み込み、書き込み、操作に使用する C/C++/Python API"
 
 #: ../../build/doc/overview/liblas_overview.rst:41
-msgid ""
-"`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
+msgid "`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
 msgstr "`LAStools`_ に基づく LAS データを操作するための `コマンドラインユーティリティ`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:42
@@ -92,17 +91,14 @@ msgstr "**ソフトウェアバージョン:** |version-liblas|"
 msgid ""
 "**Supported Platforms:** Cross Platform C++ -- Mac OS X, Windows (via "
 "`OSGeo4W`_), and Linux"
-msgstr ""
-"**対応プラットフォーム:** クロスプラットフォーム C++ -- Mac OS X, Windows (`OSGeo4W`_ 経由), Linux"
+msgstr "**対応プラットフォーム:** クロスプラットフォーム C++ -- Mac OS X, Windows (`OSGeo4W`_ 経由), Linux"
 
 #: ../../build/doc/overview/liblas_overview.rst:55
 msgid "**API Interfaces:** C, C++, Python"
 msgstr "**API インターフェイス:** C, C++, Python"
 
 #: ../../build/doc/overview/liblas_overview.rst:57
-msgid ""
-"**Support:** `Communication and Support "
-"<https://liblas.org/community.html>`_"
+msgid "**Support:** `Communication and Support <https://liblas.org/community.html>`_"
 msgstr "**サポート：** `コミュニケーションとサポート  <https://liblas.org/community.html>`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:72
@@ -112,3 +108,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/liblas_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/liblas_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/liblas_quickstart>`"
+

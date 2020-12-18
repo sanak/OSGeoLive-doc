@@ -39,10 +39,15 @@ msgid ""
 "Re3gistry 2 supports organisations in managing and updating reference codes "
 "in a consistent way."
 msgstr ""
+"Re3gistry 2は、「リファレンスコード」を管理および共有するための再利用可能なオープンソースソリューションです。It provides a "
+"consistent central access point where labels and descriptions for reference "
+"codes can be easily browsed by humans and retrieved by machines.  "
+"リファレンスコードは、何らかの「もの」を一意に参照するためにアプリケーション間で交換されます。これらを使用して、データフィールドの許容値のセットを定義したり、交換されるデータの参照またはコンテキストを提供したりできます。例としては、列挙、統制された語彙、分類法、シソーラス、あるいは単に「ものの一覧」があります。Re3gistry"
+" 2は、組織が一貫した方法で参照コードを管理し更新することを支援しています。"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:24
 msgid "This Quick Start describes how to:"
-msgstr "このクイックスタートでは、次の方法について説明します。"
+msgstr "このクイックスタートでは、次の方法について説明します:"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:26
 msgid "Start and install the Re3gistry using the wizard (first start only)"
@@ -50,7 +55,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:27
 msgid "Manage data from the ``pgAdmin`` client."
-msgstr ""
+msgstr "``pgAdmin`` クライアントからデータを管理します。"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:34
 msgid "Start the Re3gistry"
@@ -63,6 +68,10 @@ msgid ""
 "start up. Firefox opens the *Re3gistry landing page* (you can also open this"
 " manually by pointing your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
+"Choose *'Start Re3gistry'* from the :menuselection:`Geospatial --> Web "
+"Services --> Re3gistry` menu.  アプリケーションの起動には少し時間がかかります。Firefox opens the "
+"*Re3gistry landing page* (you can also open this manually by pointing your "
+"browser to http://localhost:8080/re3gistry2)."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41
 msgid ""
@@ -283,8 +292,7 @@ msgid "Manage the fields of the registry, registers, reference codes."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:141
-msgid ""
-"These structural changes do not need to have the approval workflow, and"
+msgid "These structural changes do not need to have the approval workflow, and"
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:143
@@ -318,3 +326,4 @@ msgid ""
 "`Developer manual <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/developer-manual.md>`__"
 msgstr ""
+

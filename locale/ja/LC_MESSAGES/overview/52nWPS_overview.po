@@ -94,8 +94,7 @@ msgid "Input and Output formats supported:"
 msgstr "サポートされている入力形式と出力形式:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:51
-msgid ""
-"Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
+msgid "Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
 msgstr "ベクタデータ: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:52
@@ -161,3 +160,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/52nWPS_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/52nWPS_quickstart>`"
+

@@ -470,3 +470,4 @@ msgid ""
 "`https://grass.osgeo.org/grass78/manuals/addons/ "
 "<https://grass.osgeo.org/grass78/manuals/addons/>`_"
 msgstr ""
+
