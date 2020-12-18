@@ -9,7 +9,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - transifex_ja
+      - omegat_ja
 
 jobs:
   deploy:
