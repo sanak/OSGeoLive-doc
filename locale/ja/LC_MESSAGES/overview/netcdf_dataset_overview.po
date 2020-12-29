@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:14
 msgid "NetCDF Data Set"
-msgstr ""
+msgstr "NetCDF データ・セット"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:17
 msgid "Map Data"
@@ -37,6 +37,9 @@ msgid ""
 "and above work with the HDF5 format, designed to store and organize large "
 "amounts of numerical data."
 msgstr ""
+"NetCDF (Network Common Data Form) "
+"は、配列指向の科学的データの作成、アクセス、共有をサポートするソフトウェアライブラリと、機種非依存フォーマットの自己記述的なデータセットです。NetCDF"
+" バージョン 4.0 と HDF5 フォーマットの作業では、大量の数値データを保管および編成するように設計されています。"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:21
 msgid ""
@@ -45,6 +48,9 @@ msgid ""
 "predicted, for the years 1850-2012 and 2006-2100 (see accompanying text "
 "files for details)."
 msgstr ""
+"このサンプル・データ・セットは、 1850年から 2012 年、および 2006年から2100 "
+"年について、過去の記録と将来予測の双方にわたって、毎日の最高気温と、年間最大連続 5 日降水量を提供します ( "
+"詳細については、付随するテキスト・ファイルを参照してください ) 。"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:23
 msgid ""
@@ -54,6 +60,11 @@ msgid ""
 "for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for "
 "Marine-Earth Science and Technology, Kanagawa, Japan)."
 msgstr ""
+"ビクトリア大学PCIC ( Pacific Climate Impacts Consortium) のデータは、 "
+"東京大学大気海洋研究所(AORI:Atmosphere and Ocean Research Institute)(千葉県 )と 、 "
+"国立環境学研究所(NIES: National Institute for Environmental Studies) (茨城県 ) 、 "
+"海洋研究開発機構(JAMSTEC: Japan Agency for Marine-Earth Science and Technology) "
+"(神奈川県、日本 ) の協力を得ています。"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:33
 msgid "Details"
@@ -61,27 +72,29 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:35
 msgid "**Website:** https://wiki.osgeo.org/wiki/Category:Education"
-msgstr ""
+msgstr "**Webサイト:** https://wiki.osgeo.org/wiki/Category:Education"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:37
 msgid ""
 "**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA"
 " 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_"
 msgstr ""
+"**ライセンス:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA "
+"3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:39
 msgid "**Data Version:** 2013"
-msgstr ""
+msgstr "**データバージョン:** 2013"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:41
 msgid "**Data format:** NetCDF, HDF5"
-msgstr ""
+msgstr "**データフォーマット:** NetCDF, HDF5"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:43
 msgid "**Spatial coordinate system:** EPSG:4326, NAD83"
-msgstr ""
+msgstr "**空間座標系:** EPSG:4326, NAD83"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:45
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
-msgstr ""
+msgstr "**サポート:** https://lists.osgeo.org/mailman/listinfo/geodata"
 

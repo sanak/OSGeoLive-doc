@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/naturalearth_overview.rst:15
 msgid "Natural Earth"
-msgstr ""
+msgstr "Natural Earth"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:18
 msgid "Map Data"
@@ -133,25 +133,25 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:56
 msgid "**Website:** https://www.naturalearthdata.com/"
-msgstr ""
+msgstr "**Webサイト:** https://www.naturalearthdata.com/"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:58
 msgid "**License:** None, the data is public domain."
-msgstr ""
+msgstr "**ライセンス:** パブリックドメイン"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:60
 msgid "**Data Version:** 2.0"
-msgstr ""
+msgstr "**データバージョン:** 2.0"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:62
 msgid "**Data format:** SHP and TIF+TFW"
-msgstr ""
+msgstr "**データフォーマット:** SHP と TIF+TFW"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:64
 msgid "**Spatial coordinate system:** WGS84."
-msgstr ""
+msgstr "**空間座標系:** WGS84."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:66
 msgid "**Support:** https://www.naturalearthdata.com/about"
-msgstr ""
+msgstr "**サポート:** https://www.naturalearthdata.com/about"
 

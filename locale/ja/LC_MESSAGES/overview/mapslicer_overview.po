@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/mapslicer_overview.rst:15
 msgid "MapSlicer"
-msgstr ""
+msgstr "MapSlicer"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:18
 msgid "Proxy WMS & tile services"
@@ -31,7 +31,7 @@ msgstr "Proxy WMS & タイル サービス"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:21
 msgid "Map Publishing"
-msgstr ""
+msgstr "マップ・パブリッシング"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:23
 msgid ""
@@ -40,21 +40,22 @@ msgid ""
 "Google Maps and Earth - ready for publishing via direct upload to any "
 "webserver or a cloud storage (such as Amazon S3)."
 msgstr ""
+"Mapスライサーは、ラスター・マップ・パブリッシングのためのマップ・タイルを作成するためのデスクトップ・アプリケーションです。Geodata は、 "
+"Google マップや地球と互換性のあるタイルに変換されて、直接ウェブサーバやクラウドストレージ ( Amazon S3など) "
+"へアップロードされることで、公開できるようになります。"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:25
 msgid ""
 "No extensive configuration on the server side is necessary, any simple file "
 "hosting is fine. Dynamic interaction such as panning and zooming, overlay of"
 " markers and vector data is provided by powerful browser functionality."
-msgstr ""
-"No extensive configuration on the server side is necessary, any simple file "
-"hosting is fine. 強力なブラウザ機能により、パンやズーム、マーカーやベクタデータのオーバーレイなどの動的な操作が可能です。"
+msgstr "サーバー・サイドでの大規模な構成変更は必要ありません。単純なファイルのホスティングはとても簡単です。強力なブラウザ機能により、パンやズーム、マーカーやベクタデータのオーバーレイなどの動的な操作が可能です。"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:27
 msgid ""
 "The application directly generates a ready to use simple viewer based on "
 "OpenLayers and Google Maps API and can be easily customized."
-msgstr ""
+msgstr "アプリケーションは、 OpenLayers や Google マップ API をベースにしたシンプルなビューアーをすぐに生成し、簡単にカスタマイズできる。"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:36
 msgid "Core Features"
@@ -62,31 +63,35 @@ msgstr "主要機能"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:38
 msgid "Well known Javascript APIs supported: OpenLayers, Google Maps API"
-msgstr ""
+msgstr "既知の Javascript API サポート: OpenLayers、 Google マップ API"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:39
 msgid "No extra server software installation necessary"
-msgstr ""
+msgstr "追加のサーバー・ソフトウェアのインストールは不要です"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:40
 msgid ""
 "Hosting almost everywhere: cloud storage such as Amazon S3 or any cheap "
 "\"unlimited\" webhosting with FTP access"
 msgstr ""
+"ほとんどあらゆる場所でホスティング : Amazon S3 などのクラウド・ストレージ、または FTP アクセスによる安価の「無制限の」 Web "
+"ホスティング"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:41
 msgid "Easy mashup with commercial layers (Google, Bing, Yahoo) or OpenStreetMap"
-msgstr ""
+msgstr "商用レイヤ (Google、 Bing、 Yahoo! ) または OpenStreetMap を使用した簡単なマッシュアップ"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:42
 msgid "Tiles follow OSGEO TMS (Tile Map Service Specification)"
-msgstr ""
+msgstr "OSGEO TMS (タイル・マップ・サービス仕様) に従います。"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:43
 msgid ""
 "Ability to process raster data in various formats: TIFF/GeoTIFF, MrSID, ECW,"
 " JPEG2000, Erdas HFA, NOAA BSB, JPEG and more..."
 msgstr ""
+"さまざまなフォーマットでラスターデータを処理する機能 : TIFF/GeoTIFF、 MrSID、 ECW、 JPEG2000、エルダス HFA、 "
+"NOAA BSB、 JPEG など。"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:46
 msgid "Details"
@@ -98,15 +103,15 @@ msgstr "**Webサイト:** https://mapproxy.org/"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:50
 msgid "**Licence:** New BSD License"
-msgstr ""
+msgstr "**ライセンス:** New BSD License"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:52
 msgid "**Source Code:** https://github.com/geopython/mapslicer"
-msgstr ""
+msgstr "**ソースコード:** https://github.com/geopython/mapslicer"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:54
 msgid "**Software Version:** |version-mapslicer|"
-msgstr ""
+msgstr "**ソフトウェアバージョン:** |version-mapslicer|"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:56
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -118,5 +123,5 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:64
 msgid ":doc:`Quickstart documentation <../quickstart/mapslicer_quickstart>`"
-msgstr ""
+msgstr ":doc:`クイックスタート文書 <../quickstart/mapslicer_quickstart>`"
 

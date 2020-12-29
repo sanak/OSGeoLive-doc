@@ -46,7 +46,7 @@ msgid ""
 "and how to configure it to allow MapServer to serve a shapefile as images "
 "using WMS requests."
 msgstr ""
-"**何がわかる？** "
+"**何を学べますか？** "
 "ここでは、Mapfileの概要と、MapServerがWMS要求を使用してシェイプファイルをイメージとして処理できるように設定する方法について説明します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:49

@@ -74,45 +74,45 @@ msgstr "ベクタデータの操作(マージ/交差/属性)"
 
 #: ../../build/doc/overview/saga_overview.rst:46
 msgid "Manipulation of point clouds from lidar data"
-msgstr ""
+msgstr "lidar データからの点群の操作"
 
 #: ../../build/doc/overview/saga_overview.rst:47
 msgid "Raster data: interpolation, cost analysis, ..."
-msgstr ""
+msgstr "ラスタデータ: 補間、コスト分析 ..."
 
 #: ../../build/doc/overview/saga_overview.rst:48
 msgid "Image analysis: filters, edge detection, cluster analysis, segmentation"
-msgstr ""
+msgstr "イメージ分析: フィルタ、エッジ検出、クラスター分析、セグメンテーション"
 
 #: ../../build/doc/overview/saga_overview.rst:49
 msgid ""
 "Digital Terrain Analysis: generate geomorphometric indexes, channel "
 "networks, profiles, contour lines, ..."
-msgstr ""
+msgstr "ディジタル地形分析: 形状の索引、チャネル・ネットワーク、プロファイル、輪郭線などの生成..."
 
 #: ../../build/doc/overview/saga_overview.rst:50
 msgid "Geostatistics: modules for variogram fitting and kriging"
-msgstr ""
+msgstr "Geostatistics: modules for variogram fitting and kriging"
 
 #: ../../build/doc/overview/saga_overview.rst:52
 msgid "Fast user interface for managing and visualising data"
-msgstr ""
+msgstr "データを管理および視覚化するための高速ユーザー・インターフェース"
 
 #: ../../build/doc/overview/saga_overview.rst:54
 msgid "3D visualisation"
-msgstr ""
+msgstr "3D 可視化"
 
 #: ../../build/doc/overview/saga_overview.rst:56
 msgid "Straightforward C++ API for creating new modules"
-msgstr ""
+msgstr "新規モジュールを作成するための 直感的な C++ API"
 
 #: ../../build/doc/overview/saga_overview.rst:57
 msgid "Scripting through command line, bindings for Python"
-msgstr ""
+msgstr "コマンドライン実行スクリプト、 Python バインディング"
 
 #: ../../build/doc/overview/saga_overview.rst:58
 msgid "SAGA can be accessed from the R statistical language through the RSAGA module"
-msgstr ""
+msgstr "SAGA は RSAGA モジュールを通じて R 統計言語からもアクセス可能"
 
 #: ../../build/doc/overview/saga_overview.rst:61
 msgid "Details"
@@ -120,27 +120,27 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/saga_overview.rst:63
 msgid "**Website:** http://www.saga-gis.org"
-msgstr ""
+msgstr "**Webサイト:** http://www.saga-gis.org"
 
 #: ../../build/doc/overview/saga_overview.rst:65
 msgid "**Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)"
-msgstr ""
+msgstr "**ライセンス:** LGPL v2.1 (api); GPLv2 (GUI and modules)"
 
 #: ../../build/doc/overview/saga_overview.rst:67
 msgid "**Software Version:** |version-saga|"
-msgstr ""
+msgstr "**ソフトウェアバージョン:** |version-saga|"
 
 #: ../../build/doc/overview/saga_overview.rst:69
 msgid "**Supported Platforms:** Windows, Linux, FreeBSD"
-msgstr ""
+msgstr "**対応プラットフォーム:** Windows, Linux, FreeBSD"
 
 #: ../../build/doc/overview/saga_overview.rst:71
 msgid "**API Interfaces:** C++, Python, R"
-msgstr ""
+msgstr "**API インターフェイス:** C++, Python, R"
 
 #: ../../build/doc/overview/saga_overview.rst:73
 msgid "**Support:** http://www.saga-gis.org"
-msgstr ""
+msgstr "**サポート:** http://www.saga-gis.org"
 
 #: ../../build/doc/overview/saga_overview.rst:79
 msgid "Quickstart"
@@ -148,5 +148,5 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/saga_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
-msgstr ""
+msgstr ":doc:`クイックスタート文書 <../quickstart/saga_quickstart>`"
 

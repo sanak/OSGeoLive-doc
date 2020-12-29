@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:17
 msgid "istSOS"
-msgstr ""
+msgstr "istSOS"
 
 #: ../../build/doc/overview/istsos_overview.rst:20
 msgid "Data Management Tool"

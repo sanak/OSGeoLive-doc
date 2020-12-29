@@ -260,7 +260,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:112
 msgid "Further reading"
-msgstr ""
+msgstr "さらに読む"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:113
 msgid "GpsPrune home page: https://activityworkshop.net/software/gpsprune/"

@@ -657,7 +657,7 @@ msgstr "erwin ngnuity xyz"
 
 #: ../../build/contributors.csv:1
 msgid "Philippines"
-msgstr "Philippines"
+msgstr "フィリピン"
 
 #: ../../build/contributors.csv:1
 msgid "Etienne Dube"
@@ -881,7 +881,7 @@ msgstr "lholivera gmail com"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Argentina"
-msgstr "Argentina"
+msgstr "アルゼンチン"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "hernanolivera"
@@ -961,7 +961,7 @@ msgstr "drewnak"
 
 #: ../../build/contributors.csv:1
 msgid "Jan Suleiman"
-msgstr ""
+msgstr "Jan Suleiman"
 
 #: ../../build/contributors.csv:1
 msgid "suleiman terrestris de"
@@ -1173,7 +1173,7 @@ msgstr "luis.de.sousa protonmail ch"
 
 #: ../../build/contributors.csv:1
 msgid "Portugal"
-msgstr "Portugal"
+msgstr "ポルトガル"
 
 #: ../../build/contributors.csv:1
 msgid "Lads"
@@ -1297,7 +1297,7 @@ msgstr "micha arava co il"
 
 #: ../../build/contributors.csv:1
 msgid "Israel"
-msgstr "Israel"
+msgstr "イスラエル"
 
 #: ../../build/contributors.csv:1
 msgid "micha"
@@ -2477,7 +2477,7 @@ msgstr "trochej"
 
 #: ../../build/translators.csv:1
 msgid "Russian"
-msgstr "Russian"
+msgstr "ロシア語"
 
 #: ../../build/translators.csv:1
 msgid "ru"
@@ -2689,7 +2689,7 @@ msgstr "kuzkok gmail.com"
 
 #: ../../build/translators.csv:1
 msgid "Chinese"
-msgstr "Chinese"
+msgstr "中国語"
 
 #: ../../build/translators.csv:1
 msgid "zh"

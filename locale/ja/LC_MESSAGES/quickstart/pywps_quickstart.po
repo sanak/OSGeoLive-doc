@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:34
 msgid "This Quickstart describes how to:"
-msgstr ""
+msgstr "このクイックスタートでは、次の方法について説明します。"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:36
 msgid "Install and configure the pywps-flask example service"

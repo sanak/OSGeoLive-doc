@@ -49,7 +49,7 @@ msgstr "VMの応答速度はDVDよりもはるかに速く、通常はホスト�
 msgid ""
 "All configuration changes, software updates, and saved files are permanent, "
 "just like on any \"regular\" computer. So:"
-msgstr "すべての構成変更、ソフトウェア更新、および保存されたファイルは、「通常の」コンピュータと同様に永続的です。So:"
+msgstr "すべての構成変更、ソフトウェア更新、および保存されたファイルは、「通常の」コンピュータと同様に永続的です。そのため:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:21
 msgid "You can customize and update the system"

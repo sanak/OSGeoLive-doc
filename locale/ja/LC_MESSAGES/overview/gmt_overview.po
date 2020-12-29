@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:15
 msgid "GMT"
-msgstr ""
+msgstr "GMT"
 
 #: ../../build/doc/overview/gmt_overview.rst:18
 msgid "The Generic Mapping Tools"

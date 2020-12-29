@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/zygrib_overview.rst:14
 msgid "zyGrib"
-msgstr ""
+msgstr "zyGrib"
 
 #: ../../build/doc/overview/zygrib_overview.rst:17
 msgid "Weather forecasting"

@@ -47,6 +47,10 @@ msgid ""
 "/install-guide/index.html>`__ if you are using GeoNetwork is some other "
 "context."
 msgstr ""
+"GeoNetworkは、OSGeo Liveのスタートメニューから直接起動できます。http://localhost:8080/geonetwork "
+"には、しばらく後に接続可能になります。`Installation Guide <https://geonetwork-"
+"opensource.org/manuals/trunk/en/install-guide/index.html>`__  "
+"を参照してください。GeoNetworkを使用している場合は、他のコンテキストも参照してください。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
 msgid ""
@@ -68,9 +72,9 @@ msgid ""
 "URL ``http://localhost:8880/geonetwork``. This will be referred to "
 "throughout this document as the *homepage*."
 msgstr ""
-"In the Web Services folder on the Desktop (or via the start menu), double-"
-"click **start GeoNetwork**. これにより、URL ``http://localhost:8880/geonetwork`` "
-"でFirefox Webブラウザが開きます。これは、このドキュメント全体で*ホームページ*と呼ばれます。"
+"デスクトップのWeb Servicesフォルダで、 **GeoNetworkを開始** をダブルクリックします。これにより、URL "
+"``http://localhost:8880/geonetwork`` でFirefox "
+"Webブラウザが開きます。これは、このドキュメント全体で*ホームページ*と呼ばれます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
 msgid ""
@@ -225,7 +229,7 @@ msgstr "レコードの右上には、次のアイコンがあります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:139
 msgid "Editing the record (when logged in)"
-msgstr ""
+msgstr "レコードを編集(ログイン時)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:140
 msgid "Deleting the record"
@@ -289,6 +293,8 @@ msgid ""
 "(WMS) available at http://data.fao.org/maps/wms with layer name "
 "GEONETWORK:phy_landf_7386.** and select **Add to map**."
 msgstr ""
+"**このデータセットは、http://data.fao.org/maps/wms にある GEONETWORK:phy_landf_7386. "
+"というレイヤ名のビューサービス(WMS)で公開されています。** そして、 **Add to map** を選択します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:160
 msgid ""
@@ -417,6 +423,9 @@ msgid ""
 " on **Describing Information**, to learn how to create and edit metadata "
 "records."
 msgstr ""
+"`Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en"
+"/user-guide/index.html>`_ にアクセスし、 **Describing Information** "
+"の章を参照して、メタデータレコードの作成と編集方法を学んでください。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
 msgid ""

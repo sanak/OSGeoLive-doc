@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geoext_overview.rst:14
 msgid "GeoExt"
-msgstr ""
+msgstr "GeoExt"
 
 #: ../../build/doc/overview/geoext_overview.rst:17
 msgid "A JavaScript Toolkit for Rich Web Mapping Applications"

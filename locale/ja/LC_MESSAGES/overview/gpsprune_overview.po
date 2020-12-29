@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:15
 msgid "GpsPrune"
-msgstr ""
+msgstr "GpsPrune"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:18
 msgid "GPS Track-Editing"
@@ -36,6 +36,9 @@ msgid ""
 " used for planning trips in advance, or for analysing the tracks recorded by"
 " GPS receivers."
 msgstr ""
+"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_  "
+"は、GPSシステムからの座標データを変換、表示および編集するツールです。It can be used for planning trips in "
+"advance, or for analysing the tracks recorded by GPS receivers."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:24
 msgid ""

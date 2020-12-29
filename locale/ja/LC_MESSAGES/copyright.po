@@ -131,7 +131,7 @@ msgstr "次のいずれか属性テキストを使用できます:"
 
 #: ../../build/doc/copyright.rst:29
 msgid "**Verbose, suitable for a 100 page thesis:**"
-msgstr ""
+msgstr "**Verbose, suitable for a 100 page thesis:**"
 
 #: ../../build/doc/copyright.rst:31
 msgid ""
@@ -142,10 +142,16 @@ msgid ""
 "and downloaded on 25 July 2011. The original work was translated from "
 "English to German."
 msgstr ""
+"|CC-By-SA-med| This document includes content from the \"gvSIG Quickstart\" "
+"created by Simon Cropper under the Creative Commons Attribution-ShareAlike "
+"3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ "
+"available from the OSGeoLive project, :doc:`quickstart/gvsig_quickstart`, "
+"and downloaded on 25 July 2011. The original work was translated from "
+"English to German."
 
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
-msgstr ""
+msgstr "**Concise CC-By-SA and attribution:**"
 
 #: ../../build/doc/copyright.rst:38
 msgid ""
@@ -154,10 +160,14 @@ msgid ""
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
+"© 2011 [Your Name] under a `CC By SA License "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
+"from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
+":doc:`OSGeoLive contributors <copyright>`."
 
 #: ../../build/doc/copyright.rst:40
 msgid "**Alternative Concise CC-By and attribution:**"
-msgstr ""
+msgstr "**Alternative Concise CC-By and attribution:**"
 
 #: ../../build/doc/copyright.rst:42
 msgid ""
@@ -165,16 +175,21 @@ msgid ""
 ":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
 "<copyright>`."
 msgstr ""
+"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] "
+":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
+"<copyright>`."
 
 #: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
-msgstr ""
+msgstr "**Minimum (for Project Overviews), attribution only:**"
 
 #: ../../build/doc/copyright.rst:49
 msgid ""
 "This document includes :doc:`OSGeoLive <index>` Project Overviews by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
+"This document includes :doc:`OSGeoLive <index>` Project Overviews by "
+":doc:`OSGeoLive contributors <copyright>`."
 
 #: ../../build/doc/copyright.rst:52
 msgid "Documentation Contributors"
@@ -272,11 +287,11 @@ msgstr "cartaro_overview"
 
 #: ../../build/licenses.csv:1
 msgid "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
-msgstr ""
+msgstr "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter, https://www.jirotech.com"
-msgstr ""
+msgstr "Cameron Shorter, https://www.jirotech.com"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_overview"
@@ -811,6 +826,8 @@ msgid ""
 "Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
 "Patric Hafner (https://geops.de)"
 msgstr ""
+"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
+"Patric Hafner (https://geops.de)"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_quickstart"
@@ -1275,6 +1292,8 @@ msgid ""
 "`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
 "<https://opensource.org/licenses/NASA-1.3>`_"
 msgstr ""
+"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
+"<https://opensource.org/licenses/NASA-1.3>`_"
 
 #: ../../build/licenses.csv:1
 msgid "worldwindjava_quickstart"
@@ -1309,5 +1328,5 @@ msgid ""
 "whether in contract, strict liablity, or tort (including negligence or "
 "otherwise) arising in any way out of the use of this software, even if "
 "advised of the possibility of such damage.*"
-msgstr "*OSGeoLiveのコンテンツは、著作権保持者および貢献者によって\"現状のまま\"提供され、商品性および特定目的への適合性の黙示的な保証を含む(ただし、これらに限定されない)、明示的または暗示的ないかなる保証も拒否されます。いかなる場合においても、著作権所有者または貢献者は、直接的、間接的、付随的、特別、懲罰的、または結果的な損害(代替の商品またはサービスの調達、使用、日付、または利益の損失、またはビジネスの中断を含むが、これらに限定されない)に対して責任を負わないものとします。ただし、契約、厳格な賠償責任、または不法行為(過失またはその他を含む)のいずれによるものであるかを問わず、いかなる責任の理論に基づくものであっても、かかる損害の可能性について事前に知らされていたとしても、このソフトウェアの使用によって発生したとします。*"
+msgstr "*OSGeoLiveのコンテンツは、著作権保持者および貢献者によって\"現状のまま\"提供され、商品性および特定目的への適合性の黙示的な保証を含む(ただし、これらに限定されない)、明示的または暗示的ないかなる保証も拒否されます。いかなる場合においても、著作権所有者または貢献者は、直接的、間接的、付随的、特別、懲罰的、または結果的な損害(代替の商品またはサービスの調達、使用、日付、または利益の損失、またはビジネスの中断を含むが、これらに限定されない)に対して責任を負わないものとします。ただし、契約、厳格な賠償責任、または不法行為(過失またはその他を含む)のいずれであるかを問わず、いかなる責任の理論に基づいて、本ソフトウェアの使用によって発生したいかなる損害についても、たとえそのような損害の可能性について知らされていたとしても、責任を負わないものとします。*"
 

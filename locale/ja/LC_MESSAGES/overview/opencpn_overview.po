@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/opencpn_overview.rst:16
 msgid "OpenCPN"
-msgstr ""
+msgstr "OpenCPN"
 
 #: ../../build/doc/overview/opencpn_overview.rst:19
 msgid "Marine GPS navigation software"

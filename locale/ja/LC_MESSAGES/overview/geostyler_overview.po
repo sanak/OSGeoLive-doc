@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geostyler_overview.rst:18
 msgid "GeoStyler"
-msgstr ""
+msgstr "GeoStyler"
 
 #: ../../build/doc/overview/geostyler_overview.rst:20
 msgid ""

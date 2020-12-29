@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/zoo-project_overview.rst:16
 msgid "Zoo Project"
-msgstr ""
+msgstr "Zoo Project"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:19
 msgid "WPS Server"
@@ -41,42 +41,41 @@ msgid ""
 "third present how to interract with OTB applications runninng as WPS "
 "services."
 msgstr ""
-"ZOO-Project provides a developer friendly Web Processing Service (WPS) "
-"framework for creating and chaining Web Processing Services. "
-"WPSは空間アルゴリズムを実行する関数へのWebアクセスを提供します。ZOO-Project supports many programming "
-"languages and comes with three demo applications. The first uses the simple "
-"spatialtools services based on the :doc:`GEOS <geos_overview>` and :doc:`OGR"
-" <gdal_overview>` libraries, the second showcase Voronoi and Delaunay "
-"triangulation (from the CGAL library) and the third present how to interract"
-" with OTB applications runninng as WPS services."
+"ZOOプロジェクトは、Web Processing Servicesを作成およびチェーンするための開発者向けのWeb Processing "
+"Service(WPS)フレームワークを提供します。WPSは空間アルゴリズムを実行する関数へのWebアクセスを提供します。ZOO-"
+"Projectは多くのプログラミング言語をサポートしており、3つのデモアプリケーションが用意されています。第1に、`GEOS "
+"<geos_overview>` および :doc:`OGR <gdal_overview>` "
+"ライブラリに基づくシンプルなspatialtoolsサービスを使用します。第2に、VoronoiとDelaunayの三角分割(CGALライブラリから)を紹介します。第3に、WPSサービスとして動作するオー・ティー・ビーアプリケーションとの相互運用方法を紹介します。"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:26
 msgid ""
 "The three demontration applications are available from the ZOO-Project demo "
 "landing page presented bellow."
-msgstr ""
+msgstr "3つのデモアプリケーションは、以下に示すZOO-Projectのデモランディングページから利用できます。"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:28
 msgid "ZOO is made of three parts:"
-msgstr ""
+msgstr "ZOOは3つの部分で構成されています:"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:31
 msgid ""
 "*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to "
 "manage and chain Web services coded in different programming languages."
-msgstr ""
+msgstr "*ZOOカーネル* : 異なるプログラミング言語でコーディングされたWebサービスの管理とチェーンを可能にする、強力なサーバーサイドCカーネルです。"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:34
 msgid ""
 "*ZOO Services* : A growing suite of example Web services based on various "
 "Open Source libraries."
-msgstr ""
+msgstr "*ZOO Services* : さまざまなオープンソースライブラリに基づく、サンプルWebサービスのスイートが増えています。"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:37
 msgid ""
 "*ZOO API* : A server-side JavaScript API able to call and chain the ZOO "
 "Services, which makes the development and chaining processes easier."
 msgstr ""
+"*ZOO API* : ZOOサービスを呼び出してチェーン接続できるサーバー側のJavaScript "
+"APIです。これにより、開発とチェーン接続のプロセスが容易になります。"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:40
 msgid ""
@@ -87,6 +86,8 @@ msgid ""
 "connect to numerous libraries and above all to simplify the Web service end-"
 "developer's job."
 msgstr ""
+"ZOOは、ZOOのコアシステム(ZOO カーネル)を構成する'WPS Service "
+"Kernel'に基づいています。後者は、動的ライブラリをロードして、オンデマンドのWebサービスとして処理することができます。ZOOカーネルはC言語で書かれていますが、数多くのライブラリに接続するためにいくつかの一般的なプログラミング言語をサポートしています。特に、Webサービスのエンド開発者の仕事である単純化に接続します。"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:47
 msgid ""
@@ -97,6 +98,8 @@ msgid ""
 "and can now be implemented in C/C++, Fortran, Java, Python, PHP, Ruby, C# "
 "and JavaScript."
 msgstr ""
+"ZOOサービスは、メタデータファイル(.zcfg)と対応する実装のコードで構成されるリンクです。メタデータファイルには、WPS Exec "
+"Requestを使用して呼び出すことができるすべての関数と、目的の入出力が記述されています。サービスにはアルゴリズムと関数が含まれており、C/C++、Fortran、Java、Python、PHP、Ruby、C#、およびJavaScriptで実装できるようになりました。"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:61
 msgid "Core Features"
@@ -104,15 +107,15 @@ msgstr "主要機能"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:63
 msgid "Multi language WPS server"
-msgstr ""
+msgstr "多言語WPSサーバ"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:64
 msgid "Simple Web Service creation and deployment procedure"
-msgstr ""
+msgstr "シンプルなWebサービスの作成と導入手順"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:65
 msgid "Simple WPS chaining with ZOO API"
-msgstr ""
+msgstr "ZOO APIによるシンプルなWPSチェーニング"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:68
 msgid "Implemented Standards"
@@ -120,11 +123,11 @@ msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:70
 msgid "OGC WPS 1.0.0"
-msgstr ""
+msgstr "OGC WPS 1.0.0"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:71
 msgid "OGC WPS 2.0.0"
-msgstr ""
+msgstr "OGC WPS 2.0.0"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:74
 msgid "Demo"
@@ -135,6 +138,8 @@ msgid ""
 "`Demo using Services Provider based GEOS and OGR libraries <http://localhost"
 "/zoo-demo/ogr-example.html>`_"
 msgstr ""
+"`Demo using Services Provider based GEOS and OGR libraries <http://localhost"
+"/zoo-demo/ogr-example.html>`_"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:77
 msgid ""
@@ -154,15 +159,15 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:84
 msgid "**Website:** http://zoo-project.org/"
-msgstr ""
+msgstr "**Webサイト:** http://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:86
 msgid "**Licence:** MIT x/11"
-msgstr ""
+msgstr "**ライセンス:** MIT x/11"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:88
 msgid "**Software Version:** |version-zoo-project|"
-msgstr ""
+msgstr "**ソフトウェアバージョン:** |version-zoo-project|"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:90
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -172,11 +177,11 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 msgid ""
 "**Programing language support:** C, Python, Java, PHP, Fortran, Javascript, "
 "C#, Ruby"
-msgstr ""
+msgstr "**プログラム言語サポート:** C, Python, Java, PHP, Fortran, Javascript, C#, Ruby"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:94
 msgid "**Support:** http://zoo-project.org/"
-msgstr ""
+msgstr "**サポート:** http://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:100
 msgid "Quickstart"
@@ -184,5 +189,5 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`"
-msgstr ""
+msgstr ":doc:`クイックスタート文書  <../quickstart/zoo-project_quickstart>`"
 

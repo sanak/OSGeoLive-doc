@@ -37,6 +37,8 @@ msgid ""
 "transparent, projections can be changed, multiple map layers can be "
 "transformed into one, watermarks can be added, and more..."
 msgstr ""
+"MapProxy "
+"は、複数のソースからなる地図を予めレンダリングし、ローカルなキャッシュに格納することによってマッピングアプリケーションを高速化します。レイヤの透化、測地系の変更、複数のレイヤ統合、電子透かしの追加など、多くのことを可能にします。"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:26
 msgid ""

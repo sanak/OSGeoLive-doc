@@ -218,13 +218,12 @@ msgid ""
 "your workspace as an R data image file. When you start R again from a "
 "directory with a ``.RData`` file it will restore all its data from there."
 msgstr ""
-"To quit R, type ``q()`` and hit return. "
-"作業フォルダをRデータの画像ファイルとして保存するかどうかを尋ねるメッセージが表示されます。``.RData`` "
-"ファイルがあるディレクトリから再度Rを起動すると、そこからすべてのデータを復元します。"
+"Rを終了するには、``q()``と入力してreturnを押します。作業フォルダをRデータの画像ファイルとして保存するかどうかを尋ねるメッセージが表示されます。``.RData``"
+" ファイルがあるディレクトリから再度Rを起動すると、そこからすべてのデータを復元します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:260
 msgid "Vignettes"
-msgstr "ビネット"
+msgstr "ビネット(短かい解説)"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:262
 msgid ""
@@ -235,10 +234,9 @@ msgid ""
 "vignettes on your system. Try ``vignette(\"sf1\")`` for a slightly technical"
 " introduction to the R spatial package."
 msgstr ""
-"以前は、Rパッケージのドキュメントは、関数ごとに簡潔に書かれたヘルプページになる傾向がありました。これで、パッケージ作成者は、パッケージをわかりやすく紹介するために、'vignette'を書くことをお勧めします。If"
-" you run the ``vignette()`` function with no arguments you will get the list"
-" of those vignettes on your system. Try ``vignette(\"sf1\")`` for a slightly"
-" technical introduction to the R spatial package."
+"以前は、Rパッケージのドキュメントは、関数ごとに簡潔に書かれたヘルプページになる傾向がありました。パッケージ作成者は、パッケージをわかりやすく紹介するために「ビネット」を書くことが推奨されています。``vignette()``"
+" 関数を引数なしで実行すると、システム内のビネット の一覧を得ることができます。R空間パッケージのより技術的な紹介を見るには、 "
+"``vignette(\"sf1\")`` を試してみてください。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:269
 msgid "What next?"

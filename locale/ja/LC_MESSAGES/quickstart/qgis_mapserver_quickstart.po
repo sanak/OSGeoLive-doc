@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:20
 msgid "QGIS Server Quickstart"
-msgstr ""
+msgstr "QGIS Server Quickstart"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:22
 msgid ""
@@ -61,6 +61,8 @@ msgid ""
 "Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You "
 "should see a browser window with a web map viewer showing a world map."
 msgstr ""
+" :menuselection:`Geospatial --> Web Services --> QGIS Server` "
+"をクリックします。ブラウザウィンドウに、世界のマップを表示するWebマップビューアが表示されます。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:42
 msgid ""
@@ -78,7 +80,7 @@ msgstr "さて、これでQGISで地図スタイルを変更できるように�
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:51
 msgid "Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
-msgstr ""
+msgstr " :menuselection:`Geospatial --> Desktop GIS --> QGIS` をクリックします。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:53
 msgid "Choose :menuselection:`Project --> Open` from the menu bar."
@@ -177,7 +179,7 @@ msgstr "ドキュメント"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:102
 msgid "https://docs.qgis.org/3.4/en/docs/user_manual/working_with_ogc/server/index.html"
-msgstr ""
+msgstr "https://docs.qgis.org/3.4/en/docs/user_manual/working_with_ogc/server/index.html"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:104
 msgid "Quick start for Server Installation on Debian/Ubuntu:"
@@ -185,11 +187,11 @@ msgstr "Debian/Ubuntuでのサーバ導入については:"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:106
 msgid ":command:`apt-get install qgis-mapserver libapache2-mod-fcgid`"
-msgstr ""
+msgstr ":command:`apt-get install qgis-mapserver libapache2-mod-fcgid`"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:107
 msgid "-> http://localhost/cgi-bin/qgis_mapserv.fcgi"
-msgstr ""
+msgstr "-> http://localhost/cgi-bin/qgis_mapserv.fcgi"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:112
 msgid "QGIS Web Client:"
@@ -197,5 +199,5 @@ msgstr "QGIS Web クライアント:"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:110
 msgid "https://github.com/qgis/qgis-web-client"
-msgstr ""
+msgstr "https://github.com/qgis/qgis-web-client"
 

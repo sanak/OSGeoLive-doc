@@ -163,7 +163,7 @@ msgstr ":file:`natural_earth2` フォルダから次のファイルを選択し�
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:116
 msgid ":file:`ne_10m_admin_0_countries.shp`"
-msgstr ""
+msgstr ":file:`ne_10m_admin_0_countries.shp`"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:118
 msgid "Press :guilabel:`Open`"
@@ -281,7 +281,7 @@ msgstr "|SHOWALL| 全表示。いつでも全範囲に戻るために使用で�
 msgid ""
 "|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by"
 " a fixed amount."
-msgstr ""
+msgstr "|ZOOM_IN| Zoom In と |ZOOM_OUT| Zoom Out を使用すると、スケールを一定量だけ変更できます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:191
 msgid ""
@@ -340,78 +340,89 @@ msgid ""
 "Change to the **Web** view, click on the tab next to the **Catalog** view to"
 " reveal the *Web* view."
 msgstr ""
+"Change to the **Web** view, click on the tab next to the **Catalog** view to"
+" reveal the *Web* view."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:223
 msgid ""
 "Click on the link ``WMS\\:http://www2.dmsolutions.ca/cgi-"
 "bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities``"
 msgstr ""
+"リンク ``WMS\\:http://www2.dmsolutions.ca/cgi-"
+"bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities`` "
+"をクリックしてください。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:229
 msgid "From the Resource Selection page we are going to choose the following layers:"
-msgstr ""
+msgstr "リソース選択ページから、次のレイヤを選択します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:231
 msgid "Elevation/Bathymetry"
-msgstr ""
+msgstr "標高/水深測定"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:232
 msgid "Parks"
-msgstr ""
+msgstr "公園"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:233
 msgid "Cities"
-msgstr ""
+msgstr "市町村"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:238
 msgid "Press :guilabel:`Finish` to add these layers to your map"
-msgstr ""
+msgstr " :guilabel:`Finish` をクリックして、これらのレイヤをマップに追加します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:243
 msgid "Use the |ZOOM| Zoom Tool to move closer to one of the Parks"
-msgstr ""
+msgstr " |ZOOM| Zoom ツールを使用して、公園の一つに移動します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:245
 msgid ""
 "Switch to the |INFO| Info Tool and click on one the parks to learn more "
 "about it"
-msgstr ""
+msgstr "|INFO|  Info Toolに切り替えて、公園の1つをクリックすると、さらに詳しく知ることができます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:249
 msgid ""
 "You can switch between the zoom and info tools by pressing `Z` and `I` on "
 "the keyboard."
-msgstr ""
+msgstr "キーボードの `Z` と `I` を押して、ズームと情報ツールを切り替えることができます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:252
 msgid "Style"
-msgstr ""
+msgstr "スタイル"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:254
 msgid ""
 "Select the `project > ne 10m admin 0 countries`, you can double click to "
 "open this Map, or Right Click and choose Open Map"
 msgstr ""
+"`project > ne 10m admin 0 countries` "
+"を選択し、ダブルクリックしてこのマップを開くか、右クリックして[マップを開く]を選択します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:256
 msgid "Select the countries layer in the Layer view"
-msgstr ""
+msgstr "レイヤビューのレイヤの国を選択"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:258
 msgid ""
 "Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries`"
 " layer and choosing :guilabel:`Change Style`"
 msgstr ""
+" **Style Editor** を開くには、 `ne 10m admin 0 countries` "
+"レイヤを右クリックし、:guilabel:`Change Style` を選択します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:260
 msgid "We are going to change a few things about how countries are displayed"
-msgstr ""
+msgstr "国の表示方法について、いくつかの点を変更します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:262
 msgid ""
 "Line: Click :guilabel:`Border`, click on the Color button and change the "
 "color to BLACK"
 msgstr ""
+"Line: Click :guilabel:`Border`, click on the Color button and change the "
+"color to BLACK"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:264
 msgid ""

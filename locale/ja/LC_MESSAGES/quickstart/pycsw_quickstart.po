@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:22
 msgid "pycsw Quickstart"
-msgstr ""
+msgstr "pycsw Quickstart"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:24
 msgid ""
@@ -33,6 +33,10 @@ msgid ""
 " geospatial metadata.  Existing repositories of geospatial metadata can be "
 "exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
 msgstr ""
+"pycsw is an OGC CSW server implementation written in `Python "
+"<https://www.python.org>`_. pycsw allows for the publishing and discovery of"
+" geospatial metadata.  Existing repositories of geospatial metadata can be "
+"exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:30
 msgid "Run the tester application"

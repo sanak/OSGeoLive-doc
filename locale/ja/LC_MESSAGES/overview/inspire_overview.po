@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:15
 msgid "INSPIRE"
-msgstr ""
+msgstr "INSPIRE"
 
 #: ../../build/doc/overview/inspire_overview.rst:17
 msgid ""
@@ -41,6 +41,19 @@ msgid ""
 "standards, mainly those developed by the :doc:`OGC <ogc_overview>` and `ISO "
 "<https://www.iso.org>`__."
 msgstr ""
+"The `INSPIRE Directive <https://inspire.ec.europa.eu>`__ aims to create a "
+"European Union spatial data infrastructure (SDI) for the purposes of "
+"environmental policies. This European SDI enables the sharing of "
+"environmental spatial information among public sector organisations, "
+"facilitates public access to spatial information and assist in policy-making"
+" across boundaries. INSPIRE is based on the infrastructures for spatial "
+"information established and operated by the 27 Member States of the European"
+" Union. The Directive (see the `full text <https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN>`__) came into force on 15 "
+"May 2007 and is implemented in various stages, with full implementation "
+"required by 2021. INSPIRE is on a technical level based on international "
+"standards, mainly those developed by the :doc:`OGC <ogc_overview>` and `ISO "
+"<https://www.iso.org>`__."
 
 #: ../../build/doc/overview/inspire_overview.rst:19
 msgid ""

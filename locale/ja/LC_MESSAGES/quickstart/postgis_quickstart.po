@@ -44,7 +44,7 @@ msgid ""
 "Create and query a spatial database from the command line and :doc:`QGIS "
 "<../overview/qgis_overview>` graphical client."
 msgstr ""
-"コマンドラインと :doc:`QGIS <../overview/qgis_overview>` "
+"コマンドラインと  :doc:`QGIS <../overview/qgis_overview>` "
 "グラフィカルクライアントから空間データベースを作成し、クエリーを実行します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
@@ -116,7 +116,7 @@ msgid ""
 "The list uses a standard unix pager - hit space for next page, :kbd:`b` to "
 "go back, :kbd:`q` to quit, h for help."
 msgstr ""
-"このリストでは標準的なUNIXのページャの使いかたを示します - スペースで次のページ、 :kbd:`b` は戻る、 :kbd:`q` は終了、h "
+"このリストでは標準的なUNIXのページャの使いかたを示します - スペースで次のページ、 :kbd:`b`  は戻る、 :kbd:`q` は終了、h "
 "はヘルプを表示します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:96
@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 "PostgreSQLは、データベースを作成するためのユーティリティプログラム ``createdb`` "
 "を提供します。PostGIS拡張を追加する前に、データベースを作成する必要があります。わたしたちのデータベースを ``demo`` "
-"と呼びます。コマンドは次のようになります::"
+"と呼びます。コマンドは次のようになります:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:105
 msgid "You can usually get help for command line tools by using a ``--help`` option."
@@ -747,13 +747,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:641
 msgid "Open GeoServer http://localhost:8082/geoserver/web/"
-msgstr ""
+msgstr "GeoServerを開く http://localhost:8082/geoserver/web/"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:642
 msgid ""
 "GeoServer WFS GetCapabilities "
 "http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
 msgstr ""
+"GeoServer WFS GetCapabilities "
+"http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:643
 msgid ""
@@ -762,6 +764,10 @@ msgid ""
 " "
 "<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
 msgstr ""
+"GeoServer WFS DescribeFeatureType for topp:states "
+"`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states"
+" "
+"<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:646
 msgid ""
@@ -770,22 +776,26 @@ msgid ""
 " "
 "<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__"
 msgstr ""
+"GeoServer WFS GetFeature topp:states "
+"`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states"
+" "
+"<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:652
 msgid "Create a foreign server that refers to the WFS that you want to connect"
-msgstr ""
+msgstr "接続するWFSを参照する外部サーバーを作成する"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:660
 msgid "Import all WFS feature_types as foreign tables with one command."
-msgstr ""
+msgstr "1つのコマンドで、すべてのWFS地物_タイプを外部テーブルとしてインポートします。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:661
 msgid "After the import you will see several new foreign tables in your schema."
-msgstr ""
+msgstr "インポート後、スキーマに新しい外部テーブルがいくつか表示されます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:670
 msgid "Inspect the foreign data table ``topp_states``:"
-msgstr ""
+msgstr "外部データテーブルを確認 ``topp_states``:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:677
 msgid "Things to try"
@@ -806,19 +816,19 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:683
 msgid "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
-msgstr ""
+msgstr "コマンドラインで ``pgsql2shp`` を使用して、テーブルをシェープファイルにエクスポートします。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:685
 msgid "Try ``ogr2ogr`` on the command line to import/export data to your database."
-msgstr ""
+msgstr "データベースにデータをインポート/エクスポートするには、コマンドラインで ``ogr2ogr`` を試してください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:687
 msgid "Try to import data with ``shp2pgsql`` on the command line to your database."
-msgstr ""
+msgstr "コマンドラインで ``shp2pgsql`` を使用して、データベースにデータをインポートしてみてください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:689
 msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
-msgstr ""
+msgstr " :doc:`../overview/pgrouting_overview` を使用して、道路のルーティングを試みます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:694
 msgid "What next?"
@@ -828,7 +838,7 @@ msgstr "次のステップ"
 msgid ""
 "This is only the first step on the road to using PostGIS. There is a lot "
 "more functionality you can try."
-msgstr "This is only the first step on the road to using PostGIS. 他にも多くの機能を試すことができます。"
+msgstr "これは、PostGISを使用するための最初のステップです。他にも多くの機能を試すことができます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:698
 msgid "PostGIS Project home -  http://postgis.net"

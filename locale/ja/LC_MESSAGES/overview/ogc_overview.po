@@ -91,5 +91,5 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/ogc_overview.rst:34
 msgid "**Website:** https://www.ogc.org"
-msgstr ""
+msgstr "**Webサイト:** https://www.ogc.org"
 
