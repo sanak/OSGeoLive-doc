@@ -101,6 +101,7 @@ jobs:
         id: check-po-update
         run: |
           echo "::set-output name=updated::$(git status --porcelain | wc -l)"
+        working-directory: doc
       - name: Create Pull Request
         if: steps.check-po-update.outputs.updated > 0
         uses: peter-evans/create-pull-request@v3
