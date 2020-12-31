@@ -3,7 +3,7 @@ name: Pull OmegaT after check update
 on:
   schedule:
     # Run at 15:00 UTC (=24:00 JST)
-    - cron: '0 4 * * *'
+    - cron: '0 15 * * *'
   workflow_dispatch:
 
 jobs:
