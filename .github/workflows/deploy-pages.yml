@@ -7,7 +7,7 @@
 name: Deploy GitHub Pages
 
 on:
-  push:
+  pull_request:
     branches:
       - omegat_ja
 
