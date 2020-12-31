@@ -1,0 +1,113 @@
+name: Pull OmegaT after check update
+
+on:
+  schedule:
+    # Run at 15:00 UTC (=24:00 JST)
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-omegat-update:
+    name: Check OmegaT update
+    runs-on: ubuntu-20.04
+    outputs:
+      updated: ${{ steps.check-omegat-update.outputs.updated }}
+    steps:
+      - name: Checkout OSGeoLive-doc-omegat
+        uses: actions/checkout@v2
+        with:
+          repository: OSGeo-jp/OSGeoLive-doc-omegat
+          ref: master
+          path: omegat
+      - name: Check update in 1 day
+        id: check-omegat-update
+        run: |
+          echo "::set-output name=updated::$(git log --name-only --pretty="format:" --since="1 days ago" 'omegat/*.tmx' 'source/**' | sed '/^\s*$/d' | sort | uniq | wc -l)"
+        shell: bash
+        working-directory: omegat
+
+  pull-omegat:
+    name: Pull OmegaT
+    needs: check-omegat-update
+    if: needs.check-omegat-update.outputs.updated > 0
+    runs-on: ubuntu-20.04
+    steps:
+      # Checkout doc and omegat repos
+      - name: Checkout OSGeoLive-doc
+        uses: actions/checkout@v2
+        with:
+          ref: omegat_ja
+          path: doc
+      - name: Checkout OSGeoLive-doc-omegat
+        uses: actions/checkout@v2
+        with:
+          repository: OSGeo-jp/OSGeoLive-doc-omegat
+          ref: master
+          path: omegat
+
+      # Copy omegat side check.yml workflow
+      - name: Make source and target directory
+        run: mkdir -p source target
+        working-directory: omegat
+      - uses: actions/cache@v2
+        id: cache-pip
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+      - name: Get Date
+        id: get-date
+        run: |
+          echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
+        shell: bash
+      - uses: actions/cache@v2
+        id: cache-source
+        with:
+          path: source
+          key: omegat-source-${{ steps.get-date.outputs.date }}
+      - uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          architecture: x64
+      - name: Install requirements
+        run: |
+          pip install -U pip
+          pip install -r tools/requirements.txt
+        working-directory: omegat
+      - name: Generate translation
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: translate
+          gradle-version: 6.7.1
+          save-gradle-dependencies-cache: true
+          save-generated-gradle-jars: true
+          build-root-directory: omegat
+      - name: Check translations
+        run: |
+           python tools/check_target.py
+        working-directory: omegat
+      - name: Format target
+        run: |
+            python tools/format_target.py
+        working-directory: omegat
+
+      # Additional steps
+      - name: Overwrite formatted target po files to doc folder
+        run: |
+          cp -R omegat/target/* doc/locale/ja/LC_MESSAGES/
+      - name: Check po update
+        id: check-po-update
+        run: |
+          echo "::set-output name=updated::$(git status --porcelain | wc -l)"
+      - name: Create Pull Request
+        if: steps.check-po-update.outputs.updated > 0
+        uses: peter-evans/create-pull-request@v3
+        with:
+          path: doc
+          commit-message: 'Update ja translation from OmegaT'
+          branch: update-omegat_ja
+          branch-suffix: timestamp
+          delete-branch: true
+          title: 'Update ja translation from OmegaT'
