@@ -14,6 +14,7 @@ on:
   pull_request:
     branches:
       - omegat_ja
+  workflow_dispatch:
 
 jobs:
   deploy:

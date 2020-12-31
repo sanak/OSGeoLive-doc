@@ -109,6 +109,11 @@ jobs:
           path: doc
           commit-message: 'Update ja translation from OmegaT'
           branch: update-omegat_ja
-          branch-suffix: timestamp
           delete-branch: true
           title: 'Update ja translation from OmegaT'
+      - name: Deploy Pull Request branch to GitHub Pages
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Deploy GitHub Pages
+          ref: update-omegat_ja
+          token: ${{ secrets.PERSONAL_TOKEN }}
