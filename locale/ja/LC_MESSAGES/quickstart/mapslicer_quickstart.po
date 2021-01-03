@@ -67,8 +67,7 @@ msgid "Start MapSlicer"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapslicer_quickstart.rst:39
-msgid ""
-"Start MapSlicer from the Geospatial menu, under the Spatial Tools sub-menu."
+msgid "Start MapSlicer from the Geospatial menu, under the Spatial Tools sub-menu."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapslicer_quickstart.rst:41
@@ -158,3 +157,4 @@ msgid ""
 "See `gdal2tiles.py --help` and `mb-util --help` for additional information "
 "on running these tools."
 msgstr ""
+

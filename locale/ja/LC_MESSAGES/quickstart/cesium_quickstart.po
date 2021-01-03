@@ -32,8 +32,7 @@ msgid ""
 "browser without any plugins. It uses WebGL for hardware-accelerated "
 "graphics, and is cross-platform, cross-browser, and tuned for time-dynamic "
 "data visualization."
-msgstr ""
-"Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。OSGeoLiveは、ハードウェアアクセラレーションによるグラフィックス処理にWebGLを使用し、クロスプラットフォーム、クロスブラウザ対応で、時間動的なデータ視覚化に合わせて調整されています。"
+msgstr "Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。OSGeoLiveは、ハードウェアアクセラレーションによるグラフィックス処理にWebGLを使用し、クロスプラットフォーム、クロスブラウザ対応で、時間動的なデータ視覚化に合わせて調整されています。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:22
 msgid ""
@@ -46,9 +45,7 @@ msgid "Start Cesium"
 msgstr "Cesiumの開始"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:30
-msgid ""
-"Open the browser and point it to "
-"http://localhost/cesium/Apps/HelloWorld.html"
+msgid "Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html"
 msgstr "ブラウザを開き、http://localhost/cesium/Apps/HelloWorld.htmlを開く"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:33
@@ -111,7 +108,7 @@ msgid ""
 "for this purpose."
 msgstr ""
 "`Sandcastle Webサイト <https://sandcastle.cesium.com/index.html>`_ "
-"を使用して、いくつかのクイックアプリケーションを開発できます。Sandcastleは一般的にCesiumについて学ぶ最良の方法の1つであり、すべてのコード例がこの目的に役立ちます。"
+"を使用して、簡単なアプリケーションを開発できます。Sandcastleは一般的にCesiumについて学ぶ最良の方法の1つであり、すべてのコード例がこの目的に役立ちます。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
 msgid ""
@@ -119,12 +116,12 @@ msgid ""
 "a great place to search for answers to common questions, and to raise "
 "questions that haven't been asked before."
 msgstr ""
-"`Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ "
+"`Cesium フォーラム <https://groups.google.com/forum/#!forum/cesium-dev>`_ "
 "は、一般的な質問に対する回答を検索したり、これまでに質問されたことのない質問を提起したりするのに最適な場所です。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74
 msgid ""
 "In-depth documentation is available `locally <http://localhost/cesium/>`_ on"
 " the OSGeoLive package."
-msgstr ""
-"詳細なドキュメントは、OSGeoLiveパッケージの`locally <http://localhost/cesium/>`_で入手できます。"
+msgstr "詳細なドキュメントは、OSGeoLiveパッケージ上で `ローカルに <http://localhost/cesium/>`_ 利用できます。"
+

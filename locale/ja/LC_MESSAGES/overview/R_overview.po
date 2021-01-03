@@ -55,8 +55,11 @@ msgid ""
 " packages provide connection with other OSGeo tools and software. You can "
 "easily plug R with GRASS-GIS, Qgis, postgreSQL and postGIS."
 msgstr ""
-"ユーザーは、例えば画像分類、空間的関係を推定するための統計解析、地物の分布パターン、そして以下の基本機能に列挙されるものなど、大規模な配列の処理ができます。Rで利用できる機能は、GISや画像処理ソフトウェアの機能を補完し、拡張します。並列化のためのパッケージを使用すると、計算時間を大幅に削減し、これらの機能を向上させることができます。いくつかのパッケージは、他のOSGeoツールやソフトウェアとの接続を提供します"
-"。RはGRASS-GIS、Qgis、PostgreSQL、postGISで簡単にプラグインできます。"
+"ユーザーは、例えば画像分類、空間的関係を推定するための統計解析、地物の分布パターン、そして以下の基本機能に列挙されるものなど、大規模な配列の処理ができます。R"
+" で利用できる機能は、GIS "
+"や画像処理ソフトウェアの機能を補完し、拡張します。並列化のためのパッケージを使用すると、計算時間を大幅に削減し、これらの機能を向上させることができます。いくつかのパッケージは、他の"
+" OSGeo ツールやソフトウェアとの接続を提供します。R は GRASS-GIS、QGIS、PostgreSQL、PostGIS "
+"に簡単に接続できます。"
 
 #: ../../build/doc/overview/R_overview.rst:36
 msgid ""
@@ -67,10 +70,10 @@ msgid ""
 "learning process. Scripts are often used to automate processing steps but "
 "there are GUIs, the leading one being RStudio (https://rstudio.com)."
 msgstr ""
-"R の基本インターフェイスはコマンドラインであり、高い自由度と操作性を提供しています。一方で、グラフィカル・ユーザー・インターフェイス (GUI) "
+"R の基本インタフェースはコマンドラインであり、高い自由度と操作性を提供しています。一方で、グラフィカル・ユーザー・インタフェース (GUI) "
 "と比べて習熟するまでに長い時間を必要とする傾向があります。幸いなことに、R についての Web "
-"のドキュメントは充実しており、学習プロセスを容易にしています。処理を自動化するためのスクリプトが頻繁に利用されており、また、Rの GUI "
-"環境として主要なものに RStudio  (https://rstudio.com) があります。"
+"のドキュメントは充実しており、学習プロセスを容易にしています。処理を自動化するためのスクリプトが頻繁に利用されており、また、R の GUI "
+"環境として主要なものに RStudio (https://rstudio.com) があります。"
 
 #: ../../build/doc/overview/R_overview.rst:44
 msgid ""
@@ -81,11 +84,12 @@ msgid ""
 "without major code modifications."
 msgstr ""
 "R は S 言語の実装でもあり、R と過去の S、S-Plus コード、\n"
-"最近の商用バージョンの S、TIBCO Spotfire S+ には高い互換性があります。この互換性により、異なるバージョンの S のコードを大きく変更することなく R で実行できるよう変換可能です。"
+"最近の商用バージョンの S、TIBCO Spotfire S+ には高い互換性があります。この互換性により、異なるバージョンの S "
+"のコードを大きく変更することなく R で実行できるよう変換可能です。"
 
 #: ../../build/doc/overview/R_overview.rst:57
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/R_overview.rst:59
 msgid ""
@@ -100,8 +104,7 @@ msgid ""
 msgstr "現在 (2017/08/11)、CRAN パッケージリポジトリで 11239 のパッケージが利用可能"
 
 #: ../../build/doc/overview/R_overview.rst:61
-msgid ""
-"Hundreds of community contributed add-on packages for spatial statistics"
+msgid "Hundreds of community contributed add-on packages for spatial statistics"
 msgstr "数百のコミュニティが作成した空間統計計算用のアドオンパッケージ"
 
 #: ../../build/doc/overview/R_overview.rst:62
@@ -165,8 +168,7 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr "**対応プラットフォーム:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/R_overview.rst:84
-msgid ""
-"**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
+msgid "**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr "**コミュニティサポート:**  https://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
@@ -184,3 +186,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/R_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/R_quickstart>`"
+

@@ -38,7 +38,7 @@ msgstr "t-rexは、独自のデータからMVTタイルを配信することに�
 
 #: ../../build/doc/overview/t-rex_overview.rst:27
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/t-rex_overview.rst:29
 msgid "Support for PostGIS databases and GDAL vector formats"
@@ -86,7 +86,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/t-rex_overview.rst:48
 msgid "**API Interfaces:** http, Mapbox Vector Tiles"
-msgstr "**APIインターフェイス:** http, Mapbox Vector Tiles"
+msgstr "**API インタフェース:** http, Mapbox Vector Tiles"
 
 #: ../../build/doc/overview/t-rex_overview.rst:50
 msgid "**Support:** https://github.com/t-rex-tileserver/t-rex/"
@@ -99,3 +99,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/t-rex_overview.rst:57
 msgid ":doc:`Quickstart documentation <../quickstart/t-rex_quickstart>`"
 msgstr ":doc:`クイックスタートドキュメント <../quickstart/t-rex_quickstart>`"
+

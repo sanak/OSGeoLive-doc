@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:19
 msgid "52 North WPS Quickstart"
-msgstr ""
+msgstr "52 North WPS クイックスタート"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:21
 msgid ""
@@ -69,8 +69,7 @@ msgid "Check out the capabilities of the 52°North WPS with this request:"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:47
-msgid ""
-"http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS"
+msgid "http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:50
@@ -120,9 +119,7 @@ msgid "Things to try"
 msgstr "試してみること"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:86
-msgid ""
-"Try out other example requests from the dropdown list of the WPS test "
-"client."
+msgid "Try out other example requests from the dropdown list of the WPS test client."
 msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:87
@@ -162,3 +159,4 @@ msgstr ""
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:102
 msgid "geoprocessing@52north.org"
 msgstr ""
+

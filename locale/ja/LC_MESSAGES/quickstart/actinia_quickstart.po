@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:19
 msgid "Actinia Quickstart"
-msgstr ""
+msgstr "Actinia クイックスタート"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:21
 msgid ""
@@ -33,10 +33,12 @@ msgid ""
 "computational tasks. Actinia provides a REST API to process satellite "
 "images, time series of satellite images, raster and vector data."
 msgstr ""
+"Actiniaは、地理データのスケーラブルで分散した高パフォーマンス処理のためのオープンソースREST APIであり、計算タスクにGRASS "
+"GISを使用します。Actiniaは、衛星画像、時系列衛星画像データ、ベクタデータを処理するREST APIを提供しています。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:29
 msgid "Actinia can be used in different ways:"
-msgstr ""
+msgstr "Actinia は様々な方法で利用されています。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:31
 msgid "`curl` or similar command line tools"
@@ -47,8 +49,7 @@ msgid "the `Postman` extension for browsers"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:33
-msgid ""
-"open a GRASS GIS session and use the `ace` (actinia command execution) tool"
+msgid "open a GRASS GIS session and use the `ace` (actinia command execution) tool"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:34
@@ -338,13 +339,11 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:326
-msgid ""
-"Run the commands from the statistic script in the new persistent mapset"
+msgid "Run the commands from the statistic script in the new persistent mapset"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:332
-msgid ""
-"Show all raster maps that have been created with the script in test_mapset"
+msgid "Show all raster maps that have been created with the script in test_mapset"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:339
@@ -361,6 +360,8 @@ msgid ""
 " an alias can be used to avoid the persistent option in each single command "
 "call:"
 msgstr ""
+"アクティブなGRASS "
+"GISセッションのロケーション/マップセット設定が同じである場合は、エイリアスを使用して、単一のコマンド呼び出しごとに永続的なオプションを回避できます。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:360
 msgid ""
@@ -406,3 +407,4 @@ msgid ""
 "Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI "
 "<https://zenodo.org/record/2631917>`__)"
 msgstr ""
+

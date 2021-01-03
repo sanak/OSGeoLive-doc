@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/opencpn_overview.rst:16
 msgid "OpenCPN"
-msgstr ""
+msgstr "OpenCPN"
 
 #: ../../build/doc/overview/opencpn_overview.rst:19
 msgid "Marine GPS navigation software"
@@ -36,8 +36,7 @@ msgid ""
 "all types and sizes, as well as offline for route planning. It has been "
 "developed by a team of active sailors using real world conditions for "
 "program testing and refinement."
-msgstr ""
-"OpenCPNはあらゆる船型や船型の船舶を操船するためのフリーナビゲーション・ソフトウェアや、航路計画のためのオフライン・ソフトウェアを提供しています。これは、プログラムのテストと改良のために実世界の条件を使用して、アクティブな水兵のチームによって開発されました。"
+msgstr "OpenCPNはあらゆる船型や船型の船舶を操船するためのフリーナビゲーション・ソフトウェアや、航路計画のためのオフライン・ソフトウェアを提供しています。これは、プログラムのテストと改良のために実世界の条件を使用して、アクティブな水兵のチームによって開発されました。"
 
 #: ../../build/doc/overview/opencpn_overview.rst:22
 msgid ""
@@ -45,8 +44,7 @@ msgid ""
 " superimposed upon accurate navigational chart images, tide and current "
 "predictions. Information received by standard radio links describing the "
 "position and intent of other vessels can also be shown."
-msgstr ""
-"OpenCPNは、正確な航海図画像、潮汐及び海流予測に重ね合わされた船の現在位置、速度及び針路をユーザに提示します。他の船舶の位置及び意図を記述する標準無線リンクによって受信された情報も示すことができます。"
+msgstr "OpenCPNは、正確な航海図画像、潮汐及び海流予測に重ね合わされた船の現在位置、速度及び針路をユーザに提示します。他の船舶の位置及び意図を記述する標準無線リンクによって受信された情報も示すことができます。"
 
 #: ../../build/doc/overview/opencpn_overview.rst:24
 msgid ""
@@ -54,12 +52,11 @@ msgid ""
 "specified resolution and detail. Further, the user may enter routes and "
 "waypoints allowing interface to an external autopilot for precise course "
 "following."
-msgstr ""
-"ホストの船舶が移動すると、新しいチャートが選択され、ユーザ指定の解像度および詳細で表示されます。さらに、ユーザは、正確なコース追跡のための外部自動操縦装置へのインターフェースを可能にする経路およびウェイポイントを入力することができます。"
+msgstr "ホストの船舶が移動すると、新しいチャートが選択され、ユーザ指定の解像度および詳細で表示されます。さらに、ユーザは、正確なコース追跡のための外部自動操縦装置へのインタフェースを可能にする経路およびウェイポイントを入力することができます。"
 
 #: ../../build/doc/overview/opencpn_overview.rst:34
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/opencpn_overview.rst:36
 msgid "OpenCPN supports:"
@@ -74,9 +71,8 @@ msgid "AIS input decoding"
 msgstr "AIS入力デコード"
 
 #: ../../build/doc/overview/opencpn_overview.rst:40
-msgid ""
-"NMEA GPS or `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input"
-msgstr "NMEA GPSまたは`Gpsd<https://www.berlios.de/software/gpsd/>`_ デーモンの入力"
+msgid "NMEA GPS or `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input"
+msgstr "NMEA GPS または `Gpsd <https://www.berlios.de/software/gpsd/>`_ デーモンの入力"
 
 #: ../../build/doc/overview/opencpn_overview.rst:41
 msgid "Waypoint / autopilot navigation"
@@ -133,3 +129,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/opencpn_overview.rst:67
 msgid ":doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/opencpn_quickstart>`"
+

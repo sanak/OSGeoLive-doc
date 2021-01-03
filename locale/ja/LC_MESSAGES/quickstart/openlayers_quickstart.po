@@ -32,8 +32,7 @@ msgid ""
 "This Quick Start describes some basic steps required to start working with "
 "OpenLayers: creating a basic map, adding raster and vector layers and "
 "styling features."
-msgstr ""
-"このクイックスタートでは、OpenLayersをはじめて使うときの基本的な手順について説明します。基本的なマップの作成、ラスタレイヤとベクタレイヤの追加、地物のスタイリングです。"
+msgstr "このクイックスタートでは、OpenLayersをはじめて使うときの基本的な手順について説明します。基本的なマップの作成、ラスタレイヤとベクタレイヤの追加、地物のスタイリングです。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:27
 msgid ""
@@ -66,7 +65,8 @@ msgid ""
 "The *map* is the core component of OpenLayers. For a *map* to render, a "
 "*view*, one or more *layers*, and a target container are needed."
 msgstr ""
-"*マップ*はOpenLayersの主要な要素です。*マップ*をレンダリングするには、*ビュー*、1つまたは複数の*レイヤ*、およびターゲットコンテナが必要です。"
+"*マップ* はOpenLayersの主要な要素です。*マップ* をレンダリングするには、 *ビュー* 、1つまたは複数の *レイヤ* "
+"、およびターゲットコンテナが必要です。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:41
 msgid "**View**"
@@ -77,8 +77,7 @@ msgid ""
 "The *view* determines how the map is rendered. It is used to set the "
 "resolution, the center location, etc. It is like a camera through which we "
 "look at the map's content."
-msgstr ""
-"*ビュー* はmapのレンダリング方法を決定します。解像度や中心位置などを設定します。これはマップの内容を見るためのカメラのようなものです。"
+msgstr "*ビュー* はmapのレンダリング方法を決定します。解像度や中心位置などを設定します。これはマップの内容を見るためのカメラのようなものです。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:44
 msgid "**Layers**"
@@ -88,8 +87,7 @@ msgstr "**レイヤ**"
 msgid ""
 "*Layers* can be added to the map in a stacked order. Layers can be either "
 "*raster layers* (images), or *vector layers* (points/lines/polygons)."
-msgstr ""
-"*レイヤ* はスタック順にマップに追加できます。レイヤは、*ラスタレイヤ* (イメージ)または *ベクタレイヤ* (点/線分/ポリゴン)のいずれかです。"
+msgstr "*レイヤ* はスタック順にマップに追加できます。レイヤは、 *ラスタレイヤ* (イメージ)または *ベクタレイヤ* (点/線分/ポリゴン)のいずれかです。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:50
 msgid "**Source**"
@@ -102,9 +100,8 @@ msgid ""
 "class (for example GeoJSON or KML) and provides the layer with a set of "
 "*features*."
 msgstr ""
-"各レイヤには、レイヤコンテンツのロード方法を知っている *ソース* "
-"があります。*ベクタレイヤ*の場合、そのソースは*フォーマット*クラス(例えばGeoJSONやKML)を使ってベクタデータを読み込み、一連の "
-"*フィーチャー* をレイヤに提供します。"
+"各レイヤには、レイヤコンテンツのロード方法を知っている *ソース* があります。*ベクタレイヤ* の場合、そのソースは *フォーマット* "
+"クラス(例えばGeoJSONやKML)を使ってベクタデータを読み込み、一連の *フィーチャー* をレイヤに提供します。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:55
 msgid "**Features**"
@@ -116,8 +113,8 @@ msgid ""
 "*geometries* (like point, line or polygon) using a given *style*, which "
 "determines its look (line thinkness, fill color, etc)."
 msgstr ""
-"*フィーチャー* "
-"は現実世界のものを表し、特定の*スタイル*を使用して、さまざまな*ジオメトリ*(点、線、ポリゴンなど)を使用してレンダリングできます。これにより、外観(線の思考、塗り潰し色など)が決まります。"
+"*フィーチャー* は現実世界のものを表し、特定の*スタイル*を使用して、さまざまな *ジオメトリ* "
+"(点、線、ポリゴンなど)を使用してレンダリングできます。これにより、外観(線の思考、塗り潰し色など)が決まります。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:58
 msgid "Create a basic map"
@@ -149,22 +146,21 @@ msgstr "このコードは、JavaSciptコードをhtmlファイルの最後に�
 msgid ""
 "An OpenLayers map needs to be attached to a HTML DOM element, so we have "
 "created a ``<div>`` element identified by the *map* id."
-msgstr ""
-"OpenLayersマップはHTML DOM要素にアタッチする必要があるため、*map* idで識別される``<div>`` 要素を作成しました。"
+msgstr "OpenLayersマップはHTML DOM要素にアタッチする必要があるため、 *map* idで識別される ``<div>`` 要素を作成しました。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:121
 msgid ""
 "Maps are represented by the ``ol.Map`` class. We specify the DOM element to "
 "render the map into using the **target** property."
-msgstr ""
-"マップは``ol.Map`` クラスで表されます。**target** プロパティーを使用して、マップをレンダリングするDOM要素を指定します。"
+msgstr "マップは ``ol.Map`` クラスで表されます。 **target** プロパティーを使用して、マップをレンダリングするDOM要素を指定します。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:123
 msgid ""
 "OpenLayers allows map rendering using two different mechanisms: Canvas and "
 "WebGL. The default renderer is *canvas*."
 msgstr ""
-"OpenLayersでは、キャンバスとWebGLという2つの異なるメカニズムを使用したマップレンダリングが可能です。既定のレンダラーは*canvas*です。"
+"OpenLayersでは、キャンバスとWebGLという2つの異なるメカニズムを使用したマップレンダリングが可能です。既定のレンダラーは *canvas*"
+" です。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:125
 msgid ""
@@ -172,7 +168,7 @@ msgid ""
 "represented by the ``ol.layer.Tile`` class, that loads content from the "
 "OpenStreetMap project, using the ``ol.source.OSM`` source class."
 msgstr ""
-"レイヤ内にマップのデータを表示するため、``ol.source.OSM`` "
+"レイヤ内にマップのデータを表示するため、 ``ol.source.OSM`` "
 "ソースクラスを使用してOpenStreetMapプロジェクトからコンテンツをロードするようにしたタイルレイヤの ``ol.layer.Tile`` "
 "クラスを作成しました。"
 
@@ -180,7 +176,7 @@ msgstr ""
 msgid ""
 "Finally, we set the initial position of the *camera* using the ``ol.View`` "
 "class, set the initial zoom level and center location."
-msgstr "最後に、``ol.View`` クラスを使用して *camera* の初期位置を設定し、初期ズームレベルと中心位置を設定します。"
+msgstr "最後に、 ``ol.View`` クラスを使用して*camera*の初期位置を設定し、初期ズームレベルと中心位置を設定します。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:130
 msgid "Add raster layers"
@@ -193,8 +189,8 @@ msgid ""
 "``ol.layer.Tile`` class and must use a source that knows how to load tiles "
 "from a given provider, like ``ol.source.OSM`` or ``ol.source.Stamen``:"
 msgstr ""
-"OpenStreetMap、Stamen、Bingなどによって提供されるタイルレイヤが、最も使用されるラスタレイヤです。タイルレイヤーは``ol.layer.Tile``"
-" クラスで表され、``ol.source.OSM`` または``ol.source.Stamen`` "
+"OpenStreetMap、Stamen、Bingなどによって提供されるタイルレイヤが、最も使用されるラスタレイヤです。タイルレイヤーは "
+"``ol.layer.Tile`` クラスで表され、 ``ol.source.OSM`` または ``ol.source.Stamen`` "
 "のように、特定のプロバイダからタイルをロードする方法を知っているソースを使用する必要があります。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:150
@@ -203,7 +199,7 @@ msgstr "レイヤは、次の2つの方法でマップに追加できます。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:152
 msgid "When constructing the ``ol.Map``, use the ``layers`` property:"
-msgstr "``ol.Map`` を作成する場合は、``layers`` プロパティを使用します。"
+msgstr "``ol.Map`` を作成する場合は、 ``layers`` プロパティを使用します。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:163
 msgid "Add them manually with the ``map.addLayer()`` method:"
@@ -219,8 +215,8 @@ msgid ""
 "a source suitable for reading the vector format, like ``ol.source.GeoJSON``,"
 " ``ol.source.KML`` or ``ol.source.TopoJSON``."
 msgstr ""
-"ベクタレイヤは ``ol.layer.Vector`` "
-"クラスで表され、``ol.source.GeoJSON``、``ol.source.KML``、``ol.source.TopoJSON`` "
+"ベクタレイヤは ``ol.layer.Vector`` クラスで表され、 ``ol.source.GeoJSON`` 、 "
+"``ol.source.KML`` 、 ``ol.source.TopoJSON`` "
 "など、ベクタフォーマットの読み込みに適したソースを使用する必要があります。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:193
@@ -230,7 +226,8 @@ msgid ""
 "prevent sourcing of datasets from an external URL on a different domain / "
 "port (a.k.a. same-origin policy)."
 msgstr ""
-"前のコードでは、サーバに置かれた有効なGeoJSONファイルを指すように``url_to_file``を変更する必要があることに注意してください。Javascriptセキュリティでは、異なるドメイン/ポート上の外部URLからデータセットを取得することができないことに注意してください。(aka."
+"前のコードでは、サーバに置かれた有効なGeoJSONファイルを指すように ``url_to_file`` "
+"を変更する必要があることに注意してください。Javascriptセキュリティでは、異なるドメイン/ポート上の外部URLからデータセットを取得することができないことに注意してください。(aka."
 " 同一発信元ポリシー)。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:197
@@ -249,8 +246,7 @@ msgid ""
 "combination of fill, stroke, text  and image, which are all optional. In "
 "addition, a style can be applied to a layer, which determines the style of "
 "all contained features, or to an individual feature."
-msgstr ""
-"ベクタレイヤ内のフィーチャにスタイルを設定できます。スタイルは、塗り、線、テキスト、イメージの組み合わせによって決まります。これらはすべて任意の設定項目です。さらに、レイヤにスタイルを適用して、含まれているすべてのフィーチャのスタイルを決定したり、個々のフィーチャにスタイルを適用することもできます。"
+msgstr "ベクタレイヤ内のフィーチャにスタイルを設定できます。スタイルは、塗り、線、テキスト、イメージの組み合わせによって決まります。これらはすべて任意の設定項目です。さらに、レイヤにスタイルを適用して、含まれているすべてのフィーチャのスタイルを決定したり、個々のフィーチャにスタイルを適用することもできます。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:236
 msgid ""
@@ -259,9 +255,9 @@ msgid ""
 "next example shows the World's administrative limits dataset styled to use a"
 " green fill and stroke:"
 msgstr ""
-"スタイルは、``ol.style.Style`` クラスによって表され、このクラスは、適用される``fill``、``stroke``、``text``"
-" "
-"および``image``を設定するプロパティを有する。次の例は、緑の塗りと線を使用するようにスタイル設定された世界の行政区界データセットを示しています。"
+"スタイルは、 ``ol.style.Style`` クラスによって表され、このクラスは、適用される ``fill`` 、 ``stroke`` 、 "
+"``text`` および ``image`` "
+"を設定するプロパティを有する。次の例は、緑の塗りと線を使用するようにスタイル設定された世界の行政区界データセットを示しています。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:266
 msgid ""
@@ -270,9 +266,8 @@ msgid ""
 "lines and polygons, and an ``image`` (in this case a circle) used for point "
 "features."
 msgstr ""
-"このコードでは、TopoJSONファイルをロードし、``style`` "
-"プロパティーを使ってスタイルを設定しています。ラインとポリゴンに必要な``fill`` "
-"と``stroke``、およびポイントフィーチャに使用する``image`` (この場合は円)を設定しました。"
+"このコードでは、TopoJSONファイルをロードし、 ``style`` プロパティーを使ってスタイルを設定しています。ラインとポリゴンに必要な "
+"``fill`` と ``stroke`` 、およびポイントフィーチャに使用する ``image`` (この場合は円)を設定しました。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:271
 msgid "Work with events"
@@ -283,14 +278,13 @@ msgid ""
 "Most of the components, like map, layers or controls, trigger events to "
 "notify changes. For example we can be notified each time the mouse is moved "
 "over the map, or when a feature is added to a vector layer, etc."
-msgstr ""
-"ほとんどの(マップ、レイヤ、コントロールなどの)要素は、イベントをトリガして変更を通知します。たとえば、マウスがマップ上を移動するたびに通知されたり、フィーチャがベクタレイヤに追加されるたびに通知されたりします。"
+msgstr "ほとんどの(マップ、レイヤ、コントロールなどの)要素は、イベントをトリガして変更を通知します。たとえば、マウスがマップ上を移動するたびに通知されたり、フィーチャがベクタレイヤに追加されるたびに通知されたりします。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:275
 msgid ""
 "Events can be easily registered on an object with the ``on()`` method and "
 "unregistered with ``un()``."
-msgstr "イベントは``on()`` メソッドでオブジェクトに簡単に登録でき、``un()`` で登録解除できます。"
+msgstr "イベントは ``on()`` メソッドでオブジェクトに簡単に登録でき、 ``un()`` で登録解除できます。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:277
 msgid ""
@@ -298,8 +292,7 @@ msgid ""
 "notified each time the pointer is moved. Within the callback function we "
 "obtain the pointer coordinates and print in the browser console in two "
 "different projections."
-msgstr ""
-"次のコードでは、マップのインスタンスにイベントを登録し、ポインタが移動するたびに通知されます。コールバック関数内では、ポインタの座標を取得し、ブラウザコンソールに2つの異なる投影法で出力します。"
+msgstr "次のコードでは、マップのインスタンスにイベントを登録し、ポインタが移動するたびに通知されます。コールバック関数内では、ポインタの座標を取得し、ブラウザコンソールに2つの異なる投影法で出力します。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:290
 msgid "What next?"
@@ -310,8 +303,7 @@ msgid ""
 "Sometimes the quickest way to work out how OpenLayers works is to look at "
 "examples and their source code. You can find more OpenLayers information "
 "here:"
-msgstr ""
-"OpenLayersの動作を理解するための最も簡単な方法は、サンプルとそのソースコードを調べることです。OpenLayersの詳細については、以下を参照してください。"
+msgstr "OpenLayersの動作を理解するための最も簡単な方法は、サンプルとそのソースコードを調べることです。OpenLayersの詳細については、以下を参照してください。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:295
 msgid "`API Docs <../../openlayers/apidoc/>`_"
@@ -324,3 +316,4 @@ msgstr "`例 <../../openlayers/examples/>`_"
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:299
 msgid "`OpenLayers.org Website <https://openlayers.org/>`_"
 msgstr "`OpenLayers.org Webサイト <https://openlayers.org/>`_"
+

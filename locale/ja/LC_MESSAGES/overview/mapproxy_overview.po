@@ -155,8 +155,7 @@ msgstr "異なるソースからのレイヤーツリーの構築"
 msgid ""
 "create ``GetMap`` responses from cache with support for free-zooming and any"
 " projection (for any Desktop GIS)"
-msgstr ""
-"(あらゆるデスクトップ GIS のための) 自由なズームや、あらゆる座標系のサポートを伴う、キャッシュからの ``GetMap`` レスポンス生成"
+msgstr "(あらゆるデスクトップ GIS のための) 自由なズームや、あらゆる座標系のサポートを伴う、キャッシュからの ``GetMap`` レスポンス生成"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:71
 msgid "accelerates existing WMS 10 to 100 times"
@@ -206,8 +205,7 @@ msgstr "強力なツール:"
 msgid ""
 "efficient seed tool for cache pre-filling that can seed polygon areas  with "
 "Shapefiles, GeoJSON, PostGIS or WKT geometries"
-msgstr ""
-"シェープファイル、GeoJSON、PostGIS、WKT ジオメトリのポリゴン領域へのシードが可能な事前タイルキャッシュのための効率的なシードツール。"
+msgstr "シェープファイル、GeoJSON、PostGIS、WKT ジオメトリのポリゴン領域へのシードが可能な事前タイルキャッシュのための効率的なシードツール。"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:85
 msgid "export cached tiles to other formats"
@@ -308,3 +306,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/mapproxy_overview.rst:127
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/mapproxy_quickstart>`"
+

@@ -61,19 +61,17 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:43
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/gdal_overview.rst:45
 msgid ""
 "Command-line utilities for data translation, image warping, subsetting, and "
 "various other common tasks"
-msgstr "データ変換、画像変形、切り出し、その他一般的な操作を行うコマンドラインユーティリティ。"
+msgstr "データ変換、画像変形、切り出し、その他一般的な操作を行うコマンドラインユーティリティ"
 
 #: ../../build/doc/overview/gdal_overview.rst:46
-msgid ""
-"Highly efficient raster data access, taking advantage of tiling and "
-"overviews"
-msgstr "ラスタデータの高度な操作。タイリング、サムネイル作成"
+msgid "Highly efficient raster data access, taking advantage of tiling and overviews"
+msgstr "タイリングと概観ビューを活用した、高効率なラスタデータアクセス"
 
 #: ../../build/doc/overview/gdal_overview.rst:47
 msgid "Support for large files - larger than 4GB"
@@ -121,7 +119,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:62
 msgid "Implemented Standards"
-msgstr "準拠している標準規格"
+msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/gdal_overview.rst:64
 msgid ""
@@ -142,7 +140,7 @@ msgid ""
 "**Licence:** `X/MIT style Open Source license "
 "<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 msgstr ""
-"**ライセンス:** `X/MIT style Open Source license "
+"**ライセンス:** `X/MIT スタイルオープンソースライセンス "
 "<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 
 #: ../../build/doc/overview/gdal_overview.rst:73
@@ -155,7 +153,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/gdal_overview.rst:77
 msgid "**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl"
-msgstr "**API インターフェイス:** C, C++, Python, Java, C#, Ruby, VB6 及び Perl"
+msgstr "**API インタフェース:** C, C++, Python, Java, C#, Ruby, VB6 及び Perl"
 
 #: ../../build/doc/overview/gdal_overview.rst:79
 msgid ""
@@ -172,3 +170,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/gdal_overview.rst:86
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/gdal_quickstart>`"
+

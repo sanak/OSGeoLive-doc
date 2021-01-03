@@ -36,13 +36,13 @@ msgid ""
 msgstr ""
 "プロジェクトのコードリポジトリ `OpenHUB <https://www.openhub.net/>`_ "
 "によるメトリクス。これらのメトリクスにはいくつかの欠点 (リポジトリの移動などによる) "
-"があることに注意する必要があります。また、プロジェクト開発については断片的な情報しかありません。一部の小さな変更を除けば、パッケージとライブラリは完成度の高いレベルにあります。"
+"があることに注意する必要があります。また、プロジェクトの開発については断片的な情報しかありません。一部の小さな変更を除けば、パッケージとライブラリは完成度の高いレベルにあります。"
 
 #: ../../build/doc/metrics.rst:14
 msgid ""
 "Viewing the metrics requires an Internet connection and Javascript to be "
 "enabled."
-msgstr "メトリクスを見るためにはインターネット接続と　Javascript　の実行をを許可する必要があります。"
+msgstr "メトリクスを見るためにはインターネット接続と Javascript の実行を許可する必要があります。"
 
 #: ../../build/doc/metrics.rst:23
 msgid "Desktop GIS"
@@ -79,3 +79,4 @@ msgstr "データ"
 #: ../../build/doc/metrics.rst:133
 msgid "Geospatial Libraries"
 msgstr "地理空間ライブラリ"
+

@@ -34,11 +34,11 @@ msgid ""
 " management interface and connects to multiple data sources at the back end."
 msgstr ""
 "GeoServerは、他のクライアント(Webブラウザなど)が描画するマップ(およびデータ)を提供するJavaアプリケーションです。GeoServer "
-"は、ブラウザベースの管理インターフェイスを持ち、バックエンド側で複数のデータソースへ接続します。"
+"は、ブラウザベースの管理インタフェースを持ち、バックエンド側で複数のデータソースへ接続します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:32
 msgid "This Quick Start describes how to:"
-msgstr "このクイックスタートでは、次の方法について説明します。"
+msgstr "このクイックスタートでは、次の方法について説明します:"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:34
 msgid "add a vector and raster data source to GeoServer"
@@ -70,7 +70,7 @@ msgid ""
 "application will take a few moments to start up and will open a web page at "
 "http://localhost:8082/geoserver/web"
 msgstr ""
-"スタートメニューから、|osgeolive-appmenupath-geoserver| "
+"スタートメニューから、 |osgeolive-appmenupath-geoserver| "
 "を選択します。アプリケーションの起動には少し時間がかかり、http://localhost:8082/geoserver/web "
 "でWebページが開きます。"
 
@@ -78,8 +78,7 @@ msgstr ""
 msgid ""
 "Log in using the username **admin** and password **geoserver**. You will now"
 " see the *admin page*."
-msgstr ""
-"ユーザー名 **admin** とパスワード **geoserver** を使用してログインします。これで、*admin page* が表示されます。"
+msgstr "ユーザー名 **admin** とパスワード **geoserver** を使用してログインします。これで、 *admin page* が表示されます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:56
 msgid ""
@@ -95,7 +94,7 @@ msgid ""
 " **tiger-ny** row. This will open a new window with a preview of some of the"
 " sample data."
 msgstr ""
-"ページの下部までスクロールし、**tiger-ny** 行の **OpenLayers** "
+"ページの下部までスクロールし、 **tiger-ny** 行の **OpenLayers** "
 "リンクをクリックします。これにより、新しいウィンドウが開き、サンプルデータのプレビューが表示されます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:66
@@ -119,8 +118,8 @@ msgid ""
 "by dragging a box on the map while holding down the :kbd:`shift key` - this "
 "will zoom in to the box selected (or as near as will fit in the screen)."
 msgstr ""
-":kbd:`shiftキー` "
-"-を押しながらマップ上のボックスをドラッグすると、選択されたボックスにズームします(または画面に収まる程度にズームします)。"
+":kbd:`shiftキー` - "
+"を押しながらマップ上のボックスをドラッグすると、選択されたボックスにズームします(または画面に収まる程度にズームします)。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:74
 msgid ""
@@ -149,15 +148,15 @@ msgid ""
 "<../overview/naturalearth_overview>` that is included on OSGeoLive "
 "(:file:`/usr/local/share/data/natural_earth2/`)."
 msgstr ""
-"この例では、OSGeoLiveに含まれている :doc:`Natural "
-"Earthデータセット<../overview/naturalearth_overview>` "
+"この例では、OSGeoLiveに含まれている :doc:`Natural Earthデータセット "
+"<../overview/naturalearth_overview>` "
 "(:file:`/usr/local/share/data/natural_earth2/`)を使用します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:90
 msgid ""
 "We need to create a Store for our data. From the |GS| admin page go to "
 ":guilabel:`Stores`."
-msgstr "データ用のストアを作成する必要があります。|GS| 管理ページから:guilabel:`Stores` に移動します。"
+msgstr "データ用のストアを作成する必要があります。|GS| 管理ページから :guilabel:`Stores` に移動します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:91
 msgid "Click on :guilabel:`Add new Store`. You will see this page:"
@@ -176,8 +175,8 @@ msgid ""
 ":file:`/usr/local/share/data/natural_earth2/`. You can use the browse button"
 " to find the directory if your data is somewhere else."
 msgstr ""
-"データストアの名前(*Natural Earth* "
-"など)を入力し、データセットのURL(この場合は:file:`/usr/local/share/data/natural_earth2/`)を入力します。データが他の場所にある場合は、ブラウズボタンを使用してディレクトリを検索できます。"
+"データストアの名前(*Natural Earth* など)を入力し、データセットのURL(この場合は "
+":file:`/usr/local/share/data/natural_earth2/`)を入力します。データが他の場所にある場合は、ブラウズボタンを使用してディレクトリを検索できます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:106
 msgid "Press :guilabel:`save`."
@@ -187,8 +186,7 @@ msgstr ":guilabel:`保存` を押します。"
 msgid ""
 "Press :guilabel:`publish` next to one of the layers to finish adding the "
 "data. This will take you to the *Layers* page:"
-msgstr ""
-"いずれかのレイヤーの横にある :guilabel:`公開` を押して、データの追加を完了します。これにより、*レイヤ* ページに移動します。"
+msgstr "いずれかのレイヤーの横にある :guilabel:`公開` を押して、データの追加を完了します。これにより、 *レイヤ* ページに移動します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:120
 msgid ""
@@ -197,9 +195,10 @@ msgid ""
 "will notice that under *Native SRS* it says UNKNOWN you will need to fill in"
 " the next box (*declared SRS*) to make sure |GS| knows where the data is."
 msgstr ""
-"ページをスクロールすると、|GS| が多くのフィールドにデータ挿入していることがわかります。 :guilabel:`Coordinate "
-"Reference System` に到達すると、 *Native SRS* の下にUNKNOWNと表示されていることがわかります。次のボックス "
-"(*declared SRS*) に入力して、|GS| がデータの場所を確実に認識できるようにする必要があります。"
+"ページをスクロールすると、 |GS| が多くのフィールドにデータ挿入していることがわかります。:guilabel:`Coordinate "
+"Reference System` に到達すると、 *Native SRS* "
+"の下にUNKNOWNと表示されていることがわかります。次のボックス(*declared SRS*)に入力して、 |GS| "
+"がデータの場所を確実に認識できるようにする必要があります。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:122
 msgid ""
@@ -215,19 +214,18 @@ msgid ""
 "Click on :guilabel:`Compute from data` and :guilabel:`Compute from native "
 "bounds` to fill in the Bounding Boxes."
 msgstr ""
-":guilabel:`Compute from data` と:guilabel:`Compute from native bounds` "
+":guilabel:`Compute from data` と :guilabel:`Compute from native bounds` "
 "をクリックして、境界ボックス内のデータ表示します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:124
 msgid "Finally hit :guilabel:`save` and you have published your first layer."
-msgstr "最後に:guilabel:`保存` をクリックて、最初のレイヤを公開しました。"
+msgstr "最後に :guilabel:`保存` をクリックて、最初のレイヤを公開しました。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:127
 msgid ""
 "Don't worry if the layer preview doesn't look very good as it is using the "
 "default style. In the next section we will look at producing a nicer style."
-msgstr ""
-"レイヤのプレビューは既定のスタイルを使用しているため、あまり見栄えがしなくても心配ありません。次のセクションでは、より良いスタイルの作成について説明します。"
+msgstr "レイヤのプレビューは既定のスタイルを使用しているため、あまり見栄えがしなくても心配ありません。次のセクションでは、より良いスタイルの作成について説明します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:129
 msgid ""
@@ -236,7 +234,7 @@ msgid ""
 "the natural earth store from the drop down box to get back to the store's "
 "page."
 msgstr ""
-"ディレクトリ内の他のレイヤーについても、レイヤーページの:guilabel:`Add a new resource` "
+"ディレクトリ内の他のレイヤーについても、レイヤーページの :guilabel:`Add a new resource` "
 "ボタンを使用して同じ手順を実行できます。ドロップダウンボックスからNatural Earthストアを選択するだけで、ストアのページに戻ります。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:132
@@ -260,8 +258,9 @@ msgid ""
 "shapefiles directly and apply simple styles using a GUI. It also provides a "
 "simple editor to modify the XML if I need to."
 msgstr ""
-"はじめに、で陸地と海洋のデータセットのスタイルを設定しましょう。SLDファイルは簡単なテキストエディタで作成できますが、グラフィカルエディタの方がよい場合もあります。ここにはいくつかのオプションがありますが、|UG|"
-" ではシェイプファイルを直接開き、GUIを使用して簡単なスタイルを適用できます。また、必要に応じてXMLを変更するための簡単なエディタも提供しています。"
+"はじめに、で陸地と海洋のデータセットのスタイルを設定しましょう。SLDファイルは簡単なテキストエディタで作成できますが、グラフィカルエディタの方がよい場合もあります。ここにはいくつかのオプションがありますが、"
+" |UG| "
+"ではシェイプファイルを直接開き、GUIを使用して簡単なスタイルを適用できます。また、必要に応じてXMLを変更するための簡単なエディタも提供しています。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:140
 msgid "Using |UG| to create simple styles"
@@ -272,8 +271,8 @@ msgid ""
 "For more details on how to use |UG| see the :doc:`uDig Quickstart "
 "<../quickstart/udig_quickstart>`"
 msgstr ""
-"|UG| の使用方法に関するその他の詳細については、:doc:`uDigクイックスタート<../quickstart/udig_quickstart>`"
-" を参照してください。"
+"|UG| の使用方法に関するその他の詳細については、 :doc:`uDigクイックスタート "
+"<../quickstart/udig_quickstart>` を参照してください。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:146
 msgid ""
@@ -293,11 +292,11 @@ msgstr ""
 msgid ""
 "In the :ref:`Layer list <Layer_list>` select the style button (it looks like"
 " an artist's palette)."
-msgstr ":ref:`レイヤリスト<Layer_list>` でスタイルボタン(アーティストのパレットのように見えます)を選択します。"
+msgstr ":ref:`レイヤリスト <Layer_list>` でスタイルボタン(アーティストのパレットのように見えます)を選択します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:162
 msgid "This will open the :ref:`Style Pane <Style_Pane>`."
-msgstr "これにより、:ref:`スタイルペイン<Style_Pane>` が開きます。"
+msgstr "これにより、 :ref:`スタイルペイン <Style_Pane>` が開きます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:163
 msgid ""
@@ -306,19 +305,17 @@ msgid ""
 "picker it produces. We can also increase the opacity of the fill to 100% to "
 "make the color look better. Pick the same blue for the border color so it "
 "will match."
-msgstr ""
-"シンプルなウィンドウでは、塗りつぶしタブの色付きのボックスをクリックし、表示されるカラーピッカーから選択することで、海洋に適した青を簡単に選択できます。また、塗りつぶしの不透明度を100%に上げて、カラーの見栄えを良くすることもできます。境界線の色に同じ青を選択して、一致させます。"
+msgstr "シンプルなウィンドウでは、塗りつぶしタブの色付きのボックスをクリックし、表示されるカラーピッカーから選択することで、海洋に適した青を簡単に選択できます。また、塗りつぶしの不透明度を100%に上げて、カラーの見栄えを良くすることもできます。境界線の色に同じ青を選択して、一致させます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:171
 msgid "Click ``OK`` and |UG| will display the changes."
-msgstr "``OK`` をクリックすると、|UG| が変更を表示します。"
+msgstr "``OK`` をクリックすると、 |UG| が変更を表示します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:178
 msgid ""
 "Repeat the steps above to change the color of the land layer. You can use "
 "the ``define custom colors`` section to create your preferred color."
-msgstr ""
-"上記の手順を繰り返して、土地のレイヤの色を変更します。``define custom colors`` セクションを使用して、好みの色を作成できます。"
+msgstr "上記の手順を繰り返して、土地のレイヤの色を変更します。``define custom colors`` セクションを使用して、好みの色を作成できます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:185
 msgid "This gives a nice looking basic world map."
@@ -342,7 +339,7 @@ msgstr "スタイルウィンドウにはエクスポートボタンがあり、
 msgid ""
 "Once saved, you can go to the |GS| admin page again and select ``Styles`` "
 "(at the bottom of the ``Data`` section)."
-msgstr "保存後、再度 |GS| 管理ページに移動して、``Styles`` (``Data`` セクションの下部)を選択できます。"
+msgstr "保存後、再度 |GS| 管理ページに移動して、 ``Styles`` (``Data`` セクションの下部)を選択できます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:199
 msgid ""
@@ -365,12 +362,11 @@ msgid ""
 "If you click on the validate button the highlighted lines will give you an "
 "error but you can safely ignore the error (or delete those lines as they "
 "don't do anything)."
-msgstr ""
-"妥当性検査ボタンをクリックすると、強調表示されたラインにエラーが表示されますが、エラーを無視しても安全です(または、何もしないラインを削除してもかまいません)。"
+msgstr "妥当性検査ボタンをクリックすると、強調表示されたラインにエラーが表示されますが、エラーを無視しても安全です(または、何もしないラインを削除してもかまいません)。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:203
 msgid "Press the :guilabel:`Submit` at the bottom of the page."
-msgstr "ページの下部にある:guilabel:`Submit` を押します。"
+msgstr "ページの下部にある :guilabel:`Submit` を押します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:212
 msgid "Adding the style to the layer"
@@ -380,13 +376,13 @@ msgstr "レイヤにスタイルを追加"
 msgid ""
 "Click on the :guilabel:`Layers` link in the Menu on the left of the |GS| "
 "window."
-msgstr "|GS| ウィンドウの左側にあるメニューの:guilabel:`レイヤ` リンクをクリックします。"
+msgstr "|GS| ウィンドウの左側にあるメニューの :guilabel:`レイヤ` リンクをクリックします。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:215
 msgid ""
 "Click on the layer (e.g. *ne_10m_land*), then select the "
 ":guilabel:`Publishing` tab."
-msgstr "レイヤ(例:*ne_10m_land*)をクリックし、:guilabel:`Publishing` タブを選択します。"
+msgstr "レイヤ(例: *ne_10m_land*)をクリックし、 :guilabel:`Publishing` タブを選択します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:216
 msgid ""
@@ -398,7 +394,7 @@ msgstr ":guilabel:`Default Style` ボックスを前のセクションでアッ�
 msgid ""
 "Now click :guilabel:`Save` and go to the Layer Preview page to check that it"
 " looks good."
-msgstr "次に、:guilabel:`保存` をクリックし、レイヤプレビューページに移動して、外観が良いことを確認します。"
+msgstr "次に、 :guilabel:`保存` をクリックし、レイヤプレビューページに移動して、外観が良いことを確認します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:220
 msgid ""
@@ -416,8 +412,7 @@ msgstr "WMSレイヤーのクライアント"
 msgid ""
 "The |WMS| layers you are serving from |GS| can be used with a variety of "
 "clients on this OSGeoLive distribution, including:"
-msgstr ""
-"|GS| から提供されているWMSレイヤは、このOSGeoLiveディストリビューションのさまざまなクライアントで使用できます。次のものがあります。"
+msgstr "|GS| から提供されているWMSレイヤは、このOSGeoLiveディストリビューションのさまざまなクライアントで使用できます。次のものがあります。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:248
 msgid ":doc:`uDig <../overview/udig_overview>`"
@@ -455,7 +450,7 @@ msgstr "管理者としてログインします。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:262
 msgid "Click on :guilabel:`Add stores` then :guilabel:`NetCDF`."
-msgstr ":guilabel:`ストア追加` をクリックし、次に:guilabel:`NetCDF` をクリックします。"
+msgstr ":guilabel:`ストア追加` をクリックし、次に :guilabel:`NetCDF` をクリックします。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:263
 msgid ""
@@ -497,7 +492,7 @@ msgid ""
 "Java system property to allow the publication of NetCDF files in read-only "
 "directories."
 msgstr ""
-"このGeoServerインスタンスは、``NETCDF_DATA_DIR`` "
+"このGeoServerインスタンスは、 ``NETCDF_DATA_DIR`` "
 "Javaシステムプロパティを使用して設定されており、読み取り専用ディレクトリにNetCDFファイルを公開できます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:291
@@ -533,3 +528,4 @@ msgid ""
 msgstr ""
 "GeoServer スタイリングワークショップ - "
 "https://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
+

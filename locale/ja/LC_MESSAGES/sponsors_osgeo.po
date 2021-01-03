@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:17
 msgid "OSGeo outreach and activities include:"
-msgstr "OSGeoのアウトリーチや活動に含まれるもの:"
+msgstr "OSGeoのアウトリーチと活動には次のものが含まれます:"
 
 #: ../../build/doc/sponsors_osgeo.rst:19
 msgid ""
@@ -71,7 +71,7 @@ msgid ""
 "quickstarts, ready to try out."
 msgstr ""
 "`OSGeoLive <https://live.osgeo.org>`__: "
-"地理空間オープンソースソフトウェア、事前設定のサンプルデータ、クイックスタートによって構成されたディストリビューションで、試す準備ができています。"
+"サンプルデータとクイックスタートが事前に設定された、実証済みの地理空間オープンソースソフトウェアのディストリビューション。すぐに試用できます。"
 
 #: ../../build/doc/sponsors_osgeo.rst:22
 msgid ""
@@ -79,6 +79,7 @@ msgid ""
 "and Open Source Software for Geospatial*, as well as many regional and local"
 " `events <https://www.osgeo.org/events>`_."
 msgstr ""
-"`FOSS4G <https://foss4g.org>`_: *地理空間のためのフリーでオープンなソフトウェア* "
-"のために毎年開催される国際カンファレンスで、多くの地域でも同様の `イベント <https://www.osgeo.org/events>`_. "
+"`FOSS4G <https://foss4g.org>`_: *地理空間のためのフリーでオープンソースなソフトウェア* "
+"のために毎年開催される国際カンファレンスで、多くの地域でも同様の `イベント <https://www.osgeo.org/events>`_ "
 "が開催されています。"
+

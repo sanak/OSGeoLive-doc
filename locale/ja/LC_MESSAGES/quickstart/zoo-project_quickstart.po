@@ -33,7 +33,7 @@ msgid ""
 "web access to functions which run spatial algorithms."
 msgstr ""
 "ZOOプロジェクトは、Web Processing Servicesを作成およびチェーンするための開発者向けのWeb Processing "
-"Service(WPS)フレームワークを提供します。WPSは空間アルゴリズムを実行する関数へのWebアクセスを提供します。"
+"Service(WPS)フレームワークを提供します。WPSは空間アルゴリズムを実行する機能へのWebアクセスを提供します。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:33
 msgid "Start ZOO-Project"
@@ -44,13 +44,14 @@ msgid ""
 "From the Start menu, select :menuselection:`Geospatial --> Web Services --> "
 "ZOO Project`."
 msgstr ""
-"スタートメニューから:menuselection:`Geospatial-->Web Services-->ZOO Project` を選択します。"
+"[スタート]メニューから :menuselection:`Geospatial --> Web Services --> ZOO Project` "
+"を選択します。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:37
 msgid ""
 "Firefox will open the ZOO Project demonstration landing page. From here, you"
 " can select a demon application."
-msgstr "FirefoxはZOOプロジェクトのデモがある着地ページを開きます。ここから、デモアプリケーションを選択できます。"
+msgstr "FirefoxはZOOプロジェクトのデモランディングページを開きます。ここから、デモアプリケーションを選択できます。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid "OGR spatial tools demo"
@@ -60,7 +61,7 @@ msgstr "OGR空間ツールのデモ"
 msgid ""
 "On the ZOO Project demonstration landing page, click :guilabel:`view` on OGR"
 " spatial tools."
-msgstr "ZOOプロジェクトのデモ着地ページで、OGR空間ツールの:guilabel:`ビュー` をクリックします。"
+msgstr "ZOOプロジェクトのデモランディングページで、OGR空間ツールの :guilabel:`view` をクリックします。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:48
 msgid ""
@@ -68,7 +69,7 @@ msgid ""
 "<../overview/geoserver_overview>` WFS Server, the feature will be displayed "
 "in blue."
 msgstr ""
-"地図をクリックして :doc:`GeoServer <../overview/geoserver_overview>`  WFS "
+"地図をクリックして :doc:`GeoServer <../overview/geoserver_overview>` WFS "
 "Serverから地物を選択すると、地物が青で表示されます。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:49
@@ -94,7 +95,7 @@ msgstr "CGAL三角形分割デモ"
 msgid ""
 "On the ZOO Project demonstration landing page, click :guilabel:`view` on "
 "CGAL triangulations."
-msgstr "ZOOプロジェクトのデモ着地ページで、CGAL三角形分割の:guilabel:`view` をクリックします。"
+msgstr "ZOOプロジェクトのデモランディングページで、CGAL三角形分割の :guilabel:`view` をクリックします。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:68
 msgid ""
@@ -110,7 +111,7 @@ msgstr "OTBアプリケーションのデモ"
 msgid ""
 "On the ZOO Project demonstration landing page, click :guilabel:`view` on OTB"
 " application."
-msgstr "ZOOプロジェクトのデモ着地ページで、OTBアプリケーションの:guilabel:`view` をクリックします。"
+msgstr "ZOOプロジェクトのデモランディングページで、OTBアプリケーションの :guilabel:`view` をクリックします。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:81
 msgid "Fill the form on the left to configure the WPS service execution."
@@ -120,15 +121,14 @@ msgstr "左側のフォームに入力して、WPSサービスの実行を設定
 msgid ""
 "Once you have selected the values for your processing, press the "
 ":guilabel:`Execute` button at the bottom of the left form."
-msgstr "処理する値を選択したら、左側のフォームの下部にある:guilabel:`Execute` ボタンを押します。"
+msgstr "処理する値を選択したら、左側のフォームの下部にある :guilabel:`Execute` ボタンを押します。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:83
 msgid ""
 "If you chose image/png as the output format, you will see the result of your"
 " processing displayed on the map. You can see below a sample "
 "KMeansClassification execution when selecting the image/png output format."
-msgstr ""
-"出力形式としてimage/pngを選択した場合、処理結果が地図に表示されます。image/png出力フォーマットを選択すると、サンプルのKMeansClassification実行が表示されます。"
+msgstr "出力形式としてimage/pngを選択した場合、処理結果が地図に表示されます。image/png出力フォーマットを選択すると、サンプルのKMeansClassification実行が表示されます。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:93
 msgid "What next?"
@@ -139,12 +139,12 @@ msgid "You can access the capabilities of the ZOO WPS Server:"
 msgstr "ZOO WPSサーバーの機能にアクセスできます。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:96
-msgid ""
-"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
-msgstr ""
+msgid "http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
+msgstr "http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:98
 msgid ""
 "For further questions you can contact the ZOO Project mailing list: zoo-"
 "discuss@lists.osgeo.org"
-msgstr "詳細については、ZOO Projectメーリングリスト:zoo-discuss@lists.osgeo.orgに問い合わせてください。"
+msgstr "詳細については、ZOO Projectメーリングリスト: zoo-discuss@lists.osgeo.org  に問い合わせてください。"
+

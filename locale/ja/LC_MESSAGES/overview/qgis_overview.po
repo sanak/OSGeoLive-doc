@@ -49,11 +49,11 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:36
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/qgis_overview.rst:38
 msgid "Friendly graphical user interface:"
-msgstr "使いやすいグラフィカルなユーザーインターフェイス:"
+msgstr "使いやすいグラフィカルなユーザインタフェース:"
 
 #: ../../build/doc/overview/qgis_overview.rst:40
 msgid "identify/select features"
@@ -77,7 +77,7 @@ msgstr "地物に対するラベル表示"
 
 #: ../../build/doc/overview/qgis_overview.rst:45
 msgid "change vector and raster symbology"
-msgstr "ベクタとラスタのシンボルの変更"
+msgstr "ベクタとラスタのシンボロジーの変更"
 
 #: ../../build/doc/overview/qgis_overview.rst:46
 msgid "add a graticule layer"
@@ -95,8 +95,7 @@ msgstr "様々なベクタとラスタフォーマットの容易な表示"
 msgid ""
 "database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
 "SpatiaLite"
-msgstr ""
-"データベーステーブル: PostgreSQL/PostGIS、Oracle Spatial、MS SQL Spatial、SpatiaLite"
+msgstr "データベーステーブル: PostgreSQL/PostGIS、Oracle Spatial、MS SQL Spatial、SpatiaLite"
 
 #: ../../build/doc/overview/qgis_overview.rst:52
 msgid ""
@@ -138,8 +137,7 @@ msgstr "幾何補正プラグイン"
 msgid ""
 "GPS tools to import and export GPX format, convert other GPS formats to GPX,"
 " or down/upload directly to a GPS unit"
-msgstr ""
-"GPX フォーマットのインポートとエクスポート、他の GPS フォーマットの GPX への変換、または GPS 機器からの直接ダウンロード・アップロード"
+msgstr "GPX フォーマットのインポートとエクスポート、他の GPS フォーマットの GPX への変換、または GPS 機器からの直接ダウンロード・アップロード"
 
 #: ../../build/doc/overview/qgis_overview.rst:64
 msgid ""
@@ -230,3 +228,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/qgis_overview.rst:103
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/qgis_quickstart>`"
+

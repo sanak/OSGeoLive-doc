@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../build/doc/overview/postgis_overview.rst:81
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/postgis_overview.rst:83
 msgid "Hundreds of spatial functions"
@@ -137,7 +137,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/postgis_overview.rst:114
 msgid "**API Interfaces:** SQL"
-msgstr "**API インターフェイス:** SQL"
+msgstr "**API インタフェース:** SQL"
 
 #: ../../build/doc/overview/postgis_overview.rst:120
 msgid "**Support:** |SUPPORT|"
@@ -150,3 +150,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/postgis_overview.rst:128
 msgid ":doc:`Quickstart documentation <../quickstart/postgis_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/postgis_quickstart>`"
+

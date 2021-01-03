@@ -38,23 +38,6 @@ msgid "Description"
 msgstr "説明"
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr "|nologo|"
 
@@ -62,16 +45,6 @@ msgstr "|nologo|"
 msgid "`OGC Standards`_"
 msgstr "`OGC Standards`_"
 
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "10.5"
 msgstr "10.5"
@@ -261,7 +234,6 @@ msgid "Microsoft Windows based Desktop GIS."
 msgstr "Microsoft Windows ベースのデスクトップ GIS"
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "|osgeo_project|"
 msgstr "|osgeo_project|"
 
@@ -302,7 +274,6 @@ msgid "Geopublisher_"
 msgstr "Geopublisher_"
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "6.0"
 msgstr "6.0"
 
@@ -333,3 +304,4 @@ msgstr "5.0"
 #: ../../build/doc/prior_applications.rst:1
 msgid "Web Service"
 msgstr "Web サービス"
+

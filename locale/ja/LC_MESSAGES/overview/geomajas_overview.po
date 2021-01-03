@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geomajas_overview.rst:31
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/geomajas_overview.rst:33
 msgid "Programmable using pure Java through GWT"
@@ -132,7 +132,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geomajas_overview.rst:61
 msgid "**API Interfaces:** Java and Javascript"
-msgstr "**API インターフェイス:** Java and Javascript"
+msgstr "**API インタフェース:** Java and Javascript"
 
 #: ../../build/doc/overview/geomajas_overview.rst:63
 msgid "**Support:** https://www.osgeo.org/service-providers"
@@ -145,3 +145,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geomajas_overview.rst:71
 msgid ":doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geomajas_quickstart>`"
+

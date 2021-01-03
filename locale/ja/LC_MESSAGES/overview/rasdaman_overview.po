@@ -39,8 +39,7 @@ msgid ""
 " NewSQL raster query language with highly effective server-side "
 "optimization.  Cloud/cluster parallelization is accomplished in a secure, "
 "administrator-controlled way."
-msgstr ""
-"Rasdamanはアレイデータベースシステムであり、多次元時空間センサ、画像、シミュレーション、統計データのための柔軟で高速でスケーラブルな地理サービスを無制限のボリュームで提供します。NewSQL、集約、リミックス、分析は、非常に効果的なサーバサイド最適化を備えたNewSQLラスタクエリ言語を通じて可能になります。クラウド/クラスタの並列化は、管理者が制御する安全な方法で行われます。"
+msgstr "Rasdamanはアレイデータベースシステムであり、多次元時空間センサ、画像、シミュレーション、統計データのための柔軟で高速でスケーラブルな地理サービスを無制限のボリュームで提供します。NewSQL、集約、リミックス、分析は、非常に効果的なサーバサイド最適化を備えたNewSQLラスタクエリ言語を通じて可能になります。クラウド/クラスタの並列化は、管理者が制御する安全な方法で行われます。"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:26
 msgid ""
@@ -59,12 +58,11 @@ msgid ""
 "Technology is mature and stable, being in operational for more than ten "
 "years.  Among the operators of rasdaman services are mapping agencies and "
 "climate data centers."
-msgstr ""
-"Rasdamanは、ヨーロッパIT賞と地理空間イノベーション賞といった、数々の国際的なイノベーション賞を受賞しています。テクノロジーは成熟して安定しており、10年以上にわたって稼働しています。rasdamanサービスの事業者には、地図作成機関と気象データセンターがある。"
+msgstr "Rasdamanは、ヨーロッパIT賞と地理空間イノベーション賞といった、数々の国際的なイノベーション賞を受賞しています。テクノロジーは成熟して安定しており、10年以上にわたって稼働しています。rasdamanサービスの事業者には、地図作成機関と気象データセンターがある。"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:40
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:42
 msgid "truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond"
@@ -84,7 +82,7 @@ msgstr "高速データ・アクセスのための空間インデックス作成
 msgid ""
 "parallelization and \"tile streaming\" for unlimited scalability from laptop"
 " to cluster and cloud"
-msgstr "並列化と\"タイルストリーミング\"により、ノートパソコンからクラスタやクラウドまで無制限の拡張性を実現"
+msgstr "並列化と \"タイルストリーミング\" により、ノートパソコンからクラスタやクラウドまで無制限の拡張性を実現"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:46
 msgid ""
@@ -130,7 +128,7 @@ msgstr "**対応プラットフォーム:** Linux, MacOS, Solaris"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:67
 msgid "**API Interfaces:** rasql, C++, Java"
-msgstr "**API インターフェイス:** rasql, C++, Java"
+msgstr "**API インタフェース:** rasql, C++, Java"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:69
 msgid "**Support:**  https://rasdaman.com"
@@ -143,3 +141,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/rasdaman_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/rasdaman_quickstart>`"
+

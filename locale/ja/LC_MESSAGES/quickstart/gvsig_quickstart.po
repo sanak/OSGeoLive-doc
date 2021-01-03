@@ -22,8 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:18
-msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:24
@@ -143,7 +142,7 @@ msgstr ""
 msgid ""
 "(4) The right cell is the main display area where raster and vector data is "
 "rendered."
-msgstr ""
+msgstr "(4)右のセルは、ラスタデータとベクタデータがレンダリングされるメイン表示領域です。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:99
 msgid "Add layers to the view"
@@ -176,8 +175,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:112
-msgid ""
-"Click on the :guilabel:`OK` button to return to the **Add layer** dialog."
+msgid "Click on the :guilabel:`OK` button to return to the **Add layer** dialog."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:113
@@ -191,8 +189,7 @@ msgid "Configure the view display"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:119
-msgid ""
-"Click on the :guilabel:`Maximize` icon for a better viewing of the data."
+msgid "Click on the :guilabel:`Maximize` icon for a better viewing of the data."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:120
@@ -267,8 +264,7 @@ msgid "Remove the fill symbol and changing the border color"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:163
-msgid ""
-"Uncheck the :guilabel:`Fill color` box so the polygons are transparent."
+msgid "Uncheck the :guilabel:`Fill color` box so the polygons are transparent."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:164
@@ -320,6 +316,9 @@ msgid ""
 "aerial photograph or Digital Terrain Model as a backdrop to your vector "
 "data, or to show other vector data stored in different formats."
 msgstr ""
+"Note that this is a very basic view showing a point, a line and a polygon "
+"vector file superimposed over a raster file. "
+"航空写真やデジタル地形モデルをベクタデータの背景として使用したり、異なる形式で保存された他のベクタデータを表示することも簡単です。"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:194
 msgid "Add an overview or locator"
@@ -342,13 +341,11 @@ msgid "Select the ``HYP_50M_SR_W.tif`` layer."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:205
-msgid ""
-"Click on the :guilabel:`Open` button to return to the Add layer window."
+msgid "Click on the :guilabel:`Open` button to return to the Add layer window."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:206
-msgid ""
-"Click on the :guilabel:`Ok` button and close the Configure locator window."
+msgid "Click on the :guilabel:`Ok` button and close the Configure locator window."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:212
@@ -386,9 +383,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:236
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:271
-msgid ""
-"Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-"
-"button."
+msgid "Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:237
@@ -432,8 +427,7 @@ msgid "Select the 'Clear selection' icon in the main toolbar."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:260
-msgid ""
-"You can now see that only those towns within New South Wales are selected."
+msgid "You can now see that only those towns within New South Wales are selected."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:266
@@ -546,9 +540,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:331
-msgid ""
-"Select the :guilabel:`Close window` icon to return to the **Project "
-"manager**"
+msgid "Select the :guilabel:`Close window` icon to return to the **Project manager**"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:337
@@ -749,3 +741,4 @@ msgstr ""
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:455
 msgid "`gvSIG Blog <https://blog.gvsig.org/category/languages/english/>`_"
 msgstr ""
+

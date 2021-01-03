@@ -33,7 +33,7 @@ msgid ""
 "observations from monitoring sensors according to the Sensor Observation "
 "Service standard."
 msgstr ""
-"istSOSは、`Python <https://www.python.org/>`__  で記述されたOGC |SOS| "
+"istSOSは、 `Python <https://www.python.org/>`__ で記述されたOGC |SOS| "
 "サーバ実装です。istSOSは、Sensor Observation "
 "Service標準に従って、モニタリングセンサーからの観測情報を管理し、ディスパッチすることを可能にします。"
 
@@ -43,7 +43,7 @@ msgid ""
 "the daily operations and a RESTFull Web api for automatizing administration "
 "procedures."
 msgstr ""
-"このプロジェクトはまた、日常的な操作を容易にするグラフィカル・ユーザー・インターフェースと、管理手順を自動化するためのRESTフル Web "
+"このプロジェクトはまた、日常的な操作を容易にするグラフィカル・ユーザー・インタフェースと、管理手順を自動化するためのRESTフル Web "
 "apiも提供しています。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:28
@@ -72,16 +72,14 @@ msgid ""
 "With istSOS you can organize your sensor data in different instances. Every "
 "instance has its own database schema independent from other instances. You "
 "can even deploy other databases over your network according to your needs."
-msgstr ""
-"istSOSを使用すると、センサーデータをさまざまなインスタンスまとめることができます。すべてのインスタンスには、他のインスタンスから独立した独自のデータベーススキーマがあります。必要に応じて、ネットワーク上に他のデータベースを展開することもできます。"
+msgstr "istSOSを使用すると、センサーデータをさまざまなインスタンスまとめることができます。すべてのインスタンスには、他のインスタンスから独立した独自のデータベーススキーマがあります。必要に応じて、ネットワーク上に他のデータベースを展開することもできます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:50
 msgid ""
 "The first steps into istSOS setup is to configure the default configuration "
 "options. These options will then be automatically used for your convenience "
 "by every new istSOS instance created."
-msgstr ""
-"istSOSセットアップの最初のステップは、デフォルトの設定オプションを設定することです。これらのオプションは、新しいistSOSインスタンスが作成されるたびに自動的に使用されます。"
+msgstr "istSOSセットアップの最初のステップは、デフォルトの設定オプションを設定することです。これらのオプションは、新しいistSOSインスタンスが作成されるたびに自動的に使用されます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:52
 msgid ""
@@ -89,8 +87,8 @@ msgid ""
 " Admin interface. Alternatively, open a browser and go to "
 "`<http://localhost/istsos/admin>`_"
 msgstr ""
-":menuselection:`Geospatial-->Webservices-->istSOS` をクリックして、Web "
-"Adminインターフェイスを開きます。または、ブラウザを開き、`<http://localhost/istsos/admin>`_ に移動します。"
+":menuselection:`Geospatial --> Webservices --> istSOS` をクリックして、Web "
+"Adminインタフェースを開きます。または、ブラウザを開き、 `<http://localhost/istsos/admin>`_ に移動します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:54
 msgid "Click the :guilabel:`Enter` button in the administration page."
@@ -124,7 +122,7 @@ msgstr "座標参照系(CRS)を管理するには、\"Coordinates system\" ボ�
 msgid ""
 "*Default EPSG code*: this will be the native Coordinate Reference System of "
 "your geometries in the database."
-msgstr "*Default EPSG code*:これはデータベース内のジオメトリのネイティブの座標参照システムになります。"
+msgstr "*Default EPSG code*: これはデータベース内のジオメトリのネイティブの座標参照システムになります。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:75
 msgid ""
@@ -162,11 +160,11 @@ msgstr "istSOSを設定したので、次は新しいサービスインスタン
 msgid ""
 "From the toolbar buttons menu press the \"new service\" button and click "
 ":guilabel:`Next`."
-msgstr "ツールバーのボタンメニューから\"new service\"ボタンを押し、:guilabel:`Next` をクリックします。"
+msgstr "ツールバーのボタンメニューから\"new service\"ボタンを押し、 :guilabel:`Next` をクリックします。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:89
 msgid "Type **demo** for the Service name."
-msgstr "サービス名に**demo**と入力します。"
+msgstr "サービス名に **demo** と入力します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:91
 msgid ""
@@ -180,23 +178,20 @@ msgstr ""
 msgid ""
 "Clicking on the \"Customize database\" box, you are able to change the "
 "default database configuration for this new istSOS instance."
-msgstr ""
-"\"Customize database\"ボックスをクリックすると、この新しいistSOSインスタンスのデフォルトデータベース設定を変更できます。"
+msgstr "\"Customize database\"ボックスをクリックすると、この新しいistSOSインスタンスのデフォルトデータベース設定を変更できます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:95
 msgid ""
 "Press :guilabel:`Next`. The server status panel is displayed. If something's"
 " gone wrong during the creation you will see an alert here."
-msgstr ""
-":guilabel:`Next` を押します。サーバステータスパネルが表示されます。作成中に何か問題が発生した場合ここに警告が表示されます。"
+msgstr ":guilabel:`Next` を押します。サーバステータスパネルが表示されます。作成中に何か問題が発生した場合ここに警告が表示されます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:98
 msgid ""
 "The istSOS “demo” instance has inherited all the configuration options from "
 "the default configuration. If, for any reason you decide to modify them, the"
 " changes will affect only this instance."
-msgstr ""
-"istSOSの\"demo\"インスタンスは、デフォルト設定からすべての設定オプションを継承しています。何らかの理由で変更した場合、変更はこのインスタンスにのみ影響します。"
+msgstr "istSOSの\"demo\"インスタンスは、デフォルト設定からすべての設定オプションを継承しています。何らかの理由で変更した場合、変更はこのインスタンスにのみ影響します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:102
 msgid "Add a new procedure"
@@ -206,13 +201,11 @@ msgstr "新しいプロシージャを追加する"
 msgid ""
 "From the “services” drop down button of the admin interface "
 "(http://localhost/istsos/admin ) choose the desired instance."
-msgstr ""
-"管理インターフェイス(http://localhost/istsos/admin)の\"services\"ドロップダウンボタンから、目的のインスタンスを選択します。"
+msgstr "管理インタフェース(http://localhost/istsos/admin)の\"services\"ドロップダウンボタンから、目的のインスタンスを選択します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:106
-msgid ""
-"From the toolbar buttons menu press the :guilabel:`New procedure` button."
-msgstr "ツールバーのボタンメニューから: guilabel:`New procedure` ボタンを押します。"
+msgid "From the toolbar buttons menu press the :guilabel:`New procedure` button."
+msgstr "ツールバーのボタンメニューから :guilabel:`New procedure` ボタンを押します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:108
 msgid "Fill in the form using appropriate information."
@@ -269,8 +262,7 @@ msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
 msgstr "*出力(\"add\"ボタンを押して出力を確認):*"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:139
-msgid ""
-"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+msgid "Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
 msgstr "観測されたプロパティ:urn:ogc:def:parameter:x-istSOS:1.0:meteo:air:temperature"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:141
@@ -299,13 +291,11 @@ msgid ""
 "\"text/csv, subtype=istSOS\". The file uses a Comma Separated Values (CSV) "
 "format. The first line contains header information, including URI names of "
 "the observed properties. The following lines contain the data."
-msgstr ""
-"まず、\"text/csv,subtype=istSOS\"に従ってフォーマットされたセンサーデータのテキストファイルを作成します。このファイルはCSV(カンマ区切りテキスト)形式を使用しています。最初の行には、観測されたプロパティのURI名を含むヘッダ情報が含まれます。次の行にデータが含まれています。"
+msgstr "まず、\"text/csv,subtype=istSOS\"に従ってフォーマットされたセンサーデータのテキストファイルを作成します。このファイルはCSV(カンマ区切りテキスト)形式を使用しています。最初の行には、観測されたプロパティのURI名を含むヘッダ情報が含まれます。次の行にデータが含まれています。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:157
-msgid ""
-"Open a text editor by selecting :menuselection:`Accessories --> FeatherPad`."
-msgstr ":menuselection:`アクセサリ-->FeatherPad` を選択して、テキストエディタを開きます。"
+msgid "Open a text editor by selecting :menuselection:`Accessories --> FeatherPad`."
+msgstr ":menuselection:`アクセサリ --> FeatherPad` を選択して、テキストエディタを開きます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:159
 msgid "Copy and paste the following text into the text editor window:"
@@ -318,8 +308,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:178
-msgid ""
-"Open a terminal by selecting :menuselection:`System Tools --> LXTerminal`."
+msgid "Open a terminal by selecting :menuselection:`System Tools --> LXTerminal`."
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:180
@@ -340,7 +329,7 @@ msgstr "\"Insert observation success:True\"というメッセージが表示さ�
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:186
 msgid "Click :menuselection:`Geospatial --> Webservices --> istSOS`."
-msgstr ":menuselection:`Geospatial-->Webservices-->istSOS` をクリックします。"
+msgstr ":menuselection:`Geospatial --> Webservices --> istSOS` をクリックします。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:188
 msgid "Click the :guilabel:`Enter` button in the administration page"
@@ -384,5 +373,5 @@ msgstr "次のステップ"
 msgid ""
 "To learn more about istSOS, a starting point is the `istSOS Documentation`_ "
 "and the `istSOS Tutorial`_."
-msgstr ""
-"istSOSについてさらに学ぶには、 `istSOS Documentation`_ と `istSOS Tutorial`_ を参照してください。"
+msgstr "istSOSについてさらに学ぶには、 `istSOS Documentation`_ と `istSOS Tutorial`_ を参照してください。"
+

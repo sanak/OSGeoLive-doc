@@ -31,8 +31,7 @@ msgid ""
 "Mapnik is an toolkit for developing mapping applications. Above all Mapnik "
 "is about making beautiful maps. It is easily extensible and suitable for "
 "both desktop and web development."
-msgstr ""
-"Mapnikは、マッピング・アプリケーションを開発するためのツールキットです。Mapnikの目的は、何よりも美しい地図を作ることです。簡単に拡張でき、デスクトップとWebの両方の開発に適しています。"
+msgstr "Mapnikは、マッピング・アプリケーションを開発するためのツールキットです。Mapnikの目的は、何よりも美しい地図を作ることです。簡単に拡張でき、デスクトップとWebの両方の開発に適しています。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:28
 msgid "Mapnik & Python"
@@ -49,7 +48,8 @@ msgid ""
 "Creating maps in python is easy with Mapnik. Open a terminal window and type"
 " `python` on the command line to enter a python interpreter. Then try this::"
 msgstr ""
-"Mapnikを使えば、Pythonでマップを簡単に作成できます。ターミナルウィンドウを開き、コマンドラインに`python`と入力して、pythonインタプリタを起動します。次の操作を試してください::"
+"Mapnikを使えば、Pythonでマップを簡単に作成できます。ターミナルウィンドウを開き、コマンドラインに `python` "
+"と入力して、pythonインタプリタを起動します。次の操作を試してください::"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:45
 msgid ""
@@ -69,15 +69,14 @@ msgstr ""
 msgid ""
 "A basic demo application is available which highlights using Mapnik to serve"
 " tiles into an OpenLayers web map in the OSM/Google tile scheme."
-msgstr ""
-"OSM/GoogleタイルスキームでOpenLayersウェブマップを表示する、タイル提供用にMapnikを使用する基本的なデモアプリケーションが利用可能です。"
+msgstr "OSM/GoogleタイルスキームでOpenLayersウェブマップを表示する、タイル提供用にMapnikを使用する基本的なデモアプリケーションが利用可能です。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:55
 msgid ""
 "The demo uses a tileserver designed for Mapnik called \"TileStache\". Visit "
 "the TileStache website for more information: http://tilestache.org/"
 msgstr ""
-"このデモでは、Mapnik用に設計された`TileStache`と呼ばれるtileserverを使っています。詳細については、TileStacheのウェブサイトを訪れてください:"
+"このデモでは、Mapnik用に設計された\"TileStache\"と呼ばれるtileserverを使っています。詳細については、TileStacheのウェブサイトを訪れてください:"
 " http://tilestache.org/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:57
@@ -104,7 +103,7 @@ msgid ""
 "<../../../leaflet-demo.html>`_."
 msgstr ""
 "Leafletデモアプリケーションのページ `http://localhost/leaflet-demo.html <../../../leaflet-"
-"demo.html>`_. にアクセスしてください。"
+"demo.html>`_ にアクセスしてください。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:65
 msgid "What next?"
@@ -122,9 +121,9 @@ msgstr ""
 msgid ""
 "Explore the included files on the latest OSGeoLive distribution, in this "
 "directory: file:///usr/local/share/mapnik/"
-msgstr ""
-"最新のOSGeoLiveディストリビューションに含まれている次のディレクトリのファイルを見てください。file:///usr/local/share/mapnik/"
+msgstr "最新のOSGeoLiveディストリビューションに含まれている次のディレクトリのファイルを見てください。file:///usr/local/share/mapnik/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:71
 msgid "Visit the Mapnik website: https://mapnik.org"
 msgstr " Mapnik websiteを訪問してください: https://mapnik.org"
+

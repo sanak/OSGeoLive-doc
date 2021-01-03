@@ -39,15 +39,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:34
 msgid "This Quickstart describes how to:"
-msgstr ""
+msgstr "このクイックスタートでは、次の方法について説明します。"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:36
 msgid "Install and configure the pywps-flask example service"
 msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:37
-msgid ""
-"Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests"
+msgid "Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests"
 msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:38
@@ -98,8 +97,7 @@ msgid "`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`"
 msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:66
-msgid ""
-"Save the configuration file and exit `nano` you can now run the service:"
+msgid "Save the configuration file and exit `nano` you can now run the service:"
 msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:68
@@ -215,3 +213,4 @@ msgid ""
 "`Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and "
 "`Gunicorn <https://gunicorn.org/>`_."
 msgstr ""
+

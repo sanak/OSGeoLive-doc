@@ -49,7 +49,7 @@ msgstr "VMの応答速度はDVDよりもはるかに速く、通常はホスト�
 msgid ""
 "All configuration changes, software updates, and saved files are permanent, "
 "just like on any \"regular\" computer. So:"
-msgstr "すべての構成変更、ソフトウェア更新、および保存されたファイルは、「通常の」コンピュータと同様に永続的です。So:"
+msgstr "すべての構成変更、ソフトウェア更新、および保存されたファイルは、「通常の」コンピュータと同様に永続的です。そのため:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:21
 msgid "You can customize and update the system"
@@ -78,8 +78,7 @@ msgid ""
 " So a total of 2 GB will be needed for smooth operation. Some applications, "
 "like GeoServer, needs the virtual machine to have at least 2GB of RAM. So if"
 " possible, consider providing 2 GB or more for your virtual machine."
-msgstr ""
-"RAM:2GB以上Ubuntuシステムは1GBのRAMで正常に動作するので、ホストシステムと少なくとも同じ量のメモリを確保する必要があります。したがって、スムーズな動作には合計2GBが必要です。GeoServerなどの一部のアプリケーションでは、仮想マシンに2GB以上のRAMが必要です。可能であれば、仮想マシンに2GB以上のRAMを用意することを検討してください。"
+msgstr "RAM:2GB以上Ubuntuシステムは1GBのRAMで正常に動作するので、ホストシステムと少なくとも同じ量のメモリを確保する必要があります。したがって、スムーズな動作には合計2GBが必要です。GeoServerなどの一部のアプリケーションでは、仮想マシンに2GB以上のRAMが必要です。可能であれば、仮想マシンに2GB以上のRAMを用意することを検討してください。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:32
 msgid ""
@@ -88,7 +87,7 @@ msgid ""
 "want more space to allow some room to work on the virtual machine. So 20 GB "
 "is a good recommendation."
 msgstr ""
-"ハードディスクの空き容量 :doc:`live.osgeo.org <../download>`  "
+"ハードディスクの空き容量 :doc:`live.osgeo.org <../download>` "
 "の仮想ディスクファイル(vmdk)は、ほぼ10GBに解凍されます。また、仮想マシン上で作業できるスペースを確保するために、より多くのスペースが必要になります。したがって、20GBが推奨されます。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:33
@@ -98,12 +97,12 @@ msgid ""
 "<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`__."
 msgstr ""
 "CPU: どのCPUでもかまいませんが、\"Virtualization "
-"Technology\"をサポートの方が高速です。あなたのコンピュータのCPUは`ここ<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>_"
+"Technology\"をサポートの方が高速です。あなたのコンピュータのCPUは `ここ "
+"<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`__"
 " で確認できます。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:35
-msgid ""
-"Most machines produced in the last 4-5 years will meet these requirements."
+msgid "Most machines produced in the last 4-5 years will meet these requirements."
 msgstr "この 4〜5 年で製造されたマシンのほとんどは、この要件を満たしています。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:38
@@ -120,7 +119,7 @@ msgid ""
 "and install the software. On Windows run the installer, or on Ubuntu-like "
 "Linux systems do the following:"
 msgstr ""
-"`Virtual Box <https://www.virtualbox.org/>`_  "
+"`Virtual Box <https://www.virtualbox.org/>`_ "
 "をダウンロードし、ソフトウェアをインストールしてください。Windowsでインストーラを実行するか、UbuntuのようなLinuxシステムで次の操作を行います。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:44
@@ -134,10 +133,10 @@ msgid ""
 "machine\" button. Then unzip the downloaded file (using `7zip "
 "<https://www.7-zip.org>`_ )."
 msgstr ""
-"さらに、:doc:`live.osgeo.org<../download>` "
+"さらに、 :doc:`live.osgeo.org <../download>` "
 "からOSGeo仮想ディスクファイル(vmdk)をダウンロードします。「Download virtual "
 "machine(仮想マシンのダウンロード)」ボタンをクリックします。次に、ダウンロードしたファイルを解凍します(`7zip "
-"<https://www.7-zip.org>`_ )。"
+"<https://www7-zip.org>`_)。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:50
 msgid "**Create a Virtual Machine**"
@@ -181,16 +180,14 @@ msgid ""
 "Once the VM is created, click on the Settings button. In the \"General\" "
 "section, go to the Advanced tab, and click to select \"Show at top of "
 "screen\" for the Mini toolbar."
-msgstr ""
-"VMが作成されたら、[設定]ボタンをクリックします。[全般]セクションで、[詳細設定]タブに移動し、ミニツールバーの[画面上部に表示]をクリックして選択します。"
+msgstr "VMが作成されたら、[設定]ボタンをクリックします。[全般]セクションで、[詳細設定]タブに移動し、ミニツールバーの[画面上部に表示]をクリックして選択します。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:79
 msgid ""
 "Go to the \"Display\" section and increase video memory to 32 or 64 MB. In "
 "some host operating systems, it may be required to \"Enable 3D "
 "Acceleration\" for display to work properly."
-msgstr ""
-"「ディスプレイ」セクションに移動し、ビデオメモリを32MBまたは64MBに増やします。一部のホストオペレーティングシステムでは、表示を正しく機能させるために「3Dアクセラレータを有効にする]が必要になる場合があります。"
+msgstr "「ディスプレイ」セクションに移動し、ビデオメモリを32MBまたは64MBに増やします。一部のホストオペレーティングシステムでは、表示を正しく機能させるために「3Dアクセラレータを有効にする]が必要になる場合があります。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:84
 msgid ""
@@ -206,8 +203,7 @@ msgid ""
 "You can choose to make the shared folder read-only, and auto-mounted. Once "
 "the \"Folder path\" and \"Folder name\" are defined, click OK, and again OK "
 "to finish and close the settings window."
-msgstr ""
-"共有フォルダを読み取り専用にし、自動マウントすることもできます。「フォルダパス」と「フォルダ名」を定義したら、[OK]をクリックし、もう一度[OK]をクリックして設定ウィンドウを閉じます。"
+msgstr "共有フォルダを読み取り専用にし、自動マウントすることもできます。「フォルダパス」と「フォルダ名」を定義したら、[OK]をクリックし、もう一度[OK]をクリックして設定ウィンドウを閉じます。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:92
 msgid "**Running the Virtual Machine**"
@@ -226,8 +222,7 @@ msgid ""
 "The user \"user\" is not a member of the \"users\" group on the OSGeoLive "
 "virtual machine. This prevents some tools from writing to its data directory"
 " and causes some software to fail to start."
-msgstr ""
-"ユーザー「user」は、OSGeoLive仮想マシンの「users」グループのメンバーではありません。これにより、一部のツールがデータディレクトリに書き込みできなくなり、一部のソフトウェアが起動できなくなります。"
+msgstr "ユーザー「user」は、OSGeoLive仮想マシンの「users」グループのメンバーではありません。これにより、一部のツールがデータディレクトリに書き込みできなくなり、一部のソフトウェアが起動できなくなります。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:100
 msgid "The solution is to fix the vmdk with the following one-time procedure:"
@@ -246,16 +241,14 @@ msgid ""
 "Apply this change by starting a new desktop session: either restart the "
 "virtual machine or log out and log back in (username \"user\", password "
 "\"user\")."
-msgstr ""
-"この変更を適用するには、新しいデスクトップセッションを開始します。仮想マシンを再起動するか、ログアウトして再度ログインします(ユーザー名「user」、パスワード「user」)。"
+msgstr "この変更を適用するには、新しいデスクトップセッションを開始します。仮想マシンを再起動するか、ログアウトして再度ログインします(ユーザー名「user」、パスワード「user」)。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:106
 msgid ""
 "Also once the OSGeo system starts, add yourself to the vboxsf group so that "
 "the shared folders (defined above) are accessible by running in a terminal "
 "window:"
-msgstr ""
-"また、OSGeoシステムが起動したら、vboxsfグループに自分自身を追加し、ターミナルウィンドウでを実行して共有フォルダ(上記で定義)にアクセスできるようにします。"
+msgstr "また、OSGeoシステムが起動したら、vboxsfグループに自分自身を追加し、ターミナルウィンドウでを実行して共有フォルダ(上記で定義)にアクセスできるようにします。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:108
 msgid "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
@@ -267,25 +260,21 @@ msgid ""
 " named it \"GIS\" in the VM Settings. The shared folder will appear in the "
 "file system under /media/sf_GIS/. To mount this folder in the user's home "
 "directory, for example, in a terminal run:"
-msgstr ""
-"上の例では、ホストシステム上に共有フォルダパスを定義し、VM設定で「GIS」という名前を付けました。共有フォルダは、ファイルシステムの/media/sf_GIS/の下に表示されます。このフォルダをユーザのホームディレクトリにマウントするには(たとえば、ターミナルで次のように実行します。"
+msgstr "上の例では、ホストシステム上に共有フォルダパスを定義し、VM設定で「GIS」という名前を付けました。共有フォルダは、ファイルシステムの/media/sf_GIS/の下に表示されます。このフォルダをユーザのホームディレクトリにマウントするには(たとえば、ターミナルで次のように実行します。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:112
 msgid "``user@osgeolive:~$ mkdir GIS``"
 msgstr "``user@osgeolive:~$ mkdir GIS``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:114
-msgid ""
-"``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
-msgstr ""
-"``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
+msgid "``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
+msgstr "``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:116
 msgid ""
 "Now files on your host machine in the chosen folder will also be available "
 "in the VM in the \"GIS\" folder in user's home directory."
-msgstr ""
-"これで、ホストマシンで選択したフォルダ内のファイルが、 VM 上のユーザのホームディレクトリ内の \"GIS\" フォルダでも利用可能になりました。"
+msgstr "これで、ホストマシンで選択したフォルダ内のファイルが、 VM 上のユーザのホームディレクトリ内の \"GIS\" フォルダでも利用可能になりました。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:119
 msgid "See Also:"
@@ -299,8 +288,7 @@ msgstr "OSGeo Wiki ページ:"
 msgid ""
 "`Other ways to create a Virtual Machine "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
-msgstr ""
-"`仮想マシンを作成するその他の方法 <https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+msgstr "`仮想マシンを作成するその他の方法 <https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:123
 msgid ":doc:`osgeolive_quickstart`"
@@ -313,3 +301,4 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:125
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
+

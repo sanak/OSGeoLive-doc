@@ -38,7 +38,7 @@ msgid ""
 "interchange and archival."
 msgstr ""
 "ibLAS は一般的な `LAS` `LiDAR`_ フォーマットを読み書きするための C/C++ ライブラリです。 。`ASPRS LAS "
-"format`_ は LiDAR センサや LiDAR "
+"フォーマット`_ は LiDAR センサや LiDAR "
 "処理ソフトウェアがデータの保存、交換，アーカイブに使用しているシーケンシャルなバイナリフォーマットです。"
 
 #: ../../build/doc/overview/liblas_overview.rst:25
@@ -57,15 +57,14 @@ msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:38
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/liblas_overview.rst:40
 msgid "C/C++/Python APIs for reading, writing, and manipulating LAS data"
 msgstr "LAS データの読み込み、書き込み、操作に使用する C/C++/Python API"
 
 #: ../../build/doc/overview/liblas_overview.rst:41
-msgid ""
-"`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
+msgid "`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
 msgstr "`LAStools`_ に基づく LAS データを操作するための `コマンドラインユーティリティ`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:42
@@ -92,17 +91,14 @@ msgstr "**ソフトウェアバージョン:** |version-liblas|"
 msgid ""
 "**Supported Platforms:** Cross Platform C++ -- Mac OS X, Windows (via "
 "`OSGeo4W`_), and Linux"
-msgstr ""
-"**対応プラットフォーム:** クロスプラットフォーム C++ -- Mac OS X, Windows (`OSGeo4W`_ 経由), Linux"
+msgstr "**対応プラットフォーム:** クロスプラットフォーム C++ -- Mac OS X, Windows (`OSGeo4W`_ 経由), Linux"
 
 #: ../../build/doc/overview/liblas_overview.rst:55
 msgid "**API Interfaces:** C, C++, Python"
-msgstr "**API インターフェイス:** C, C++, Python"
+msgstr "**API インタフェース:** C, C++, Python"
 
 #: ../../build/doc/overview/liblas_overview.rst:57
-msgid ""
-"**Support:** `Communication and Support "
-"<https://liblas.org/community.html>`_"
+msgid "**Support:** `Communication and Support <https://liblas.org/community.html>`_"
 msgstr "**サポート：** `コミュニケーションとサポート  <https://liblas.org/community.html>`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:72
@@ -112,3 +108,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/liblas_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/liblas_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/liblas_quickstart>`"
+

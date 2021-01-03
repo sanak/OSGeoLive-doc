@@ -38,12 +38,12 @@ msgid ""
 "influenza cases between two different seasons, or as complicated as a global"
 " climate change model."
 msgstr ""
-"52°North WPSは、Sextante、ArcGIS "
-"Server、R、GRASS7、またはカスタム開発関数によって提供される空間処理アルゴリズムへのWebアクセスを可能にします。アルゴリズムは、2つの異なる季節の間のインフルエンザ症例の差を決定するような単純なものであっても、地球規模の気候変動モデルのような複雑なものであってもかまいません。"
+"52°North |WPS| は、Sextante、ArcGIS Server、R、GRASS "
+"7、または独自に開発した機能によって提供される空間処理アルゴリズムへのWebアクセスを可能にします。アルゴリズムは、2つの異なる季節の間のインフルエンザ症例の差を決定するようなシンプルなものであっても、地球規模の気候変動モデルのような複雑なものであってもかまいません。"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:32
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:34
 msgid "Core GIS functions:"
@@ -71,7 +71,7 @@ msgstr "CoordinateTransformAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:42
 msgid "Backend algorithms available through:"
-msgstr "Backend algorithms available through:"
+msgstr "バックエンドアルゴリズムは次の方法で利用可能:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:44
 msgid "Sextante"
@@ -94,8 +94,7 @@ msgid "Input and Output formats supported:"
 msgstr "サポートされている入力形式と出力形式:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:51
-msgid ""
-"Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
+msgid "Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
 msgstr "ベクタデータ: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:52
@@ -104,7 +103,7 @@ msgstr "ラスタデータ: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDA
 
 #: ../../build/doc/overview/52nWPS_overview.rst:53
 msgid "Outputs can be stored in GeoServer/MapServer"
-msgstr "出力はGeoServer/MapServerに保存可能"
+msgstr "出力は GeoServer/MapServer に保存可能"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:55
 msgid "A browser based client"
@@ -152,7 +151,7 @@ msgstr "**商用サポート:** https://52north.org/services/"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:77
 msgid "**Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`"
-msgstr "**その他のr 52°North プロジェクト:** :doc:`SOS <./52nSOS_overview>`"
+msgstr "**その他の 52°North プロジェクト:** :doc:`SOS <./52nSOS_overview>`"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:83
 msgid "Quickstart"
@@ -161,3 +160,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/52nWPS_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/52nWPS_quickstart>`"
+

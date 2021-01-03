@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../build/doc/overview/openlayers_overview.rst:35
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/openlayers_overview.rst:37
 msgid "Layers"
@@ -57,8 +57,7 @@ msgid ""
 msgstr "ラスタ: WMS/WMTS, OpenStreetMap, Stamen, Bing, その他 XYZ ソース, 静的画像など"
 
 #: ../../build/doc/overview/openlayers_overview.rst:40
-msgid ""
-"Vector: WFS, KML, GeoJSON, TopoJSON, GPX, GML, and MapBox vector tiles."
+msgid "Vector: WFS, KML, GeoJSON, TopoJSON, GPX, GML, and MapBox vector tiles."
 msgstr "ベクタ: WFS, KML, GeoJSON, TopoJSON, GPX, GML, MapBox ベクトルタイル"
 
 #: ../../build/doc/overview/openlayers_overview.rst:41
@@ -74,8 +73,7 @@ msgid "Controls and Interactions"
 msgstr "コントロールとインタラクション"
 
 #: ../../build/doc/overview/openlayers_overview.rst:46
-msgid ""
-"Overview map, zoom slider, zoom in/out buttons, scale line, rotate map, etc."
+msgid "Overview map, zoom slider, zoom in/out buttons, scale line, rotate map, etc."
 msgstr "地図オーバービュー、ズームスライダー、ズームイン/アウト ボタン、縮尺バー、回転など"
 
 #: ../../build/doc/overview/openlayers_overview.rst:47
@@ -164,7 +162,7 @@ msgstr "**ソフトウェアバージョン:** |version-openlayers|"
 
 #: ../../build/doc/overview/openlayers_overview.rst:82
 msgid "**API Interface:** JavaScript"
-msgstr "**API インターフェイス:** JavaScript"
+msgstr "**API インタフェース:** JavaScript"
 
 #: ../../build/doc/overview/openlayers_overview.rst:84
 msgid ""
@@ -181,3 +179,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/openlayers_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/openlayers_quickstart>`"
+

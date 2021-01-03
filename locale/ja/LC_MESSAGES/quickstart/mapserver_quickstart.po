@@ -33,9 +33,8 @@ msgid ""
 "application that allows you to publish geographic map images and vector data"
 " through the internet using |OGCS| such as |WMS|, |WFS| and |WCS|."
 msgstr ""
-"MapServerは、 `オープンソース <https://opensource.org/>`_ "
-"サーバーベースのアプリケーションであり、|WMS|、|WFS|、|WCS| などの  |OGCS| "
-"を使用して、インターネットを介して地理的地図の画像やベクタデータを公開できます。"
+"MapServerは、 `オープンソース <https://opensource.org/>`_ サーバーベースのアプリケーションであり、 |WMS| "
+"、 |WFS| 、 |WCS| などの |OGCS| を使用して、インターネットを介して地理的地図の画像やベクタデータを公開できます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:40
 msgid "Configure MapServer using the Mapfile configuration file"
@@ -47,7 +46,7 @@ msgid ""
 "and how to configure it to allow MapServer to serve a shapefile as images "
 "using WMS requests."
 msgstr ""
-"**何がわかる？** "
+"**何を学べますか？** "
 "ここでは、Mapfileの概要と、MapServerがWMS要求を使用してシェイプファイルをイメージとして処理できるように設定する方法について説明します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:49
@@ -73,7 +72,7 @@ msgstr "はじめてMapfileを作成する"
 msgid ""
 "Open any text editor (e.g. :menuselection:`Applications --> Accessories --> "
 "FeatherPad`)."
-msgstr "任意のテキストエディタを開きます(例 :menuselection:`アクセサリ-->FeatherPad`)。"
+msgstr "任意のテキストエディタを開きます(例 :menuselection:`アプリケーション --> アクセサリ --> FeatherPad`)。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:61
 msgid ""
@@ -93,8 +92,8 @@ msgid ""
 " :file:`~/data/natural_earth2` (a short cut to "
 ":file:`/usr/local/share/data/natural_earth2`)."
 msgstr ""
-"この例では、既にOSGeoLive上の :file:`~/data/natural_earth2 "
-"`(:file:`/usr/local/share/data/natural_earth2` "
+"この例では、既にOSGeoLive上の :file:`~/data/natural_earth2` "
+"(:file:`/usr/local/share/data/natural_earth2` "
 "へのショートカット)にある自然地球データセットを使用しています。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:107
@@ -104,7 +103,7 @@ msgid ""
 "should contain a list of **LAYER** objects the Mapfile can read and draw. In"
 " our Mapfile, we currently have only one layer defined."
 msgstr ""
-"Mapfile内の各オブジェクトは、名前(**MAP** など)で始まり、**END** で終わります。Mapfileは常に **MAP** "
+"Mapfile内の各オブジェクトは、名前(**MAP** など)で始まり、 **END** で終わります。Mapfileは常に **MAP** "
 "オブジェクトで始まり、Mapfileが読み取って描画できる **LAYER** "
 "オブジェクトのリストを含む必要があります。このMapfileでは、いまのところ1つのレイヤのみが定義されています。"
 
@@ -115,8 +114,7 @@ msgid ""
 msgstr "Mapfileで定義されているオブジェクト(およびプロパティ)をいくつか見てみましょう。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:115
-msgid ""
-"EXTENT: sets the default geospatial bounding box for this configuration."
+msgid "EXTENT: sets the default geospatial bounding box for this configuration."
 msgstr "EXTENT:この設定のデフォルトの空間境界ボックスを設定します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:116
@@ -150,8 +148,8 @@ msgid ""
 "TYPE: the geometry type that MapServer should use when rendering the data as"
 " an image. In our Mapfile, the data will be drawn as *polygons*."
 msgstr ""
-"TYPE: "
-"MapServerがデータをイメージとしてレンダリングするときに使用するジオメトリタイプ。このMapfileでは、データは*ポリゴン*として描画されます。"
+"TYPE: MapServerがデータをイメージとしてレンダリングするときに使用するジオメトリタイプ。このMapfileでは、データは *ポリゴン* "
+"として描画されます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:128
 msgid ""
@@ -200,17 +198,18 @@ msgid ""
 " the Mapfile will be rendered in addition to all layers with *STATUS "
 "DEFAULT*. The result looks like the following:"
 msgstr ""
-"上記はどういう意味ですか?簡単に言うと、これはWMSの** GetMap** "
-"要求であり、「*次のMapfileを使用して、イメージサイズ、地理的範囲、投影などのユーザ指定のパラメータに基づいて、指定されたレイヤをpngイメージとしてレンダリングする*」ようMapServerに指示します。Mapfileで*STATUS"
-" ON*を持つ\"*&LAYERS=.*\"プロパティで指定されたすべてのレイヤは、 *STATUS DEFAULT* "
-"を持つすべての画層に加えてレンダリングされます。結果は次のようになります。"
+"上記はどういう意味ですか?簡単に言うと、これはWMSの **GetMap** 要求であり、「 "
+"*次のMapfileを使用して、イメージサイズ、地理的範囲、投影などのユーザ指定のパラメータに基づいて、指定されたレイヤをpngイメージとしてレンダリングする*"
+" 」ようMapServerに指示します。Mapfileで *STATUS ON* を持つ \"*&LAYERS=.*\" "
+"プロパティで指定されたすべてのレイヤは、 *STATUS DEFAULT* を持つすべての画層に加えてレンダリングされます。結果は次のようになります。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:167
 msgid ""
 "All parameters of the request are WMS-specific, except "
 "\"*?map=/home/user/mapserver_quickstart.map*\", which is MapServer-specific."
 msgstr ""
-"要求のすべてのパラメータは、MapServer固有の「*?map=/home/user/mapserver_quickstart.map*」を除き、WMS固有です。"
+"要求のすべてのパラメータは、MapServer固有の「 *?map=/home/user/mapserver_quickstart.map* "
+"」を除き、WMS固有です。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:173
 msgid "Render a map image with MapServer using the command line"
@@ -221,8 +220,7 @@ msgid ""
 "Although MapServer is geared towards web applications, it can also produce "
 "images on the command line. This can be useful if you are looking for "
 "repetitive mapping, or while debugging."
-msgstr ""
-"MapServerはウェブアプリケーション向けだが、コマンドラインで画像を生成することもできます。これは、反復マッピングを探している場合やデバッグ中に便利です。"
+msgstr "MapServerはウェブアプリケーション向けだが、コマンドラインで画像を生成することもできます。これは、反復マッピングを探している場合やデバッグ中に便利です。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:179
 msgid ""
@@ -259,8 +257,7 @@ msgid ""
 "Now we have 2 layer definitions in our Mapfile. Note that the new one we "
 "just added has the \"STATUS\" property set to \"ON\". That means that unless"
 " we specifically request it, it won't be rendered."
-msgstr ""
-"これで、Mapfileに2つのレイヤ定義が作成されました。ここで追加した新しいオブジェクトの「STATUS」プロパティが「ON」に設定されていることに注意してください。具体的にお願いしないと出せないということですね。"
+msgstr "これで、Mapfileに2つのレイヤ定義が作成されました。ここで追加した新しいオブジェクトの「STATUS」プロパティが「ON」に設定されていることに注意してください。具体的にお願いしないと出せないということですね。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:216
 msgid ""
@@ -308,8 +305,7 @@ msgid ""
 "seems to be related to the size of the lakes. We can use this as a way to "
 "render the lakes differently. In the LAYER object, we'll add another CLASS "
 "object just before our current one::"
-msgstr ""
-"\"ne_10m_lakes\"データセットには、湖の大きさに関係すると思われる*ScaleRank*属性がある。これを使って湖を違った形にレンダリングすることができますLAYERオブジェクトでは、現在のオブジェクトの直前に別のCLASSオブジェクトを追加します。"
+msgstr "\"ne_10m_lakes\"データセットには、湖の大きさに関係すると思われる*ScaleRank*属性がある。これを使って湖を違った形にレンダリングすることができますLAYERオブジェクトでは、現在のオブジェクトの直前に別のCLASSオブジェクトを追加します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:271
 msgid ""
@@ -323,8 +319,7 @@ msgid ""
 "a layer contains no EXPRESSION then that class acts as a default. The LAYER "
 "\"CLASSITEM\" property tells MapServer which attribute to use when "
 "evaluating EXPRESSIONs defined in the CLASS objects."
-msgstr ""
-"新しいCLASSオブジェクトは何をしますか?基本的には、MapServerに対して、「0」または「1」に等しい「ScaleRank」プロパティを持つ要素を黒いアウトラインで描画するように指示します。クラスオブジェクトは、描画されるフィーチャごとに常に上から下に読み込まれます。フィーチャがクラスで指定された「EXPRESSION」に一致すると、そのクラスはフィーチャをレンダリングします。フィーチャがクラスと一致しない場合、次のクラスがチェックされます。フィーチャがどのクラスとも一致しない場合、フィーチャはまったくレンダリングされませんが、画層の最後のクラスにEXPRESSIONが含まれていない場合、そのクラスが既定として機能します。LAYERの「CLASSITEM」プロパティは、CLASSオブジェクトで定義された式を評価するときに使用する属性をMapServerに伝えます。"
+msgstr "新しいCLASSオブジェクトは何をしますか?基本的には、MapServerに対して、「0」または「1」に等しい「ScaleRank」プロパティを持つ要素を黒いアウトラインで描画するように指示します。クラスオブジェクトは、描画されるフィーチャごとに常に上から下に読み込まれます。フィーチャがクラスで指定された「EXPRESSION」に一致すると、そのクラスはフィーチャをレンダリングします。フィーチャがクラスと一致しない場合、次のクラスがチェックされます。フィーチャがどのクラスとも一致しない場合、フィーチャはまったくレンダリングされませんが、画層の最後のクラスにEXPRESSIONが含まれていない場合、そのクラスが既定として機能します。LAYERの「CLASSITEM」プロパティは、CLASSオブジェクトで定義された式を評価するときに使用する属性をMapServerに伝えます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:282
 msgid ""
@@ -362,7 +357,7 @@ msgid ""
 "Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`."
 " Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`."
 msgstr ""
-"QGISの起動方法 :menuselection:`Geospatial-->Desktop GIS-->QGIS Desktop` "
+"QGISの起動方法:menuselection:`Geospatial-->Desktop GIS-->QGIS Desktop` "
 ":menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer` にいく"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:304
@@ -399,23 +394,20 @@ msgid ""
 "This is a simple example, but you can do much, much more. The MapServer "
 "project website contains many resources to help you get started. Here's a "
 "few resources to check out next:"
-msgstr ""
-"これは簡単な例ですが、できることはたくさんあります。MapServerプロジェクトのWebサイトには、作業を開始に役立つ多くのリソースが用意されています。次に、いくつかのをいくつか紹介しよう。"
+msgstr "これは簡単な例ですが、できることはたくさんあります。MapServerプロジェクトのWebサイトには、作業を開始に役立つ多くのリソースが用意されています。次に、いくつかのをいくつか紹介しよう。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:323
 msgid ""
 "Read the `Introduction to MapServer "
 "<https://mapserver.org/introduction.html#introduction>`_."
-msgstr ""
-"`MapServerの概要  <https://mapserver.org/introduction.html#introduction>`_ を読む"
+msgstr "`MapServerの概要  <https://mapserver.org/introduction.html#introduction>`_ を読む"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:325
 msgid ""
 "Have a look at the `MapServer Tutorial "
 "<https://www.mapserver.org/tutorial/index.html>`_ which contains more "
 "Mapfile examples."
-msgstr ""
-"`MapServerチュートリアル <https://www.mapserver.org/tutorial/index.html>`_ をご覧ください"
+msgstr "`MapServerチュートリアル <https://www.mapserver.org/tutorial/index.html>`_ をご覧ください"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:328
 msgid ""
@@ -433,5 +425,7 @@ msgid ""
 "<https://www.mapserver.org/community/lists.html>`_ to exchange ideas, "
 "discuss potential software improvements and ask questions."
 msgstr ""
-"MapServerを使用する準備はできていますか?次に、`メーリングリスト<https://www.mapserver.org/community/lists.html>`"
-" _ のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"
+"MapServerを使用する準備はできていますか?次に、`メーリングリスト "
+"<https://www.mapserver.org/community/lists.html>`_ "
+"のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"
+

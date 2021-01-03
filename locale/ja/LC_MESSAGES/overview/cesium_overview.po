@@ -41,8 +41,7 @@ msgid ""
 "browser without any plugins. It uses WebGL for hardware-accelerated "
 "graphics, and is cross-platform, cross-browser, and tuned for dynamic-data "
 "visualization."
-msgstr ""
-"Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。ハードウェアで高速化されたグラフィックスにWebGLを使用し、クロスプラットフォーム、クロスブラウザで、動的データの視覚化に合わせて調整されています。"
+msgstr "Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。ハードウェアで高速化されたグラフィックスにWebGLを使用し、クロスプラットフォーム、クロスブラウザで、動的データの視覚化に合わせて調整されています。"
 
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
@@ -65,9 +64,7 @@ msgid "Visualize high-resolution worldwide terrain."
 msgstr "世界的な地形を高解像度で可視化します。"
 
 #: ../../build/doc/overview/cesium_overview.rst:35
-msgid ""
-"Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri "
-"standards."
+msgid "Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri standards."
 msgstr "WMS、TMS、OpenStreetMaps、Bing、およびEsri標準を使用して画像レイヤを描画します。"
 
 #: ../../build/doc/overview/cesium_overview.rst:36
@@ -124,9 +121,7 @@ msgid "One API, Three Views:"
 msgstr "1つのAPI、3つのビュー:"
 
 #: ../../build/doc/overview/cesium_overview.rst:50
-msgid ""
-"Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same "
-"API."
+msgid "Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same API."
 msgstr "Cesium は同じAPIで3D地球儀、2Dマップ、2.5Dコロンブスビューをサポートしています。"
 
 #: ../../build/doc/overview/cesium_overview.rst:53
@@ -157,16 +152,14 @@ msgstr "**ソフトウェアバージョン:** |version-cesium|"
 msgid ""
 "**Supported Platforms:**  Platform independent, depends only on a browser "
 "which supports WebGL"
-msgstr ""
-"**対応プラットフォーム:**  Platform independent, depends only on a browser which "
-"supports WebGL"
+msgstr "**対応プラットフォーム:** プラットフォームに依存せず、WebGLをサポートするブラウザにのみ依存"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
 msgid ""
 "**Community Support:** Forum at "
 "https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
 msgstr ""
-"**コミュニティサポート:** Forum at https://groups.google.com/forum/?hl=en#!forum"
+"**コミュニティサポート:** フォーラムはこちら https://groups.google.com/forum/?hl=en#!forum"
 "/cesium-dev"
 
 #: ../../build/doc/overview/cesium_overview.rst:72
@@ -176,3 +169,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/cesium_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/cesium_quickstart>`"
+

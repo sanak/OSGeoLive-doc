@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/proj4_overview.rst:16
 msgid "Proj.4"
-msgstr ""
+msgstr "Proj.4"
 
 #: ../../build/doc/overview/proj4_overview.rst:18
 msgid ""
@@ -33,8 +33,7 @@ msgid ""
 "allows all points on the earth to be described as a set of coordinates (such"
 " as latitude, longitude and elevation). Different systems are used to "
 "represent the tridimensional earth on a flat, bidimensional map."
-msgstr ""
-"Proj4は、異なる座標参照システム間で変換するメソッドを提供するライブラリです。地理座標参照システムでは、地球上のすべての点を座標(緯度、経度、高度など)のセットとして記述できます。それぞれのシステムは、平坦な二次元マップ上に三次元地球を表現ししています。"
+msgstr "Proj4は、異なる座標参照システム間で変換するメソッドを提供するライブラリです。地理座標参照システムでは、地球上のすべての点を座標(緯度、経度、高度など)のセットとして記述できます。それぞれのシステムは、平坦な二次元マップ上に三次元地球を表現ししています。"
 
 #: ../../build/doc/overview/proj4_overview.rst:24
 msgid ""
@@ -58,15 +57,16 @@ msgid ""
 "<https://spatialreference.org/>`_  - website to retrieve coordinate system "
 "definitions (obsolete)."
 msgstr ""
-"Proj4は、C から `さまざまな言語 <https://trac.osgeo.org/metacrs/wiki>` "
-"に変換されています。これらのサブプロジェクトには、* Proj4js (JavaScript) - used in :doc:`OpenLayers "
-"<openlayers_overview>`. * MapGuideでつかわれているCS-Map (C++)。 * GeoTIFF/libgeotiff"
-" (C++)。 * Proj4J (Java)。 * `SpatialReference.org "
-"<https://spatialreference.org/>`_  - 座標系定義を取得するためのWebサイトです(旧式)"
+"Proj4は、C から `さまざまな言語  <https://trac.osgeo.org/metacrs/wiki>` "
+"に変換されています。これらのサブプロジェクトには:\n"
+"* Proj4js (JavaScript) -  :doc:`OpenLayers <openlayers_overview>` につかわれている。*"
+" CS-Map (C++) -  MapGuideでつかわれている。* GeoTIFF/libgeotiff (C++)。* Proj4J "
+"(Java)。* `SpatialReference.org <https://spatialreference.org/>`_  - "
+"座標系定義を取得するためのWebサイトです(旧式)"
 
 #: ../../build/doc/overview/proj4_overview.rst:41
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/proj4_overview.rst:43
 msgid ""
@@ -91,7 +91,7 @@ msgid ""
 "Proj4 uses coordinate system definitions defined by the `European Petroleum "
 "Survey Group (EPSG) <https://www.epsg.org/>`. Well Known Text (WKT) format."
 msgstr ""
-"Proj4は、`European Petroleum Survey Group(EPSG)  <https://www.epsg.org/>` "
+"Proj4は、`European Petroleum Survey Group (EPSG) <https://www.epsg.org/>` "
 "によって定義された座標系定義を使用します。Well Known Text(WKT)形式。"
 
 #: ../../build/doc/overview/proj4_overview.rst:57
@@ -120,7 +120,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/proj4_overview.rst:67
 msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
-msgstr "**API インターフェイス:** C, C++, Python, Java, Ruby"
+msgstr "**API インタフェース:** C, C++, Python, Java, Ruby"
 
 #: ../../build/doc/overview/proj4_overview.rst:69
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
@@ -133,3 +133,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/proj4_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/proj4_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/proj4_quickstart>`"
+

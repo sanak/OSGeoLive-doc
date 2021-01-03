@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:17
 msgid "GeoNode"
-msgstr ""
+msgstr "GeoNode"
 
 #: ../../build/doc/overview/geonode_overview.rst:20
 msgid "Geospatial Content Management System"
@@ -44,13 +44,12 @@ msgstr ""
 "は地理空間データのためのコンテンツ管理システムであり、地理空間データの作成、共有、および共同使用の仕組みを提供します。データセットはさまざまな形式でアップロードでき、マップはブラウザベースのツールを使用して編集、スタイル設定、集計を行うことができ、マップとメタデータを公開して検索することができ、レビュー、評価、コメントをユーザーから取得することができます。"
 
 #: ../../build/doc/overview/geonode_overview.rst:24
-msgid ""
-"GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt."
+msgid "GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt."
 msgstr "GeoNodeは、GeoServer、GeoExplorer、pycsw、Django、およびGeoExtに基づいて構築されています。"
 
 #: ../../build/doc/overview/geonode_overview.rst:33
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/geonode_overview.rst:35
 msgid "Spatial Data Discovery"
@@ -190,7 +189,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geonode_overview.rst:88
 msgid "**API Interfaces:** Python (Django)"
-msgstr "**API インターフェイス:** Python (Django)"
+msgstr "**API インタフェース:** Python (Django)"
 
 #: ../../build/doc/overview/geonode_overview.rst:90
 msgid "**Support:** https://www.osgeo.org/service-providers"
@@ -203,3 +202,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geonode_overview.rst:97
 msgid ":doc:`Quickstart documentation <../quickstart/geonode_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geonode_quickstart>`"
+

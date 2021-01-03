@@ -130,7 +130,7 @@ msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/osm_overview.rst:82
 msgid "**API Interfaces (data):** REST (via Xapi), XML"
-msgstr "**API インターフェイス (データ):** REST (Xapi 経由), XML"
+msgstr "**API インタフェース (データ):** REST (Xapi 経由), XML"
 
 #: ../../build/doc/overview/osm_overview.rst:84
 msgid "**Support:** https://www.openstreetmap.org/help"
@@ -143,3 +143,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/osm_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/osm_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/osm_quickstart>`"
+

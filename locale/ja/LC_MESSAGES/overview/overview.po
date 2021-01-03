@@ -136,6 +136,8 @@ msgid ""
 "|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
 "<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
 msgstr ""
+"|nologo| :doc:`geoext_overview` - [:doc:`クイックスタート "
+"<../quickstart/geoext_quickstart>`] - JavaScript Web マッピングツールキット"
 
 #: ../../build/doc/overview/overview.rst:85
 msgid ""
@@ -158,6 +160,8 @@ msgid ""
 "|OSGeo_community| :doc:`geostyler_overview` - [:doc:`Quickstart "
 "<../quickstart/geostyler_quickstart>`] - Generic Styler For Geodata"
 msgstr ""
+"|OSGeo_community| :doc:`geostyler_overview` - [:doc:`クイックスタート "
+"<../quickstart/geostyler_quickstart>`] - 地理データのための汎用的なスタイラー"
 
 #: ../../build/doc/overview/overview.rst:93
 msgid "Web Services"
@@ -188,7 +192,7 @@ msgid ""
 "|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
 "<../quickstart/mapcache_quickstart>`] - OGC Web Services"
 msgstr ""
-"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
+"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`クイックスタート "
 "<../quickstart/mapcache_quickstart>`] - OGC Webサービス"
 
 #: ../../build/doc/overview/overview.rst:145
@@ -196,6 +200,8 @@ msgid ""
 "|OSGeo_project| :doc:`deegree_overview` - [:doc:`Quickstart "
 "<../quickstart/deegree_quickstart>`] - OGC Web Services"
 msgstr ""
+"|OSGeo_project| :doc:`deegree_overview` - [:doc:`クイックスタート "
+"<../quickstart/deegree_quickstart>`] - OGC Web サービス"
 
 #: ../../build/doc/overview/overview.rst:147
 msgid ""
@@ -290,24 +296,32 @@ msgid ""
 "|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart "
 "<../quickstart/t-rex_quickstart>`] - Vector Tile Service"
 msgstr ""
+"|nologo| :doc:`t-rex_overview` - [:doc:`クイックスタート "
+"<../quickstart/t-rex_quickstart>`] - ベクタタイルサーバ"
 
 #: ../../build/doc/overview/overview.rst:171
 msgid ""
 "|nologo| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
+"|nologo| :doc:`actinia_overview` - [:doc:`クイックスタート "
+"<../quickstart/actinia_quickstart>`] - 地理データの処理"
 
 #: ../../build/doc/overview/overview.rst:173
 msgid ""
 "|nologo| :doc:`re3gistry_overview` - [:doc:`Quickstart "
 "<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
 msgstr ""
+"|nologo| :doc:`re3gistry_overview` - [:doc:`クイックスタート "
+"<../quickstart/re3gistry_quickstart>`] - リファレンスコードの管理"
 
 #: ../../build/doc/overview/overview.rst:175
 msgid ""
 "|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
 "<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
 msgstr ""
+"|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`クイックスタート "
+"<../quickstart/pygeoapi_quickstart>`] - OGC Web サービス"
 
 #: ../../build/doc/overview/overview.rst:179
 msgid "Data Stores"
@@ -482,8 +496,7 @@ msgid "|nologo| :doc:`nc_dataset_overview`"
 msgstr "|nologo| :doc:`nc_dataset_overview`"
 
 #: ../../build/doc/overview/overview.rst:299
-msgid ""
-"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr "|nologo| :doc:`osm_dataset_overview`  - OpenStreetMap からのサンプル抽出"
 
 #: ../../build/doc/overview/overview.rst:301
@@ -553,3 +566,4 @@ msgstr "以前の OSGeo-Live リリースで利用可能"
 #: ../../build/doc/overview/overview.rst:364
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"
+

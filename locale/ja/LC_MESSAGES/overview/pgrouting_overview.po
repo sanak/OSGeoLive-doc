@@ -74,7 +74,7 @@ msgstr "pgRouting は GPLv2 ライセンスで提供され、個人、企業及�
 
 #: ../../build/doc/overview/pgrouting_overview.rst:40
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:42
 msgid "pgRouting provides functions for:"
@@ -154,7 +154,7 @@ msgstr "**対応プラットフォーム:** Linux, Windows, Mac"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:75
 msgid "**API Interfaces:** SQL"
-msgstr "**API インターフェイス:** SQL"
+msgstr "**API インタフェース:** SQL"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:77
 msgid "**Commercial Support:** https://pgrouting.org/support.html"
@@ -167,3 +167,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/pgrouting_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/pgrouting_quickstart>`"
+

@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../build/doc/overview/leaflet_overview.rst:37
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/leaflet_overview.rst:39
 msgid "Map Layers"
@@ -219,8 +219,7 @@ msgid "No external dependencies"
 msgstr "外部依存性がない"
 
 #: ../../build/doc/overview/leaflet_overview.rst:93
-msgid ""
-"Keeps your JS environment clean — no global or native prototypes pollution"
+msgid "Keeps your JS environment clean — no global or native prototypes pollution"
 msgstr "開発者の JS 環境をクリーンに保つ — グローバルもしくはネイティブの prototype を汚染しない"
 
 #: ../../build/doc/overview/leaflet_overview.rst:97
@@ -245,7 +244,7 @@ msgstr "**対応プラットフォーム:** Windows, Mac, Linux, Android, iOS"
 
 #: ../../build/doc/overview/leaflet_overview.rst:107
 msgid "**API Interfaces:** Javascript"
-msgstr "**API インターフェイス:** Javascript"
+msgstr "**API インタフェース:** Javascript"
 
 #: ../../build/doc/overview/leaflet_overview.rst:109
 msgid "**Support:** https://groups.google.com/forum/#!forum/leaflet-js"
@@ -258,3 +257,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/leaflet_overview.rst:116
 msgid ":doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/leaflet_quickstart>`"
+
