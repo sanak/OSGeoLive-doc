@@ -5,8 +5,8 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,7 +87,9 @@ msgstr "**レイヤ**"
 msgid ""
 "*Layers* can be added to the map in a stacked order. Layers can be either "
 "*raster layers* (images), or *vector layers* (points/lines/polygons)."
-msgstr "*レイヤ* はスタック順にマップに追加できます。レイヤは、 *ラスタレイヤ* (イメージ)または *ベクタレイヤ* (点/線分/ポリゴン)のいずれかです。"
+msgstr ""
+"*レイヤ* はスタック順にマップに追加できます。レイヤは、 *ラスタレイヤ* (イメージ)または *ベクタレイヤ* "
+"(点/線分/ポリゴン)のいずれかです。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:50
 msgid "**Source**"
@@ -146,13 +148,15 @@ msgstr "このコードは、JavaSciptコードをhtmlファイルの最後に�
 msgid ""
 "An OpenLayers map needs to be attached to a HTML DOM element, so we have "
 "created a ``<div>`` element identified by the *map* id."
-msgstr "OpenLayersマップはHTML DOM要素にアタッチする必要があるため、 *map* idで識別される ``<div>`` 要素を作成しました。"
+msgstr ""
+"OpenLayersマップはHTML DOM要素にアタッチする必要があるため、 *map* idで識別される ``<div>`` 要素を作成しました。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:121
 msgid ""
 "Maps are represented by the ``ol.Map`` class. We specify the DOM element to "
 "render the map into using the **target** property."
-msgstr "マップは ``ol.Map`` クラスで表されます。 **target** プロパティーを使用して、マップをレンダリングするDOM要素を指定します。"
+msgstr ""
+"マップは ``ol.Map`` クラスで表されます。 **target** プロパティーを使用して、マップをレンダリングするDOM要素を指定します。"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:123
 msgid ""

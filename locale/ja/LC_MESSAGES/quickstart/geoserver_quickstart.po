@@ -5,8 +5,8 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,7 +78,8 @@ msgstr ""
 msgid ""
 "Log in using the username **admin** and password **geoserver**. You will now"
 " see the *admin page*."
-msgstr "ユーザー名 **admin** とパスワード **geoserver** を使用してログインします。これで、 *admin page* が表示されます。"
+msgstr ""
+"ユーザー名 **admin** とパスワード **geoserver** を使用してログインします。これで、 *admin page* が表示されます。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:56
 msgid ""
@@ -186,7 +187,8 @@ msgstr ":guilabel:`保存` を押します。"
 msgid ""
 "Press :guilabel:`publish` next to one of the layers to finish adding the "
 "data. This will take you to the *Layers* page:"
-msgstr "いずれかのレイヤーの横にある :guilabel:`公開` を押して、データの追加を完了します。これにより、 *レイヤ* ページに移動します。"
+msgstr ""
+"いずれかのレイヤーの横にある :guilabel:`公開` を押して、データの追加を完了します。これにより、 *レイヤ* ページに移動します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:120
 msgid ""

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-28 22:14-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -106,7 +106,8 @@ msgid ""
 "elements, namely a link to the Admin console, the name of the signed in "
 "user, a link to Sign out, and a dropdown box for changing the interface "
 "language."
-msgstr "サインインすると、上部のツールバーが変更され、管理コンソールへのリンク、サインインしたユーザの名前、サインアウトへのリンク、インタフェース言語を変更するためのドロップダウンボックスなどの追加要素が表示されます。"
+msgstr ""
+"サインインすると、上部のツールバーが変更され、管理コンソールへのリンク、サインインしたユーザの名前、サインアウトへのリンク、インタフェース言語を変更するためのドロップダウンボックスなどの追加要素が表示されます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:70
 msgid "Load sample data"
@@ -169,7 +170,8 @@ msgid ""
 "loaded records, classified by topic (in blue) and resource type (in green). "
 "Below this are tabs classifying the records by date added (latest news) and "
 "popularity (most popular)."
-msgstr "トップツールバーの左上に表示されているカタログ名を選択して、カタログのホームページに戻ります。ホームページには、トピック(青)とリソースタイプ(緑)で分類された読み込んだレコードを表すアイコンが表示されます。この下には、追加された日付(最新ニュース)と人気(最も一般的)でレコードを分類するタブがあります。"
+msgstr ""
+"トップツールバーの左上に表示されているカタログ名を選択して、カタログのホームページに戻ります。ホームページには、トピック(青)とリソースタイプ(緑)で分類された読み込んだレコードを表すアイコンが表示されます。この下には、追加された日付(最新ニュース)と人気(最も一般的)でレコードを分類するタブがあります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:97
 msgid "Select **Search** in the top toolbar to access the Search page."
@@ -193,7 +195,8 @@ msgstr "検索結果を絞り込む *リソースタイプ* 、 *トピック* �
 msgid ""
 "An overview map, where you can draw a box to filter results spatially (Hint-"
 " if you can’t see this, select MAP in the bottom right corner of your page)"
-msgstr "概要のマップで、結果を空間的にフィルタリングするためのボックスを描画できます(ヒントが表示されない場合は、ページの右下隅にあるマップを選択してください)。"
+msgstr ""
+"概要のマップで、結果を空間的にフィルタリングするためのボックスを描画できます(ヒントが表示されない場合は、ページの右下隅にあるマップを選択してください)。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:117
 msgid ""
@@ -214,14 +217,16 @@ msgid ""
 "metadata is classified with, the title of the record, a thumbnail, an "
 "abstract (if present) and links to downloads and other resources (if "
 "present)."
-msgstr "検索結果は「カード」として表示され、メタデータが分類されるカテゴリ、レコードのタイトル、サムネイル、要約(存在する場合)、ダウンロードおよびその他のリソースへのリンク(存在する場合)が表示されます。"
+msgstr ""
+"検索結果は「カード」として表示され、メタデータが分類されるカテゴリ、レコードのタイトル、サムネイル、要約(存在する場合)、ダウンロードおよびその他のリソースへのリンク(存在する場合)が表示されます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:131
 msgid ""
 "Select a card to take you to a page showing the full details for that "
 "record. Select the blue **Back to search** button to return to the Search "
 "page when you’re done."
-msgstr "カードを選択すると、そのレコードの詳細全体が表示されるページに移動します。青色の **[検索に戻る]** ボタンをクリックすると、検索ページに戻ります。"
+msgstr ""
+"カードを選択すると、そのレコードの詳細全体が表示されるページに移動します。青色の **[検索に戻る]** ボタンをクリックすると、検索ページに戻ります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:137
 msgid "In the top right of the record are icons for:"
@@ -253,7 +258,8 @@ msgstr "**完全なビュー** または **XMLビュー** に切り替える"
 msgid ""
 "Switching to **Full view** will show more detailed metadata. To switch back "
 "to the original view select **Default view** from the list."
-msgstr "**完全なビュー** に切り替えると、より詳細なメタデータが表示されます。元のビューに戻すには、一覧から **既定のビュー** を選択します。"
+msgstr ""
+"**完全なビュー** に切り替えると、より詳細なメタデータが表示されます。元のビューに戻すには、一覧から **既定のビュー** を選択します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:148
 msgid "Add layers to the map"
@@ -284,7 +290,8 @@ msgid "Further information such as a web page,"
 msgstr "Webページなどの詳細情報"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:156
-msgid "A Web Mapping Service (WMS) or Web Feature Service (WFS) link to the data."
+msgid ""
+"A Web Mapping Service (WMS) or Web Feature Service (WFS) link to the data."
 msgstr "Web Mapping Service(WMS)またはWeb Feature Service(WFS)がデータにリンクしています。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:158
@@ -333,7 +340,8 @@ msgid ""
 "Manage the Map, by setting it back to default settings, loading a new map "
 "definition, downloading the current map, or saving the map configuration as "
 "a layer in the catalog,"
-msgstr "マップを管理します。既定の設定に戻すか、新しいマップ定義を読み込むか、現在のマップをダウンロードするか、マップの設定をレイヤとしてカタログに保存します。"
+msgstr ""
+"マップを管理します。既定の設定に戻すか、新しいマップ定義を読み込むか、現在のマップをダウンロードするか、マップの設定をレイヤとしてカタログに保存します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:174
 msgid "Print the map,"
@@ -410,7 +418,8 @@ msgid ""
 "as an area of water. Zoom and pan around the map as needed to identify a "
 "suitable area. Clicking on the feature will bring up an identification box "
 "at the bottom of the map showing details about the area selected."
-msgstr "水域など、凡例のカテゴリに対応する地物を地図上で選択します。適切な領域を特定するために、必要に応じてマップをズームおよびパンします。地物をクリックすると、マップの下部に識別ボックスが表示され、選択された領域の詳細が表示されます。"
+msgstr ""
+"水域など、凡例のカテゴリに対応する地物を地図上で選択します。適切な領域を特定するために、必要に応じてマップをズームおよびパンします。地物をクリックすると、マップの下部に識別ボックスが表示され、選択された領域の詳細が表示されます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:219
 msgid "What next?"
@@ -432,5 +441,5 @@ msgid ""
 "Follow up by visiting subsequent chapters to learn how to associate "
 "resources with your metadata, tag it with keywords and add it to categories,"
 " and publish your metadata to the outside world."
-msgstr "後続の章へ進んで、リソースをメタデータに関連付け、キーワードでタグ付けしてカテゴリに追加し、メタデータを外部に公開する方法を学習しましょう。"
-
+msgstr ""
+"後続の章へ進んで、リソースをメタデータに関連付け、キーワードでタグ付けしてカテゴリに追加し、メタデータを外部に公開する方法を学習しましょう。"

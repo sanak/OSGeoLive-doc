@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,7 +63,8 @@ msgid ""
 "without being logged in, you are limited to read-only access of public "
 "layers. In order to create a map and add layers to it, you have to sign in "
 "first."
-msgstr "上記のインタフェースから、既存の空間レイヤとマップをビューおよび変更したり、他のGeoNodeユーザに関する情報を検索したりできます。しかし、ログインしていないと、パブリックレイヤーへの読み取り専用アクセスに制限されます。マップを作成してレイヤを追加するには、最初にサインインする必要があります。"
+msgstr ""
+"上記のインタフェースから、既存の空間レイヤとマップをビューおよび変更したり、他のGeoNodeユーザに関する情報を検索したりできます。しかし、ログインしていないと、パブリックレイヤーへの読み取り専用アクセスに制限されます。マップを作成してレイヤを追加するには、最初にサインインする必要があります。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:50
 msgid ""
@@ -71,7 +72,8 @@ msgid ""
 "top-right of the page. Click that link, and in the dialog that displays, "
 "fill in the user credentials. Try \"admin\" and \"admin\" for the Username "
 "and Password."
-msgstr "Webインタフェースの任意のページから、ページの右上に[*サインイン*]リンクが表示されます。そのリンクをクリックし、表示されるダイアログでユーザー認証情報を入力します。ユーザー名とパスワードに「admin」と「admin」を使用してみてください。"
+msgstr ""
+"Webインタフェースの任意のページから、ページの右上に[*サインイン*]リンクが表示されます。そのリンクをクリックし、表示されるダイアログでユーザー認証情報を入力します。ユーザー名とパスワードに「admin」と「admin」を使用してみてください。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:57
 msgid "Add a new layer"
@@ -87,7 +89,8 @@ msgstr "レイヤーは、ラスタまたはベクタ空間データソースを
 msgid ""
 "To see existing layers, from the navigation bar on the top of any page, "
 "select *Data* menu and click on the *Layers* link."
-msgstr "既存のレイヤーを表示するには、ページの最上部にあるナビゲーションバーから *[データ]* メニューを選択し、 *[レイヤー]* リンクをクリックします。"
+msgstr ""
+"既存のレイヤーを表示するには、ページの最上部にあるナビゲーションバーから *[データ]* メニューを選択し、 *[レイヤー]* リンクをクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:66
 msgid "The result will look like this:"
@@ -207,7 +210,8 @@ msgstr "404ポップアップメッセージが表示された場合は無視し
 msgid ""
 "In this interface there is a toolbar, layer list, and map window. The map "
 "window contains the OpenStreetMap layer by default."
-msgstr "このインタフェースには、ツールバー、レイヤ一覧、マップウィンドウがあります。マップウィンドウには、既定でOpenStreetMapレイヤが表示されます。"
+msgstr ""
+"このインタフェースには、ツールバー、レイヤ一覧、マップウィンドウがあります。マップウィンドウには、既定でOpenStreetMapレイヤが表示されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:147
 msgid "Click on the *New Layers* button and select *Add Layers*."
@@ -322,7 +326,9 @@ msgstr ""
 msgid ""
 "In order to get started with GeoNode our `documentation "
 "<https://docs.geonode.org/en/master/>`_ might be useful."
-msgstr "GeoNodeを使用するには、 `documentation <https://docs.geonode.org/en/master/>`_ が便利です。"
+msgstr ""
+"GeoNodeを使用するには、 `documentation <https://docs.geonode.org/en/master/>`_ "
+"が便利です。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:223
 msgid ""
@@ -338,4 +344,3 @@ msgstr ""
 "<https://gitter.im/GeoNode/general>`_  にアクセスしたり、または私たちの `メーリングリスト "
 "<https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ "
 "で質問いただけます。問"
-

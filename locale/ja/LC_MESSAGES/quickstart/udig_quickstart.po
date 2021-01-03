@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +76,8 @@ msgid ""
 "When you start up uDig for the first time the Welcome view takes up the "
 "entire display. This screen has links to tutorials, documentation and the "
 "project website."
-msgstr "uDigを初めて起動すると、ウェルカム画面が画面全体に表示されます。この画面には、チュートリアル、ドキュメント、およびプロジェクトWebサイトへのリンクがあります。"
+msgstr ""
+"uDigを初めて起動すると、ウェルカム画面が画面全体に表示されます。この画面には、チュートリアル、ドキュメント、およびプロジェクトWebサイトへのリンクがあります。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:74
 msgid ""
@@ -89,7 +89,8 @@ msgstr "右上隅にあるワークベンチというラベルの矢印をクリ
 msgid ""
 "You can return to the Welcome view at any time by selecting the "
 ":menuselection:`Help --> Welcome` from the menu bar."
-msgstr "メニューバーから :menuselection:`Help --> Welcome` を選択すると、いつでもウェルカム画面に戻ることができます。"
+msgstr ""
+"メニューバーから :menuselection:`Help --> Welcome` を選択すると、いつでもウェルカム画面に戻ることができます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:82
 msgid "Workbench"
@@ -139,7 +140,8 @@ msgstr "まず、DVDに含まれているサンプルデータの一部をロー
 msgid ""
 "Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add"
 " Data** wizard"
-msgstr "メニューバーから :menuselection:`Layer --> Add` を選択して、 **Add Data** ウィザードを開きます。"
+msgstr ""
+"メニューバーから :menuselection:`Layer --> Add` を選択して、 **Add Data** ウィザードを開きます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:106
 msgid "Select **Files** from the list of data sources"
@@ -188,7 +190,8 @@ msgstr ""
 msgid ""
 "The **Layers** view shows a single layer is displayed on this map. This view"
 " is used to change the order and appearance of information in your Map."
-msgstr "**レイヤ** ビューは、単一のレイヤがこのマップに表示されていることを示します。このビューは、マップ内の情報の順序と外観を変更するために使用されます。"
+msgstr ""
+"**レイヤ** ビューは、単一のレイヤがこのマップに表示されていることを示します。このビューは、マップ内の情報の順序と外観を変更するために使用されます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:129
 msgid ""
@@ -231,10 +234,12 @@ msgid ""
 "applications uDig can get by with a fixed amount of memory. The above "
 "shapefile is not loaded into memory, we have a policy of keeping data on "
 "disk and drawing data like this shapefile onto the screen as needed."
-msgstr "組織でuDigが検討されるときによく聞かれる質問の1つは、アプリケーションが使用するメモリの量です。ほとんどのGISアプリケーションとは異なり、uDigは固定された量のメモリで動作します。上記のシェープファイルはメモリにロードされません。必要に応じてディスク上にデータを保持し、このシェープファイルのようなデータを画面上に描画するポリシーがあります。"
+msgstr ""
+"組織でuDigが検討されるときによく聞かれる質問の1つは、アプリケーションが使用するメモリの量です。ほとんどのGISアプリケーションとは異なり、uDigは固定された量のメモリで動作します。上記のシェープファイルはメモリにロードされません。必要に応じてディスク上にデータを保持し、このシェープファイルのようなデータを画面上に描画するポリシーがあります。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:159
-msgid "You can also drag and drop shapefiles directly into the uDig application!"
+msgid ""
+"You can also drag and drop shapefiles directly into the uDig application!"
 msgstr "シェイプファイルをuDigアプリケーションに直接ドラッグ&ドロップすることもできます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:162
@@ -270,11 +275,13 @@ msgid ""
 msgstr "|PAN| Panツールを使用すると、スケールを変更せずにマップをスクロールできます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:180
-msgid "There are also several navigation buttons that can be used at any time:"
+msgid ""
+"There are also several navigation buttons that can be used at any time:"
 msgstr "いつでも使用できるナビゲーションボタンもいくつかあります。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:182
-msgid "|SHOWALL| Show All, can be used to return to the full extents at any time"
+msgid ""
+"|SHOWALL| Show All, can be used to return to the full extents at any time"
 msgstr "|SHOWALL| 全表示。いつでも全範囲に戻るために使用できます"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:186
@@ -305,7 +312,8 @@ msgid ""
 "great free geospatial information available on the web. This section covers "
 "the use of Web Map Servers which make available layers of information that "
 "you can mix into your own maps."
-msgstr "uDigのようなアプリケーションを使用する理由の1つは、Web上で利用可能なすべての優れた無料の地理空間情報にアクセスすることです。このセクションでは、Webマップサーバを使用して、独自のマップに混合できる情報のレイヤを利用可能にする方法について説明します。"
+msgstr ""
+"uDigのようなアプリケーションを使用する理由の1つは、Web上で利用可能なすべての優れた無料の地理空間情報にアクセスすることです。このセクションでは、Webマップサーバを使用して、独自のマップに混合できる情報のレイヤを利用可能にする方法について説明します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:207
 msgid ""
@@ -353,7 +361,9 @@ msgstr ""
 "をクリックしてください。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:229
-msgid "From the Resource Selection page we are going to choose the following layers:"
+msgid ""
+"From the Resource Selection page we are going to choose the following "
+"layers:"
 msgstr "リソース選択ページから、次のレイヤを選択します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:231
