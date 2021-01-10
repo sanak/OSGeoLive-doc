@@ -16,7 +16,7 @@ jobs:
       - name: Checkout OSGeoLive-doc-omegat
         uses: actions/checkout@v2
         with:
-          repository: ${{ github.actor }}/OSGeoLive-doc-omegat
+          repository: ${{ github.repository_owner }}/OSGeoLive-doc-omegat
           ref: master
           path: omegat
       - name: Check update in 1 day
@@ -41,7 +41,7 @@ jobs:
       - name: Checkout OSGeoLive-doc-omegat
         uses: actions/checkout@v2
         with:
-          repository: ${{ github.actor }}/OSGeoLive-doc-omegat
+          repository: ${{ github.repository_owner }}/OSGeoLive-doc-omegat
           ref: master
           path: omegat
 
