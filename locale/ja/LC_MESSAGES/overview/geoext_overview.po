@@ -1,11 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +13,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/overview/geoext_overview.rst:14
 msgid "GeoExt"
@@ -49,8 +49,7 @@ msgid ""
 " ExtJS component and can be easily configured and extended. Lower level "
 "classes are also available allowing OpenLayers features and layers to be "
 "used as ExtJS data models, and for various map layer types to be serialized."
-msgstr ""
-"ユーザーインタフェースコンポーネントには、マップパネル、レイヤツリーパネル、地物グリッド、および全体図マップがあります。GeoExtコンポーネントは、他のExtJSコンポーネントと同様に使用でき、簡単に設定と拡張ができます。下位レベルのクラスも利用可能で、OpenLayersの地物とレイヤをExtJSデータモデルとして使用したり、さまざまなマップレイヤタイプをシリアライズしたりすることができます。"
+msgstr "ユーザーインタフェースコンポーネントには、マップパネル、レイヤツリーパネル、地物グリッド、および全体図マップがあります。GeoExtコンポーネントは、他のExtJSコンポーネントと同様に使用でき、簡単に設定と拡張ができます。下位レベルのクラスも利用可能で、OpenLayersの地物とレイヤをExtJSデータモデルとして使用したり、さまざまなマップレイヤタイプをシリアライズしたりすることができます。"
 
 #: ../../build/doc/overview/geoext_overview.rst:26
 msgid ""
@@ -99,8 +98,7 @@ msgstr "データモデルとデータストア"
 msgid ""
 "Integration of the OpenLayers data model with the ExtJS data model enabling "
 "sorting and filtering of features using ExtJS components"
-msgstr ""
-"OpenLayersデータモデルとExtJSデータモデルの統合により、ExtJSコンポーネントを使用した地物の並べ替えとフィルタリングが可能"
+msgstr "OpenLayersデータモデルとExtJSデータモデルの統合により、ExtJSコンポーネントを使用した地物の並べ替えとフィルタリングが可能"
 
 #: ../../build/doc/overview/geoext_overview.rst:51
 msgid "ExtJS stores and models for OpenLayers features and layers"
@@ -167,3 +165,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geoext_overview.rst:79
 msgid ":doc:`Quickstart documentation <../quickstart/geoext_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geoext_quickstart>`"
+

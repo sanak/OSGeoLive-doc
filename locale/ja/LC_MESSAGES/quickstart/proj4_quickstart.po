@@ -1,11 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +13,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/quickstart/proj4_quickstart.rst:21
 msgid "Proj.4 Quickstart"
@@ -134,8 +134,7 @@ msgid ""
 "coordinates in the  UTM  projection  with  zone 10 selected.  The geographic"
 " values of this example are equivalent and  meant as  examples of various "
 "forms of DMS input. The x-y output data will appear as three lines of:"
-msgstr ""
-"は、zone10を選択した状態で、UTM投影のNAD83地理座標をNAD27座標に変換します。この例の地理的値は、DMS入力の様々な形式の例として、等価であり、意味があります。x-y出力データは、次の3行で表示されます:"
+msgstr "は、zone10を選択した状態で、UTM投影のNAD83地理座標をNAD27座標に変換します。この例の地理的値は、DMS入力の様々な形式の例として、等価であり、意味があります。x-y出力データは、次の3行で表示されます:"
 
 #: ../../build/doc/quickstart/proj4_quickstart.rst:124
 msgid "geod"
@@ -169,8 +168,7 @@ msgstr ""
 msgid ""
 "``invgeod`` may not be available on all  platforms;  in  this  case call "
 "geod with the -I option."
-msgstr ""
-"``invgeod`` はすべてのプラットフォームで利用できるわけではありません。この場合、-Iオプションを指定してgeodを呼び出してください。"
+msgstr "``invgeod`` はすべてのプラットフォームで利用できるわけではありません。この場合、-Iオプションを指定してgeodを呼び出してください。"
 
 #: ../../build/doc/quickstart/proj4_quickstart.rst:145
 msgid "geod Synopsis"
@@ -237,3 +235,4 @@ msgid ""
 msgstr ""
 "`The online geodesic bibliography <https://geographiclib.sourceforge.io"
 "/geodesic-papers/biblio.html>`_"
+

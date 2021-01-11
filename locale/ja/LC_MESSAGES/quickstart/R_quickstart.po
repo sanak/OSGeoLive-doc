@@ -1,12 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,12 +14,13 @@ msgstr ""
 "POT-Creation-Date: 2020-11-28 21:50-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:18
 msgid "R Quickstart"
@@ -59,17 +59,14 @@ msgid ""
 "R is essentially a command-line program, although graphical user interfaces "
 "are available. You type a line of code at the prompt, press return, and the "
 "R interpreter evaluates it and prints the result."
-msgstr ""
-"Rは基本的にコマンドラインプログラムですが、GUIも利用できます。プロンプトで1行のコードを入力し、returnキーを押すと、Rインタプリタがそれを評価して結果を出力します。"
+msgstr "Rは基本的にコマンドラインプログラムですが、GUIも利用できます。プロンプトで1行のコードを入力し、returnキーを押すと、Rインタプリタがそれを評価して結果を出力します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:40
 msgid ""
 "Don't fear the command line - it is a source of great power. Using the up "
 "and down arrows to recall commands so you can edit mistakes. Hit CTRL-C if "
 "get stuck and you should get the prompt back."
-msgstr ""
-"コマンドラインを恐れる必要はありません。大きな力の源です。上下の矢印を使用してコマンドを呼び出し、間違いを編集できるようにします。スタックした場合は"
-"、CTRL-Cを押します。プロンプトが再度表示されます。"
+msgstr "コマンドラインを恐れる必要はありません。大きな力の源です。上下の矢印を使用してコマンドを呼び出し、間違いを編集できるようにします。スタックした場合は、CTRL-Cを押します。プロンプトが再度表示されます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:43
 msgid ""
@@ -112,8 +109,7 @@ msgid ""
 "store things in one-dimensional vectors, two-dimensional matrices, and "
 "multi-dimensional arrays. There are many functions that can generate these "
 "things. Here's a simple sequence:"
-msgstr ""
-"出力の中で、角括弧に囲まれた謎の'one'が何をしているのか、不思議に思っているかもしれません。これは、結果が1つの数値であることを示しています。Rは、1次元のベクタ、2次元の行列、多次元の配列ます。これらを生成する関数はたくさんあります。以下に簡単なシーケンスを示します。"
+msgstr "出力の中で、角括弧に囲まれた謎の'one'が何をしているのか、不思議に思っているかもしれません。これは、結果が1つの数値であることを示しています。Rは、1次元のベクタ、2次元の行列、多次元の配列ます。これらを生成する関数はたくさんあります。以下に簡単なシーケンスを示します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:93
 msgid ""
@@ -131,8 +127,7 @@ msgid ""
 "column indices separated by commas. Leave an index blank to get a whole row "
 "as a vector. Use a vector index to get multiple rows or columns as a smaller"
 " matrix:"
-msgstr ""
-"行列の要素は、カンマで区切られた行と列のインデックスを持つ角括弧を使用して抽出できます。ベクタとして行全体を取得するには、インデックスを空白のままにします。ベクタインデックスを使用して、複数の行や列を小さな行列として取得します。"
+msgstr "行列の要素は、カンマで区切られた行と列のインデックスを持つ角括弧を使用して抽出できます。ベクタとして行全体を取得するには、インデックスを空白のままにします。ベクタインデックスを使用して、複数の行や列を小さな行列として取得します。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:125
 msgid ""
@@ -140,8 +135,7 @@ msgid ""
 "an RDBMS such as Postgres or MySQL. Each row can be thought of as a record, "
 "with columns being like fields in a database. As in a database, each field "
 "must be of the same type for each record."
-msgstr ""
-"データフレームは、PostgresやMySQLなどのRDBMSにあるような構造を反映したデータ構造です。各行はレコードとみなすことができ、カラムはデータベースのフィールドのようなものです。データベースと同様に、各フィールドは各レコードで同じ型でなければなりません。"
+msgstr "データフレームは、PostgresやMySQLなどのRDBMSにあるような構造を反映したデータ構造です。各行はレコードとみなすことができ、カラムはデータベースのフィールドのようなものです。データベースと同様に、各フィールドは各レコードで同じ型でなければなりません。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:130
 msgid ""
@@ -186,8 +180,7 @@ msgid ""
 "This looks a bit squashed to anyone who lives here, since we are more "
 "familiar with a coordinate system centred at our latitude. Currently the "
 "object doesn't have a coordinate system assigned to it."
-msgstr ""
-"緯度を中心とした座標系に慣れているので、ここに住んでいる人には少々押しつぶされたように見えます。現在、オブジェクトには座標系が割り当てられていません。"
+msgstr "緯度を中心とした座標系に慣れているので、ここに住んでいる人には少々押しつぶされたように見えます。現在、オブジェクトには座標系が割り当てられていません。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:211
 msgid ""
@@ -213,8 +206,7 @@ msgid ""
 "root of the population (because that makes a symbol with area proportional "
 "to population), set the colour to red and the plotting character to a solid "
 "blob:"
-msgstr ""
-"これらの点をベースマップに追加し、（人口に比例する大きさになるように）人口の平方根の比率でシンボルをサイズ変更します、色を赤に設定し、プロットする文字を塗りつぶした丸印に設定します:"
+msgstr "これらの点をベースマップに追加し、（人口に比例する大きさになるように）人口の平方根の比率でシンボルをサイズ変更します、色を赤に設定し、プロットする文字を塗りつぶした丸印に設定します:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:252
 msgid "and our final image appears:"
@@ -274,3 +266,4 @@ msgid ""
 "You might also want to check out the `R-Spatial <https://www.rspatial.org>`_"
 " page."
 msgstr "`R-Spatial <https://www.rspatial.org>`_  ページもチェックしてみてください。"
+

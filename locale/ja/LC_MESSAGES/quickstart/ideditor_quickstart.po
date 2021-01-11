@@ -1,12 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,12 +14,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:20
 msgid "iD editor Quickstart"
@@ -54,8 +54,7 @@ msgstr "iDエディタには、インターネットへのアクティブな接�
 msgid ""
 "Open your Internet browser, and go to the OpenStreetMap website at "
 "https://www.openstreetmap.org."
-msgstr ""
-"インターネットブラウザを開き、https://www.openstreetmap.orgのOpenStreetMapのWebサイトにアクセスします。"
+msgstr "インターネットブラウザを開き、https://www.openstreetmap.orgのOpenStreetMapのWebサイトにアクセスします。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:40
 msgid "**Login** using your OpenStreetMap account."
@@ -90,8 +89,7 @@ msgid "[3] **Map panel:** This panel show various configuration functions."
 msgstr "[3] **Mapパネル:** このパネルには、さまざまな設定機能が表示されます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:59
-msgid ""
-"[4] **Information panel:** This panel shows various information, such as"
+msgid "[4] **Information panel:** This panel shows various information, such as"
 msgstr "[4] **情報パネル:** このパネルには、次のようなさまざまな情報が表示されます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:59
@@ -116,16 +114,13 @@ msgstr "|image15|"
 msgid ""
 "To change the **brightness level** click one of these boxes, the levels are "
 "100%, 75%, 50%, and 25% |image16|"
-msgstr ""
-"**輝度レベル** を変更するには、これらのボックスの1つをクリックします。レベルは、100%、75%、50%、および25%の |image16| "
-"です。"
+msgstr "**輝度レベル** を変更するには、これらのボックスの1つをクリックします。レベルは、100%、75%、50%、および25%の |image16| です。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:72
 msgid ""
 "You also can **change the background layer** based on your desired tile "
 "provider (the default is Bing Aerial Imagery)."
-msgstr ""
-"また、目的のタイルプロバイダに基づいて **背景レイヤーを変更する** こともできます(デフォルトはBing Aerial Imagery)。"
+msgstr "また、目的のタイルプロバイダに基づいて **背景レイヤーを変更する** こともできます(デフォルトはBing Aerial Imagery)。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:74
 msgid ""
@@ -152,8 +147,7 @@ msgstr ""
 msgid ""
 "To **display GPS tracks from your computer** (GPX format), drag and drop the"
 " GPX file into iD editor."
-msgstr ""
-"**お使いのコンピュータからGPSトラックを表示** (GPXフォーマット)するには、GPXファイルをiDエディタにドラッグ&ドロップします。"
+msgstr "**お使いのコンピュータからGPSトラックを表示** (GPXフォーマット)するには、GPXファイルをiDエディタにドラッグ&ドロップします。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:83
 msgid ""
@@ -410,8 +404,7 @@ msgstr "変更を保存する"
 msgid ""
 "When (and if) you want to save your edits to OpenStreetMap, click the "
 "**Save** button. The panel on the left will show the upload panel."
-msgstr ""
-"編集内容をOpenStreetMapに保存する場合は、 **[保存]** ボタンをクリックします。左側のパネルにアップロード・パネルが表示されます。"
+msgstr "編集内容をOpenStreetMapに保存する場合は、 **[保存]** ボタンをクリックします。左側のパネルにアップロード・パネルが表示されます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:219
 msgid "|image36|"

@@ -1,12 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,12 +14,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:22
 msgid "MapProxy Quickstart"
@@ -77,6 +77,8 @@ msgid ""
 "You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The "
 "service URL is: `<http://localhost:8011/service?>`_"
 msgstr ""
+"MapProxyは、uDig、QGIS、gvSIGなどの任意のWMSデスクトップGISに追加できます。 サービスのURLは次のとおりです： "
+"`<http://localhost:8011/service?>`_"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:53
 msgid ""
@@ -176,6 +178,8 @@ msgid ""
 "You can now visit the demo page at http://127.0.0.1:8011/demo/. MapProxy "
 "will automatically reload if you change your configuration file."
 msgstr ""
+"これで、 http://127.0.0.1:8011/demo/ のデモページにアクセスできます。 "
+"設定ファイルを変更すると、MapProxyは自動的に再読み込みされます。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:102
 msgid "What next?"

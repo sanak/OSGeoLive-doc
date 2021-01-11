@@ -1,14 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,12 +16,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-11-07 03:17+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/download.rst:7
 msgid "Download"
@@ -97,3 +97,4 @@ msgid ""
 msgstr ""
 "`最低限の動作環境は: メモリ 1GB (Java ベースのアプリケーションを使用する場合 2GB あるとよいでしょう)、1GHz 以上の i386 か"
 " amd64 互換の CPU。ハードディスクは必要な場合のみ。Mac ユーザーには 3ボタン USB マウスの利用をお勧めします。`"
+

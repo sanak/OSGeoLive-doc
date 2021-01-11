@@ -1,12 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,12 +14,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
 msgid "PostGIS Quickstart"
@@ -33,8 +33,7 @@ msgid ""
 "this Quickstart we will use 'PostgreSQL' when describing general database "
 "functions, and 'PostGIS' when describing the additional spatial "
 "functionality provided by PostGIS."
-msgstr ""
-"PostGISは、PostgreSQLリレーショナルデータベースに空間機能を追加します。PostgreSQLを拡張して、空間データを格納、問い合わせ、操作できるようにします。このクイックスタートでは、一般的なデータベース関数を記述する場合は'PostgreSQL'を使用し、PostGISによって提供される追加の空間機能を記述する場合は'PostGIS'を使用します。"
+msgstr "PostGISは、PostgreSQLリレーショナルデータベースに空間機能を追加します。PostgreSQLを拡張して、空間データを格納、問い合わせ、操作できるようにします。このクイックスタートでは、一般的なデータベース関数を記述する場合は'PostgreSQL'を使用し、PostGISによって提供される追加の空間機能を記述する場合は'PostGIS'を使用します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:46
 msgid "This Quick Start describes how to:"
@@ -64,8 +63,7 @@ msgid ""
 "a web server sends back the web page. With PostgreSQL the requests are in "
 "the SQL language and the response is usually a table of data from the "
 "database."
-msgstr ""
-"PostgreSQLは、多くのデータベースと同様に、クライアント/サーバシステムのサーバとして機能します。クライアントはサーバーに要求を行い、応答を受け取ります。これは、インターネットが動作するのと同じ方法です。つまり、ブラウザあり、WebサーバはWebページを送り返します。PostgreSQLでは、要求はSQL言語で行われ、応答は通常データベースからのデータのテーブルです。"
+msgstr "PostgreSQLは、多くのデータベースと同様に、クライアント/サーバシステムのサーバとして機能します。クライアントはサーバーに要求を行い、応答を受け取ります。これは、インターネットが動作するのと同じ方法です。つまり、ブラウザあり、WebサーバはWebページを送り返します。PostgreSQLでは、要求はSQL言語で行われ、応答は通常データベースからのデータのテーブルです。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:64
 msgid ""
@@ -74,8 +72,7 @@ msgid ""
 "client connects to the server via the internal 'loopback' network "
 "connection, and is not visible to other computers unless you configure it to"
 " be so."
-msgstr ""
-"サーバがクライアントと同じコンピュータ上にあることを止めるものは何もありません。これにより、単一のマシン上でPostgreSQLを使用することができます。クライアントは、内部の「ループバック」ネットワーク接続を介してサーバに接続し、そのように設定しない限り、他のコンピュータからは見えません。"
+msgstr "サーバがクライアントと同じコンピュータ上にあることを止めるものは何もありません。これにより、単一のマシン上でPostgreSQLを使用することができます。クライアントは、内部の「ループバック」ネットワーク接続を介してサーバに接続し、そのように設定しない限り、他のコンピュータからは見えません。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:70
 msgid "Creating a spatially-enabled database"
@@ -90,8 +87,7 @@ msgid ""
 "Start a Terminal Emulator (LXTerminal currently) from the Applications menu "
 "in the Accessories section. This gives you a Unix shell command prompt. "
 "Type::"
-msgstr ""
-"「システムツール」メニューからターミナルエミュレータ(現在はLXTerminal)を起動します。これにより、Unixシェルのコマンドプロンプトが表示されます。Type::"
+msgstr "「システムツール」メニューからターミナルエミュレータ(現在はLXTerminal)を起動します。これにより、Unixシェルのコマンドプロンプトが表示されます。Type::"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:78
 msgid "and hit enter to see the PostgreSQL version number."
@@ -103,8 +99,7 @@ msgid ""
 "separate databases. Each database is an independent regime, with its own "
 "tables, views, users and so on. When you connect to a PostgreSQL server you "
 "have to specify a database."
-msgstr ""
-"単一のPostgreSQLサーバでは、作業を別々のデータベースに整理することで、作業を組織することができます。各データベースは、独自のテーブル、ビュー、ユーザなどを持つ独立したシステムです。PostgreSQLサーバに接続する場合、データベースを指定する必要があります。"
+msgstr "単一のPostgreSQLサーバでは、作業を別々のデータベースに整理することで、作業を組織することができます。各データベースは、独自のテーブル、ビュー、ユーザなどを持つ独立したシステムです。PostgreSQLサーバに接続する場合、データベースを指定する必要があります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:85
 msgid "You can get a list of databases on the server with the::"
@@ -135,9 +130,7 @@ msgstr ""
 "と呼びます。コマンドは次のようになります:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:105
-msgid ""
-"You can usually get help for command line tools by using a ``--help`` "
-"option."
+msgid "You can usually get help for command line tools by using a ``--help`` option."
 msgstr "通常、コマンドラインツールのヘルプを表示するには、 ``--help`` オプションを使います。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:108
@@ -256,9 +249,7 @@ msgid ""
 msgstr "`raster` - データをn次元の行列として格納するデータ型で、各位置(ピクセル)は"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:224
-msgid ""
-"an area of space, and each band (dimension) has a value for each pixel "
-"space."
+msgid "an area of space, and each band (dimension) has a value for each pixel space."
 msgstr "空間の領域を示し、各バンド(次元)は各ピクセル空間の値を持つ。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:226
@@ -299,8 +290,7 @@ msgid ""
 "First we create an ordinary database table to store some city data. This "
 "table has three fields - one for a numeric ID identifying the city, one for "
 "the city name, and another for the geometry column:"
-msgstr ""
-"まず、都市データを保存するための通常のデータベーステーブルを作成します。このテーブルには3つのフィールドがあります。1つは都市を識別する数値ID用、1つは都市名用、もう1つはジオメトリ列用です。"
+msgstr "まず、都市データを保存するための通常のデータベーステーブルを作成します。このテーブルには3つのフィールドがあります。1つは都市を識別する数値ID用、1つは都市名用、もう1つはジオメトリ列用です。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:251
 msgid ""
@@ -339,8 +329,7 @@ msgid ""
 "As you can see this gets increasingly tedious very quickly. Luckily there "
 "are other ways of getting data into PostGIS tables that are much easier. But"
 " now we have three cities in our database, and we can work with that."
-msgstr ""
-"ご覧のように、これは非常に時間のかかる作業になります。幸いなことに、PostGISテーブルにデータを取り込む方法は他にもあり、その方がずっと簡単です。しかし今では3つの都市がデータベースに登録されています。"
+msgstr "ご覧のように、これは非常に時間のかかる作業になります。幸いなことに、PostGISテーブルにデータを取り込む方法は他にもあり、その方がずっと簡単です。しかし今では3つの都市がデータベースに登録されています。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:287
 msgid "Simple queries"
@@ -363,8 +352,7 @@ msgid ""
 "If you want to have a look at your geometry in WKT format again, you can use"
 " the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also use "
 "ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:"
-msgstr ""
-"ジオメトリを再びWKT形式で表示する場合は、関数ST_AsText(geom)またはST_AsEwkt(geom)を使用できます。ST_X(geom)、ST_Y(geom)を使用して、座標の数値を取得することもできます。"
+msgstr "ジオメトリを再びWKT形式で表示する場合は、関数ST_AsText(geom)またはST_AsEwkt(geom)を使用できます。ST_X(geom)、ST_Y(geom)を使用して、座標の数値を取得することもできます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:320
 msgid "Spatial queries"
@@ -378,8 +366,7 @@ msgid ""
 "documentation. We'll now use one to answer a practical question - how far "
 "are these three Londons away from each other, in metres, assuming a "
 "spherical earth?"
-msgstr ""
-"PostGISはPostgreSQLに空間機能を持つ多くの関数を追加します。WKTをジオメトリに変換するST_GeomFromTextについては、すでに説明しました。そのほとんどはST(空間タイプ)で始まり、PostGISドキュメントのセクションにリストされています。ここでは、球形の地球を仮定して、これら3つのロンドンが互いにどのくらい離れているのかという現実的な疑問に答えるために1つを使うことにしよう。"
+msgstr "PostGISはPostgreSQLに空間機能を持つ多くの関数を追加します。WKTをジオメトリに変換するST_GeomFromTextについては、すでに説明しました。そのほとんどはST(空間タイプ)で始まり、PostGISドキュメントのセクションにリストされています。ここでは、球形の地球を仮定して、これら3つのロンドンが互いにどのくらい離れているのかという現実的な疑問に答えるために1つを使うことにしよう。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:339
 msgid ""
@@ -389,8 +376,7 @@ msgid ""
 "the table above (London, England to London, Ontario is the same distance as "
 "London, Ontario to London, England). Try it without the 'WHERE' part and see"
 " what happens."
-msgstr ""
-"これにより、都市間の距離がメートル単位でわかります。SQL行の'WHERE'部分が、都市からそれ自体までの距離(すべて0)または上記の表の逆方向の距離(英国ロンドンからオンタリオロンドンまでは、オンタリオロンドンからイギリスロンドンまでと同じ距離)を取得するのを停止することに注意してください。'WHERE'の部分を外して試してみて、何が起こるか見てください。"
+msgstr "これにより、都市間の距離がメートル単位でわかります。SQL行の'WHERE'部分が、都市からそれ自体までの距離(すべて0)または上記の表の逆方向の距離(英国ロンドンからオンタリオロンドンまでは、オンタリオロンドンからイギリスロンドンまでと同じ距離)を取得するのを停止することに注意してください。'WHERE'の部分を外して試してみて、何が起こるか見てください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:346
 msgid ""
@@ -416,8 +402,7 @@ msgid ""
 "To produce a map from PostGIS data, you need a client that can get at the "
 "data. Most of the open source desktop GIS programs can do this - QGIS, "
 "gvSIG, uDig for example. Now we'll show you how to make a map from QGIS."
-msgstr ""
-"PostGISデータからマップを作成するには、データを取得できるクライアントが必要です。QGIS、gvSIG、uDigなど、オープンソースのデスクトップGISプログラムのほとんどがこれを実行できます。では、QGISから地図を作る方法を説明しましょう。"
+msgstr "PostGISデータからマップを作成するには、データを取得できるクライアントが必要です。QGIS、gvSIG、uDigなど、オープンソースのデスクトップGISプログラムのほとんどがこれを実行できます。では、QGISから地図を作る方法を説明しましょう。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:381
 msgid ""
@@ -551,9 +536,7 @@ msgstr ""
 msgid ""
 "Please note that there is a new version of pgAdmin called pgAdmin4 that can "
 "get installed via apt install pgadmin4"
-msgstr ""
-"pgAdminの新しいバージョンであるpgadmin4があり、apt install "
-"pgadmin4を使用してインストールできることに注意してください。"
+msgstr "pgAdminの新しいバージョンであるpgadmin4があり、apt install pgadmin4を使用してインストールできることに注意してください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:473
 msgid ""
@@ -629,8 +612,7 @@ msgid ""
 "each city. Furthermore we are going to sort the result, based on the "
 "computed rate. To do that, we need to perform the following query (submit it"
 " on the text editor of the SQL Window):"
-msgstr ""
-"各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。"
+msgstr "各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:528
 msgid ""
@@ -697,8 +679,7 @@ msgid ""
 msgstr "接続するデータソースの場所を通知する外部サーバーを作成"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:568
-msgid ""
-"Define the user that should be used when you connect to the foreign server"
+msgid "Define the user that should be used when you connect to the foreign server"
 msgstr "外部サーバーに接続するときに使用するユーザーを定義"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:576
@@ -801,8 +782,7 @@ msgstr ""
 "<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:652
-msgid ""
-"Create a foreign server that refers to the WFS that you want to connect"
+msgid "Create a foreign server that refers to the WFS that you want to connect"
 msgstr "接続するWFSを参照する外部サーバーを作成する"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:660
@@ -810,8 +790,7 @@ msgid "Import all WFS feature_types as foreign tables with one command."
 msgstr "1つのコマンドで、すべてのWFS地物_タイプを外部テーブルとしてインポートします。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:661
-msgid ""
-"After the import you will see several new foreign tables in your schema."
+msgid "After the import you will see several new foreign tables in your schema."
 msgstr "インポート後、スキーマに新しい外部テーブルがいくつか表示されます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:670
@@ -836,18 +815,15 @@ msgstr ""
 "のようないくつかの空間関数を試してください。完全なドキュメントは http://postgis.net/documentation/"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:683
-msgid ""
-"Export your tables to shapefiles with ``pgsql2shp`` on the command line."
+msgid "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
 msgstr "コマンドラインで ``pgsql2shp`` を使用して、テーブルをシェープファイルにエクスポートします。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:685
-msgid ""
-"Try ``ogr2ogr`` on the command line to import/export data to your database."
+msgid "Try ``ogr2ogr`` on the command line to import/export data to your database."
 msgstr "データベースにデータをインポート/エクスポートするには、コマンドラインで ``ogr2ogr`` を試してください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:687
-msgid ""
-"Try to import data with ``shp2pgsql`` on the command line to your database."
+msgid "Try to import data with ``shp2pgsql`` on the command line to your database."
 msgstr "コマンドラインで ``shp2pgsql`` を使用して、データベースにデータをインポートしてみてください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:689

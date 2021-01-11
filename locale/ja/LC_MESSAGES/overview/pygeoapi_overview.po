@@ -1,12 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,12 +14,13 @@ msgstr ""
 "POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: 2020-11-29 04:49+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:17
 msgid "pygeoapi"
@@ -52,8 +52,7 @@ msgid "out of the box modern OGC API server"
 msgstr "すぐに使用可能な最新の OGC API サーバー"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:35
-msgid ""
-"certified OGC Compliant and Reference Implementation for OGC API - Features"
+msgid "certified OGC Compliant and Reference Implementation for OGC API - Features"
 msgstr "OGC API  - 機能の、 OGC 準拠および参照実装認定"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:36
@@ -103,8 +102,7 @@ msgid ""
 msgstr "柔軟性 : カスタムデータへの接続、フォーマットおよびプロセスを形成する堅固なプラグイン・フレームワーク上に構築"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:45
-msgid ""
-"supports any Python web framework (included are Flask [default], Starlette)"
+msgid "supports any Python web framework (included are Flask [default], Starlette)"
 msgstr "あらゆる (Flask [既定], Starletteをふくむ) Python webフレームワークをサポート"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:49
@@ -126,8 +124,7 @@ msgid "Compliant: conforms to OGC compliance requirements (great)"
 msgstr "準拠: OGC仕様要求に準拠 (良)"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:55
-msgid ""
-"Reference Implementation: provides a reference for the standard (awesome!)"
+msgid "Reference Implementation: provides a reference for the standard (awesome!)"
 msgstr "参照実装: 標準の参照を提供(優秀!)"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
@@ -201,3 +198,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/pygeoapi_overview.rst:98
 msgid ":doc:`Quickstart documentation <../quickstart/pygeoapi_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/pygeoapi_quickstart>`"
+

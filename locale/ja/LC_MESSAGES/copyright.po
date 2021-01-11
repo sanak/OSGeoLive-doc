@@ -1,11 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +13,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/copyright.rst:2
 msgid "OSGeoLive Copyright"
@@ -58,8 +58,7 @@ msgid ""
 "documentation, allowing it to be freely distributed, duplicated and passed "
 "around. The licenses of all the packaged projects are summarized further on "
 "this page."
-msgstr ""
-"OSGeoLiveは、完全にフリーソフトウェア、フリーデータ、フリー文書で構成されており、自由に配布、複製、譲渡することができます。パッケージ化されたすべてのプロジェクトのライセンスについては、このページで詳しく説明します。"
+msgstr "OSGeoLiveは、完全にフリーソフトウェア、フリーデータ、フリー文書で構成されており、自由に配布、複製、譲渡することができます。パッケージ化されたすべてのプロジェクトのライセンスについては、このページで詳しく説明します。"
 
 #: ../../build/doc/copyright.rst:12
 msgid ""
@@ -282,8 +281,7 @@ msgstr "cartaro_overview"
 
 #: ../../build/licenses.csv:1
 msgid "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
-msgstr ""
-"Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
+msgstr "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter, https://www.jirotech.com"
@@ -1324,5 +1322,5 @@ msgid ""
 "whether in contract, strict liablity, or tort (including negligence or "
 "otherwise) arising in any way out of the use of this software, even if "
 "advised of the possibility of such damage.*"
-msgstr ""
-"*OSGeoLiveのコンテンツは、著作権保持者および貢献者によって\"現状のまま\"提供され、商品性および特定目的への適合性の黙示的な保証を含む(ただし、これらに限定されない)、明示的または暗示的ないかなる保証も拒否されます。いかなる場合においても、著作権所有者または貢献者は、直接的、間接的、付随的、特別、懲罰的、または結果的な損害(代替の商品またはサービスの調達、使用、日付、または利益の損失、またはビジネスの中断を含むが、これらに限定されない)に対して責任を負わないものとします。ただし、契約、厳格な賠償責任、または不法行為(過失またはその他を含む)のいずれであるかを問わず、いかなる責任の理論に基づいて、本ソフトウェアの使用によって発生したいかなる損害についても、たとえそのような損害の可能性について知らされていたとしても、責任を負わないものとします。*"
+msgstr "*OSGeoLiveのコンテンツは、著作権保持者および貢献者によって\"現状のまま\"提供され、商品性および特定目的への適合性の黙示的な保証を含む(ただし、これらに限定されない)、明示的または暗示的ないかなる保証も拒否されます。いかなる場合においても、著作権所有者または貢献者は、直接的、間接的、付随的、特別、懲罰的、または結果的な損害(代替の商品またはサービスの調達、使用、日付、または利益の損失、またはビジネスの中断を含むが、これらに限定されない)に対して責任を負わないものとします。ただし、契約、厳格な賠償責任、または不法行為(過失またはその他を含む)のいずれであるかを問わず、いかなる責任の理論に基づいて、本ソフトウェアの使用によって発生したいかなる損害についても、たとえそのような損害の可能性について知らされていたとしても、責任を負わないものとします。*"
+

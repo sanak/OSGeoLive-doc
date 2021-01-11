@@ -1,11 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +13,13 @@ msgstr ""
 "POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:15
 msgid "Natural Earth"
@@ -68,8 +68,7 @@ msgid ""
 "Projection friendly vectors precisely match at 180 degrees longitude. Lines "
 "contain enough data  points for smooth bending in conic projections, but not"
 " so many that computer processing speed suffers."
-msgstr ""
-"投影に適したベクトルは、経度180度で正確に一致します。直線には、円錐図法で滑らかに曲げるのに十分なデータ点が含まれていますが、コンピュータ処理速度が低下するほど多くは含まれていません。"
+msgstr "投影に適したベクトルは、経度180度で正確に一致します。直線には、円錐図法で滑らかに曲げるのに十分なデータ点が含まれていますが、コンピュータ処理速度が低下するほど多くは含まれていません。"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:36
 msgid ""
@@ -85,8 +84,7 @@ msgid ""
 "Optimized for use in web mapping applications, such as Google or Yahoo, with"
 " built-in scale attributes to direct features to be shown at different zoom "
 "levels."
-msgstr ""
-"GoogleやYahooなどのWebマッピングアプリケーションでの使用に最適化されています。さまざまなズームレベルで表示されるフィーチャを指定するための尺度属性が組み込まれています。"
+msgstr "GoogleやYahooなどのWebマッピングアプリケーションでの使用に最適化されています。さまざまなズームレベルで表示されるフィーチャを指定するための尺度属性が組み込まれています。"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:41
 msgid "Data Sets"
@@ -127,8 +125,7 @@ msgid ""
 "land cover data, idealized world environment, ocean bottom, and bathymetry. "
 "Optional baked in content includes: land cover, shaded relief, ocean water, "
 "and drainages with lakes."
-msgstr ""
-"グレースケールでシェーディングされた起伏、クロスブレンドされた浅色、衛星由来の土地被覆データ、理想化された世界環境、海底、水深測定。オプションのベイク処理済みコンテンツには、土地被覆、シェーディングされたレリーフ、海水、湖の排水が含まれます。"
+msgstr "グレースケールでシェーディングされた起伏、クロスブレンドされた浅色、衛星由来の土地被覆データ、理想化された世界環境、海底、水深測定。オプションのベイク処理済みコンテンツには、土地被覆、シェーディングされたレリーフ、海水、湖の排水が含まれます。"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:54
 msgid "Details"
@@ -157,3 +154,4 @@ msgstr "**空間座標系:** WGS84."
 #: ../../build/doc/overview/naturalearth_overview.rst:66
 msgid "**Support:** https://www.naturalearthdata.com/about"
 msgstr "**サポート:** https://www.naturalearthdata.com/about"
+

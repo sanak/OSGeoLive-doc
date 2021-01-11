@@ -1,12 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Toshikazu SETO <tosseto@gmail.com>, 2017
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,12 +14,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
@@ -42,8 +42,7 @@ msgid ""
 "It provides pre-configured applications for a range of geospatial use cases,"
 " including storage, publishing, viewing, analysis and manipulation of data. "
 "It also contains sample datasets and documentation."
-msgstr ""
-"データの保存、公開、表示、分析、操作など、さまざまな地理空間の用途に合わせて事前構成されたアプリケーションを提供します。また、サンプルデータセットやドキュメントも含んでいます。"
+msgstr "データの保存、公開、表示、分析、操作など、さまざまな地理空間の用途に合わせて事前構成されたアプリケーションを提供します。また、サンプルデータセットやドキュメントも含んでいます。"
 
 #: ../../build/doc/index.rst:21
 msgid "To try out the applications, simply:"
@@ -92,3 +91,4 @@ msgid ""
 msgstr ""
 "全ての OSGeoLive アプリケーションを取り上げた30分間の `プレゼンテーション <presentation.html>`_ がスライドや原稿、"
 " `要約 <presentation/abstract.txt>`_ とともに、利用可能です。"
+

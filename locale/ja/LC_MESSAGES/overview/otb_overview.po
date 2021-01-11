@@ -1,11 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,12 +13,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/overview/otb_overview.rst:17
 msgid "OTB"
@@ -79,8 +79,7 @@ msgstr ""
 "形式を含む)、メタデータアクセス、および視覚化のための最適化された読み取り/書き込みアクセス"
 
 #: ../../build/doc/overview/otb_overview.rst:51
-msgid ""
-"orthorectification using DEM, map reprojection and sensor model refinement"
+msgid "orthorectification using DEM, map reprojection and sensor model refinement"
 msgstr "DEM、地図の再投影、およびセンサーモデルの改良によるオルソ化"
 
 #: ../../build/doc/overview/otb_overview.rst:52
@@ -183,3 +182,4 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/otb_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/otb_quickstart>`"
+

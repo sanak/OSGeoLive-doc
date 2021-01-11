@@ -1,13 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -16,12 +15,13 @@ msgstr ""
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:20
 msgid "JOSM Quickstart"
@@ -57,8 +57,7 @@ msgstr "JOSM を起動する"
 msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
 " JOSM starts, it will look something like this:"
-msgstr ""
-"デスクトップから :menuselection:`ナビゲーションと地図 --> JOSM` を選択します。JOSMが始まると、次のようになります。"
+msgstr "デスクトップから :menuselection:`ナビゲーションと地図 --> JOSM` を選択します。JOSMが始まると、次のようになります。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
@@ -387,3 +386,4 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:225
 msgid "Website: https://josm.openstreetmap.de/"
 msgstr "Webサイト: https://josm.openstreetmap.de/"
+
