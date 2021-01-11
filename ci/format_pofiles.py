@@ -39,7 +39,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Format po files')
-    parser.add_argument('directory', nargs='?', default='./target',
-                        help="A directory to format po files (default is './target')")
+    parser.add_argument('directory', nargs='?', default='./locale/ja/LC_MESSAGES',
+                        help="A directory to format po files (default is './locale/ja/LC_MESSAGES')")
     args = parser.parse_args()
     main(args)
