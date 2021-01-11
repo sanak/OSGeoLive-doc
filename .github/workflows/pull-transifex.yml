@@ -31,7 +31,7 @@ jobs:
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: |
-          tx init --skipsetup --no-interactive
+          tx init --force-save --skipsetup --no-interactive ./
       - name: Pull all ja po files
         run: |
           tx pull -l ja -f
