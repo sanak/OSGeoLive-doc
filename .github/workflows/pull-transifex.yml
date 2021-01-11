@@ -29,9 +29,9 @@ jobs:
       - name: Configure Transifex Client
         # https://docs.transifex.com/client/init
         env:
-          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+          _TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: |
-          tx init --force-save --skipsetup --no-interactive ./
+          tx init --force-save --skipsetup --no-interactive --token="$_TX_TOKEN" ./
       - name: Recover .tx/config
         run: |
           git checkout -- .tx/config
