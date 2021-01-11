@@ -106,4 +106,4 @@ jobs:
         with:
           workflow: Deploy GitHub Pages
           ref: update-omegat_ja
-          token: ${{ secrets.GITHUB_PERSONAL_TOKEN }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
