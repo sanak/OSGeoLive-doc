@@ -9,7 +9,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - omegat_ja
+      #- omegat_ja
   pull_request:
     branches:
       - omegat_ja
