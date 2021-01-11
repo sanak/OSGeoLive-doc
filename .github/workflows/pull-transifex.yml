@@ -106,6 +106,8 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Updated ${{ steps.get-date.outputs.date }} ja po files with formatting
+          repository: omegat_ja
+          file_pattern: locale/ja/LC_MESSAGES
       - name: "Inform that changes have been made"
         if: steps.auto-commit-action.outputs.changes_detected == 'true'
         run: echo "Changes committed!"
