@@ -72,7 +72,7 @@ jobs:
   update-omegat_ja:
     name: Update omegat_ja branch
     needs: pull-transifex
-    if: needs.pull-transifex.outputs.changes_detected == 'true'
+    #if: needs.pull-transifex.outputs.changes_detected == 'true'
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout OSGeoLive-doc transifex_ja branch
