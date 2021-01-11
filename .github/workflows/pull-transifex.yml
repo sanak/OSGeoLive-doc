@@ -32,6 +32,9 @@ jobs:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: |
           tx init --force-save --skipsetup --no-interactive ./
+      - name: Recover .tx/config
+        run: |
+          git checkout -- .tx/config
       - name: Pull all ja po files
         run: |
           tx pull -l ja -f
