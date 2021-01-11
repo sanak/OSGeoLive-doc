@@ -31,7 +31,7 @@ jobs:
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: |
-          tx init --token="$TX_TOKEN" --force --no-interactive
+          tx init --force-save --skipsetup --no-interactive
       - name: Pull all ja po files
         run: |
           tx pull -l ja -f
@@ -45,6 +45,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: updated ${{ steps.get-date.outputs.date }} ja all po files
+          file_pattern: locale/ja/LC_MESSAGES
       - name: "Inform that changes have been made"
         if: steps.auto-commit-action.outputs.changes_detected == 'true'
         run: echo "Changes committed!"
