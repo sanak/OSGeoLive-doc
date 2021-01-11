@@ -1,0 +1,110 @@
+name: Pull Transifex
+
+on:
+  schedule:
+    # Run at 14:30 UTC (= 23:30 JST)
+    - cron: '30 14 * * *'
+  workflow_dispatch:
+
+jobs:
+  pull-transifex:
+    name: Pull Transifex
+    runs-on: ubuntu-20.04
+    outputs:
+      changes_detected: ${{ steps.auto-commit-action.outputs.changes_detected }}
+    steps:
+      - name: Checkout OSGeoLive-doc
+        uses: actions/checkout@v2
+        with:
+          ref: transifex_ja
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+          architecture: x64
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install -r tools/requirements.txt
+      - name: Configure Transifex Client
+        # https://docs.transifex.com/client/init
+        env:
+          TX_TOKEN: ${{ secrets.TRANSIFEX_API_TOKEN }}
+        run: |
+          tx init --token="$TX_TOKEN" --force --no-interactive
+      - name: Pull all ja po files
+        run: |
+          tx pull -l ja -f
+      - name: Get Date
+        id: get-date
+        run: |
+          echo "::set-output name=date::$(TZ=-9 /bin/date -u "+%Y/%m/%d")"
+        shell: bash
+      - name: Commit the changes
+        id: "auto-commit-action"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: updated ${{ steps.get-date.outputs.date }} ja all po files
+      - name: "Inform that changes have been made"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes committed!"
+      - name: "Inform that no changes were performed"
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No Changes detected!"
+
+  invoke-omegat-pull:
+    name: Invoke omegat pull workflow
+    needs: pull-transifex
+    if: needs.pull-transifex.outputs.changes_detected == 'true'
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Invoke omegat pull workflow
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Pull source
+          repo: ${{ github.repository_owner }}/OSGeoLive-doc-omegat
+          token: ${{ secrets.GITHUB_PERSONAL_TOKEN }}
+
+  update-omegat_ja:
+    name: Update omegat_ja branch
+    needs: pull-transifex
+    if: needs.pull-transifex.outputs.changes_detected == 'true'
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout OSGeoLive-doc transifex_ja branch
+        uses: actions/checkout@v2
+        with:
+          ref: transifex_ja
+          path: transifex_ja
+      - name: Checkout OSGeoLive-doc omegat_ja branch
+        uses: actions/checkout@v2
+        with:
+          ref: omegat_ja
+          path: omegat_ja
+      - name: Overwrite transifex_ja po files to omegat_ja branch
+        run: |
+          cp -R transifex_ja/locale/ja/LC_MESSAGES/* omegat_ja/locale/ja/LC_MESSAGES/
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          architecture: x64
+      - name: Install requirements
+        run: |
+          pip install -U pip
+          pip install -r requirements.txt
+        working-directory: omegat_ja
+      - name: Format po files
+        run: |
+            python ci/format_pofiles.py locale/ja/LC_MESSAGES
+        working-directory: omegat_ja
+      - name: Commit the changes
+        id: "auto-commit-action"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updated ${{ steps.get-date.outputs.date }} ja po files with formatting
+      - name: "Inform that changes have been made"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes committed!"
+      - name: "Inform that no changes were performed"
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No Changes detected!"
