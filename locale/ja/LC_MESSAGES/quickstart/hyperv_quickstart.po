@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
 msgid "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
-msgstr "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
+msgstr ""
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:10
 msgid ""
