@@ -67,6 +67,7 @@ jobs:
         with:
           workflow: Pull source
           repo: ${{ github.repository_owner }}/OSGeoLive-doc-omegat
+          ref: master
           token: ${{ secrets.PERSONAL_TOKEN }}
 
   update-omegat_ja:
