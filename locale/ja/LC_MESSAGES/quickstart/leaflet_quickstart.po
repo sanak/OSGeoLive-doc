@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:18
 msgid "Leaflet Quickstart"
-msgstr ""
+msgstr "Leaflet クイックスタート"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:20
 msgid ""
