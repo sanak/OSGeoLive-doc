@@ -71,7 +71,9 @@ msgid ""
 "top-right of the page. Click that link, and in the dialog that displays, "
 "fill in the user credentials. Try \"admin\" and \"admin\" for the Username "
 "and Password."
-msgstr "Webインタフェースの任意のページから、ページの右上に[*サインイン*]リンクが表示されます。そのリンクをクリックし、表示されるダイアログでユーザー認証情報を入力します。ユーザー名とパスワードに「admin」と「admin」を使用してみてください。"
+msgstr ""
+"Webインタフェースの任意のページから、ページの右上に[*サインイン*]リンクが表示されます。そのリンクをクリックし、表示されるダイアログでユーザー認証情報を入力します。ユーザー名とパスワードに"
+" \"admin\" と \"admin\" を使用してみてください。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:57
 msgid "Add a new layer"
