@@ -41,10 +41,10 @@ OSGeoLive
             
     .. revealjs:: Components on OSGeoLive
 
-        * 50+ Open Source Geospatial Applications.
-        * Sample Datasets.
-        * Consistent Overviews & Quickstarts.
-        * Translations.
+        * 50+ Open Source Geospatial Applications
+        * Sample Datasets
+        * Consistent Overviews & Quickstarts
+        * Translations
 
 
         .. rv_note::
@@ -90,20 +90,20 @@ OSGeoLive
             * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in their projects.
 
 
-    .. revealjs:: What is new in 13.0</h2>
+    .. revealjs:: What is new in 14.0</h2>
 
-        * Updated to Lubuntu 18.04.3 LTS
+        * Updated to Lubuntu 20.04 LTS
         * Updated core packages based on `DebianGIS <href="https://wiki.debian.org/DebianGis">`__
-        * QGIS 3.4.10, GDAL 2.4.2, PROJ 5.2.0, PostGIS 2.5.2, GRASS 7.6.1, GeoServer 2.15.1, MapServer 7.4.1 and many more...
-        * New projects added: GeoExt 3.1, Actinia 0.2.1, MapCache 1.8.0
-        * Major documentation updates
-        * OSM data for Bucharest
-        * Updated (geo)datascience packages and included many new Jupyter notebooks.
+        * QGIS 3.10.13, GDAL 3.2.1, PROJ 7.2.1, PostGIS 3.1.0, GRASS 7.8.5, GeoServer 2.18.0, MapServer 7.6.1 and many more...
+        * New projects added: GeoStyler, Re3gistry
+        * Download OSGeoLive ISO or VMDK (with even more software) 
+        * Documentation updates
+        * OSM data for Buenos Aires
         * Updated packages contributed back to `UbuntuGIS <href="https://wiki.ubuntu.com/UbuntuGIS">`__
         * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
 
         .. rv_note::
-            In OSGeoLive Version 13.0 we've updated our core packages to the latest stable, added 2 new OSGeo Community projects (GeoExt and Actinia), improved our documentation and translations. We've also updated many existing applications and moved to the latest Lubuntu 18.04.2 Long Term Support release.
+            In OSGeoLive Version 14.0 we've updated our core packages to the latest stable, added new projects (GeoStyler, Re3gistry), improved our documentation and translations. We've also updated many existing applications and moved to the latest Lubuntu 20.04 Long Term Support release.
 
 
 
@@ -115,7 +115,7 @@ OSGeoLive
 
         .. image:: ../images/logos/OSGeo_compass_with_text_square.png
             :alt: OSGeo
-            :height: 300
+            :height: 400
             :target: https://www.osgeo.org
 
         .. rv_note::
@@ -281,15 +281,13 @@ OSGeoLive
         :title-heading: h3
   
 
-            ==================== ================ ================= ==================
-            ==================== ================ ================= ==================
-              |openlayers_logo|   |leaflet_logo|   |cesium_logo|     |geomajas_logo|
-              OpenLayers          Leaflet          Cesium            Geomajas       
-              |mapbender_logo|    |geoext_logo|    |geomoose_logo|   |geonode_logo| 
-              Mapbender           GeoExt           GeoMoose          GeoNode        
-              |geostyler_logo|                  
-              GeoStyler                         
-            ==================== ================ ================= ==================
+            ==================== ================= ================ ===================
+            ==================== ================= ================ ===================
+              |openlayers_logo|   |leaflet_logo|    |cesium_logo|    |mapbender_logo|
+              OpenLayers          Leaflet           Cesium           Mapbender       
+              |geoext_logo|       |geomoose_logo|   |geonode_logo|   |geostyler_logo|
+              GeoExt              GeoMoose          GeoNode          GeoStyler       
+            ==================== ================= ================ ===================
 
 
 
@@ -338,19 +336,6 @@ OSGeoLive
             Note 
             Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.
         
-
-
-
-
-    .. revealjs:: Geomajas
-        :title-heading: h3
-  
-        .. image:: ../images/projects/geomajas/geomajas_screenshot.png
-            :height: 600
-
-        .. rv_note::
-            Note 
-            Geomajas provides a wide range of spatial tools in a thin browser mapping client which integrates into the powerful server-side, java- based geotools library for processing. This means Geomajas applications can provide very powerful functionality in the browser and still be performant.
 
 
 
@@ -440,7 +425,7 @@ OSGeoLive
               |52nSOS_logo|      |52nWPS_logo|      |zoo-project_logo|      |t-rex_logo|  
               52 North SOS       52 North WPS       Zoo Project             t-rex         
               |actinia_logo|     |re3gistry_logo|   |pygeoapi_logo|           
-              Actinia            Re3gistry          pygeoapi                  
+              actinia            Re3gistry          pygeoapi                  
             =================== ================== ======================= =================
 
 
@@ -663,7 +648,7 @@ OSGeoLive
 
 
 
-    .. revealjs:: Actinia
+    .. revealjs:: actinia
         :title-heading: h3
   
         .. image:: ../images/projects/actinia/actinia_screenshot.png
@@ -777,7 +762,9 @@ OSGeoLive
 
         .. rv_note::
             Note 
-            pgRouting extends the PostGIS database to provide geospatial routing functionality so you can apply queries like finding the shortest path between points from within the database, thus simplifying both routing functionality and maintenance of data.
+            pgRouting extends the PostGIS database to provide geospatial routing functionality
+            so you can apply queries like finding the shortest path between points from within
+            the database, thus simplifying both routing functionality and maintenance of data.
 
 
 
@@ -886,13 +873,13 @@ OSGeoLive
         :title-heading: h3
   
 
-            =================== =============== =============== ================
-            =================== =============== =============== ================
-              |gmt_logo|         |otb_logo|      |R_logo|        |mapnik_logo|
-              GMT                OTB             R               Mapnik       
-              |mapslicer_logo|            
-              MapSlicer                   
-            =================== =============== =============== ================
+            =================== ================== =============== ================
+            =================== ================== =============== ================
+              |gmt_logo|         |otb_logo|         |R_logo|        |mapnik_logo|
+              GMT                OTB                R               Mapnik       
+              |mapslicer_logo|   |jupyter_logo|          
+              MapSlicer          Jupyter Notebook        
+            =================== ================== =============== ================
 
 
 
@@ -963,6 +950,19 @@ OSGeoLive
         .. rv_note::
             Note 
             MapSlicer provides a desktop interface for creating tiles, which can then be stored on the local filesystem or published via direct upload to any webserver or cloud storage. Browser viewing is provided by OpenLayers and Google Maps and can be easily customized.
+
+
+
+
+    .. revealjs:: Jupyter Notebook
+        :title-heading: h3
+  
+        .. image:: ../images/projects/jupyter/jupyter_screenshot.png
+            :height: 600
+
+        .. rv_note::
+            Note 
+            Jupyter notebooks contain a list of input and output cells which allow you to embed rich media into a document. They are a bit like a spreadsheet in that each cell can contain code or a formula, and a bit like a web page in that authors can create presentations using structured text along with embedded rich media. Input cells can include geospatial functions from other applications, such as gdal, R, and many others.
 
 
 
@@ -1071,13 +1071,13 @@ OSGeoLive
         :title-heading: h3
   
 
-            ================ ================= =============== ================
-            ================ ================= =============== ================
-              |gdal_logo|     |geotools_logo|   |geos_logo|     |proj4_logo| 
-              GDAL/OGR        GeoTools          GEOS            Proj.4       
-              |liblas_logo|   |jts_logo|             
-              libLAS          JTS                    
-            ================ ================= =============== ================
+            ============== ================= =============== ================
+            ============== ================= =============== ================
+              |gdal_logo|   |geotools_logo|   |geos_logo|     |proj_logo|  
+              GDAL/OGR      GeoTools          GEOS            PROJ         
+              |jts_logo|               
+              JTS                      
+            ============== ================= =============== ================
 
 
 
@@ -1123,28 +1123,15 @@ OSGeoLive
 
 
 
-    .. revealjs:: Proj.4
+    .. revealjs:: PROJ
         :title-heading: h3
   
-        .. image:: ../images/projects/proj4/proj4_screenshot.png
+        .. image:: ../images/projects/proj/proj_screenshot.png
             :height: 600
 
         .. rv_note::
             Note 
-            Proj4 is a library that provides methods to transform between different coordinate reference systems. A geographic coordinate reference systems allows all points on the earth to be described as a set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map..
-
-
-
-
-    .. revealjs:: libLAS
-        :title-heading: h3
-  
-        .. image:: ../images/projects/liblas/liblas_screenshot.png
-            :height: 600
-
-        .. rv_note::
-            Note 
-            libLAS is a C/C++ library for reading and writing the LAS LiDAR format. LiDAR, or Light Detection and Ranging, is a form of high precision range detection, much like radar or sonar, that uses laser light as the electromagnetic emission.
+            PROJ is a library that provides methods to transform between different coordinate reference systems. A geographic coordinate reference systems allows all points on the earth to be described as a set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map..
 
 
 
@@ -1165,8 +1152,21 @@ OSGeoLive
 .. revealjs:: 
 
     .. revealjs:: Credits
+    
+        * Developers and project maintainers
+        * Authors and reviewers of the documentation
+        * Translators
+        * https://live.osgeo.org/en/sponsors.html
+        
+        .. rv_note::
+            As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeoLive,
+            and literally thousands of developers have helped build the software we package.
+            Thank you.        
+        
 
-        Project Steering Committee:
+    .. revealjs:: Credits
+
+        Project Steering Committee
 
         * Angelos Tzotsos (Chair)
         * Brian M Hamlin
@@ -1201,14 +1201,11 @@ OSGeoLive
         :title-heading: h2
 
         *  Proof-read, test and correct Quickstarts and Overviews
-
-          * There is a good possibility to get to know cool software!
-
-        *  Translate and improve the documentation
-
-          * Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive>`__
-          * Local Chapters can easily get involved here
-          * No technical experience necessary
+        * There is a good possibility to get to know cool software!
+        * Translate and improve the documentation
+        * Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive>`__
+        * Local Chapters can easily get involved here
+        * No technical experience necessary
 
 
     .. revealjs:: Sponsors
@@ -1261,7 +1258,6 @@ OSGeoLive
 .. |openlayers_logo| image:: ../images/projects/openlayers/logo_openlayers.png
 .. |leaflet_logo| image:: ../images/projects/leaflet/logo_leaflet.png
 .. |cesium_logo| image:: ../images/projects/cesium/logo_cesium.png
-.. |geomajas_logo| image:: ../images/projects/geomajas/logo_geomajas.png
 .. |mapbender_logo| image:: ../images/projects/mapbender/logo_mapbender.png
 .. |geoext_logo| image:: ../images/projects/geoext/logo_geoext.png
 .. |geomoose_logo| image:: ../images/projects/geomoose/logo_geomoose.png
@@ -1301,6 +1297,7 @@ OSGeoLive
 .. |R_logo| image:: ../images/projects/R/logo_R.png
 .. |mapnik_logo| image:: ../images/projects/mapnik/logo_mapnik.png
 .. |mapslicer_logo| image:: ../images/projects/mapslicer/logo_mapslicer.png
+.. |jupyter_logo| image:: ../images/projects/jupyter/logo_jupyter.png
 .. |zygrib_logo| image:: ../images/projects/zygrib/logo_zygrib.png
 .. |naturalearth_logo| image:: ../images/projects/naturalearth/logo_naturalearth.png
 .. |nc_dataset_logo| image:: ../images/projects/nc_dataset/logo_nc_dataset.png
@@ -1309,8 +1306,7 @@ OSGeoLive
 .. |gdal_logo| image:: ../images/projects/gdal/logo_gdal.png
 .. |geotools_logo| image:: ../images/projects/geotools/logo_geotools.png
 .. |geos_logo| image:: ../images/projects/geos/logo_geos.png
-.. |proj4_logo| image:: ../images/projects/proj4/logo_proj4.png
-.. |liblas_logo| image:: ../images/projects/liblas/logo_liblas.png
+.. |proj_logo| image:: ../images/projects/proj/logo_proj.png
 .. |jts_logo| image:: ../images/projects/jts/logo_jts.png
 
 
