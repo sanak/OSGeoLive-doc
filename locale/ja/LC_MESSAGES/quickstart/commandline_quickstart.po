@@ -88,7 +88,7 @@ msgid ""
 "`/home/user`. Anytime you open a terminal window it will start in your home "
 "directory (see pwd)."
 msgstr ""
-"現在のユーザは \"`user`\" で、 `/home/user` "
+"現在のユーザーは「 `user` 」で、 `/home/user` "
 "にホームディレクトリがあります。ターミナルウィンドウを開くと、ホームディレクトリから開きます(pwdを参照)。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:65
@@ -106,7 +106,7 @@ msgid ""
 "`cd ..` moves you one directory to the top, `cd` user goes from your current"
 " location to the home directory of user. This is not the same as `/user`"
 msgstr ""
-"`cd ..` はディレクトリを一つ上に移動します。 `cd` では、現在の場所からユーザのホームディレクトリに移動します。これは `/user` "
+"`cd ..` はディレクトリを一つ上に移動します。 `cd` では、現在の場所からユーザーのホームディレクトリに移動します。これは `/user` "
 "と同じではありません"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:76
@@ -165,7 +165,7 @@ msgstr "`ls` はすべてのファイルとディレクトリをリストしま�
 msgid ""
 "`ls -l` shows a more detailed list of the files/directories with time, user "
 "access rights"
-msgstr "`ls -l` を使うと、時間、ユーザのアクセス権限などの、ファイル/ディレクトリの詳細なリストを表示します。"
+msgstr "`ls -l` を使うと、時間、ユーザーのアクセス権限などの、ファイル/ディレクトリの詳細なリストを表示します。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:119
 msgid "`ls -a` also shows hidden files"
@@ -211,8 +211,8 @@ msgid ""
 "access rights and more fun. You will see the use of `sudo` in some of the "
 "following commands."
 msgstr ""
-"`sudo` を使って、通常は実行できないコマンドを実行できるようにします。`sudo` は、コマンドを通常 root "
-"ユーザとして知られるスーパーユーザの権限で実行します。 `sudo` "
+" `sudo` を使って、通常は実行できないコマンドを実行できるようにします。`sudo` は、コマンドを通常 root "
+"ユーザとして知られるスーパーユーザーの権限で実行します。 `sudo` "
 "をつかうと、ソフトウエアを導入するとか、サービスの管理をするとか、アクセス権限を変更するとか、いろいろ可能です。次のコマンドは、 `sudo` "
 "の用例です。"
 
@@ -236,7 +236,7 @@ msgstr "プログラムをインストールする"
 msgid ""
 "You will love the program `sl`. Run the new program with `sl` see also `apt "
 "show sl`."
-msgstr "`sl` プログラムを気にいるとおもいますよ。`sl` で新しいプログラムを実行してください。`apt show sl` も参照してください。"
+msgstr " `sl` プログラムを気にいるとおもいますよ。Run the new program with `sl` see also `apt show sl`."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:198
 msgid "Services"
@@ -274,15 +274,15 @@ msgstr "参照"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:222
 msgid "https://help.ubuntu.com/community/VimHowto"
-msgstr "https://help.ubuntu.com/community/VimHowto"
+msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:223
 msgid "https://vim.rtorr.com/lang/en_en"
-msgstr "https://vim.rtorr.com/lang/en_en"
+msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:226
 msgid "Open a file with `vim`:"
-msgstr "`vim` でファイルを開く:"
+msgstr " `vim` でファイルを開く:"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:232
 msgid "press `i` to switch to the input mode"
@@ -370,7 +370,7 @@ msgstr "続く3文字は、他者のアクセス権になります。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:271
 msgid "Change the owner with `chown`"
-msgstr "`chown` で所有者を変更する"
+msgstr " `chown` で所有者を変更できます。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:277
 msgid "first pass the user then the group - like `user:www-data`"
@@ -383,7 +383,7 @@ msgstr "`-R` 再帰的"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:282
 msgid "Change access rights with `chmod`"
-msgstr "`chmod` でアクセス権を変更する"
+msgstr " `chmod` でアクセス権を変更できます。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:289
 msgid "777 everyone can do everything"
@@ -502,9 +502,9 @@ msgstr "ここまでで、重要なコマンドとその利用方法について
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:338
 msgid "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
-msgstr "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
+msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:339
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
-msgstr "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
+msgstr ""
 

@@ -31,8 +31,6 @@ msgid ""
 " as a CGI application under many different web servers, or as an Apache "
 "module. OSGeoLive has MapCache installed and configured as an Apache module."
 msgstr ""
-"MapCache は、 WMS "
-"レイヤへのアクセスを高速化するタイルサーバーです。さまざまなWebサーバー上でCGIアプリケーションとして実行することも、Apacheモジュールとして実行することもできます。OSGeoLiveにはMapCacheがインストールされており、Apacheモジュールとして設定されています。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:23
 msgid ""
@@ -54,9 +52,6 @@ msgid ""
 " The example uses the OSGeoLive demo MapServer application of Itasca County "
 "in the United States as its source."
 msgstr ""
-"MapCacheはXMLファイルを使用して構成されます。OSGeoLiveには、``/usr/local/share/mapcache"
-"/mapcache-quickstart.xml`` "
-"にサンプル設定ファイルがあります。この例では、ソースとして米国のイタスカ郡のデータを使用し、OSGeoLiveデモのMapServerアプリケーションを使用しています。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:36
 msgid ""
@@ -71,8 +66,9 @@ msgid ""
 "you can save the file, using System Tools > QTerminal and then running run "
 "the command below:"
 msgstr ""
-"まず、FeatherPad(テキストエディタ)でMapCache設定ファイルを開きます。管理者特権でコマンドラインからFeatherPadを開くことで、ファイルを保存することができるようになります。[システムツール]"
-" > [QTerminal]を使用して、次のコマンドを実行します。"
+"First let's open the MapCache configuration file in FeatherPad - a text "
+"editor. "
+"管理者特権でコマンドラインからFeatherPadを開き、[システムツール]>[QTerminal]を使用してファイルを保存し、次のコマンドを実行して実行できるようにします。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:45
 msgid ""
@@ -95,11 +91,6 @@ msgid ""
 "type=\"wms\">...</source>`` block used for the lakes to ``mapcache-"
 "quickstart.xml``:"
 msgstr ""
-"WMS Capabilitiesドキュメントに記載されているレイヤ名の1つは、``dlgstln2`` "
-"イタスカ郡のストリームです。これを新しいタイルセットとしてMapCacheサービスに追加します。まず ``<source>`` "
-"ブロックを追加します。これはWMSサーバからデータを取得するための設定です。既存の湖として使用される ``<source "
-"name=\"lake_source\" type=\"wms\">...</source>`` XMLブロックのあとのブロックに、 "
-"``mapcache-quickstart.xml`` を追加します："
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:75
 msgid ""
@@ -109,10 +100,6 @@ msgid ""
 "documentation on all configuration file elements see the `Configuration "
 "Documentation <https://mapserver.org/mapcache/config.html>`_."
 msgstr ""
-"MapServer 特有の ``<map>`` パラメータに加え、 ``<params>`` "
-"ブロックをつかって、WMSレイヤ名と画像フォーマットをWMSサーバに送信します。WMSサーバのURLは、``<http>`` "
-"ブロックに入ります。すべての設定ファイルの要素のドキュメントについては、`Configuration Documentation "
-"<https://mapserver.org/mapcache/config.html>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:79
 msgid ""
@@ -120,8 +107,6 @@ msgid ""
 " stored and served as tiles. Place the following block after the existing "
 "``<tileset name=\"lakes\">...</tileset>`` block."
 msgstr ""
-"次に ``<tileset>`` ブロックを追加します。このブロックは、ソースがどのように格納され、タイルとして扱われるかを定義します。既存の "
-"``<tileset name=\"lakes\">...</tileset>`` ブロックの後に次のブロックを置きます。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:91
 msgid ""
@@ -131,16 +116,13 @@ msgid ""
 "are using a disk-based cache (rather than storing tiles in a database or in "
 "a cloud environment)."
 msgstr ""
-"グリッドタイプを、多くのWebマッピングアプリケーションでデフォルトのタイリングスキームとして使用される組み込み "
-"``GoogleMapsCompatible`` グリッドに設定します。``name=streams`` "
-"は、クライアントアプリケーションがタイルセットにアクセスするためにつかわれます。データベースやクラウド環境にタイルを保存するのではなく、ディスク・ベースのキャッシュを使用しています。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:95
 msgid ""
 "Anytime you modify the MapCache configuration file you need to reload Apache"
 " for the changes to come into effect. This can be run from the command line "
 "as follows:"
-msgstr "MapCache設定ファイルを変更した場合は、変更を有効にするためにApacheをリロードする必要があります。これは、次のようにコマンドラインから実行できます:"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:102
 msgid ""
@@ -154,7 +136,7 @@ msgstr ""
 msgid ""
 "Now let's add the tileset to our OpenLayers map. Open the HTML page using "
 "the following command:"
-msgstr "次に、OpenLayersマップにタイルセットを追加しましょう。次のコマンドを使用してHTMLページを開きます:"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:112
 msgid "Uncomment out the JavaScript code below:"
@@ -193,8 +175,6 @@ msgid ""
 "enabled/mapcache.conf`` file. As this requires super user permissions you "
 "can open it for editing in FeatherPad by running the command below:"
 msgstr ""
-"``/etc/apache2/conf-enabled/mapcache.conf`` "
-"ファイルを編集することで、それぞれが独自の設定ファイルを持つ、多数の異なるMapCacheサービスを実行するようにApacheを設定できます。スーパーユーザ権限が必要なので、次のコマンドを実行してFeatherPadで編集用に開くことができます。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:150
 msgid ""
@@ -202,8 +182,6 @@ msgid ""
 "file. The alias is the URL to use on the server, e.g. "
 "http://localhost/mapcache and http://localhost/itasca"
 msgstr ""
-"OSGeoLiveには2つのMapCacheサービスがあり、それぞれにエイリアスと設定ファイルがあります。エイリアスはサーバ上で使用するURLです。例 "
-"http://localhost/mapcache と http://localhost/itasca"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:164
 msgid ""
@@ -232,8 +210,6 @@ msgid ""
 "This process is known as *seeding*, and the MapCache command line "
 "application is ``mapcache_seed``."
 msgstr ""
-"マップタイルは、Webサーバーから要求されたときに動的に作成されます。要求時間を短縮するために、コマンドラインアプリケーションを使用してタイルを生成できます。この処理は、"
-" *シーディング* として知られており、 MapCache コマンドラインアプリケーションは ``mapcache_seed`` です。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:181
 msgid ""
@@ -261,8 +237,6 @@ msgid ""
 "*tileset*: ``lakes`` - this is the tileset name we are going to seed, and is"
 " found in ``mapcache-quickstart.xml``"
 msgstr ""
-"*tileset*: ``lakes`` - this is the tileset name we are going to seed, and is"
-" found in ``mapcache-quickstart.xml``"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:189
 msgid ""

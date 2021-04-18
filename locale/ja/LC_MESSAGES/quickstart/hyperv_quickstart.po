@@ -33,9 +33,9 @@ msgid ""
 "Also\" section below. Hyper-V is available on both Windows Server, and "
 "Windows 10 Professional - it is not part of Windows 10 Home."
 msgstr ""
-"ここでは、OSGeoLive を Microsoft の仮想化ソフトウエアである Hyper-V "
-"から起動する方法を説明します。他の方法については、以下の \"参照\" の章のリンクにしたがってください。Hyper-V は、Windows "
-"Serverか、Windows 10 Professionalで利用することができます。Windows 10 Homeには含まれていません。"
+"ここでは、OSGeoLive を マイクロソフトの仮想マシン技術ソフトウエアのHyper-V から起動する方法を説明します。他の方法については、以下の "
+"\"参照\" の章のリンクにしたがってください。Hyper-V は、Windowsサーバか、Windows 10 "
+"プロフェッショナル版で利用することができます。Windows 10 Homeには含まれていません。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:13
 msgid ""
@@ -49,7 +49,7 @@ msgid ""
 " to configure OSGeoLive to run on Hyper-V."
 msgstr ""
 "仮想マシンを利用する利点は、 :doc:`virtualization_quickstart` "
-"にまとまっています。残念ですが、VirtualBoxと、Hyper-Vの両方を同時に試すことはできません。つまり、二つの選択肢のどちらかだけです。Hyper-Vを無効にするか、OSGeoLiveをHyper-Vで起動できるように設定するか、です。無料ツールの"
+"にまとまっています。残念ですが、VirtualBoxと、Hyper-Vの両方を同時に試すことはできません。つまり、二つの選択肢のどちらかだけです。Hyper-Vを無告にするか、OSGeoLiveをHyper-Vで起動できるように設定するか、です。無料ツールの"
 " `hypervswitch <https://unclassified.software/en/apps/hypervswitch>`_ "
 "を使えば、簡単にすぐにHyper-Vの有効/無効を切りかえできます。しかし、設定を変更したときは再起動が必要です。このページのこれ以降は、OSGeoLiveをHyper-Vで稼動させる方法を説明します。"
 
@@ -88,7 +88,7 @@ msgid ""
 "links on :doc:`live.osgeo.org <../download>`. Once downloaded unzip the "
 "downloaded file (using `7zip <https://www.7-zip.org>`_ )."
 msgstr ""
-":doc:`live.osgeo.org <../download>` のリンクから、 OSGeoLiveの "
+" :doc:`live.osgeo.org <../download>` のリンクから、 OSGeoLiveの "
 "VirtualBox仮想ハードディスク(vmdk)をダウンロードします。ダウンロードして、(`7zip "
 "<https://www.7-zip.org>`_ を使って)Unzipします。 "
 
@@ -112,7 +112,7 @@ msgid ""
 "select the ``osgeo-live-XX.X-vm.vmdk`` file and convert to a *Microsoft "
 "VHDX* image."
 msgstr ""
-"`StarWind V2V Converter <https://www.starwindsoftware.com/starwind-v2v-"
+" `StarWind V2V Converter <https://www.starwindsoftware.com/starwind-v2v-"
 "converter>`_ プログラムを使う方法これは、簡易なユーザインターフェースをもち、 ``osgeo-live-XX.X-vm.vmdk`` "
 "ファイルを選択して、 *Microsoft VHDX* イメージに変換できます。"
 
@@ -130,7 +130,7 @@ msgid ""
 "<https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ and "
 "install."
 msgstr ""
-"`Microsoft Virtual Machine Converter 3.0 <https://www.microsoft.com/en-"
+" `Microsoft Virtual Machine Converter 3.0 <https://www.microsoft.com/en-"
 "us/download/details.aspx?id=42497>`_ をダウンロードしてインストールします。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:49
@@ -146,7 +146,7 @@ msgid ""
 "Run the following command to get the disk descriptor from the OSGeoLive "
 "vmdk. This saves the disk description to the \"descriptor1.txt\" file."
 msgstr ""
-"OSGeoLiveのvmdkファイルから、ディスクの記述子を取得するため、次のコマンドを実行します。 \"descriptor1.txt\" "
+"OSGeoLiveのvmdkファイルから、ディスクの記述子を取得するため、次のコマンドを実行します。\"descriptor1.txt\" "
 "に仮想ディスクの情報が保存されます。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:60
@@ -215,13 +215,13 @@ msgstr "メモリ割り当てのときは、 \"仮想マシンに動的メモリ
 msgid ""
 "If you require the virtual machine to have Internet access you will need to "
 "set this up this up on the \"Configure Networking\" screen."
-msgstr "仮想マシンがインターネット接続させる必要がある場合、 \"ネットワーク設定\" スクリーンで設定する必要があります。"
+msgstr "仮想マシンがインターネット接続させる必要がある場合、\"ネットワーク設定\"スクリーンで設定する必要があります。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:109
 msgid ""
 "On the \"Connect Virtual Hard Disk\", select \"Use an existing virtual hard "
 "disk\" and select the ``.vhdx`` file you unzipped earlier."
-msgstr "\"仮想ハードディスクの接続\" では、 \"既存の仮想ハードディスクを使用\" を選択し、先程解凍した ``.vhdx`` ファイルを指定します。"
+msgstr "\"仮想ハードディスクの接続\"では、 \"既存の仮想ハードディスクを使用\" を選択し、先程解凍した ``.vhdx`` ファイルを指定します。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:113
 msgid "**Running the Virtual Machine**"
@@ -235,7 +235,7 @@ msgstr "仮想マシンの一覧から、作成した仮想マシンを選択し
 msgid ""
 "Right-click and select \"Connect\". You will be prompted to start the "
 "machine, and a new \"Virtual Machine Connection\" window will open."
-msgstr "右クリックして、 \"接続\" を選択。仮想マシンが起動するまで、すこし待つと、 \"仮想マシン接続\" ウインドウが開きます。"
+msgstr "右クリックして、\"接続\" を選択。仮想マシンが起動するまで、すこし待つと、 \"仮想マシン接続\" ウインドウが開きます。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:119
 msgid "See Also:"
@@ -243,7 +243,7 @@ msgstr "参照:"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:120
 msgid ":doc:`virtualization_quickstart`."
-msgstr ":doc:`virtualization_quickstart`."
+msgstr ""
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:122
 msgid "OSGeo wiki pages:"

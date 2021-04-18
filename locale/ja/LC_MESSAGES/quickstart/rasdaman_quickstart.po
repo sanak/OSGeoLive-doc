@@ -54,9 +54,8 @@ msgid ""
 "<http://localhost:8080/rasdaman/ows>`_ loads in the browser)."
 msgstr ""
 "次のクエリを実行する前に、まずrasdamanとTomcatを起動します。デスクトップで *Databases* ディレクトリを開き、 "
-"*Rasdaman Server* を起動します。rasdamanが起動するまで、特にTomcatが完全に起動するまで(`rasdaman "
-"ウェブクライアント <http://localhost:8080/rasdaman/ows>`_ "
-"がブラウザにロードされるまで)、2分から3分間待ちます。"
+"*Rasdaman Server* を起動します。rasdaman、特にTomcatが完全に起動するまで、2分から3分間待ちます( `rasdaman "
+"web client <http://localhost:8080/rasdaman/ows>`_ がブラウザにロードされるまで)。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:42
 msgid ""
@@ -65,7 +64,7 @@ msgid ""
 "tutorial though, continue with the next examples here."
 msgstr ""
 "その後、同じディレクトリから *Rasdaman-Earthlookデモ* "
-"を開くことができます。これにより、ブラウザでローカルのデモが起動します。より実践的なチュートリアルを行なうので、次の例に進んでください。"
+"を開くことができます。これにより、ブラウザでローカルのデモが起動します。しかし、より実践的なチュートリアルのために、次の例に進んでください。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:48
 msgid "Running WCPS queries"
@@ -73,7 +72,7 @@ msgstr "WCPSクエリを実行"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:53
 msgid "Either:"
-msgstr "次のいずれか："
+msgstr "Either:"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:51
 msgid ""
@@ -81,8 +80,9 @@ msgid ""
 "switch to the *ProcessCoverages* tab, and enter your query in the query "
 "boxes and press send."
 msgstr ""
-"`rasdamanウェブクライアント <http://localhost:8080/rasdaman/ows>`_ に行って "
-"*ProcessCoverages* タブに切り替え、クエリボックスにクエリを入力して送信を押してください。"
+"Go to the `rasdaman web client <http://localhost:8080/rasdaman/ows>`_, "
+"switch to the *ProcessCoverages* tab, and enter your query in the query "
+"boxes and press send."
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:52
 msgid ""
@@ -91,7 +91,7 @@ msgid ""
 "browser."
 msgstr ""
 "クエリーを次のURLに追加し、ブラウザーを使って実行します:  "
-"http://localhost:8080/rasdaman/ows?query=your_query "
+"http://localhost:8080/rasdaman/ows?query=your_query"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:56
 msgid "Running coverage"
@@ -175,8 +175,6 @@ msgid ""
 "is, the more likely it is plants. The WCPS query to derive NDVI from the "
 "coverage is as follows:"
 msgstr ""
-"NDVI(Normalized Difference Vegetation "
-"Index)はリモートセンシングにおける植生の確率の尺度です。カバレッジからNDVIを導出するためのWCPSクエリは次のとおりです。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:127
 msgid "What next?"
@@ -201,7 +199,7 @@ msgstr ""
 "OGC  |WCPS| 言語標準 (rasdamanに影響されて制定された)について、学んでください。 `ドキュメントとチュートリアルのページ "
 "<https://standards.rasdaman.com/>`_  そして、 `WCPS Query SandBox "
 "<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_ "
-"が良い出発点になるでしょう。 "
+"が良い出発点になるでしょう。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:133
 msgid ""
@@ -209,8 +207,6 @@ msgid ""
 "Domain Working Group wiki "
 "<https://external.ogc.org/twiki_public/CoveragesDWG/WebHome>`_."
 msgstr ""
-"カバレッジデータおよびサービス全般に興味がありますか? OGCの `Coverages Domain Working Group wiki "
-"<https://external.ogc.org/twiki_public/CoveragesDWG/WebHome>`_ を参照してみましょう。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:134
 msgid ""
@@ -228,8 +224,4 @@ msgid ""
 "forward to the `OGC standards showcase site "
 "<https://standards.rasdaman.com>`_ ."
 msgstr ""
-"インタラクティブな1-Dから4-Dのrasdamanのデモを見るには、 `多次元デモ <http://localhost/rasdaman-"
-"demo>`_ をご覧ください。OSGeoLive に含まれているのは小さい例です。 `OGC標準ショーケースサイト "
-"<https://standards.rasdaman.com>`_  "
-"では、(ドライブ容量をこえるような)大きなデータセットを使っている例を見ることができます。"
 
