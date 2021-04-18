@@ -40,7 +40,7 @@ msgstr "ログアウトします"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:18
 msgid "Select user=\"user\", password=\"user\""
-msgstr "user= \"user\" , password= \"user\" でログインします"
+msgstr "user=\"user\", password=\"user\" でログインします"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:19
 msgid "Select another language from the top panel menu."

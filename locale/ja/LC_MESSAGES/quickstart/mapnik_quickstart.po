@@ -68,7 +68,7 @@ msgid ""
 "The above code depends on having an XML stylesheet that Mapnik can read "
 "(world_population.xml), defining the layers to read data from and the styles"
 " to apply to those layers."
-msgstr "上記のコードは、Mapnikが読み取れるXMLスタイルシートを用意し、データを読み込むレイヤと、それらのレイヤに適用するスタイルを定義することで実現しています。"
+msgstr "上記のコードは、Mapnikが読み取れるXMLスタイルシートを用意し、データを読み込むレイヤーと、それらのレイヤーに適用するスタイルを定義することで実現しています。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid "Mapnik & MapProxy"
@@ -90,8 +90,9 @@ msgid ""
 "MapProxy`. The server starts in a terminal window (which stays open and "
 "outputs basic debugging information)."
 msgstr ""
-":menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`"
-" をクリックします。サーバはターミナルウィンドウで起動します(ターミナルウィンドウは開いたままになり、基本的なデバッグ情報を出力します)。"
+" :menuselection:`Geospatial --> Web Services --> MapProxy --> Start "
+"MapProxy` "
+"をクリックします。サーバはターミナルウィンドウで起動します(ターミナルウィンドウは開いたままになり、基本的なデバッグ情報を出力します)。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
 msgid "Open the MapProxy demo application http://0.0.0.0:8011/demo/"
@@ -110,7 +111,7 @@ msgid ""
 " Mapbender (http://localhost/mapbender/application/mapbender_user)."
 msgstr ""
 "MapProxy "
-"WMSは、QGISやMapbender(http://localhost/mapbender/application/mapbender_user)などの他のアプリケーションで使用できます。"
+"WMSは、QGISやMapbender(http://localhost/mapbender/application/mapbender_user))などの他のアプリケーションで使用できます。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:70
 msgid "Observe the output in the server terminal window."
@@ -136,5 +137,5 @@ msgstr "最新のOSGeoLiveディストリビューションに含まれている
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:80
 msgid "Visit the Mapnik website: https://mapnik.org"
-msgstr "Mapnik Webサイトを訪問してください: https://mapnik.org"
+msgstr " Mapnik websiteを訪問してください: https://mapnik.org"
 
