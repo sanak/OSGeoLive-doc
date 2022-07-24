@@ -1,26 +1,20 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>istSOS &#8212; OSGeoLive 14.0 Documentation</title>
-    <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../',
-        VERSION:     '14.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  false,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>istSOS &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -30,13 +24,12 @@
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
-  </head>
-  <body>
+  </head><body>
 
         
         
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="../index.html">Home</a></li>
@@ -48,7 +41,7 @@
             </ul>
         </div>
     </div>
-    </div> 
+    </div>
         
 
 
@@ -57,12 +50,12 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
 
-
+  
 
     <div class="document">
       <div class="documentwrapper">
@@ -70,53 +63,54 @@
             
   <a class="reference external image-reference" href="http://istsos.org"><img alt="../../_images/logo_istsos.png" class="align-right" src="../../_images/logo_istsos.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
-<div class="section" id="istsos">
-<h1>istSOS<a class="headerlink" href="#istsos" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="data-management-tool">
-<h2>Data Management Tool<a class="headerlink" href="#data-management-tool" title="Permalink to this headline">¶</a></h2>
+<section id="istsos">
+<h1>istSOS<a class="headerlink" href="#istsos" title="Permalink to this heading">¶</a></h1>
+<section id="data-management-tool">
+<h2>Data Management Tool<a class="headerlink" href="#data-management-tool" title="Permalink to this heading">¶</a></h2>
 <p>istSOS is sensor data management tool that allows collection, maintenance and
 publishing of monitoring observations using the Open Geospatial Consortium (OGC)
 <a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a> standard.</p>
 <p>istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC CITE (Compliance + Interopability Testing + Evaluation) units tests.</p>
 <a class="reference internal image-reference" href="../../_images/istsos_screenshot.png"><img alt="istsos screenshot" class="align-right" src="../../_images/istsos_screenshot.png" style="width: 500px;" /></a>
-<div class="section" id="core-features">
-<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this headline">¶</a></h3>
+<section id="core-features">
+<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li>Publish sensor data in accordance with the Sensor Observation Service (SOS) standard.</li>
-<li>Administer sensors and data with an intuitive web-based interface.</li>
-<li>Use a complete RestFul API to access istSOS functionality from external clients to create interactive charts, display sensor on a dynamic map or just write some maintenance scripts.</li>
-<li>Get notified through mail, twitter or other social media when sensor data meets specific conditions.</li>
-<li>User authentication and authorization with different access levels (administrator, network manager, data manager and visitor).</li>
-<li>Create Virtual Procedures that look like normal stations but whose data results from on-the-fly elaboration of other sensor data.</li>
-<li>Associate quality indexes to each observation thanks to embedded validation tests.</li>
-<li>Online editing of data with a seamless interface and advanced observation calculator.</li>
+<li><p>Publish sensor data in accordance with the Sensor Observation Service (SOS) standard.</p></li>
+<li><p>Administer sensors and data with an intuitive web-based interface.</p></li>
+<li><p>Use a complete RestFul API to access istSOS functionality from external clients to create interactive charts, display sensor on a dynamic map or just write some maintenance scripts.</p></li>
+<li><p>Get notified through mail, twitter or other social media when sensor data meets specific conditions.</p></li>
+<li><p>User authentication and authorization with different access levels (administrator, network manager, data manager and visitor).</p></li>
+<li><p>Create Virtual Procedures that look like normal stations but whose data results from on-the-fly elaboration of other sensor data.</p></li>
+<li><p>Associate quality indexes to each observation thanks to embedded validation tests.</p></li>
+<li><p>Online editing of data with a seamless interface and advanced observation calculator.</p></li>
 </ul>
-</div>
-<div class="section" id="implemented-standards">
-<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="implemented-standards">
+<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li>SOS 1.0.0: Basic and Transactional profiles</li>
+<li><p>SOS 1.0.0: Basic and Transactional profiles</p></li>
 </ul>
-</div>
-<div class="section" id="details">
-<h3>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="details">
+<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
 <p><strong>Website:</strong> <a class="reference external" href="http://istsos.org">http://istsos.org</a></p>
 <p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
 <p><strong>Software Version:</strong> 2.4.0</p>
 <p><strong>Supported Platforms:</strong> Linux, Unix, Mac, Windows</p>
 <p><strong>API Interfaces:</strong> Python / wsgi</p>
 <p><strong>Support:</strong> <a class="reference external" href="https://groups.google.com/forum/#!forum/istsos">https://groups.google.com/forum/#!forum/istsos</a></p>
-</div>
-<div class="section" id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="quickstart">
+<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><a class="reference internal" href="../quickstart/istsos_quickstart.html"><span class="doc">Quickstart documentation</span></a></li>
+<li><p><a class="reference internal" href="../quickstart/istsos_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
 </ul>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
+            <div class="clearer"></div>
           </div>
       </div>
       <div class="clearer"></div>
@@ -126,7 +120,7 @@ publishing of monitoring observations using the Open Geospatial Consortium (OGC)
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>

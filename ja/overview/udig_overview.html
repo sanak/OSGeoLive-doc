@@ -1,27 +1,21 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<html lang="ja">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>uDig &#8212; OSGeoLive 14.0 Documentation</title>
-    <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../',
-        VERSION:     '14.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  false,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>uDig &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="検索" href="../search.html" />
@@ -31,13 +25,12 @@
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
-  </head>
-  <body>
+  </head><body>
 
         
         
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="../index.html">Home</a></li>
@@ -49,7 +42,7 @@
             </ul>
         </div>
     </div>
-    </div> 
+    </div>
         
 
 
@@ -58,65 +51,66 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
 
-
+  
 
     <div class="document">
       <div class="documentwrapper">
           <div class="body" role="main">
             
   <a class="reference external image-reference" href="http://udig.refractions.net/"><img alt="../../_images/logo_udig.png" class="align-right" src="../../_images/logo_udig.png" /></a>
-<div class="section" id="udig">
-<h1>uDig<a class="headerlink" href="#udig" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<div class="section" id="desktop-gis">
-<h2>デスクトップ GIS<a class="headerlink" href="#desktop-gis" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<section id="udig">
+<h1>uDig<a class="headerlink" href="#udig" title="Permalink to this heading">¶</a></h1>
+<section id="desktop-gis">
+<h2>デスクトップ GIS<a class="headerlink" href="#desktop-gis" title="Permalink to this heading">¶</a></h2>
 <p>ユーザフレンドリなデスクトップインターネットGIS(uDig)は、オープンソースの空間データビューア/エディタです。特に、インターネットGISのOpenGIS標準、Web Map Server(WMS)標準、およびWeb Feature Server(WFS)標準に重点を置いています。</p>
 <p>uDigは:</p>
 <ul class="simple">
-<li><strong>使いやすい</strong>： GISユーザに使い慣れたグラフィカル環境を提供します。</li>
-<li><strong>デスクトップ・アプリケーション</strong>： Windows、Mac OS/X、およびLinux上でネイティブに動作します。</li>
-<li><strong>インターネット指向</strong>： 標準的な地理空間Webサービスと事実上の地理空間Webサービスを利用しています。</li>
-<li><strong>GIS対応</strong> : 複雑な分析機能を構築するためのフレームワークを提供し、それらの機能を徐々にメインアプリケーションに組み込んでいきます。</li>
+<li><p><strong>使いやすい</strong>： GISユーザに使い慣れたグラフィカル環境を提供します。</p></li>
+<li><p><strong>デスクトップ・アプリケーション</strong>： Windows、Mac OS/X、およびLinux上でネイティブに動作します。</p></li>
+<li><p><strong>インターネット指向</strong>： 標準的な地理空間Webサービスと事実上の地理空間Webサービスを利用しています。</p></li>
+<li><p><strong>GIS対応</strong> : 複雑な分析機能を構築するためのフレームワークを提供し、それらの機能を徐々にメインアプリケーションに組み込んでいきます。</p></li>
 </ul>
 <p>uDigは、オープン・ソース・コンポーネントを使用して空間アプリケーションを構築するための共通のJavaプラットフォームを開発者に提供します。このWebサイトには、簡単なツールの作成から独自のカスタムアプリケーションのリリースまでを網羅した一連の明確なチュートリアルが用意されています。</p>
 <a class="reference internal image-reference" href="../../_images/udig_screenshot.png"><img alt="udig screenshot" class="align-right" src="../../_images/udig_screenshot.png" style="width: 500px;" /></a>
-<div class="section" id="core-features">
-<h3>主な機能<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li>ファイルエクスプローラとWebブラウザのドラッグ・アンド・ドロップ統合を備えたデスクトップ上のアプリケーション</li>
-<li>既存のインフラストラクチャ(ArcSDE、Oracle、DB2など)との統合</li>
-<li>ローカルファイル(Shapefile、jpeg、png、tiffなど)を操作します。</li>
-<li>高度な空間ラスター形式(ECW、MRsID、JPEG2000)を使用できます</li>
-<li>Web MapServer標準のサポート(<a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a> 、テスト済みMapServer)</li>
-<li>OGC Webサービスを認識し、画面上のマップへのリンクをスムーズに追加する組み込みブラウザを備えた統合Webエクスペリエンス</li>
-<li>スタイルレイヤー記述子レンダリングの制御。uDigで一般的なWeb Map Serverと同じ設定を使用してマップを配信できます。</li>
-<li>標準の緊密な統合により、表示、操作、編集に必要なサービス間でアプリケーションアプリケーションが適切なサービス間で</li>
-<li>印刷とPDFの生成</li>
-<li>開発者向け<ul>
-<li><a class="reference internal" href="geotools_overview.html"><span class="doc">GeoTools</span></a>、<a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">JTS Topology Suite (JTS)</a> を使用して構築されたJavaアプリケーション</li>
-<li>Eclipse Rich Client Platformが提供する産業レベルのプラグインシステム</li>
-<li>ネイティブウィジェットの使用</li>
+<li><p>ファイルエクスプローラとWebブラウザのドラッグ・アンド・ドロップ統合を備えたデスクトップ上のアプリケーション</p></li>
+<li><p>既存のインフラストラクチャ(ArcSDE、Oracle、DB2など)との統合</p></li>
+<li><p>ローカルファイル(Shapefile、jpeg、png、tiffなど)を操作します。</p></li>
+<li><p>高度な空間ラスター形式(ECW、MRsID、JPEG2000)を使用できます</p></li>
+<li><p>Web MapServer標準のサポート(<a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a> 、テスト済みMapServer)</p></li>
+<li><p>OGC Webサービスを認識し、画面上のマップへのリンクをスムーズに追加する組み込みブラウザを備えた統合Webエクスペリエンス</p></li>
+<li><p>スタイルレイヤ記述子レンダリングの制御。uDigで一般的なWeb Map Serverと同じ設定を使用してマップを配信できます。</p></li>
+<li><p>標準の緊密な統合により、表示、操作、編集に必要なサービス間でアプリケーションアプリケーションが適切なサービス間で</p></li>
+<li><p>印刷とPDFの生成</p></li>
+<li><p>開発者向け</p>
+<ul>
+<li><p><a class="reference internal" href="geotools_overview.html"><span class="doc">GeoTools</span></a>、<a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">JTS Topology Suite (JTS)</a> を使用して構築されたJavaアプリケーション</p></li>
+<li><p>Eclipse Rich Client Platformが提供する産業レベルのプラグインシステム</p></li>
+<li><p>ネイティブウィジェットの使用</p></li>
 </ul>
 </li>
 </ul>
-</div>
-<div class="section" id="implemented-standards">
-<h3>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="このヘッドラインへのパーマリンク">¶</a></h3>
+</section>
+<section id="implemented-standards">
+<h3>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li>OGC Web Map Server (WMS)</li>
-<li>OGC Web Feature Server (WFS)</li>
-<li>OGC Web Feature Server Transactional (WFS-T)</li>
-<li>OGC Simple Features for SQL (SFQL)</li>
-<li>Web Map Server Cache (WMS-C)</li>
-<li>OGC Style Layer Descriptor (SLD)</li>
+<li><p>OGC Web Map Server (WMS)</p></li>
+<li><p>OGC Web Feature Server (WFS)</p></li>
+<li><p>OGC Web Feature Server Transactional (WFS-T)</p></li>
+<li><p>OGC Simple Features for SQL (SFQL)</p></li>
+<li><p>Web Map Server Cache (WMS-C)</p></li>
+<li><p>OGC Style Layer Descriptor (SLD)</p></li>
 </ul>
-</div>
-<div class="section" id="details">
-<h3>詳細<a class="headerlink" href="#details" title="このヘッドラインへのパーマリンク">¶</a></h3>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
 <p><strong>Webサイト:</strong> <a class="reference external" href="http://udig.refractions.net/">http://udig.refractions.net/</a></p>
 <p><strong>ライセンス:</strong> Dual BSD / EPL (Eclipse Foundation)</p>
 <p><strong>ソフトウェアバージョン:</strong> 2.0.0RC1</p>
@@ -124,17 +118,18 @@
 <p><strong>APIインタフェース:</strong> GeoTools,ImageIO-Ext,Java Advanced Imaging,Eclipse Rich Client Platform,Eclipse Modelling Framework</p>
 <p><strong>サポート:</strong> <a class="reference external" href="http://udig.refractions.net/users/">http://udig.refractions.net/users/</a></p>
 <p><strong>開発情報:</strong> <a class="reference external" href="http://udig.refractions.net/developers/">http://udig.refractions.net/developers/</a></p>
-</div>
-<div class="section" id="quickstart">
-<h3>クイックスタート<a class="headerlink" href="#quickstart" title="このヘッドラインへのパーマリンク">¶</a></h3>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><a class="reference internal" href="../quickstart/udig_quickstart.html"><span class="doc">クイックスタート文書</span></a></li>
+<li><p><a class="reference internal" href="../quickstart/udig_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
 </ul>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
+            <div class="clearer"></div>
           </div>
       </div>
       <div class="clearer"></div>
@@ -144,7 +139,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>

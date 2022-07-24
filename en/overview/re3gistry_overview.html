@@ -1,26 +1,20 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Re3gistry &#8212; OSGeoLive 14.0 Documentation</title>
-    <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../',
-        VERSION:     '14.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  false,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Re3gistry &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -30,13 +24,12 @@
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
-  </head>
-  <body>
+  </head><body>
 
         
         
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="../index.html">Home</a></li>
@@ -48,7 +41,7 @@
             </ul>
         </div>
     </div>
-    </div> 
+    </div>
         
 
 
@@ -57,22 +50,22 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
 
-
+  
 
     <div class="document">
       <div class="documentwrapper">
           <div class="body" role="main">
             
   <a class="reference external image-reference" href="https://inspire.ec.europa.eu/about-inspire/563"><img alt="../../_images/logo_inspire.png" class="align-right" src="../../_images/logo_inspire.png" /></a>
-<div class="section" id="re3gistry">
-<h1>Re3gistry<a class="headerlink" href="#re3gistry" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="about">
-<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<section id="re3gistry">
+<h1>Re3gistry<a class="headerlink" href="#re3gistry" title="Permalink to this heading">¶</a></h1>
+<section id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this heading">¶</a></h2>
 <p>The Re3gistry 2 is a reusable open source solution for managing and sharing
 “reference codes”. Initially developed as a central component of the EU’s
 <a class="reference internal" href="inspire_overview.html"><span class="doc">INSPIRE</span></a> infrastructure, it provides a consistent
@@ -86,27 +79,27 @@ The Re3gistry 2 supports organisations in managing and updating reference codes
 in a consistent way. The Re3gistry software version numbers comply with the
 Semantic Versioning Specification 2.0.0.</p>
 <a class="reference internal image-reference" href="../../_images/re3gistry_screenshot.png"><img alt="re3gistry screenshot" class="align-right" src="../../_images/re3gistry_screenshot.png" style="width: 500px;" /></a>
-</div>
-<div class="section" id="core-features">
-<h2>Core Features<a class="headerlink" href="#core-features" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="core-features">
+<h2>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
-<li>User-friendly editing interface to easily add, edit and manage the registers and reference codes</li>
-<li>Management of the full lifecycle of the reference codes (based on the ISO 19135 Standard)</li>
-<li>Highly flexible and customisable data models</li>
-<li>Multi-lingual content support</li>
-<li>Support for versioning</li>
-<li>RESTful API with content negotiation (including OpenAPI 3 descriptor)</li>
-<li>Free-text search</li>
-<li>Supported formats: HTML, ISO 19135 XML, JSON</li>
-<li>Service formats can be easily added or customised (default formats: JSON and ISO 19135 XML)</li>
-<li>Multiple authentication options</li>
-<li>Externally governed items referenced through URIs</li>
-<li>INSPIRE register federation format support (option to automatically create the RoR format)</li>
-<li>Web-app to access the reference codes in a human readable way.</li>
+<li><p>User-friendly editing interface to easily add, edit and manage the registers and reference codes</p></li>
+<li><p>Management of the full lifecycle of the reference codes (based on the ISO 19135 Standard)</p></li>
+<li><p>Highly flexible and customisable data models</p></li>
+<li><p>Multi-lingual content support</p></li>
+<li><p>Support for versioning</p></li>
+<li><p>RESTful API with content negotiation (including OpenAPI 3 descriptor)</p></li>
+<li><p>Free-text search</p></li>
+<li><p>Supported formats: HTML, ISO 19135 XML, JSON</p></li>
+<li><p>Service formats can be easily added or customised (default formats: JSON and ISO 19135 XML)</p></li>
+<li><p>Multiple authentication options</p></li>
+<li><p>Externally governed items referenced through URIs</p></li>
+<li><p>INSPIRE register federation format support (option to automatically create the RoR format)</p></li>
+<li><p>Web-app to access the reference codes in a human readable way.</p></li>
 </ul>
-</div>
-<div class="section" id="details">
-<h2>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
 <p><strong>Website:</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry">https://github.com/ec-jrc/re3gistry</a></p>
 <p><strong>Licence:</strong> EUPL</p>
 <p><strong>Software Version:</strong> 2.0.0</p>
@@ -116,16 +109,17 @@ Semantic Versioning Specification 2.0.0.</p>
 <p><strong>User manual:</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md">https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md</a></p>
 <p><strong>Administrator manual:</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/administrator-manual.md">https://github.com/ec-jrc/re3gistry/blob/master/documentation/administrator-manual.md</a></p>
 <p><strong>Developer manual:</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/developer-manual.md">https://github.com/ec-jrc/re3gistry/blob/master/documentation/developer-manual.md</a></p>
-</div>
-<div class="section" id="quickstart">
-<h2>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="quickstart">
+<h2>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
-<li><a class="reference internal" href="../quickstart/re3gistry_quickstart.html"><span class="doc">Quickstart documentation</span></a></li>
+<li><p><a class="reference internal" href="../quickstart/re3gistry_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 
 
+            <div class="clearer"></div>
           </div>
       </div>
       <div class="clearer"></div>
@@ -135,7 +129,7 @@ Semantic Versioning Specification 2.0.0.</p>
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>

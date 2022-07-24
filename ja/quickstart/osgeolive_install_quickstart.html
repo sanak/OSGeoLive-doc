@@ -1,43 +1,36 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<html lang="ja">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>ハードディスクに OSGeoLive をインストール &#8212; OSGeoLive 14.0 Documentation</title>
-    <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../',
-        VERSION:     '14.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  false,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>ハードディスクに OSGeoLive をインストール &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="検索" href="../search.html" />
     <link rel="copyright" title="著作権" href="../copyright.html" />
-    <link rel="next" title="OSGeoLive Quickstart for Running in a Virtual Machine" href="virtualization_quickstart.html" />
-    <link rel="prev" title="OSGeoLive Internationalisation Quickstart" href="internationalisation_quickstart.html" />
+    <link rel="next" title="仮想マシンで動作させる" href="virtualization_quickstart.html" />
+    <link rel="prev" title="キーボードや言語を変更する" href="internationalisation_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
-  </head>
-  <body>
+  </head><body>
 
         
         
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="../index.html">Home</a></li>
@@ -49,7 +42,7 @@
             </ul>
         </div>
     </div>
-    </div> 
+    </div>
         
 
 
@@ -58,29 +51,29 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
 
-
+  
 
     <div class="document">
       <div class="documentwrapper">
           <div class="body" role="main">
             
-  <div class="section" id="install-osgeolive-to-hard-disk">
-<h1>ハードディスクに OSGeoLive をインストール<a class="headerlink" href="#install-osgeolive-to-hard-disk" title="このヘッドラインへのパーマリンク">¶</a></h1>
+  <section id="install-osgeolive-to-hard-disk">
+<h1>ハードディスクに OSGeoLive をインストール<a class="headerlink" href="#install-osgeolive-to-hard-disk" title="Permalink to this heading">¶</a></h1>
 <p>OSGeoLive は Ubuntu をインストールするのと同様にハードディスクにインストールして利用できます。</p>
 <p>OSGeoLive の DVD や ISO イメージから、永続的な仮想マシンを作成するために、仮想マシン内でインストールすることもできます。</p>
-<div class="section" id="system-requirements">
-<h2>動作環境<a class="headerlink" href="#system-requirements" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<section id="system-requirements">
+<h2>動作環境<a class="headerlink" href="#system-requirements" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
-<li>20 GB のハードディスクが必要となります</li>
+<li><p>20 GB のハードディスクが必要となります</p></li>
 </ul>
-</div>
-<div class="section" id="install-osgeolive">
-<h2>OSGeoLive のインストール<a class="headerlink" href="#install-osgeolive" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</section>
+<section id="install-osgeolive">
+<h2>OSGeoLive のインストール<a class="headerlink" href="#install-osgeolive" title="Permalink to this heading">¶</a></h2>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/osgeolive_install_start.png"><img alt="../../_images/osgeolive_install_start.png" src="../../_images/osgeolive_install_start.png" style="width: 560.0px; height: 420.0px;" /></a>
 </div></blockquote>
@@ -88,7 +81,7 @@
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/osgeolive_install_password.png"><img alt="../../_images/osgeolive_install_password.png" src="../../_images/osgeolive_install_password.png" style="width: 285.59999999999997px; height: 188.29999999999998px;" /></a>
 </div></blockquote>
-<p>パスワード 「user」 を入力します</p>
+<p>パスワード &quot;user&quot; を入力します</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/osgeolive_install1_language.png"><img alt="../../_images/osgeolive_install1_language.png" src="../../_images/osgeolive_install1_language.png" style="width: 417.9px; height: 319.9px;" /></a>
 </div></blockquote>
@@ -112,11 +105,11 @@
 <blockquote>
 <div><blockquote>
 <div><ul class="simple">
-<li>Name = 「user」</li>
-<li>username = 「user」</li>
-<li>password = 「user」</li>
-<li>computer name = 「osgeolive」</li>
-<li>Log In automatically</li>
+<li><p>Name = &quot;user&quot;</p></li>
+<li><p>username = &quot;user&quot;</p></li>
+<li><p>password = &quot;user&quot;</p></li>
+<li><p>computer name = &quot;osgeolive&quot;</p></li>
+<li><p>Log In automatically</p></li>
 </ul>
 </div></blockquote>
 <a class="reference internal image-reference" href="../../_images/osgeolive_install7_check.png"><img alt="../../_images/osgeolive_install7_check.png" src="../../_images/osgeolive_install7_check.png" style="width: 417.9px; height: 382.9px;" /></a>
@@ -125,23 +118,24 @@
 <p>インストールが終わるまでしばらくお待ちください。</p>
 <p>これで終了です。</p>
 <div class="admonition tip">
-<p class="first admonition-title">ちなみに</p>
-<p class="last">インストール Tips: ユーザ名に 「user」 以外を指定してインストールした場合、Tomcat アプリケーションでは <a class="reference external" href="https://trac.osgeo.org/osgeo/ticket/1153">https://trac.osgeo.org/osgeo/ticket/1153</a> に記載のように、サービスコマンドへの権限が必要となります</p>
+<p class="admonition-title">Tip</p>
+<p>インストール Tips: ユーザ名に &quot;user&quot; 以外を指定してインストールした場合、Tomcat アプリケーションでは <a class="reference external" href="https://trac.osgeo.org/osgeo/ticket/1153">https://trac.osgeo.org/osgeo/ticket/1153</a> に記載のように、サービスコマンドへの権限が必要となります</p>
 </div>
-</div>
-<div class="section" id="see-also">
-<h2>参照:<a class="headerlink" href="#see-also" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</section>
+<section id="see-also">
+<h2>参照:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive Quickstart</span></a></li>
-<li><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">OSGeoLive Quickstart for Running in a Virtual Machine</span></a></li>
-<li><a class="reference internal" href="usb_quickstart.html"><span class="doc">OSGeoLive を起動できる ブータブル USB フラッシュドライブの作成</span></a></li>
+<li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive を始める</span></a></p></li>
+<li><p><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">仮想マシンで動作させる</span></a></p></li>
+<li><p><a class="reference internal" href="usb_quickstart.html"><span class="doc">OSGeoLive のブータブル USB フラッシュドライブを作成する</span></a></p></li>
 </ul>
 </div></blockquote>
-</div>
-</div>
+</section>
+</section>
 
 
+            <div class="clearer"></div>
           </div>
       </div>
       <div class="clearer"></div>
@@ -151,7 +145,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>

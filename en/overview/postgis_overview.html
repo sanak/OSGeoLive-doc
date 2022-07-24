@@ -1,26 +1,20 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>PostGIS &#8212; OSGeoLive 14.0 Documentation</title>
-    <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../',
-        VERSION:     '14.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  false,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>PostGIS &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -30,13 +24,12 @@
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
-  </head>
-  <body>
+  </head><body>
 
         
         
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="../index.html">Home</a></li>
@@ -48,7 +41,7 @@
             </ul>
         </div>
     </div>
-    </div> 
+    </div>
         
 
 
@@ -57,12 +50,12 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
 
-
+  
 
     <div class="document">
       <div class="documentwrapper">
@@ -70,58 +63,60 @@
             
   <a class="reference external image-reference" href="http://postgis.net"><img alt="../../_images/logo_postgis.png" class="align-right" src="../../_images/logo_postgis.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
-<div class="section" id="postgis">
-<h1>PostGIS<a class="headerlink" href="#postgis" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="spatial-database">
-<h2>Spatial Database<a class="headerlink" href="#spatial-database" title="Permalink to this headline">¶</a></h2>
+<section id="postgis">
+<h1>PostGIS<a class="headerlink" href="#postgis" title="Permalink to this heading">¶</a></h1>
+<section id="spatial-database">
+<h2>Spatial Database<a class="headerlink" href="#spatial-database" title="Permalink to this heading">¶</a></h2>
 <p>PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications.</p>
 <p>PostGIS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk-averse government agencies and organisations storing terabytes of data serving millions of web requests per day.</p>
 <p>Database administration is available for desktop and the web via pgAdmin, phpPgAdmin, and others.
 Data import/export can be done by command line tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) or
 from desktop and web GIS clients. These clients can also map and manipulate PostGIS spatial data tables.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_screenshot.png"><img alt="postgis screenshot" class="align-right" src="../../_images/postgis_screenshot.png" style="width: 500px;" /></a>
-<div class="section" id="core-features">
-<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this headline">¶</a></h3>
+<section id="core-features">
+<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li>Hundreds of spatial functions<ul>
-<li>Buffers, unions, overlays, distance and more</li>
+<li><p>Hundreds of spatial functions</p>
+<ul>
+<li><p>Buffers, unions, overlays, distance and more</p></li>
 </ul>
 </li>
-<li>ACID transactional integrity</li>
-<li>R-Tree spatial index</li>
-<li>Multi-user support</li>
-<li>Row-level locking</li>
-<li>Replication</li>
-<li>Partitioning</li>
-<li>Role-based security</li>
-<li>Table-spaces, schemas</li>
+<li><p>ACID transactional integrity</p></li>
+<li><p>R-Tree spatial index</p></li>
+<li><p>Multi-user support</p></li>
+<li><p>Row-level locking</p></li>
+<li><p>Replication</p></li>
+<li><p>Partitioning</p></li>
+<li><p>Role-based security</p></li>
+<li><p>Table-spaces, schemas</p></li>
 </ul>
-</div>
-<div class="section" id="implemented-standards">
-<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="implemented-standards">
+<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li>OGC standards compliant (SFSQL)</li>
+<li><p>OGC standards compliant (SFSQL)</p></li>
 </ul>
-</div>
-<div class="section" id="details">
-<h3>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="details">
+<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
 <p><strong>Website:</strong> <a class="reference external" href="http://postgis.net">http://postgis.net</a></p>
 <p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
-<p><strong>Software Version:</strong> 3.1.1</p>
+<p><strong>Software Version:</strong> 3.2.0</p>
 <p><strong>Supported Platforms:</strong> Windows, Linux, Mac</p>
 <p><strong>API Interfaces:</strong> SQL</p>
 <p><strong>Support:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
-</div>
-<div class="section" id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="quickstart">
+<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><a class="reference internal" href="../quickstart/postgis_quickstart.html"><span class="doc">Quickstart documentation</span></a></li>
+<li><p><a class="reference internal" href="../quickstart/postgis_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
 </ul>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
+            <div class="clearer"></div>
           </div>
       </div>
       <div class="clearer"></div>
@@ -131,7 +126,7 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>

@@ -1,27 +1,21 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<html lang="ja">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>pgRouting &#8212; OSGeoLive 14.0 Documentation</title>
-    <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../',
-        VERSION:     '14.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  false,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>pgRouting &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="検索" href="../search.html" />
@@ -31,13 +25,12 @@
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
-  </head>
-  <body>
+  </head><body>
 
         
         
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="../index.html">Home</a></li>
@@ -49,7 +42,7 @@
             </ul>
         </div>
     </div>
-    </div> 
+    </div>
         
 
 
@@ -58,12 +51,12 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
 
-
+  
 
     <div class="document">
       <div class="documentwrapper">
@@ -71,52 +64,53 @@
             
   <a class="reference external image-reference" href="https://pgrouting.org/"><img alt="../../_images/logo_pgrouting.png" class="align-right" src="../../_images/logo_pgrouting.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
-<div class="section" id="pgrouting">
-<h1>pgRouting<a class="headerlink" href="#pgrouting" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<div class="section" id="gis-tools">
-<h2>GIS ツール<a class="headerlink" href="#gis-tools" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<section id="pgrouting">
+<h1>pgRouting<a class="headerlink" href="#pgrouting" title="Permalink to this heading">¶</a></h1>
+<section id="gis-tools">
+<h2>GIS ツール<a class="headerlink" href="#gis-tools" title="Permalink to this heading">¶</a></h2>
 <p>pgRouting は地理空間における経路探索や他のネットワーク解析機能を提供するために <a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a>/<a class="reference external" href="https://www.postgresql.org">PostgreSQL</a> 地理空間データベースを拡張します。</p>
 <p>データベース上で経路探索を行う方法の利点には、以下のようなものがあります:</p>
 <ul class="simple">
-<li>データや属性を、多くのクライアント、例えば <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a> や <a class="reference internal" href="udig_overview.html"><span class="doc">uDig</span></a> から、JDBC や ODBC、もしくは 直接 PL/pgSQL を発行することで、変更することが可能です。クライアントは PC やモバイル端末でもかまいません。</li>
-<li>データの変更は、経路探索エンジン経由ですぐに反映させることが可能です。事前の計算処理は必要ありません。</li>
-<li>「コスト」 パラメータは SQL 経由で動的に計算可能で、複数の列やテーブルからの値を使用することも可能です。</li>
+<li><p>データや属性を、多くのクライアント、例えば <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a> や <a class="reference internal" href="udig_overview.html"><span class="doc">uDig</span></a> から、JDBC や ODBC、もしくは 直接 PL/pgSQL を発行することで、変更することが可能です。クライアントは PC やモバイル端末でもかまいません。</p></li>
+<li><p>データの変更は、経路探索エンジン経由ですぐに反映させることが可能です。事前の計算処理は必要ありません。</p></li>
+<li><p>&quot;コスト&quot; パラメータは SQL 経由で動的に計算可能で、複数の列やテーブルからの値を使用することも可能です。</p></li>
 </ul>
 <p>pgRouting は GPLv2+ ライセンスで提供され、個人、企業及び団体からなる、成長中のコミュニティによってサポートされています。</p>
 <a class="reference internal image-reference" href="../../_images/pgrouting_screenshot.png"><img alt="pgrouting screenshot" class="align-right" src="../../_images/pgrouting_screenshot.png" style="width: 500px;" /></a>
-<div class="section" id="core-features">
-<h3>主な機能<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
 <p>pgRouting は以下の機能を提供します:</p>
 <ul class="simple">
-<li>全点対間最短経路探索 * ジョンソンのアルゴリズム * ワーシャル-フロイド法</li>
-<li>最短経路探索 * A* アルゴリズム * ダイクストラ法</li>
-<li>双方向最短経路探索 * A* アルゴリズム * ダイクストラ法</li>
-<li>到達圏探索</li>
-<li>K-最短経路探索 * Yen のアルゴリズム</li>
-<li>巡回セールスマン問題</li>
-<li>その他多数</li>
+<li><p>全点対間最短経路探索 * ジョンソンのアルゴリズム * ワーシャル-フロイド法</p></li>
+<li><p>最短経路探索 * A* アルゴリズム * ダイクストラ法</p></li>
+<li><p>双方向最短経路探索 * A* アルゴリズム * ダイクストラ法</p></li>
+<li><p>到達圏探索</p></li>
+<li><p>K-最短経路探索 * Yen のアルゴリズム</p></li>
+<li><p>巡回セールスマン問題</p></li>
+<li><p>その他多数</p></li>
 </ul>
-<p>pgRouting についてもっと知りたい場合は <a class="reference external" href="http://docs.pgrouting.org">ドキュメント</a> を参照してください。</p>
-</div>
-<div class="section" id="details">
-<h3>詳細<a class="headerlink" href="#details" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Learn more about pgRouting in the <a class="reference external" href="https://docs.pgrouting.org">documentation</a>.</p>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
 <p><strong>Webサイト:</strong> <a class="reference external" href="https://pgrouting.org/">https://pgrouting.org/</a></p>
 <p><strong>ライセンス:</strong> GNU General Public License (GPL) version 2</p>
 <p><strong>ソフトウェアバージョン:</strong> 3.1.0</p>
 <p><strong>対応プラットフォーム:</strong> Linux, Windows, Mac</p>
 <p><strong>API インタフェース:</strong> SQL</p>
 <p><strong>商用サポート:</strong> <a class="reference external" href="https://pgrouting.org/support.html">https://pgrouting.org/support.html</a></p>
-</div>
-<div class="section" id="quickstart">
-<h3>クイックスタート<a class="headerlink" href="#quickstart" title="このヘッドラインへのパーマリンク">¶</a></h3>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><a class="reference internal" href="../quickstart/pgrouting_quickstart.html"><span class="doc">クイックスタート文書</span></a></li>
+<li><p><a class="reference internal" href="../quickstart/pgrouting_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
 </ul>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
+            <div class="clearer"></div>
           </div>
       </div>
       <div class="clearer"></div>
@@ -126,7 +120,7 @@
 	<font size="-2">
 		<div id="translations">
 		<!-- alphabetical order -->
-              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
 		</div>
 	</font>
     </div>
