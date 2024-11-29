@@ -57,15 +57,13 @@ msgstr "サポート・ベクタ・マシン・アルゴリズムに基づく監
 msgid ""
 "The OTB applications provide lots of interesting tools which facilitate the "
 "manipulation of images. All these tools are available through:"
-msgstr "OTB アプリケーションは、多様な画像の操作を容易におこなう様々なツールを提供します。これらのツールはすべて、次の方法で使用できます。"
+msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:35
 msgid ""
 "CLI (command line interface). All applications can be called from a terminal"
 " starting with `otbcli_` plus the application name."
 msgstr ""
-"CLI (コマンドラインインターフェース)。すべてのアプリケーションは、端末から、 `otbcli_` "
-"から始まり、アプリケーション名のついたコマンドを実行して利用できます。"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:36
 msgid ""
@@ -74,13 +72,10 @@ msgid ""
 "Another option is to use a small launcher (available in the "
 ":menuselection:`menu --> Geospatial --> Spatial Tools --> OTB Launcher`)."
 msgstr ""
-"GUI (Qtによるスタンドアロンのグラフィカルユーザインタフェース)。すべてのアプケーションは、端末から、 `otbgui_` "
-"から始まり、アプリケーション名のついたコマンドを実行すると、起動します。 ( :menuselection:`menu --> Geospatial "
-"--> Spatial Tools --> OTB Launcher` にある)簡易なラウンチャーを使う方法もあります。"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:37
 msgid "QGIS plugin - available through the processing framework."
-msgstr "QGIS plugin - available through the processing framework."
+msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:40
 msgid "Sample data used in this quickstart can be found in :"
@@ -269,7 +264,7 @@ msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:160
 msgid "OTB Software Guide"
-msgstr "OTB Software Guide"
+msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:162
 msgid ""
@@ -281,7 +276,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:173
 msgid "OTB CookBook"
-msgstr "OTB CookBook"
+msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:175
 msgid ""

@@ -313,8 +313,9 @@ msgid ""
 "Capabilities\" section and two links for WMS Services you can drag into your"
 " empty map."
 msgstr ""
-"インターネットに接続していない場合は、ローカルWMSの |osgeolive-appmenupath-geoserver| を実行します。 "
-"\"Service Capabilities\" セクションと、空のマップにドラッグできるWMSサービスへの2つのリンクがあるページが開きます。"
+"インターネットに接続していない場合は、ローカルWMSの |osgeolive-appmenupath-geoserver| "
+"を実行します。\"Service Capabilities\" "
+"セクションと、空のマップにドラッグできるWMSサービスへの2つのリンクがあるページが開きます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:211
 msgid ""
@@ -337,7 +338,9 @@ msgstr "メニューバーから :menuselection:`ファイル --> 新規 --> 新
 msgid ""
 "Change to the **Web** view, click on the tab next to the **Catalog** view to"
 " reveal the *Web* view."
-msgstr "**Web** ビューに切り替えるため、**カタログ** ビューの次のタブをクリックして、*Web* ビューを表示します。"
+msgstr ""
+"Change to the **Web** view, click on the tab next to the **Catalog** view to"
+" reveal the *Web* view."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:223
 msgid ""
@@ -366,17 +369,17 @@ msgstr "市町村"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:238
 msgid "Press :guilabel:`Finish` to add these layers to your map"
-msgstr ":guilabel:`Finish` をクリックして、これらのレイヤをマップに追加します。"
+msgstr " :guilabel:`Finish` をクリックして、これらのレイヤをマップに追加します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:243
 msgid "Use the |ZOOM| Zoom Tool to move closer to one of the Parks"
-msgstr "|ZOOM| Zoom ツールを使用して、公園の一つに移動します。"
+msgstr " |ZOOM| Zoom ツールを使用して、公園の一つに移動します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:245
 msgid ""
 "Switch to the |INFO| Info Tool and click on one the parks to learn more "
 "about it"
-msgstr "|INFO| Info Toolに切り替えて、公園の1つをクリックすると、さらに詳しく知ることができます。"
+msgstr "|INFO|  Info Toolに切り替えて、公園の1つをクリックすると、さらに詳しく知ることができます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:249
 msgid ""
@@ -405,7 +408,7 @@ msgid ""
 "Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries`"
 " layer and choosing :guilabel:`Change Style`"
 msgstr ""
-"**Style Editor** を開くには、 `ne 10m admin 0 countries` "
+" **Style Editor** を開くには、 `ne 10m admin 0 countries` "
 "レイヤを右クリックし、:guilabel:`Change Style` を選択します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:260
@@ -438,7 +441,7 @@ msgstr ""
 msgid ""
 "Press :guilabel:`Apply` to see what this looks like on your Map, the "
 "**Layer** view will also be updated to reflect the current style"
-msgstr ":guilabel:`適用` をおすと、**レイヤ** ビューが現在のスタイルを反映して更新されるので、あなたのマップの見えかたを確認してみてください。"
+msgstr " :guilabel:`適用` をおすと、**レイヤ** ビューが現在のスタイルを反映して更新されるので、あなたのマップの見えかたを確認してみてください。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:274
 msgid ""
@@ -507,7 +510,7 @@ msgid ""
 "data from a Web Feature Server and explore the use of **Themes** with our "
 "powerful `Color Brewer` technology."
 msgstr ""
-":doc:`PostGIS <../overview/postgis_overview>` を使用する。WFSサーバからデータを取得をする。 "
+" :doc:`PostGIS <../overview/postgis_overview>` を使用する。WFSサーバからデータを取得をする。 "
 "`Color Brewer` 技術を使用して **Themes** の活用をする。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:314
@@ -525,5 +528,5 @@ msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:320
 msgid "Available on http://udig.refractions.net/"
-msgstr "http://udig.refractions.net/ にあります。"
+msgstr " http://udig.refractions.net/ にあります。"
 

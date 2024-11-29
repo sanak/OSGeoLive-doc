@@ -32,7 +32,7 @@ msgid ""
 " is a C API for software developers to include coordinate transformation in "
 "their own software."
 msgstr ""
-"PROJは、地理的な経緯度座標をデカルト座標に(またはその逆に)変換する標準的なUnixのフィルタ関数であり、ソフトウェア開発者が自身のソフトウェアに座標変換を含めるためのC"
+"proj.4は、地理的な経緯度座標をデカルト座標に(またはその逆に)変換する標準的なUnixのフィルタ関数であり、ソフトウェア開発者が自身のソフトウェアに座標変換を含めるためのC"
 " APIです。"
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:34
@@ -66,8 +66,8 @@ msgid ""
 "These commands are fully describe in `PROJ documentation "
 "<https://proj.org/apps/proj.html>`_ for the latest version."
 msgstr ""
-"これらのコマンドについては、最新バージョンの  `proj ドキュメント <https://proj.org/apps/proj.html>`_ "
-"で詳しく説明しています。"
+"これらのコマンドについては、最新バージョンの  `proj documentation "
+"<https://proj.org/apps/proj.html>`_ で詳しく説明しています。"
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:56
 msgid "PROJ Example"
@@ -121,8 +121,8 @@ msgid ""
 "These commands are fully describe in `cs2cs documentation "
 "<https://proj.org/apps/cs2cs.html>`_ for the latest version."
 msgstr ""
-"これらのコマンドについては、最新版の `cs2cs ドキュメント <https://proj.org/apps/cs2cs.html>`_ "
-"を参照してください。"
+"これらのコマンドについては、最新版の `cs2cs documentation <https://proj.org/apps/cs2cs.html>`_"
+" を参照してください。"
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:101
 msgid "cs2cs Example"

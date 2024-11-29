@@ -49,8 +49,8 @@ msgid ""
 "From the Start menu, choose :menuselection:`Geospatial --> Navigation and "
 "Maps --> GpsPrune`.  This will then give you the empty window shown below."
 msgstr ""
-"スタートメニューから :menuselection:`Geospatial --> Navigation and Maps --> GpsPrune` "
-"を選択します。これにより、次のような空のウィンドウが表示されます。"
+"From the Start menu, choose :menuselection:`Geospatial --> Navigation and "
+"Maps --> GpsPrune`.  これにより、次のような空のウィンドウが表示されます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:33
 msgid ""
@@ -60,16 +60,17 @@ msgid ""
 "  A suitable GPX file containing a couple of tracks can be found on the disc"
 " at :file:`~/data/vector/gpx/test_trk2.gpx` so we will load this one."
 msgstr ""
-"次に、メニューコマンド :menuselection:`File --> Open file` "
-"を使用して、読み込むファイルを選択します。読み込むファイルには、GPXファイル、KML、 KMZ、 "
-"CSV(カンマ区切り値)、TSV(タブ区切り値)ファイルが使用できます。それなりの量の記録が含まれるGPXファイルは、ディスク上の "
-":file:`~/data/vector/gpx/test_trk2.gpx` にあり、読み込むことができます。"
+"次に、メニューコマンド :menuselection:`File --> Open file` を使用して、読みこむファイルを選択します。This "
+"can be a GPX file, a KML or KMZ file, or even a comma-separated or tab-"
+"separated file if you have one.  A suitable GPX file containing a couple of "
+"tracks can be found on the disc at :file:`~/data/vector/gpx/test_trk2.gpx` "
+"so we will load this one."
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:37
 msgid ""
 "Because this file contains two tracks, we are offered the choice of which "
 "one(s) to load.  We choose just the first one and press OK."
-msgstr "このファイルには二つのトラックがはいっているので、どちらのトラックを読み込むか聞かれます。最初のトラックを選択して、OKを押してください。"
+msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:39
 msgid ""
@@ -77,7 +78,7 @@ msgid ""
 "this track had any waypoints (which it doesn't), then they would be shown "
 "too, marked with their names.  Below the main map display is an altitude "
 "chart, which shows the profile of the track if it contains altitudes."
-msgstr "白い背景に青でマークされたトラックが表示されるはずです。このトラックにウェイポイントがある場合(ない場合もあります)は、それも表示され、その名前が付加されます。メインマップ表示の下には高度チャートがあり、トラックに高度が含まれている場合は、そのトラックのプロファイルが表示されます。"
+msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:45
 msgid ""
@@ -96,7 +97,7 @@ msgid ""
 "options.  Clicking on a point will show the details including altitude and "
 "timestamp if available.  You can also click on the altitude profile to "
 "select the corresponding point."
-msgstr "マウスでマップをドラッグして移動したり、マウスホイールまたはダブルクリックで拡大または縮小できます。マウスの右ボタンでドラッグすると、ズームする長方形が定義されます。右クリックメニューには、その他のオプションがあります。ポイントをクリックすると、高度やタイムスタンプなどの詳細が表示されます。高度プロファイルをクリックして、対応するポイントを選択することもできます。"
+msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:54
 msgid "Customizing the display"
@@ -110,9 +111,6 @@ msgid ""
 "hikebikemap.org to show additional information useful for hiking and cycling"
 " such as contour lines and cycle routes."
 msgstr ""
-":menuselection:`Settings --> Set map background` のメニューオプションでマップを変更できます。5番目の "
-"\"Hikebikemap\" を選択して、別のマップソースを見てみましょう。hikebikemap.org "
-"の地図を使用して、等高線やサイクルルートなど、ハイキングやサイクリングに役立つ追加情報を表示します。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:62
 msgid "Advanced Functions"
@@ -127,7 +125,7 @@ msgstr "次に、組み込まれているファイル・システムからファ
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:66
 msgid "Wikipedia"
-msgstr "Wikipedia"
+msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:67
 msgid ""
@@ -138,9 +136,6 @@ msgid ""
 "Clicking one of these entries in the list will show more information in the "
 "box below."
 msgstr ""
-"では、このトラックがどこにあるのか、もう少し詳しく調べてみましょう。これを行うには、ポイントを選択し、メニューオプション "
-":menuselection:`Online-->Get nearby Wikipedia articles` "
-"を選択します。選択した点に最も近い座標を持つ記事のリストが表示されます。これらのエントリのいずれかをクリックすると、下のボックスに詳細情報が表示されます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:71
 msgid ""
@@ -152,7 +147,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:74
 msgid "Gpsies"
-msgstr "Gpsies"
+msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:75
 msgid ""
@@ -161,17 +156,12 @@ msgid ""
 "tracks` to search for tracks on the website gpsies.com.  Again, we get a "
 "list of matching entries, and we can select one to view the description."
 msgstr ""
-"同じエリアから別のトラックをダウンロードするオンラインサービスもあります。メニューコマンド :menuselection:`Online-->Get "
-"Gpsies tracks` を使ってウェブサイト gpsies.com "
-"でトラックを検索することができます。ここでも、一致するエントリのリストを取得し、その中から1つを選択して説明を表示できます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:79
 msgid ""
 "Click the `Load` button to load the track, and select to append this track "
 "to the data we've already got.  Now we can see both tracks in the same view."
 msgstr ""
-"`ロード` "
-"ボタンをクリックしてトラックをロードし、このトラックをすでに取得したデータに追加することを選択します。これで、両方のトラックが同じビューに表示されます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:82
 msgid "Measuring distances"
@@ -250,9 +240,6 @@ msgid ""
 " (just search for \"Prune\" or \"GpsPrune\"), or you can just download the "
 "latest copy from the home page."
 msgstr ""
-"このライブイメージでGpsPruneを試した後に、別のLinuxシステムでもMac "
-"OSXでもWindowsでも利用できます。一部のLinuxディストリビューションでは、通常のソフトウェアライブラリにGpsPruneが含まれています( "
-"\"Prune\" や \"GpsPrune\" を検索してください)。あるいは、ホームページから最新版をダウンロードすることもできます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:105
 msgid ""
@@ -261,8 +248,6 @@ msgid ""
 " by installing other free software, such as *GPSBabel*, *Gnuplot*, "
 "*Exiftool* and *Java3d*."
 msgstr ""
-"インストールする必要はありませんが、バージョン1.5以上のJavaランタイムをインストールする必要があります。*GPSBabel* 、*gnuplot*"
-" 、*Exiftool* 、*Java3d* などのフリーソフトウェアをインストールすることで、GpsPruneの機能を拡張することができます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:107
 msgid ""
@@ -272,9 +257,6 @@ msgid ""
 "note that when using this live system, all files that you save in the "
 "regular file system are lost when you shut down the computer."
 msgstr ""
-"永続的なシステムにGpsPruneをインストールしたら、メニューオプションの :menuselection:`Settings-->Save "
-"settings` "
-"を使って設定を保存することができます。すると次にGpsPruneを使うときに、設定が記憶されるようになります。ただし、このライブシステムを使用している場合は、コンピュータをシャットダウンすると、通常のファイルシステムに保存されているすべてのファイルが失われます。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:109
 msgid ""
@@ -283,9 +265,6 @@ msgid ""
 "directory in which to save the images.  This helps to speed up the display "
 "as it doesn't have to download the images again."
 msgstr ""
-"ダウンロードしたマップタイルをディスクに保存するには、メニューオプションの :menuselection:`Settings-->Save maps "
-"to disk` "
-"を選択し、イメージを保存するディレクトリを選択します。これにより、イメージを再度ダウンロードする必要がなくなるため、表示速度が向上します。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:112
 msgid "Further reading"

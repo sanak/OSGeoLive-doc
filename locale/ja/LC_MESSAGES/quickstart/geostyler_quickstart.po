@@ -57,14 +57,14 @@ msgid ""
 "system. Instructions on how to install ``node.js`` can be found on the "
 "`node.js homepage <https://nodejs.org/>`__."
 msgstr ""
-"GeoStylerを使用するには、システムに ``node.js`` をインストールする必要があります。``node.js`` "
-"のインストール方法については、`node.js ホームページ <https://nodejs.org/>`__ を参照してください。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:34
 msgid ""
 "It is recommended to install GeoStyler for each project separately. This "
 "sections describes the required steps."
-msgstr "GeoStylerはプロジェクトごとに個別にインストールすることをお勧めします。ここでは、必要な手順について説明します。"
+msgstr ""
+"It is recommended to install GeoStyler for each project separately. "
+"ここでは、必要な手順について説明します。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:37
 msgid ""
@@ -72,8 +72,8 @@ msgid ""
 "the ``node.js`` installation. Simply run following command from your project"
 " root:"
 msgstr ""
-"GeoStylerをインストールする最も簡単な方法は、 ``node.js`` インストールに付属の ``npm`` "
-"を使用することです。プロジェクトのルートから次のコマンドを実行するだけです。"
+"The most simple way to install GeoStyler is to use ``npm`` that comes with "
+"the ``node.js`` installation. プロジェクトのルートから次のコマンドを実行するだけです。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:44
 msgid ""

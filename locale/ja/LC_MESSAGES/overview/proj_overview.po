@@ -74,7 +74,9 @@ msgstr "Proj4J (Java)。"
 msgid ""
 "`EPSG.io <https://epsg.io/>`_ - website to retrieve coordinate system "
 "definitions"
-msgstr "`EPSG.io <https://epsg.io/>`_  - 座標系定義を取得するためのWebサイトです"
+msgstr ""
+"`SpatialReference.org <https://spatialreference.org/>`_  - "
+"座標系定義を取得するためのWebサイトです"
 
 #: ../../build/doc/overview/proj_overview.rst:34
 msgid ""
